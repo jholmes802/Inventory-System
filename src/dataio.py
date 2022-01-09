@@ -27,18 +27,34 @@ class FileError(Exception):
         super().__init__(self.message)
 
 def mass_import_items(path:str)->None:
+    """Not ready for production. It is used to initalize the primary db with data from a csv.
+
+    Args:
+        path (str): Path to a csv file. Must contain
+
+    CSV File Requirements:
+        Fields, must contain: A "part number" field, that is unique to each part.
+            "part Name" field that is the name/desc for the part, does not need to be unique
+            "quantity" field that is an integer, and is the quantity of the part.
+
+    Raises:
+        FileError: [description]
+    """
+    db_manager.sql_setup()
     if not path.endswith(".csv"):
         raise FileError("Improper File type, needs to be a csv format.")
     fhand = open(path, 'r', encoding='utf-8-sig')
     fread = fhand.readlines()
     part_num_poss = ["PART_NUM", "PART_NUMBER", "PART NUM", "PART NUMBER"]
     part_name_poss = ["PART_NAME", "PART NAME", "PART_NAM"]
+    qty_poss = ["PART_QTY","PART_QUANTITY","PART QTY","PART QUANTITY", "QUANTITY", "QTY"]
     first = True
     for i, line in enumerate(fread):
-        print(i)
+        line = line.rstrip("\n").split(",")
+        print(line)
         if first:
             first = False
-            fields:list = [x.upper() for x  in line.rstrip("\n").split(",",1)]
+            fields:list = [x.upper() for x  in line ]
             for p in part_num_poss:
                 if p in fields:
                     p_num_index = fields.index(p)
@@ -49,18 +65,23 @@ def mass_import_items(path:str)->None:
                     logger(log_level, "Dataio.mass_import_items: Found Part Name field.")
                     p_name_index = fields.index(p)
                     break
+            for p in qty_poss:
+                if p in fields:
+                    logger(log_level, "Dataio.mass_import_items: Found Qty field.")
+                    qty_index = fields.index(p)
+                    break
         else:
-            line = line.rstrip("\n").split(",",1)
             if len(line)< 2:
                 logger(log_level, "Dataio.mass_import_items Could not import this line.")
             else:
                 try:
-                    p_num = line[p_num_index] 
+                    p_num = line[p_num_index].strip()
                     p_name = line[p_name_index]
-                    parts.new_item(p_num, p_name)
+                    qty = line[qty_index]
+                    parts.new_item(p_num, p_name, qty)
                     print("PartNum:", p_num)
                     logger(log_level, "Dataio.mass_import_items: Created new item! With part number: " + line[p_num_index])
-                except: continue
+                except: print("Uhoh")
             
 
 class transactions:
@@ -260,5 +281,5 @@ class catalog:
         fields = {"part_number":part_number, "part_name":part_name, "source_name":source_name, "source_link":source_link, "manufacturer":manufacturer, "man_link":man_link, "price":price, "unit":unit, "unit_qty":unit_qty, "notes":notes}
         sql = "INSERT INTO ()"
 if __name__ == "__main__":
-    mass_import_items("../Book1.csv")
+    mass_import_items("../2022 1073 Stock Current (only) - Current Stock.csv")
     pass
