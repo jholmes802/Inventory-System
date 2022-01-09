@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Bank Gothic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Bank Gothic'), url('ufonts.com_bank-gothic-light.woff') format('woff');
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background: lightgray;
+    color: blue;
+    font-size: 30px;
+    font-family: Bank Gothic;
+}
+.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: #dddddd;
+}
+.NavBar li{
+    display: inline;
+    float: left;
+}
+.NavBar a{
+    display: block;
+    padding: 8px;
+    
+}
+.bcodesTable img{
+    width: 2in;
+}
+.bcodesTable tr{
+    height: 0.5in;
+
+}
+.bcodesTable table{
+    border-collapse: collapse;
+}
+.bcodesTable table, td, tbody {border: white 0px}
+.bcodesTable td {padding-right: .6in;}

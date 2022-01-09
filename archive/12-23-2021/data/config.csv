@@ -1,0 +1,15 @@
+FIELD NAME, REQUIRED, UNIQUE, DEFAUT
+Part Number,y,y,1073-##
+Part Name,y,y,n,
+Quantity,n,n,0
+Unit,n,n,ea
+Unit Quantity,n,n,1
+Price,n,n,
+Primary Source,n,n,
+Primary Link,n,n,
+Secondary Source,n,n,
+Secondary Link,n,n,
+Secondary Price,n,n,
+Quantity Threshold,n,n,0
+Dependency Items,n,n,
+Verified Date,y,n,n,today

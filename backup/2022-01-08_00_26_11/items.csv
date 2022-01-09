@@ -1,0 +1,4 @@
+part_number, part_name, qty, threshold_qty, dependencies, verified_date, alt_part_nums, search_parms, notes
+217-6515, Falcon 500, 0, 0, None, None, None, 217-6515 Falcon 500 , 
+15-697867, SRX Magnetic Encoder, 5, 0, None, None, None, 15-697867 SRX Magnetic Encoder , 
+AM-0549, SB50 APP Connector with Contacts, 3, 0, None, None, None, AM-0549 SB50 APP Connector with Contacts , 

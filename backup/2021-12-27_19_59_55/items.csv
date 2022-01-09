@@ -1,0 +1,4 @@
+part_number, part_name, qty, threshold_qty, dependencies, verified_date, alt_part_nums
+217-6515, Falcon 500, 11, None, None, 2021-12-25 18:07:01, None
+217-6959, Falcon 500 Long Shaft, 10, None, None, 2021-12-25 18:23:26, None
+217-6958, Falcon 500 Short Shaft, 7, None, None, 2021-12-25 18:13:02, None

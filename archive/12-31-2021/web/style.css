@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Bank Gothic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Bank Gothic'), url('ufonts.com_bank-gothic-light.woff') format('woff');
+}
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background: lightgray;
+    color: blue;
+    font-size: 30px;
+    font-family: Bank Gothic;
+}
+
+.stock #stockTable{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+.stock #stockTable th{
+    background-color: grey;
+}
+.stock #stockTable tr:nth-child(odd){
+    background-color: lightgray;
+}
+.stock #stockTable tr:hover{background-color: lightblue;}
+.stock #stockTable, tr, th, td{
+    padding: 15px;
+    border: 1px solid black;
+}
+.stock p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#tableSearchBar {
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: #dddddd;
+}
+.NavBar li{
+    display: inline;
+    float: left;
+}
+.NavBar a{
+    display: block;
+    padding: 8px;
+    
+}
+
+.newItem input[type=text]{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 8px 0;
+}
+.newItem label{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    size: 20px;
+}
+.newItem{padding: 20px;}
+.newItem input[type=submit]{
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.newItem p {
+    font-family: Bank gothic;
+    text-align: center;
+    font-size: 30px;
+}
+
+.itempage {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+.itempage th{background-color: grey;}
+
+.bcodesTable img{
+    width: 2in;
+    padding-left: .1in;
+}
+.bcodesTable tr{
+    height: 0.5in;
+
+}
+.bcodesTable table{
+    border-collapse: collapse;
+}
+.bcodesTable table, td, tbody {border: white 0px}

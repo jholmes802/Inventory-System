@@ -1,0 +1,429 @@
+2022-01-07 09:39:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:39:19Dataio.get_all_items: Returned 0 results.
+2022-01-07 09:40:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:40:58Dataio.get_all_items: Returned 0 results.
+2022-01-07 09:54:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:54:50Dataio.get_all_items: Returned 0 results.
+2022-01-07 09:55:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:55:54Dataio.get_all_items: Returned 0 results.
+2022-01-07 09:57:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:57:27Dataio.get_all_items: Returned 0 results.
+2022-01-07 09:58:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:58:24Dataio.get_all_items: Returned 0 results.
+2022-01-07 09:58:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 09:58:32Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:30:11Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:30:11Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:30:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:30:29Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:30:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:30:40Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:34:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:34:38Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:35:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:35:19Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:35:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:35:37Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:43:57Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:43:57Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:45:01Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:45:01Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:45:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:45:32Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:45:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:45:44Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:46:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:46:05Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:47:01Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:47:01Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:47:04Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:47:05Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:47:13Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:47:13Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:48:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:48:18Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:48:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:48:46Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:48:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:48:58Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:49:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:49:07Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:50:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:50:15Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:50:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:50:17Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:54:11Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:54:11Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:54:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:54:56Dataio.get_all_items: Returned 0 results.
+2022-01-07 10:59:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 10:59:22Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:00:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:00:34Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:01:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:01:47Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:02:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:02:19Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:45:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:45:49Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:51:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:51:20Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:52:13Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:52:13Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:53:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:53:18Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:53:55Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:53:55Dataio.get_all_items: Returned 0 results.
+2022-01-07 11:58:04Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 11:58:04Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:00:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:00:05Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:06:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:06:53Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:09:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:09:21Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:09:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:09:58Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:10:26Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:10:26Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:11:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:11:05Dataio.get_all_items: Returned 0 results.
+2022-01-07 12:11:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 12:11:29Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:08:03Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:08:03Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:14:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:14:14Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:14:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:14:50Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:15:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:15:02Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:15:16Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:15:16Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:15:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:15:34Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:19:42Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:19:42Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:21:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:21:18Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:22:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:22:39Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:24:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:24:36Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:26:03Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:26:03Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:28:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:28:28Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:29:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:29:07Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:36:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:36:34Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:37:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:37:18Dataio.get_all_items: Returned 0 results.
+2022-01-07 13:37:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 13:37:56Dataio.get_all_items: Returned 0 results.
+2022-01-07 15:56:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 15:56:09Dataio.get_all_items: Returned 0 results.
+2022-01-07 19:45:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 19:45:05Dataio.get_all_items: Returned 0 results.
+2022-01-07 19:46:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 19:46:49Dataio.get_all_items: Returned 0 results.
+2022-01-07 19:47:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 19:47:58Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:10:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:10:36Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:11:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:11:44Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:12:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:12:51Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:13:45Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:13:45Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:14:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:14:30Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:15:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:15:24Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:15:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:15:38Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:16:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:16:08Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:17:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:17:07Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:18:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:18:15Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:19:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:19:21Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:21:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:21:36Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:22:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:22:15Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:23:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:23:28Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:23:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:23:46Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:25:43Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:25:43Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:27:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:27:25Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:30:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:30:32Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:31:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:31:07Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:31:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:31:30Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:32:16Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:32:16Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:32:42DataIO.new_item: Creating new item with part number: '1073-1'
+2022-01-07 20:32:42Dataio.part_num_check: Found0part numbers in db.
+2022-01-07 20:32:42Dataio.part_num_check: Status of part number entered:1073-1in db
+2022-01-07 20:32:42DataIO.new_item: Creating new item with part number: '1073-1'
+2022-01-07 20:32:42Dataio.part_num_check: Found0part numbers in db.
+2022-01-07 20:32:42Dataio.part_num_check: Status of part number entered:1073-1in db
+2022-01-07 20:36:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:36:09Dataio.get_all_items: Returned 0 results.
+2022-01-07 20:36:12DataIO.new_item: Creating new item with part number: '1073-1'
+2022-01-07 20:36:12Dataio.part_num_check: Found0part numbers in db.
+2022-01-07 20:36:12Dataio.part_num_check: Status of part number entered:1073-1in db
+2022-01-07 20:36:12DataIO.new_item: Added new item to db.items. 
+2022-01-07 20:37:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:37:27Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:37:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:37:27Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:37:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:37:27Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:37:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:37:27Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:38:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:38:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:38:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:38:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:38:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:38:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:39:00Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:39:00Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:39:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:39:44Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:39:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:39:44Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:39:45Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:39:45Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:39:45Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:39:45Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:05Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:05Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:06Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:06Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:15Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:15Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:15Dataio.get_all_items: Returned 1 results.
+2022-01-07 20:40:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 20:40:15Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:08Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:08Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:08Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:09Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:10Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:10Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:24Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:18:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:18:56Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:19:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:19:41Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:19:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:19:41Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:19:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:19:41Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:19:42Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:19:42Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:19:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:19:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:20:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:20:31Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:20:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:20:31Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:20:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:20:31Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:20:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:20:31Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:20:35Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:20:35Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:21:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:53Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:53Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:54Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:54Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:55Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:55Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:55Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:55Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:56Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:21:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:21:56Dataio.get_all_items: Returned 0 results.
+2022-01-07 21:22:09DataIO.new_item: Creating new item with part number: '217-6515'
+2022-01-07 21:22:09Dataio.part_num_check: Found0part numbers in db.
+2022-01-07 21:22:09Dataio.part_num_check: Status of part number entered:217-6515in db
+2022-01-07 21:22:09DataIO.new_item: Added new item to db.items. 
+2022-01-07 21:22:16Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:22:16Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:22:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:22:17Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:22:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:22:17Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:22:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:22:17Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:22:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:22:20Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:25:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:25:19Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:25:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:25:49Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:26:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:26:30Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:26:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:26:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:27:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:27:07Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:27:07Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:28:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:28:46Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:28:46Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:28:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:28:46Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:28:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:28:46Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:29:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:29:25Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:29:25Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:29:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:29:25Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:29:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:29:25Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:30:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:30:20Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:30:20Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:30:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:30:20Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:30:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:30:21Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:31:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:31:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:31:47Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:31:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:31:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:31:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:31:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:31:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:31:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:31:59Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:31:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:31:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:31:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:31:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:32:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:32:17Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:32:17Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:32:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:32:17Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:32:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:32:17Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:32:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:32:22Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:32:22Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:32:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:32:22Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:32:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:32:22Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:05Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:05Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:33:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:05Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:05Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:06Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:54Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:33:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:33:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:33:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:31Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:31Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:34:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:32Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:32Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:32Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:47Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:34:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:34:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:34:47Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:12Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:12Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:12Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:35:12Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:12Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:12Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:12Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:12Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:12Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:36Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:36Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:35:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:37Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:37Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:37Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:52Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:54Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:35:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:35:59Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:38:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:38:53Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:38:53Dataio.find: Found 1where items.part_number ='217-6515'.
+2022-01-07 21:38:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:38:53Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:38:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:38:53Dataio.get_all_items: Returned 1 results.
+2022-01-07 21:38:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-07 21:38:54Dataio.get_all_items: Returned 1 results.

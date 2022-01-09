@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Bank Gothic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Bank Gothic'), url('./ufonts.com_bank-gothic-light.woff') format('woff');
+}
+
+.pageHeader{
+    padding: 60px;
+    text-align: center;
+    background: lightgray;
+    color: blue;
+    font-size: 30px;
+    font-family: Bank Gothic;
+}
+.MainNav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: #dddddd;
+}
+.MainNav li{
+    display: inline;
+    float: left;
+}
+.MainNav a{
+    display: block;
+    padding: 8px;
+}
+
+.checkInForm input{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 8px 0;
+}
+.checkInForm label{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    size: 20px;
+}
+.checkInForm{padding: 20px;}
+.checkInForm button{
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+.checkInForm p {
+    font-family: Bank gothic;
+    text-align: center;
+    font-size: 30px;
+}
+#checkStat {text-align: center;}

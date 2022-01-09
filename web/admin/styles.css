@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Bank Gothic';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Bank Gothic'), url('ufonts.com_bank-gothic-light.woff') format('woff');
+}
+
+.pageHeader{
+    padding: 60px;
+    text-align: center;
+    background: lightgray;
+    color: blue;
+    font-size: 30px;
+    font-family: Bank Gothic;
+}
+.MainNav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: #dddddd;
+}
+.MainNav li{
+    display: inline;
+    float: left;
+}
+.MainNav a{
+    display: block;
+    padding: 8px;
+}
+
+.stockTable table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+.stockTable th{
+    background-color: grey;
+}
+.stockTable tr:nth-child(odd){
+    background-color: lightgray;
+}
+.stockTable tr:hover{background-color: lightblue;}
+
+.stockTable tr, th, td{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.stockTable p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.stockTable th:nth-child(10) {display: none;}
+.stockTable td:nth-child(10) {display: none;}
+#tableSearchBar {
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
