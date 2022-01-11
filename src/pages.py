@@ -200,12 +200,37 @@ def verify()-> str:
 def _admin_base():
     result = _base()
     result.div("adminNav")
-    result.nav([("Import Parts", "/admin/import/")])
+    result.nav([("Import Parts", "/admin/import/"), ("Barcodes", "/admin/barcodes/")])
     result.div("itemNav")
     return result
 
 def admin():
     result = _admin_base().body()
+    return str(result).encode()
+
+def admin_barcodes():
+    result = _admin_base()
+    result.div("bcodeOPTS")
+    result.button("button", "Print Barcodes", "id ='printBCodes' onclick=printDiv('bcodesPrintable')").br()
+    result.div("bcodeOPTS")
+    result.div("bcodesPrintable")
+    printable = bob.table(spacing=result.spacing)
+    printable.table().body()
+    bcodes_list = os.listdir("../data/images/barcodes/")
+    i = 0
+    while i <= len(bcodes_list):
+        if (len(bcodes_list) - i) < 6:
+            pass
+        else:
+            data = []
+            for ri in range(0,6):
+                data.append("<img src='../data/images/barcodes/" + bcodes_list[i] + "'></img>")
+                i += 1
+            printable.row(data, 'td')
+    printable.body().table()
+    result.returnable += printable.returnable
+    result.div("bcodesPrintable")
+    result.body()
     return str(result).encode()
 
 def admin_import():

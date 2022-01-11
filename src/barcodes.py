@@ -15,7 +15,7 @@ def check_barcodes(part_nums:list=None)-> bool:
     bpath = "../data/images/barcodes/"
     bdir = [x.rstrip('.png') for x in os.listdir(bpath)]
     if part_nums == None:
-        items, fields = dataio.get_all_items()
+        items, fields = dataio.parts.get_all_items()
         for item in items:
             if item[0] not in bdir:
                 barcode_gen(item[0])    
@@ -33,7 +33,7 @@ def barcode_gen(part_num:str):
         mod_width = 0.08382
     img_writer = writer.ImageWriter(format='png', mode = "RGB")
     ean = barcode.get('code128', code=part_num,writer=img_writer)
-    filename = ean.save(bpath + part_num, options = {'module_width':mod_width, 'module_height':mod_height, 'text_distance':1, "font_size":15})
+    filename = ean.save(bpath + part_num.replace(".", "-").replace("*", "-"), options = {'module_width':mod_width, 'module_height':mod_height, 'text_distance':1, "font_size":15})
     if verbose: print(now() + ": BARCODES: Created new barcode file for:", part_num)
 
 
@@ -41,4 +41,3 @@ def _length(part_num:str):
     return ((11 * len(part_num)) + 35)
 if __name__ == "__main__":
     check_barcodes()
-    barcode_gen("1073-1")

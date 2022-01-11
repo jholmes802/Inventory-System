@@ -8,6 +8,7 @@ import db_manager
 import re
 import json
 import dataio
+import pathlib
 
 hostName = socket.gethostbyname(socket.gethostname())
 serverPort = 80
@@ -19,12 +20,11 @@ post_dict = {
     "/pst/verify_submit":posts.verify
 }
 def read_file(path):
-    fhand = open(path, "rb")
+    #path = "/app/"  + path.lstrip("../")
+    fhand = open(pathlib.Path(path), "rb")
     fread = fhand.read()
     fhand.close()
     return fread
-
-
 
 class MyServer(BaseHTTPRequestHandler):
     def _send_headers(self,typ):
@@ -57,7 +57,10 @@ class MyServer(BaseHTTPRequestHandler):
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
             "/admin/import/":("text/html",pages.admin_import()), 
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
-            "/admin/import/style.css":("text/css",read_file("../web/admin/import/styles.css"))
+            "/admin/import/style.css":("text/css",read_file("../web/admin/import/styles.css")),
+             "/admin/barcodes/":("text/html",pages.admin_barcodes()), 
+            "/admin/barcodes/script.js":("application/javascript", read_file("../web/admin/script.js")),
+            "/admin/barcodes/style.css":("text/css",read_file("../web/admin/styles.css"))
             }
         if "?" in self.path:
             main_path = self.path.split("?")[0]
@@ -84,8 +87,6 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_response(200)
             resp = post_dict[self.path](data)  
             self.wfile.write(resp.encode())          
-
-
 
 if __name__ == '__main__':
     db_manager.sql_setup()

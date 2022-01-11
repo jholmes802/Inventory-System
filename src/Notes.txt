@@ -1,0 +1,7 @@
+-Add verified by
+-Add location field
+
+
+-changes to parts
+-217-5994 - Needs all info
+92620A537 - Needs info

@@ -56,7 +56,7 @@ tables:dict = {
         "notes TEXT"
     ]
 }
-
+dbpath = pathlib.Path("../data/inv_data.db")
 columns = dict()
 for table in tables:
     columns[table] = [x.split(" ")[0] for x in tables[table]]
@@ -72,7 +72,7 @@ def sql_setup():
     return 0
 
 def run_retrieve(sql, num=-1):
-    _sql_conn=sqlite3.connect("../data/inv_data.db")
+    _sql_conn=sqlite3.connect(dbpath)
     _sql_cur = _sql_conn.cursor()
     if num == -1:
         result = _sql_cur.execute(sql).fetchall()
@@ -83,7 +83,7 @@ def run_retrieve(sql, num=-1):
     return result
 
 def run(sql):
-    _sql_conn=sqlite3.connect("../data/inv_data.db")
+    _sql_conn=sqlite3.connect(dbpath)
     _sql_cur = _sql_conn.cursor()
     result = _sql_cur.execute(sql)
     _sql_conn.commit()

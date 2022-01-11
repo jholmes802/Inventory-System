@@ -1,4 +1,5 @@
 import datetime
+import pathlib
 
 def _now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 def logger(lvl,msg):
