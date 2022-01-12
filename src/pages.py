@@ -104,32 +104,6 @@ def checkin()-> str: #Needs JS implementation and python post side
     #result.div("checkOutHistory")
     return str(result).encode()
 
-def barcodes_page(): #Currently not being used, ideally will be later...
-    result = _init
-    result += """\t<input type='button' value='print' onclick="printDiv('bcodesTable')"/>
-    \t<dev class="bcodesTable">
-    \t\t<table>\n"""
-    bcodes = os.listdir("../data/images/barcodes/")
-    cols = 4
-    rows = int(len(bcodes)/cols)
-    if rows < 1: rows=1
-    i = 0
-    for r in range(0, rows):
-        result += "\t\t\t<tr>\n"
-        for c in range(0, cols):
-            if i >= len(bcodes):
-                result += "\t\t\t\t<td><img src='../data/images/barcodes/blank.png'></td>\n"
-            else:
-                print(bcodes[i])    
-                result += "\t\t\t\t<td><img src='../data/images/barcodes/" + bcodes[i] + "'></td>\n"
-                i += 1
-        result += "\t\t\t</tr>\n"
-    result += "\t\t</table>\n"
-    result += """\t\t</dev>
-    \t</form>
-    </body>"""
-    return result.encode()
-
 def transactions_table(cur:bob.body):
     histTable = bob.table(spacing = cur.spacing)
     histTable.table()
@@ -143,45 +117,6 @@ def transactions_table(cur:bob.body):
     histTable.body()
     histTable.table()
     return histTable.returnable
-
-def delete_part(prt_num:str,choices:list):
-    if choices != None:
-        tf = []
-        for c in choices:
-            tf.append(c == 'yes')
-        if tf[0]:
-            dataio.parts.delete_part(prt_num,tf[1])
-            return (_init + "\t\t<script> alert('Part Has Been Deleted')</script>\n" + """\t\t<meta http-equiv='refresh' content="0; url='/'"/>\n""").encode()
-        else:
-            return  (_init + "\t\t<script> alert('Part Has Not Been Deleted')</script>\n" + """\t\t<meta http-equiv='refresh' content="0; url='/'"/>\n""").encode()
-    else:
-        fields, item = dataio.parts.find(prt_num)
-        fields = [x.replace("_", " ").title() for x in fields]
-        result = _init + _item_nav(prt_num)
-        result += """\t\t<br>\n
-        \t\t<h1>Are you Sure you would like to delete this part?</h1>
-        \t\t<form action='/item/""" + prt_num + """/delete' onsubmit='checkout()'>
-        \t\t<input type='radio' name=yes_no value='yes' checked>Yes</input>
-        \t\t<input type='radio' name=yes_no value='no' checked>No</input>
-        \t\t<p>Do you want to remove all transactions with this part number?</p>
-        \t\t<input type='radio' name=transactions_yn value='yes' checked>Yes</input>
-        \t\t<input type='radio' name=transactions_yn value='no' checked>No</input>
-        \t\t<input type='submit' value='Submit'>
-        \t\t</form>
-        \t\t<table class='itempage'>
-        """
-        for i, field in enumerate(fields):
-            result += "\t\t\t<tr>\n"
-            if "Link" in field:
-                result += "\t\t\t\t<th>" + field + "</th>\n"
-                result += "\t\t\t\t<td><a href='" + item[i] + "'>" + item[i] + "</a></td>\n" 
-            else:
-                result += "\t\t\t\t<th>" + field + "</th>\n"
-                result += "\t\t\t\t<td>" + str(item[i]) + "</td>\n"
-            result += "\t\t\t</tr>\n"
-        result += "\t\t</table>\n"
-        result += "\t</body>\n"
-        return result.encode()
 
 def backup():
     if db_manager.backup():

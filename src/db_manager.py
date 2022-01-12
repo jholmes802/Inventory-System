@@ -2,6 +2,10 @@ import datetime
 import sqlite3
 import os
 import pathlib
+import sqlalchemy
+
+if sqlalchemy.__version__ != "1.4.29":
+    print(sqlalchemy.__version__, "not correct version. Please use 1.4.29")
 
 global verbose, _sql_conn, _sql_cur
 verbose = False
@@ -60,6 +64,8 @@ dbpath = pathlib.Path("../data/inv_data.db")
 columns = dict()
 for table in tables:
     columns[table] = [x.split(" ")[0] for x in tables[table]]
+
+engine = sqlalchemy.create_engine("sqlite+pysqlite:////../data/inv_data.db")
 
 def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 

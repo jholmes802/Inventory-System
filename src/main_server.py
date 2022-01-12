@@ -10,6 +10,8 @@ import json
 import dataio
 import pathlib
 
+#"localhost"#
+#socket.gethostbyname(socket.gethostname())
 hostName = socket.gethostbyname(socket.gethostname())
 serverPort = 80
 
@@ -19,6 +21,7 @@ post_dict = {
     "/pst/newitem":posts.new_item,
     "/pst/verify_submit":posts.verify
 }
+
 def read_file(path):
     #path = "/app/"  + path.lstrip("../")
     fhand = open(pathlib.Path(path), "rb")
@@ -32,6 +35,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_header("Content-type", typ)
         self.end_headers()
     def do_GET(self):
+        
         importlib.reload(pages)
         get_dict = {
             "/": ("text/html", pages.home()),
@@ -57,10 +61,7 @@ class MyServer(BaseHTTPRequestHandler):
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
             "/admin/import/":("text/html",pages.admin_import()), 
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
-            "/admin/import/style.css":("text/css",read_file("../web/admin/import/styles.css")),
-             "/admin/barcodes/":("text/html",pages.admin_barcodes()), 
-            "/admin/barcodes/script.js":("application/javascript", read_file("../web/admin/script.js")),
-            "/admin/barcodes/style.css":("text/css",read_file("../web/admin/styles.css"))
+            "/admin/import/style.css":("text/css",read_file("../web/admin/import/styles.css"))
             }
         if "?" in self.path:
             main_path = self.path.split("?")[0]
