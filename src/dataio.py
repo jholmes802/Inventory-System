@@ -83,7 +83,6 @@ def mass_import_items(path:str)->None:
                     logger(log_level, "Dataio.mass_import_items: Created new item! With part number: " + line[p_num_index])
                 except: print("Uhoh")
             
-
 class transactions:
     def transaction(part_num:str, qty:int, typ:str, dest:str = "cabinet", source:str = "", notes:str = "")-> bool:
         """Creates a new transactional record and updates appropriate item.
@@ -121,6 +120,7 @@ class transactions:
             db_manager.run(sql_update)
             logger(log_level, "Dataio.transaction: Updated items db record for part_number: '" + part_num + "'.")
         else:
+            print("ERROR! Could not find part number")
             raise ItemError("Part Number could not be found.")
         return True
 
@@ -175,8 +175,8 @@ class parts:
             bool: True means it already is in the db.
         """
         in_db = [x[0] for x in db_manager.run_retrieve("SELECT part_number FROM items;")]
-        logger(log_level,"Dataio.part_num_check: Found" + str(len(in_db)) + "part numbers in db.")
-        logger(log_level, "Dataio.part_num_check: Status of part number entered:" + prt_num + "in db")
+        logger(log_level,"Dataio.part_num_check: Found " + str(len(in_db)) + " part numbers in db.")
+        logger(log_level, "Dataio.part_num_check: Status of part number entered: " + prt_num + " in db")
         return prt_num in in_db
 
     def new_item(part_num, part_name, qty=""  ,threshold = 0, depend = None, verified=None, alt_part_num = None ,notes:str="", check:bool = True)-> None:

@@ -5,16 +5,11 @@
 -changes to parts
 -217-5994 - Needs all info
 92620A537 - Needs info
-
+- 855PBB12ME522 remove/merge with other
+- am-2434
 
 FLL
 -Floor ramps
 -IT Setup
 -XLR
 -Playlist
-
-
-,
-            "/admin/barcodes/":("text/html",pages.admin_barcodes()), 
-            "/admin/barcodes/script.js":("application/javascript", read_file("../web/admin/script.js")),
-            "/admin/barcodes/style.css":("text/css",read_file("../web/admin/styles.css"))

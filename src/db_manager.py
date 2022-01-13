@@ -65,7 +65,7 @@ columns = dict()
 for table in tables:
     columns[table] = [x.split(" ")[0] for x in tables[table]]
 
-engine = sqlalchemy.create_engine("sqlite+pysqlite:////../data/inv_data.db")
+engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data.db", )
 
 def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
@@ -78,23 +78,16 @@ def sql_setup():
     return 0
 
 def run_retrieve(sql, num=-1):
-    _sql_conn=sqlite3.connect(dbpath)
-    _sql_cur = _sql_conn.cursor()
-    if num == -1:
-        result = _sql_cur.execute(sql).fetchall()
-    else:
-        result = _sql_cur.execute(sql).fetchmany(num)
-    _sql_conn.commit()
+    _sql_conn=engine.connect()
+    result = _sql_conn.execute(sql).all()
     _sql_conn.close()
     return result
 
 def run(sql):
-    _sql_conn=sqlite3.connect(dbpath)
-    _sql_cur = _sql_conn.cursor()
-    result = _sql_cur.execute(sql)
-    _sql_conn.commit()
+    _sql_conn=engine.connect()
+    result = _sql_conn.execute(sql)
     _sql_conn.close()
-    return result
+    return True
 
 def table_check():
     """Checks sqlite db file to ensure it has the appropriate tables and structure.

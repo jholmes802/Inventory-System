@@ -9,6 +9,8 @@ import re
 import json
 import dataio
 import pathlib
+from urllib.parse import unquote
+
 
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
@@ -61,7 +63,10 @@ class MyServer(BaseHTTPRequestHandler):
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
             "/admin/import/":("text/html",pages.admin_import()), 
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
-            "/admin/import/style.css":("text/css",read_file("../web/admin/import/styles.css"))
+            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css")),
+            "/admin/barcodes/":("text/html",pages.admin_barcodes()), 
+            "/admin/barcodes/script.js":("application/javascript", read_file("../web/admin/barcodes/script.js")),
+            "/admin/barcodes/styles.css":("text/css",read_file("../web/admin/barcodes/styles.css"))
             }
         if "?" in self.path:
             main_path = self.path.split("?")[0]
@@ -75,6 +80,9 @@ class MyServer(BaseHTTPRequestHandler):
         elif self.path.endswith(".woff"):
             self._send_headers("font/woff")
             self.wfile.write(read_file('../web/ufonts.com_bank-gothic-light.woff'))
+        elif self.path.endswith(".png"):
+            self._send_headers("image/png")
+            self.wfile.write(open("../data/images/barcodes/" + unquote(self.path.split("/")[-1]), "rb").read())
         else:
             self.send_error(404)
     

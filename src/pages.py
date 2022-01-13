@@ -153,7 +153,7 @@ def admin_barcodes():
     printable.table().body()
     bcodes_list = os.listdir("../data/images/barcodes/")
     i = 0
-    while i <= len(bcodes_list):
+    while i < len(bcodes_list):
         if (len(bcodes_list) - i) < 6:
             pass
         else:

@@ -10,6 +10,7 @@ def checkout_post(data: dict)-> bytes:
         return "Transaction Logged"
     except:
         return "Uh-Oh Something went wrong!"
+        
 def verify(data: dict)-> bytes:
     try:
         dataio.transactions.transaction(data['part_number'], data["qty"], 'VERIFY')
