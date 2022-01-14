@@ -1,0 +1,130 @@
+2022-01-13 20:08:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:40Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:41Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:41Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:41Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:41Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:43Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:43Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:43Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:43Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:43Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:43Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:08:43Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:08:43Dataio.get_all_items: Returned 304 results.
+2022-01-13 20:09:09DataIO.new_item: Creating new item with part number: '1073-NVIDIA-01'
+2022-01-13 20:09:09Dataio.part_num_check: Found 304 part numbers in db.
+2022-01-13 20:09:09Dataio.part_num_check: Status of part number entered: 1073-NVIDIA-01 in db
+2022-01-13 20:09:10DataIO.new_item: Added new item to db.items. 
+2022-01-13 20:44:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:44:52Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:44:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:44:52Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:44:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:44:52Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:44:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:44:52Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:44:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:44:52Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:46:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:46:08Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:46:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:46:08Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:46:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:46:08Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:46:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:46:08Dataio.get_all_items: Returned 305 results.
+2022-01-13 20:46:39DataIO.new_item: Creating new item with part number: '217-3229'
+2022-01-13 20:46:39Dataio.part_num_check: Found 305 part numbers in db.
+2022-01-13 20:46:39Dataio.part_num_check: Status of part number entered: 217-3229 in db
+2022-01-13 20:46:39DataIO.new_item: Added new item to db.items. 
+2022-01-13 20:47:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:02Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:02Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:02Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:02Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:37Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:37Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:37Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 20:47:37Dataio.get_all_items: Returned 306 results.
+2022-01-13 20:47:44Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 20:47:44Dataio.part_num_check: Status of part number entered: 217-5885 in db
+2022-01-13 20:47:44Dataio.transaction: Part num exsists in the db.
+2022-01-13 20:47:45Dataio.transaction: Adding transactional record.
+2022-01-13 20:47:45Dataio.transaction: Updated items db record for part_number: '217-5885'.
+2022-01-13 20:48:34Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 20:48:34Dataio.part_num_check: Status of part number entered: 217-3225 in db
+2022-01-13 20:48:34Dataio.transaction: Part num exsists in the db.
+2022-01-13 20:48:34Dataio.transaction: Adding transactional record.
+2022-01-13 20:48:34Dataio.transaction: Updated items db record for part_number: '217-3225'.
+2022-01-13 20:50:25Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 20:50:25Dataio.part_num_check: Status of part number entered: 217-5881 in db
+2022-01-13 20:50:25Dataio.transaction: Part num exsists in the db.
+2022-01-13 20:50:25Dataio.transaction: Adding transactional record.
+2022-01-13 20:50:25Dataio.transaction: Updated items db record for part_number: '217-5881'.
+2022-01-13 20:50:32Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 20:50:32Dataio.part_num_check: Status of part number entered: 217-5875 in db
+2022-01-13 20:50:32Dataio.transaction: Part num exsists in the db.
+2022-01-13 20:50:32Dataio.transaction: Adding transactional record.
+2022-01-13 20:50:32Dataio.transaction: Updated items db record for part_number: '217-5875'.
+2022-01-13 20:50:41Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 20:50:41Dataio.part_num_check: Status of part number entered: 217-3227 in db
+2022-01-13 20:50:41Dataio.transaction: Part num exsists in the db.
+2022-01-13 20:50:41Dataio.transaction: Adding transactional record.
+2022-01-13 20:50:41Dataio.transaction: Updated items db record for part_number: '217-3227'.
+2022-01-13 20:50:52Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 20:50:52Dataio.part_num_check: Status of part number entered: 217-3227 in db
+2022-01-13 20:50:52Dataio.transaction: Part num exsists in the db.
+2022-01-13 20:50:52Dataio.transaction: Adding transactional record.
+2022-01-13 20:50:53Dataio.transaction: Updated items db record for part_number: '217-3227'.
+2022-01-13 21:01:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:01:25Dataio.get_all_items: Returned 306 results.
+2022-01-13 21:01:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:01:25Dataio.get_all_items: Returned 306 results.
+2022-01-13 21:01:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:01:25Dataio.get_all_items: Returned 306 results.
+2022-01-13 21:01:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:01:25Dataio.get_all_items: Returned 306 results.
+2022-01-13 21:01:58DataIO.new_item: Creating new item with part number: '217-3634'
+2022-01-13 21:01:58Dataio.part_num_check: Found 306 part numbers in db.
+2022-01-13 21:01:58Dataio.part_num_check: Status of part number entered: 217-3634 in db
+2022-01-13 21:01:58DataIO.new_item: Added new item to db.items. 
+2022-01-13 21:03:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:03:18Dataio.get_all_items: Returned 307 results.
+2022-01-13 21:03:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:03:18Dataio.get_all_items: Returned 307 results.
+2022-01-13 21:03:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:03:18Dataio.get_all_items: Returned 307 results.
+2022-01-13 21:03:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-13 21:03:18Dataio.get_all_items: Returned 307 results.
+2022-01-13 21:04:19Dataio.part_num_check: Found 307 part numbers in db.
+2022-01-13 21:04:19Dataio.part_num_check: Status of part number entered: 217-3436 in db
+2022-01-13 21:04:19Dataio.transaction: Part num exsists in the db.
+2022-01-13 21:04:19Dataio.transaction: Adding transactional record.
+2022-01-13 21:04:19Dataio.transaction: Updated items db record for part_number: '217-3436'.
+2022-01-13 21:04:27Dataio.part_num_check: Found 307 part numbers in db.
+2022-01-13 21:04:27Dataio.part_num_check: Status of part number entered: 217-3634 in db
+2022-01-13 21:04:27Dataio.transaction: Part num exsists in the db.
+2022-01-13 21:04:27Dataio.transaction: Adding transactional record.
+2022-01-13 21:04:27Dataio.transaction: Updated items db record for part_number: '217-3634'.
+2022-01-13 21:04:47Dataio.part_num_check: Found 307 part numbers in db.
+2022-01-13 21:04:47Dataio.part_num_check: Status of part number entered: WCP-0200 in db
+2022-01-13 21:04:47Dataio.transaction: Part num exsists in the db.
+2022-01-13 21:04:48Dataio.transaction: Adding transactional record.
+2022-01-13 21:04:48Dataio.transaction: Updated items db record for part_number: 'WCP-0200'.
+2022-01-13 21:04:54Dataio.part_num_check: Found 307 part numbers in db.
+2022-01-13 21:04:54Dataio.part_num_check: Status of part number entered: 1691T142 in db
+2022-01-13 21:04:54Dataio.transaction: Part num exsists in the db.
+2022-01-13 21:04:54Dataio.transaction: Adding transactional record.
+2022-01-13 21:04:54Dataio.transaction: Updated items db record for part_number: '1691T142'.

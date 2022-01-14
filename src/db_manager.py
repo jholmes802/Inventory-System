@@ -167,3 +167,4 @@ def backup():
 
 if __name__ == "__main__":
     sql_setup()
+    backup()
