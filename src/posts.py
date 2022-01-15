@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 import dataio
-import db_manager
-import barcodes
-import json
 import html_builder as bob
 
 def checkout_post(data: dict)-> bytes:

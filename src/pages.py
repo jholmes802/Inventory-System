@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-import re
 import dataio
 import db_manager
-import urllib.parse as u_parse
 import os
 import html_builder as bob
 

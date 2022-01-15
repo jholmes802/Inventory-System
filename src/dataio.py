@@ -1,10 +1,6 @@
 #!/usr/bin/python3
-from xml.dom import minidom
-import os
 import datetime
-import sqlite3
 import db_manager
-import pathlib
 from logger import logger
 
 global config_file, items_file, fields, verbose

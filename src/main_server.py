@@ -1,14 +1,11 @@
 #!/usr/bin/python3
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import time
 import socket
 import posts
 import pages
 import importlib
 import db_manager
-import re
 import json
-import dataio
 import pathlib
 from urllib.parse import unquote
 
