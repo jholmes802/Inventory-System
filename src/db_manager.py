@@ -68,6 +68,7 @@ for table in tables:
 
 engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data.db", )
 meta = sqlalchemy.MetaData()
+inpector = sqlalchemy.inspect(engine)
 
 def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
