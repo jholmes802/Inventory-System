@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from logger import logger
 import datetime
 import os
 import pathlib
@@ -165,6 +166,22 @@ def backup():
         fhand.close()
     return True
 
+def clean_backups():
+    """Cleans up the backups to be the latest 30 backups made.
+    """
+    dirlist = os.listdir("../backup/")
+    if len(dirlist) < 30:
+        pass
+    else:
+        _kill_list = dirlist[:-30]
+        i = 0
+        for k in _kill_list:
+            for item in os.listdir("../backup/" + k):
+                os.remove("../backup/" + k + "/" + item)
+            os.removedirs("../backup/" + k)
+            logger(2, "db_manger.clean_backups: Removed backup for " + k)
+            i += 1
+        logger(2, "db_manager.clean_backups: Removed " + str(i) + " old backups.")
+
 if __name__ == "__main__":
     sql_setup()
-    backup()
