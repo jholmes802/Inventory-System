@@ -67,6 +67,7 @@ for table in tables:
     columns[table] = [x.split(" ")[0] for x in tables[table]]
 
 engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data.db", )
+meta = sqlalchemy.MetaData()
 
 def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
@@ -103,7 +104,8 @@ def table_check():
         -Should add error checking...?
     """
     if verbose: print(now() + ": Table Check: Beginning Check for tables.")
-    tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
+    #tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
+    tables_sql = [x.name for x in meta.sorted_tables]
     if verbose: print(now() + ": Table Check: found", len(tables_sql), "tables.")
     if verbose: print(now() + ": Table Check: tables present:", tables_sql)
     ran = False
@@ -115,7 +117,7 @@ def table_check():
             if verbose: print(now() + ": Table Check: succesfully built '" + table + "' table.")
             ran = True
     if ran:
-        tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
+        #tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
         if verbose: print(now() + ": Table Check: found", len(tables_sql), "tables.")
         if verbose: print(now() + ": Table Check: tables present:", tables_sql)
     if verbose: print(now() + ": Table Check: All Tables found. Ready.")
@@ -126,22 +128,22 @@ def fields_check():
     Returns nothing, and support verbose logging. 
     """
     if verbose: print(now() + ": Fields Check: Beginng...")
-    for table in tables.keys():
+    for table in meta.sorted_tables:
         if verbose: print(now() + ": Fields Check: Checking table:", table)
-        fields:str = [x[0] for x in run_retrieve("SELECT sql FROM sqlite_schema WHERE name = '"+table+"';")]
+        #fields:str = [x[0] for x in run_retrieve("SELECT sql FROM sqlite_schema WHERE name = '"+table+"';")]
         if verbose: print(now() + ": Fields Check: Found", len(fields), "results from sqlite_shcema.")
-        fields = fields[0]
-        fields_start = fields.find("(")
-        fields_end = fields.find(")")
-        extracted = fields[fields_start + 1:fields_end].split(',')
-        if verbose: print(now() + ": Fields Check: Found", len(extracted),"fields.")
+        #fields = fields[0]
+        #fields_start = fields.find("(")
+        #fields_end = fields.find(")")
+        #extracted = fields[fields_start + 1:fields_end].split(',')
+        #if verbose: print(now() + ": Fields Check: Found", len(extracted),"fields.")
         if verbose: print(now() + ": Fields Check: Found", len(tables[table]), "expected fields.")
         good = True
-        for field in tables[table]:
-            if field not in extracted:
+        for field in table.c:
+            if field not in [x.split()[0] for x in tables[table]]:
                 good = False
                 if verbose: print(now() + ": Fields Check: Could not find '" + field + "' in sqlite_schema. Altering table...")
-                run("ALTER TABLE " + table + "ADD COLUMN " + field)
+                #run("ALTER TABLE " + table + "ADD COLUMN " + field)
                 if verbose: print(now() + ": Fields Check: Sucessfully altered table.")
         if verbose: print(now() + ": Fields Check: Completed checking table '" + table + "'.")
         if verbose and good: print(now() + ": Fields Check: Succesful validation for the above table.")
