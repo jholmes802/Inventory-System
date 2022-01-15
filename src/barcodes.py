@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import dataio
 import os
 import barcode

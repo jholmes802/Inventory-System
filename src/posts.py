@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import dataio
 import db_manager
 import barcodes

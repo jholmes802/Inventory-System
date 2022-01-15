@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 class DataError(Exception):
     def __init__(self, message: str):
         self.message = message
