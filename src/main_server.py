@@ -13,7 +13,7 @@ from urllib.parse import unquote
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
 hostName = socket.gethostbyname(socket.gethostname())
-serverPort = 80
+serverPort = 8080
 
 post_dict = {
     "/pst/checkout_submit": posts.checkout_post,
@@ -35,7 +35,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_header("Content-type", typ)
         self.end_headers()
     def do_GET(self):
-        
+
         importlib.reload(pages)
         get_dict = {
             "/": ("text/html", pages.home()),
@@ -59,17 +59,17 @@ class MyServer(BaseHTTPRequestHandler):
             "/item/":("text/html", pages.item),
             "/item/script.js":("application/javascript", read_file("../web/item/script.js")),
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
-            "/admin/import/":("text/html",pages.admin_import()), 
+            "/admin/import/":("text/html",pages.admin_import()),
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
             "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css")),
-            "/admin/barcodes/":("text/html",pages.admin_barcodes()), 
+            "/admin/barcodes/":("text/html",pages.admin_barcodes()),
             "/admin/barcodes/script.js":("application/javascript", read_file("../web/admin/barcodes/script.js")),
             "/admin/barcodes/styles.css":("text/css",read_file("../web/admin/barcodes/styles.css"))
             }
         if "?" in self.path:
             main_path = self.path.split("?")[0]
             if main_path in get_dict.keys():
-                args = self.path.split('?')[1]   
+                args = self.path.split('?')[1]
                 self._send_headers(get_dict[main_path][0])
                 self.wfile.write(get_dict[main_path][1](args))
         elif self.path in get_dict.keys():
@@ -83,7 +83,7 @@ class MyServer(BaseHTTPRequestHandler):
             self.wfile.write(open("../data/images/barcodes/" + unquote(self.path.split("/")[-1]), "rb").read())
         else:
             self.send_error(404)
-    
+
     def do_POST(self):
         if self.headers["Content-type"] != "application/json":
             self.send_response(400)
@@ -92,8 +92,9 @@ class MyServer(BaseHTTPRequestHandler):
             data = json.loads(str_data)
             #data = json.load(self.rfile.read())
             self.send_response(200)
-            resp = post_dict[self.path](data)  
-            self.wfile.write(resp.encode())          
+            resp = post_dict[self.path](data)
+            print("Sending Response")
+            self.wfile.write(resp.encode())
 
 if __name__ == '__main__':
     db_manager.sql_setup()

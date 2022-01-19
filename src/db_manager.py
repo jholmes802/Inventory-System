@@ -68,7 +68,7 @@ for table in tables:
 
 engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data.db", )
 meta = sqlalchemy.MetaData()
-inpector = sqlalchemy.inspect(engine)
+inspector = sqlalchemy.inspect(engine)
 
 def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
@@ -77,7 +77,7 @@ def sql_setup():
     Ensures all things are setup and with correct schema.
     """
     table_check()
-    fields_check()
+    #fields_check()
     return 0
 
 def run_retrieve(sql, num=-1):
@@ -106,7 +106,7 @@ def table_check():
     """
     if verbose: print(now() + ": Table Check: Beginning Check for tables.")
     #tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
-    tables_sql = [x.name for x in meta.sorted_tables]
+    tables_sql = inspector.get_table_names()
     if verbose: print(now() + ": Table Check: found", len(tables_sql), "tables.")
     if verbose: print(now() + ": Table Check: tables present:", tables_sql)
     ran = False
