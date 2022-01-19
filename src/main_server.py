@@ -12,7 +12,7 @@ from urllib.parse import unquote
 
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
-hostName = socket.gethostbyname(socket.gethostname())
+hostName = "localhost"#socket.gethostbyname(socket.gethostname())
 serverPort = 8080
 
 post_dict = {
