@@ -669,3 +669,11 @@
 2022-01-19 18:02:20barcodes.barcode_gen: Creating barcode for 00090
 2022-01-19 18:02:20barcodes.check_barcodes: CheckingAM-3973_C64
 2022-01-19 18:02:20barcodes.barcode_gen: Creating barcode for AM-3973_C64
+2022-01-19 18:17:16Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 18:17:16Dataio.get_all_items: Returned 333 results.
+2022-01-19 18:19:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 18:19:22Dataio.get_all_items: Returned 333 results.
+2022-01-19 18:20:42Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 18:20:42Dataio.get_all_items: Returned 333 results.
+2022-01-19 18:23:01Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 18:23:01Dataio.get_all_items: Returned 333 results.

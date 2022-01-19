@@ -109,4 +109,5 @@ def _length(part_num:str):
 if __name__ == "__main__":
     #barcode_gen("test")
     #print_barcode("../data/images/barcodes/test.png")
-    check_barcodes()
+    #check_barcodes()
+    pass
