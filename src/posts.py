@@ -8,7 +8,7 @@ def checkout_post(data: dict)-> bytes:
         return "Transaction Logged"
     except:
         return "Uh-Oh Something went wrong!"
-        
+
 def verify(data: dict)-> bytes:
     try:
         dataio.transactions.transaction(data['part_number'], data["qty"], 'VERIFY')
@@ -26,9 +26,9 @@ def new_item(data:dict):
     if data["part_number"] == "":
         return str("Must have a part number!")
     try:
+        print("Creating new item")
         dataio.parts.new_item(data['part_number'], data['part_name'], data["part_qty"])
         return str("Created new part: " + data["part_number"])
     except:
         return str("Could not create new part with part number" + data["part_number"])
-
 
