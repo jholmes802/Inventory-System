@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import dataio
-import html_builder as bob
+import barcodes
 
 def checkout_post(data: dict)-> bytes:
     try:
@@ -31,4 +31,14 @@ def new_item(data:dict):
         return str("Created new part: " + data["part_number"])
     except:
         return str("Could not create new part with part number" + data["part_number"])
+
+def print_barcode(data:dict):
+    try:
+        if not barcodes.check_barcodes([data["part_number"]]):
+            f, dbr = dataio.parts.find(data["part_number"])
+            barcodes.barcode_gen(data["part_number"], dbr[1])
+        barcodes.print_barcode(data["part_number"])
+        return str("Printed!")
+    except:
+        return str("Uh oh something went wrong")
 

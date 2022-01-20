@@ -13,13 +13,14 @@ from urllib.parse import unquote
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
 hostName = "localhost"#socket.gethostbyname(socket.gethostname())
-serverPort = 8080
+serverPort = 80
 
 post_dict = {
     "/pst/checkout_submit": posts.checkout_post,
     "/pst/checkin_submit":posts.checkin,
     "/pst/newitem":posts.new_item,
-    "/pst/verify_submit":posts.verify
+    "/pst/verify_submit":posts.verify,
+    "/pst/printBarcode":posts.print_barcode
 }
 
 def read_file(path):

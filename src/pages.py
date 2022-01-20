@@ -74,6 +74,7 @@ def item(args:str)->str: #NEEDS implementation
     partSpecs.body()
     partSpecs.table()
     result.returnable += str(partSpecs)
+    result.div("printBarcodesButton").button("button", "Print Barcode", "onclick=printBarcode()").div("printBarcodesButton")
     result.body()
     return str(result).encode()
 
