@@ -13,7 +13,7 @@ from urllib.parse import unquote
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
 hostName = "localhost"#socket.gethostbyname(socket.gethostname())
-serverPort = 80
+serverPort = 8080
 
 post_dict = {
     "/pst/checkout_submit": posts.checkout_post,
@@ -36,7 +36,7 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_header("Content-type", typ)
         self.end_headers()
     def do_GET(self):
-
+        print("Proccessing" + self.path)
         importlib.reload(pages)
         get_dict = {
             "/": ("text/html", pages.home()),
@@ -62,11 +62,9 @@ class MyServer(BaseHTTPRequestHandler):
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
             "/admin/import/":("text/html",pages.admin_import()),
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
-            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css")),
-            "/admin/barcodes/":("text/html",pages.admin_barcodes()),
-            "/admin/barcodes/script.js":("application/javascript", read_file("../web/admin/barcodes/script.js")),
-            "/admin/barcodes/styles.css":("text/css",read_file("../web/admin/barcodes/styles.css"))
+            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css"))
             }
+        print("made it here")
         if "?" in self.path:
             main_path = self.path.split("?")[0]
             if main_path in get_dict.keys():
@@ -86,6 +84,13 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_error(404)
 
     def do_POST(self):
+        post_dict = {
+            "/pst/checkout_submit": posts.checkout_post,
+            "/pst/checkin_submit":posts.checkin,
+            "/pst/newitem":posts.new_item,
+            "/pst/verify_submit":posts.verify,
+            "/pst/printBarcode":posts.print_barcode
+        }
         if self.headers["Content-type"] != "application/json":
             self.send_response(400)
         else:

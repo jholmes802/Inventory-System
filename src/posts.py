@@ -34,6 +34,7 @@ def new_item(data:dict):
 
 def print_barcode(data:dict):
     try:
+        barcodes.check_barcodes()
         if not barcodes.check_barcodes([data["part_number"]]):
             f, dbr = dataio.parts.find(data["part_number"])
             barcodes.barcode_gen(data["part_number"], dbr[1])

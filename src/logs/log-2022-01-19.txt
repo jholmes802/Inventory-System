@@ -809,3 +809,1531 @@
 2022-01-19 19:33:38Dataio.get_all_items: Returned 333 results.
 2022-01-19 19:33:39Dataio.get_all_items: Retrieving Primary Stock Table.
 2022-01-19 19:33:39Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:44:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:44:52Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:44:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:44:54Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:45:35Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:45:35Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:45:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:45:37Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:45:42Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:45:42Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:46:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:46:19Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:46:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:46:19Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:46:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:46:20Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:46:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:46:21Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:47:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:47:20Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:47:20Dataio.find: Found 1where items.part_number ='15-697867'.
+2022-01-19 19:47:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:47:21Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:47:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:47:21Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:47:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:47:22Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:47:25barcodes.check_barcodes: Checking...
+2022-01-19 19:47:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:47:25Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:47:25barcodes.check_barcodes: Checking15-697867
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 15-697867
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingAM-0546
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for AM-0546
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingAM-3071
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for AM-3071
+2022-01-19 19:47:25barcodes.check_barcodes: Checking94669A311
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 94669A311
+2022-01-19 19:47:25barcodes.check_barcodes: Checking92510A609
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 92510A609
+2022-01-19 19:47:25barcodes.check_barcodes: Checking94669A128
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 94669A128
+2022-01-19 19:47:25barcodes.check_barcodes: Checking94669A319
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 94669A319
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-6515-rev1
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-6515-rev1
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-3875
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-3875
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-3351
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-3351
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-4006
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-4006
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-5046
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-5046
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-6919
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-6919
+2022-01-19 19:47:25barcodes.check_barcodes: Checking217-4858
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 217-4858
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingREV-21-1651
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for REV-21-1651
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingWCP-0176
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for WCP-0176
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingWCP-0185
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for WCP-0185
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingAVT-PP-35
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for AVT-PP-35
+2022-01-19 19:47:25barcodes.check_barcodes: CheckingES17-12
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for ES17-12
+2022-01-19 19:47:25barcodes.check_barcodes: Checking6075K15
+2022-01-19 19:47:25barcodes.barcode_gen: Creating barcode for 6075K15
+2022-01-19 19:47:26barcodes.check_barcodes: Checking5234K94
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 5234K94
+2022-01-19 19:47:26barcodes.check_barcodes: Checking0
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 0
+2022-01-19 19:47:26barcodes.check_barcodes: Checking12
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 12
+2022-01-19 19:47:26barcodes.check_barcodes: Checking6
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 6
+2022-01-19 19:47:26barcodes.check_barcodes: Checking93330A473
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 93330A473
+2022-01-19 19:47:26barcodes.check_barcodes: Checking98075A143
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 98075A143
+2022-01-19 19:47:26barcodes.check_barcodes: Checking90480A195
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 90480A195
+2022-01-19 19:47:26barcodes.check_barcodes: Checking91259A103
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 91259A103
+2022-01-19 19:47:26barcodes.check_barcodes: Checking474487
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 474487
+2022-01-19 19:47:26barcodes.check_barcodes: Checking474489
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 474489
+2022-01-19 19:47:26barcodes.check_barcodes: Checking6C200R25AP
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 6C200R25AP
+2022-01-19 19:47:26barcodes.check_barcodes: Checking474491
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 474491
+2022-01-19 19:47:26barcodes.check_barcodes: Checking490 633
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 490 633
+2022-01-19 19:47:26barcodes.check_barcodes: CheckingB84CM
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for B84CM
+2022-01-19 19:47:26barcodes.check_barcodes: Checking91
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 91
+2022-01-19 19:47:26barcodes.check_barcodes: CheckingT395993
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for T395993
+2022-01-19 19:47:26barcodes.check_barcodes: CheckingT390895
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for T390895
+2022-01-19 19:47:26barcodes.check_barcodes: CheckingT395353
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for T395353
+2022-01-19 19:47:26barcodes.check_barcodes: CheckingT397941
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for T397941
+2022-01-19 19:47:26barcodes.check_barcodes: CheckingT395443
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for T395443
+2022-01-19 19:47:26barcodes.check_barcodes: Checking87
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 87
+2022-01-19 19:47:26barcodes.check_barcodes: Checking217-3496
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 217-3496
+2022-01-19 19:47:26barcodes.check_barcodes: Checking90631A007
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 90631A007
+2022-01-19 19:47:26barcodes.check_barcodes: Checking217-6706
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 217-6706
+2022-01-19 19:47:26barcodes.check_barcodes: Checking91259A544
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 91259A544
+2022-01-19 19:47:26barcodes.check_barcodes: Checking33785T45
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 33785T45
+2022-01-19 19:47:26barcodes.check_barcodes: Checking3961T2
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 3961T2
+2022-01-19 19:47:26barcodes.check_barcodes: Checking97431A330
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 97431A330
+2022-01-19 19:47:26barcodes.check_barcodes: Checking90630A110
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 90630A110
+2022-01-19 19:47:26barcodes.check_barcodes: Checking91251A342
+2022-01-19 19:47:26barcodes.barcode_gen: Creating barcode for 91251A342
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91290A306
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91290A306
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91251A148
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91251A148
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91251A150
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91251A150
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91251A360
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91251A360
+2022-01-19 19:47:27barcodes.check_barcodes: Checking94105A828
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 94105A828
+2022-01-19 19:47:27barcodes.check_barcodes: Checking94
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 94
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91253A003
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91253A003
+2022-01-19 19:47:27barcodes.check_barcodes: Checking34
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 34
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91251A353
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91251A353
+2022-01-19 19:47:27barcodes.check_barcodes: Checking6498K636
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 6498K636
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91253A269
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91253A269
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91125A037
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91125A037
+2022-01-19 19:47:27barcodes.check_barcodes: Checking92510A647
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 92510A647
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91259A581
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91259A581
+2022-01-19 19:47:27barcodes.check_barcodes: Checking90631A005
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 90631A005
+2022-01-19 19:47:27barcodes.check_barcodes: Checking6130K33
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 6130K33
+2022-01-19 19:47:27barcodes.check_barcodes: Checking91286A123
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 91286A123
+2022-01-19 19:47:27barcodes.check_barcodes: Checking9271K182
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 9271K182
+2022-01-19 19:47:27barcodes.check_barcodes: Checking9271K181
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 9271K181
+2022-01-19 19:47:27barcodes.check_barcodes: Checking92012A546
+2022-01-19 19:47:27barcodes.barcode_gen: Creating barcode for 92012A546
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91259A628
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91259A628
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91255A192
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91255A192
+2022-01-19 19:47:28barcodes.check_barcodes: Checking97
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 97
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91251A344
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91251A344
+2022-01-19 19:47:28barcodes.check_barcodes: Checking126
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 126
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91251A356
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91251A356
+2022-01-19 19:47:28barcodes.check_barcodes: Checking90044A523
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 90044A523
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91286A113
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91286A113
+2022-01-19 19:47:28barcodes.check_barcodes: Checking95505A601
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 95505A601
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91251A345
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91251A345
+2022-01-19 19:47:28barcodes.check_barcodes: Checking38
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 38
+2022-01-19 19:47:28barcodes.check_barcodes: Checking14
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 14
+2022-01-19 19:47:28barcodes.check_barcodes: Checking97526A130
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 97526A130
+2022-01-19 19:47:28barcodes.check_barcodes: CheckingE18-D80NK
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for E18-D80NK
+2022-01-19 19:47:28barcodes.check_barcodes: CheckingBRG-0001
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for BRG-0001
+2022-01-19 19:47:28barcodes.check_barcodes: Checkingam-3480
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for am-3480
+2022-01-19 19:47:28barcodes.check_barcodes: Checking2020-1073-006-100
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 2020-1073-006-100
+2022-01-19 19:47:28barcodes.check_barcodes: Checking2020-1073-006-106
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 2020-1073-006-106
+2022-01-19 19:47:28barcodes.check_barcodes: Checking93330A463
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 93330A463
+2022-01-19 19:47:28barcodes.check_barcodes: Checking91125A044
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 91125A044
+2022-01-19 19:47:28barcodes.check_barcodes: CheckingR3-ZZ PRX
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for R3-ZZ PRX
+2022-01-19 19:47:28barcodes.check_barcodes: CheckingR4A-ZZ-PRX
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for R4A-ZZ-PRX
+2022-01-19 19:47:28barcodes.check_barcodes: Checking474485
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 474485
+2022-01-19 19:47:28barcodes.check_barcodes: Checking93330A542
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 93330A542
+2022-01-19 19:47:28barcodes.check_barcodes: Checking2020-1073-005-001
+2022-01-19 19:47:28barcodes.barcode_gen: Creating barcode for 2020-1073-005-001
+2022-01-19 19:47:29barcodes.check_barcodes: CheckingCOM-13716
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for COM-13716
+2022-01-19 19:47:29barcodes.check_barcodes: CheckingSEN-15325
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for SEN-15325
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-073
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-073
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-094
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-094
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-033
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-033
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-069
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-069
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-057
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-057
+2022-01-19 19:47:29barcodes.check_barcodes: Checking19-676768
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 19-676768
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-4973
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-4973
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-072
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-072
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-055
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-055
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-002
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-002
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-018
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-018
+2022-01-19 19:47:29barcodes.check_barcodes: Checking2020-1073-005-015- Plate
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 2020-1073-005-015- Plate
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-2702
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-2702
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-2708
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-2708
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-2710
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-2710
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-5475
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-5475
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-2642
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-2642
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-6368
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-6368
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-2648
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-2648
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-5844
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-5844
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-3211
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-3211
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-2706
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-2706
+2022-01-19 19:47:29barcodes.check_barcodes: Checking217-3212
+2022-01-19 19:47:29barcodes.barcode_gen: Creating barcode for 217-3212
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-3417
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-3417
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-5866
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-5866
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-5859
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-5859
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-6958
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-6958
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-5994
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-5994
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-2733
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-2733
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-3239
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-3239
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-5861
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-5861
+2022-01-19 19:47:30barcodes.check_barcodes: Checking2
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 2
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-3227
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-3227
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-3225
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-3225
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-2820
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-2820
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-2816
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-2816
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-6473
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-6473
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-3436
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-3436
+2022-01-19 19:47:30barcodes.check_barcodes: Checking217-2731
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for 217-2731
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0002
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0002
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0003
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0003
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0005
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0005
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0006
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0006
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0007
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0007
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0008
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0008
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingCON-0009
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for CON-0009
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingJCB-0004
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for JCB-0004
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingJCB-0002
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for JCB-0002
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingPQ-PG08
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for PQ-PG08
+2022-01-19 19:47:30barcodes.check_barcodes: CheckingREV-11-2158
+2022-01-19 19:47:30barcodes.barcode_gen: Creating barcode for REV-11-2158
+2022-01-19 19:47:31barcodes.check_barcodes: Checkingam-3155
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for am-3155
+2022-01-19 19:47:31barcodes.check_barcodes: CheckingIFB-10010
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for IFB-10010
+2022-01-19 19:47:31barcodes.check_barcodes: Checking17-846567
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 17-846567
+2022-01-19 19:47:31barcodes.check_barcodes: Checking855PB-B12ME522
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 855PB-B12ME522
+2022-01-19 19:47:31barcodes.check_barcodes: Checkingam-3082_wire
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for am-3082_wire
+2022-01-19 19:47:31barcodes.check_barcodes: Checking14-886867
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 14-886867
+2022-01-19 19:47:31barcodes.check_barcodes: Checkingam-3162
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for am-3162
+2022-01-19 19:47:31barcodes.check_barcodes: Checking16-737785
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 16-737785
+2022-01-19 19:47:31barcodes.check_barcodes: Checking217-3489
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 217-3489
+2022-01-19 19:47:31barcodes.check_barcodes: Checking217-4002
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 217-4002
+2022-01-19 19:47:31barcodes.check_barcodes: Checking217-5875
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 217-5875
+2022-01-19 19:47:31barcodes.check_barcodes: Checking217-5885
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 217-5885
+2022-01-19 19:47:31barcodes.check_barcodes: Checking217-6626
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 217-6626
+2022-01-19 19:47:31barcodes.check_barcodes: Checking217-6627
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 217-6627
+2022-01-19 19:47:31barcodes.check_barcodes: Checking3014T902
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 3014T902
+2022-01-19 19:47:31barcodes.check_barcodes: Checking3499T110_SS
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 3499T110_SS
+2022-01-19 19:47:31barcodes.check_barcodes: Checking57155K321
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 57155K321
+2022-01-19 19:47:31barcodes.check_barcodes: Checking5972K159
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 5972K159
+2022-01-19 19:47:31barcodes.check_barcodes: Checking60355K41
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 60355K41
+2022-01-19 19:47:31barcodes.check_barcodes: Checking60645K321
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 60645K321
+2022-01-19 19:47:31barcodes.check_barcodes: Checking90295A320
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 90295A320
+2022-01-19 19:47:31barcodes.check_barcodes: Checking91251A077
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 91251A077
+2022-01-19 19:47:31barcodes.check_barcodes: Checking912841A003
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 912841A003
+2022-01-19 19:47:31barcodes.check_barcodes: Checking97345A251
+2022-01-19 19:47:31barcodes.barcode_gen: Creating barcode for 97345A251
+2022-01-19 19:47:32barcodes.check_barcodes: Checking98381A556
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 98381A556
+2022-01-19 19:47:32barcodes.check_barcodes: Checking90631A411
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 90631A411
+2022-01-19 19:47:32barcodes.check_barcodes: Checkingam-1250
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for am-1250
+2022-01-19 19:47:32barcodes.check_barcodes: Checkingam-2469h
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for am-2469h
+2022-01-19 19:47:32barcodes.check_barcodes: Checkingam-4124
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for am-4124
+2022-01-19 19:47:32barcodes.check_barcodes: Checking91841A003
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 91841A003
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingWCP-0047
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for WCP-0047
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingFDPT.625*.75*24
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for FDPT.625*.75*24
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingFDPT.875*1.0*24
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for FDPT.875*1.0*24
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingFDPT1.125*1.25*24
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for FDPT1.125*1.25*24
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingFDPT1.375*1.5*24
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for FDPT1.375*1.5*24
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingB076PG87CK
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for B076PG87CK
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingCOM-13185
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for COM-13185
+2022-01-19 19:47:32barcodes.check_barcodes: Checking855PBB12ME522
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 855PBB12ME522
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingAM-0282
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for AM-0282
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingAM-2005
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for AM-2005
+2022-01-19 19:47:32barcodes.check_barcodes: Checking8
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 8
+2022-01-19 19:47:32barcodes.check_barcodes: Checking13
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 13
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingPRU14
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for PRU14
+2022-01-19 19:47:32barcodes.check_barcodes: CheckingPGU14
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for PGU14
+2022-01-19 19:47:32barcodes.check_barcodes: Checking97431A340
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 97431A340
+2022-01-19 19:47:32barcodes.check_barcodes: Checking90630A115
+2022-01-19 19:47:32barcodes.barcode_gen: Creating barcode for 90630A115
+2022-01-19 19:47:33barcodes.check_barcodes: Checking91831A002
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 91831A002
+2022-01-19 19:47:33barcodes.check_barcodes: Checking90298A630
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 90298A630
+2022-01-19 19:47:33barcodes.check_barcodes: Checking2342K163
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 2342K163
+2022-01-19 19:47:33barcodes.check_barcodes: Checking2342K164
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 2342K164
+2022-01-19 19:47:33barcodes.check_barcodes: Checking6435K12
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 6435K12
+2022-01-19 19:47:33barcodes.check_barcodes: Checking21
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 21
+2022-01-19 19:47:33barcodes.check_barcodes: Checking100
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 100
+2022-01-19 19:47:33barcodes.check_barcodes: Checking92196A179
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 92196A179
+2022-01-19 19:47:33barcodes.check_barcodes: Checking90044A119
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 90044A119
+2022-01-19 19:47:33barcodes.check_barcodes: Checking92949A837
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 92949A837
+2022-01-19 19:47:33barcodes.check_barcodes: Checking91831A009
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 91831A009
+2022-01-19 19:47:33barcodes.check_barcodes: Checking91251A079
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 91251A079
+2022-01-19 19:47:33barcodes.check_barcodes: Checking9271K677
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 9271K677
+2022-01-19 19:47:33barcodes.check_barcodes: Checking9271K612
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 9271K612
+2022-01-19 19:47:33barcodes.check_barcodes: Checking276-4858
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 276-4858
+2022-01-19 19:47:33barcodes.check_barcodes: Checking217-2952
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 217-2952
+2022-01-19 19:47:33barcodes.check_barcodes: Checking217-3636
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 217-3636
+2022-01-19 19:47:33barcodes.check_barcodes: Checking217-3635
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 217-3635
+2022-01-19 19:47:33barcodes.check_barcodes: Checking217-5881
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 217-5881
+2022-01-19 19:47:33barcodes.check_barcodes: Checking1128930
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 1128930
+2022-01-19 19:47:33barcodes.check_barcodes: Checking2621
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 2621
+2022-01-19 19:47:33barcodes.check_barcodes: Checking1-THN-8C
+2022-01-19 19:47:33barcodes.barcode_gen: Creating barcode for 1-THN-8C
+2022-01-19 19:47:34barcodes.check_barcodes: Checkingee0zzm3
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for ee0zzm3
+2022-01-19 19:47:34barcodes.check_barcodes: Checking217-2592
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 217-2592
+2022-01-19 19:47:34barcodes.check_barcodes: Checking217-2584
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 217-2584
+2022-01-19 19:47:34barcodes.check_barcodes: Checking217-4046
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 217-4046
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingAM-3155
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for AM-3155
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingAM-3949
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for AM-3949
+2022-01-19 19:47:34barcodes.check_barcodes: Checkingam-3951
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for am-3951
+2022-01-19 19:47:34barcodes.check_barcodes: Checkingam-3953
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for am-3953
+2022-01-19 19:47:34barcodes.check_barcodes: Checking217-6439
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 217-6439
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingCHN-0005
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for CHN-0005
+2022-01-19 19:47:34barcodes.check_barcodes: Checking217-6477
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 217-6477
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingWCP-0200
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for WCP-0200
+2022-01-19 19:47:34barcodes.check_barcodes: Checking63-620
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 63-620
+2022-01-19 19:47:34barcodes.check_barcodes: Checking63-614
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 63-614
+2022-01-19 19:47:34barcodes.check_barcodes: Checking63-604
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 63-604
+2022-01-19 19:47:34barcodes.check_barcodes: Checking63-625
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for 63-625
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingX003MYLHKP
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for X003MYLHKP
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingTC64708
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for TC64708
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingTC62408
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for TC62408
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingTC62400
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for TC62400
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingTC64716
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for TC64716
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingCRP-ARF-2-8ZN
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for CRP-ARF-2-8ZN
+2022-01-19 19:47:34barcodes.check_barcodes: CheckingCRP-AG-2-8ZN
+2022-01-19 19:47:34barcodes.barcode_gen: Creating barcode for CRP-AG-2-8ZN
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingTC62410
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for TC62410
+2022-01-19 19:47:35barcodes.check_barcodes: Checking49J744
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 49J744
+2022-01-19 19:47:35barcodes.check_barcodes: Checking217-3573
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 217-3573
+2022-01-19 19:47:35barcodes.check_barcodes: Checking1691T142
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 1691T142
+2022-01-19 19:47:35barcodes.check_barcodes: Checking217-4347
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 217-4347
+2022-01-19 19:47:35barcodes.check_barcodes: Checking217-6789
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 217-6789
+2022-01-19 19:47:35barcodes.check_barcodes: Checking214-6959
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 214-6959
+2022-01-19 19:47:35barcodes.check_barcodes: Checking52-040
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 52-040
+2022-01-19 19:47:35barcodes.check_barcodes: Checking52-080
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 52-080
+2022-01-19 19:47:35barcodes.check_barcodes: Checking52-120
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 52-120
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1850
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1850
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1863
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1863
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1862
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1862
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1861
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1861
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1860
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1860
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1852
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1852
+2022-01-19 19:47:35barcodes.check_barcodes: Checkingam-2934
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for am-2934
+2022-01-19 19:47:35barcodes.check_barcodes: Checkingam-2434
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for am-2434
+2022-01-19 19:47:35barcodes.check_barcodes: Checking217-6515-rev2
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 217-6515-rev2
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1856
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1856
+2022-01-19 19:47:35barcodes.check_barcodes: Checking49600-XRYL
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 49600-XRYL
+2022-01-19 19:47:35barcodes.check_barcodes: Checking49600-XRD
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for 49600-XRD
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-11-1210
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-11-1210
+2022-01-19 19:47:35barcodes.check_barcodes: CheckingREV-31-1557
+2022-01-19 19:47:35barcodes.barcode_gen: Creating barcode for REV-31-1557
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingREV-21-2151
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for REV-21-2151
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingREV-21-2031
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for REV-21-2031
+2022-01-19 19:47:36barcodes.check_barcodes: Checking217-6293
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 217-6293
+2022-01-19 19:47:36barcodes.check_barcodes: Checking217-4100
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 217-4100
+2022-01-19 19:47:36barcodes.check_barcodes: Checking92620A537
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 92620A537
+2022-01-19 19:47:36barcodes.check_barcodes: Checking90044A123
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 90044A123
+2022-01-19 19:47:36barcodes.check_barcodes: Checking3014T45
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 3014T45
+2022-01-19 19:47:36barcodes.check_barcodes: Checking3014T905
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 3014T905
+2022-01-19 19:47:36barcodes.check_barcodes: Checking92949A546
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 92949A546
+2022-01-19 19:47:36barcodes.check_barcodes: Checking217-2818
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 217-2818
+2022-01-19 19:47:36barcodes.check_barcodes: Checking217-2701
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 217-2701
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingAM-0255
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for AM-0255
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingWCP-0092
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for WCP-0092
+2022-01-19 19:47:36barcodes.check_barcodes: Checkingam-3480_blue
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for am-3480_blue
+2022-01-19 19:47:36barcodes.check_barcodes: Checkingam-3480_green
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for am-3480_green
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingT40P-175BA-HS4
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for T40P-175BA-HS4
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingT40P-194BO-HS4
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for T40P-194BO-HS4
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingT40P-244BO-HS4
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for T40P-244BO-HS4
+2022-01-19 19:47:36barcodes.check_barcodes: CheckingT40P-245BA-HS4
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for T40P-245BA-HS4
+2022-01-19 19:47:36barcodes.check_barcodes: Checking217-4052
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 217-4052
+2022-01-19 19:47:36barcodes.check_barcodes: Checking217-4054
+2022-01-19 19:47:36barcodes.barcode_gen: Creating barcode for 217-4054
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingHS-322HD
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for HS-322HD
+2022-01-19 19:47:37barcodes.check_barcodes: Checking1073-Test
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 1073-Test
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingX002BNILQ5
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for X002BNILQ5
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingSHF-001T-0.8BS
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for SHF-001T-0.8BS
+2022-01-19 19:47:37barcodes.check_barcodes: Checking14-806880
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 14-806880
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingAM-3205
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for AM-3205
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingX001UI2JAL
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for X001UI2JAL
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingLPNRR963200098
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for LPNRR963200098
+2022-01-19 19:47:37barcodes.check_barcodes: Checking17-677082
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 17-677082
+2022-01-19 19:47:37barcodes.check_barcodes: Checkingam-3833b
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for am-3833b
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingELP-SUSB1080P01-LC1100
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for ELP-SUSB1080P01-LC1100
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingMB-1043
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for MB-1043
+2022-01-19 19:47:37barcodes.check_barcodes: Checkingfc-AD-7729
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for fc-AD-7729
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingSEN-36001
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for SEN-36001
+2022-01-19 19:47:37barcodes.check_barcodes: Checkingfc-AD-0661
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for fc-AD-0661
+2022-01-19 19:47:37barcodes.check_barcodes: CheckingFC-AD-3281
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for FC-AD-3281
+2022-01-19 19:47:37barcodes.check_barcodes: Checking217-8080
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 217-8080
+2022-01-19 19:47:37barcodes.check_barcodes: Checking217-9191
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 217-9191
+2022-01-19 19:47:37barcodes.check_barcodes: Checking14-806777
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 14-806777
+2022-01-19 19:47:37barcodes.check_barcodes: Checking14-868277
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 14-868277
+2022-01-19 19:47:37barcodes.check_barcodes: Checking15-696679
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 15-696679
+2022-01-19 19:47:37barcodes.check_barcodes: Checking1073-NVIDIA-01
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 1073-NVIDIA-01
+2022-01-19 19:47:37barcodes.check_barcodes: Checking217-3229
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 217-3229
+2022-01-19 19:47:37barcodes.check_barcodes: Checking217-3634
+2022-01-19 19:47:37barcodes.barcode_gen: Creating barcode for 217-3634
+2022-01-19 19:47:38barcodes.check_barcodes: CheckingTest1
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for Test1
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-5882
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-5882
+2022-01-19 19:47:38barcodes.check_barcodes: Checking5005M15
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 5005M15
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-4017
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-4017
+2022-01-19 19:47:38barcodes.check_barcodes: Checking92510A649
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 92510A649
+2022-01-19 19:47:38barcodes.check_barcodes: CheckingREV-21-1650
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for REV-21-1650
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-4098
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-4098
+2022-01-19 19:47:38barcodes.check_barcodes: Checking06-20-018/018
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 06-20-018/018
+2022-01-19 19:47:38barcodes.check_barcodes: Checking10-5M
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 10-5M
+2022-01-19 19:47:38barcodes.check_barcodes: Checking2477K37
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 2477K37
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-3574
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-3574
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-2614
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-2614
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-4018
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-4018
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-6011
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-6011
+2022-01-19 19:47:38barcodes.check_barcodes: Checking217-3628
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 217-3628
+2022-01-19 19:47:38barcodes.check_barcodes: Checking800-2
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 800-2
+2022-01-19 19:47:38barcodes.check_barcodes: Checking800-3-C
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 800-3-C
+2022-01-19 19:47:38barcodes.check_barcodes: Checking1073-Elegoo-01
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 1073-Elegoo-01
+2022-01-19 19:47:38barcodes.check_barcodes: Checking1073-Andymark-01
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 1073-Andymark-01
+2022-01-19 19:47:38barcodes.check_barcodes: CheckingR1185-4
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for R1185-4
+2022-01-19 19:47:38barcodes.check_barcodes: CheckingREV-11-1144
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for REV-11-1144
+2022-01-19 19:47:38barcodes.check_barcodes: Checking7361A12
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 7361A12
+2022-01-19 19:47:38barcodes.check_barcodes: Checking400-1 7/8
+2022-01-19 19:47:38barcodes.barcode_gen: Creating barcode for 400-1 7/8
+2022-01-19 19:47:39barcodes.check_barcodes: Checking800-1 7/8
+2022-01-19 19:47:39barcodes.barcode_gen: Creating barcode for 800-1 7/8
+2022-01-19 19:47:39barcodes.check_barcodes: Checking00090
+2022-01-19 19:47:39barcodes.barcode_gen: Creating barcode for 00090
+2022-01-19 19:47:39barcodes.check_barcodes: CheckingAM-3973_C64
+2022-01-19 19:47:39barcodes.barcode_gen: Creating barcode for AM-3973_C64
+2022-01-19 19:47:39barcodes.check_barcodes: Checking...
+2022-01-19 19:47:39Dataio.find: Found 1where items.part_number ='15-697867'.
+2022-01-19 19:47:39Dataio.find: Found 1where items.part_number ='15-697867'.
+2022-01-19 19:47:39barcodes.barcode_gen: Creating barcode for 15-697867
+2022-01-19 19:47:39barcodes.print_barcode: Printing15-697867
+2022-01-19 19:49:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:49:14Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:50:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:50:24Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:52:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:52:56Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:54:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:54:28Dataio.get_all_items: Returned 333 results.
+2022-01-19 19:58:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 19:58:02Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:27Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:28Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:28Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:29Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:34Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:35Dataio.find: Found 1where items.part_number ='15-697867'.
+2022-01-19 20:10:35Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:35Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:36Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:37Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:39barcodes.check_barcodes: Checking...
+2022-01-19 20:10:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:39Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:39barcodes.check_barcodes: Checking15-697867
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-0546
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-3071
+2022-01-19 20:10:39barcodes.check_barcodes: Checking94669A311
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92510A609
+2022-01-19 20:10:39barcodes.check_barcodes: Checking94669A128
+2022-01-19 20:10:39barcodes.check_barcodes: Checking94669A319
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6515-rev1
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3875
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3351
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4006
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5046
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6919
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4858
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-21-1651
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingWCP-0176
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingWCP-0185
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAVT-PP-35
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingES17-12
+2022-01-19 20:10:39barcodes.check_barcodes: Checking6075K15
+2022-01-19 20:10:39barcodes.check_barcodes: Checking5234K94
+2022-01-19 20:10:39barcodes.check_barcodes: Checking0
+2022-01-19 20:10:39barcodes.check_barcodes: Checking12
+2022-01-19 20:10:39barcodes.check_barcodes: Checking6
+2022-01-19 20:10:39barcodes.check_barcodes: Checking93330A473
+2022-01-19 20:10:39barcodes.check_barcodes: Checking98075A143
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90480A195
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91259A103
+2022-01-19 20:10:39barcodes.check_barcodes: Checking474487
+2022-01-19 20:10:39barcodes.check_barcodes: Checking474489
+2022-01-19 20:10:39barcodes.check_barcodes: Checking6C200R25AP
+2022-01-19 20:10:39barcodes.check_barcodes: Checking474491
+2022-01-19 20:10:39barcodes.check_barcodes: Checking490 633
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for 490 633
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingB84CM
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT395993
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT390895
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT395353
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT397941
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT395443
+2022-01-19 20:10:39barcodes.check_barcodes: Checking87
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3496
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90631A007
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6706
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91259A544
+2022-01-19 20:10:39barcodes.check_barcodes: Checking33785T45
+2022-01-19 20:10:39barcodes.check_barcodes: Checking3961T2
+2022-01-19 20:10:39barcodes.check_barcodes: Checking97431A330
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90630A110
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A342
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91290A306
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A148
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A150
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A360
+2022-01-19 20:10:39barcodes.check_barcodes: Checking94105A828
+2022-01-19 20:10:39barcodes.check_barcodes: Checking94
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91253A003
+2022-01-19 20:10:39barcodes.check_barcodes: Checking34
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A353
+2022-01-19 20:10:39barcodes.check_barcodes: Checking6498K636
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91253A269
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91125A037
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92510A647
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91259A581
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90631A005
+2022-01-19 20:10:39barcodes.check_barcodes: Checking6130K33
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91286A123
+2022-01-19 20:10:39barcodes.check_barcodes: Checking9271K182
+2022-01-19 20:10:39barcodes.check_barcodes: Checking9271K181
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92012A546
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91259A628
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91255A192
+2022-01-19 20:10:39barcodes.check_barcodes: Checking97
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A344
+2022-01-19 20:10:39barcodes.check_barcodes: Checking126
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A356
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90044A523
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91286A113
+2022-01-19 20:10:39barcodes.check_barcodes: Checking95505A601
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A345
+2022-01-19 20:10:39barcodes.check_barcodes: Checking38
+2022-01-19 20:10:39barcodes.check_barcodes: Checking14
+2022-01-19 20:10:39barcodes.check_barcodes: Checking97526A130
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingE18-D80NK
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingBRG-0001
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3480
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-006-100
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-006-106
+2022-01-19 20:10:39barcodes.check_barcodes: Checking93330A463
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91125A044
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingR3-ZZ PRX
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for R3-ZZ PRX
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingR4A-ZZ-PRX
+2022-01-19 20:10:39barcodes.check_barcodes: Checking474485
+2022-01-19 20:10:39barcodes.check_barcodes: Checking93330A542
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-001
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCOM-13716
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingSEN-15325
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-073
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-094
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-033
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-069
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-057
+2022-01-19 20:10:39barcodes.check_barcodes: Checking19-676768
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4973
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-072
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-055
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-002
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-018
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2020-1073-005-015- Plate
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for 2020-1073-005-015- Plate
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2702
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2708
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2710
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5475
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2642
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6368
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2648
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5844
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3211
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2706
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3212
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3417
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5866
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5859
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6958
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5994
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2733
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3239
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5861
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3227
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3225
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2820
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2816
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6473
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3436
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2731
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0002
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0003
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0005
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0006
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0007
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0008
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCON-0009
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingJCB-0004
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingJCB-0002
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingPQ-PG08
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-2158
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3155
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingIFB-10010
+2022-01-19 20:10:39barcodes.check_barcodes: Checking17-846567
+2022-01-19 20:10:39barcodes.check_barcodes: Checking855PB-B12ME522
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3082_wire
+2022-01-19 20:10:39barcodes.check_barcodes: Checking14-886867
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3162
+2022-01-19 20:10:39barcodes.check_barcodes: Checking16-737785
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3489
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4002
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5875
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5885
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6626
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6627
+2022-01-19 20:10:39barcodes.check_barcodes: Checking3014T902
+2022-01-19 20:10:39barcodes.check_barcodes: Checking3499T110_SS
+2022-01-19 20:10:39barcodes.check_barcodes: Checking57155K321
+2022-01-19 20:10:39barcodes.check_barcodes: Checking5972K159
+2022-01-19 20:10:39barcodes.check_barcodes: Checking60355K41
+2022-01-19 20:10:39barcodes.check_barcodes: Checking60645K321
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90295A320
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A077
+2022-01-19 20:10:39barcodes.check_barcodes: Checking912841A003
+2022-01-19 20:10:39barcodes.check_barcodes: Checking97345A251
+2022-01-19 20:10:39barcodes.check_barcodes: Checking98381A556
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90631A411
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-1250
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-2469h
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-4124
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91841A003
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingWCP-0047
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingFDPT.625*.75*24
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for FDPT.625*.75*24
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingFDPT.875*1.0*24
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for FDPT.875*1.0*24
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingFDPT1.125*1.25*24
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for FDPT1.125*1.25*24
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingFDPT1.375*1.5*24
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for FDPT1.375*1.5*24
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingB076PG87CK
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCOM-13185
+2022-01-19 20:10:39barcodes.check_barcodes: Checking855PBB12ME522
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-0282
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-2005
+2022-01-19 20:10:39barcodes.check_barcodes: Checking8
+2022-01-19 20:10:39barcodes.check_barcodes: Checking13
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingPRU14
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingPGU14
+2022-01-19 20:10:39barcodes.check_barcodes: Checking97431A340
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90630A115
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91831A002
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90298A630
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2342K163
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2342K164
+2022-01-19 20:10:39barcodes.check_barcodes: Checking6435K12
+2022-01-19 20:10:39barcodes.check_barcodes: Checking21
+2022-01-19 20:10:39barcodes.check_barcodes: Checking100
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92196A179
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90044A119
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92949A837
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91831A009
+2022-01-19 20:10:39barcodes.check_barcodes: Checking91251A079
+2022-01-19 20:10:39barcodes.check_barcodes: Checking9271K677
+2022-01-19 20:10:39barcodes.check_barcodes: Checking9271K612
+2022-01-19 20:10:39barcodes.check_barcodes: Checking276-4858
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2952
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3636
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3635
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5881
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1128930
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2621
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1-THN-8C
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingee0zzm3
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2592
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2584
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4046
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-3155
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-3949
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3951
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3953
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6439
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCHN-0005
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6477
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingWCP-0200
+2022-01-19 20:10:39barcodes.check_barcodes: Checking63-620
+2022-01-19 20:10:39barcodes.check_barcodes: Checking63-614
+2022-01-19 20:10:39barcodes.check_barcodes: Checking63-604
+2022-01-19 20:10:39barcodes.check_barcodes: Checking63-625
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingX003MYLHKP
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingTC64708
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingTC62408
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingTC62400
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingTC64716
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCRP-ARF-2-8ZN
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingCRP-AG-2-8ZN
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingTC62410
+2022-01-19 20:10:39barcodes.check_barcodes: Checking49J744
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3573
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1691T142
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4347
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6789
+2022-01-19 20:10:39barcodes.check_barcodes: Checking214-6959
+2022-01-19 20:10:39barcodes.check_barcodes: Checking52-040
+2022-01-19 20:10:39barcodes.check_barcodes: Checking52-080
+2022-01-19 20:10:39barcodes.check_barcodes: Checking52-120
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1850
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1863
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1862
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1861
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1860
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1852
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-2934
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-2434
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6515-rev2
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1856
+2022-01-19 20:10:39barcodes.check_barcodes: Checking49600-XRYL
+2022-01-19 20:10:39barcodes.check_barcodes: Checking49600-XRD
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1210
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-31-1557
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-21-2151
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-21-2031
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6293
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4100
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92620A537
+2022-01-19 20:10:39barcodes.check_barcodes: Checking90044A123
+2022-01-19 20:10:39barcodes.check_barcodes: Checking3014T45
+2022-01-19 20:10:39barcodes.check_barcodes: Checking3014T905
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92949A546
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2818
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2701
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-0255
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingWCP-0092
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3480_blue
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3480_green
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for am-3480_green
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT40P-175BA-HS4
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT40P-194BO-HS4
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT40P-244BO-HS4
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingT40P-245BA-HS4
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4052
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4054
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingHS-322HD
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1073-Test
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingX002BNILQ5
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingSHF-001T-0.8BS
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for SHF-001T-0.8BS
+2022-01-19 20:10:39barcodes.check_barcodes: Checking14-806880
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-3205
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingX001UI2JAL
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingLPNRR963200098
+2022-01-19 20:10:39barcodes.check_barcodes: Checking17-677082
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingam-3833b
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingELP-SUSB1080P01-LC1100
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingMB-1043
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingfc-AD-7729
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingSEN-36001
+2022-01-19 20:10:39barcodes.check_barcodes: Checkingfc-AD-0661
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingFC-AD-3281
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-8080
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-9191
+2022-01-19 20:10:39barcodes.check_barcodes: Checking14-806777
+2022-01-19 20:10:39barcodes.check_barcodes: Checking14-868277
+2022-01-19 20:10:39barcodes.check_barcodes: Checking15-696679
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1073-NVIDIA-01
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3229
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3634
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingTest1
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-5882
+2022-01-19 20:10:39barcodes.check_barcodes: Checking5005M15
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4017
+2022-01-19 20:10:39barcodes.check_barcodes: Checking92510A649
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-21-1650
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4098
+2022-01-19 20:10:39barcodes.check_barcodes: Checking06-20-018/018
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for 06-20-018/018
+2022-01-19 20:10:39barcodes.check_barcodes: Checking10-5M
+2022-01-19 20:10:39barcodes.check_barcodes: Checking2477K37
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3574
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-2614
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-4018
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-6011
+2022-01-19 20:10:39barcodes.check_barcodes: Checking217-3628
+2022-01-19 20:10:39barcodes.check_barcodes: Checking800-2
+2022-01-19 20:10:39barcodes.check_barcodes: Checking800-3-C
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1073-Elegoo-01
+2022-01-19 20:10:39barcodes.check_barcodes: Checking1073-Andymark-01
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingR1185-4
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingREV-11-1144
+2022-01-19 20:10:39barcodes.check_barcodes: Checking7361A12
+2022-01-19 20:10:39barcodes.check_barcodes: Checking400-1 7/8
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for 400-1 7/8
+2022-01-19 20:10:39barcodes.check_barcodes: Checking800-1 7/8
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for 800-1 7/8
+2022-01-19 20:10:39barcodes.check_barcodes: Checking00090
+2022-01-19 20:10:39barcodes.check_barcodes: CheckingAM-3973_C64
+2022-01-19 20:10:39barcodes.check_barcodes: Checking...
+2022-01-19 20:10:39Dataio.find: Found 1where items.part_number ='15-697867'.
+2022-01-19 20:10:39Dataio.find: Found 1where items.part_number ='15-697867'.
+2022-01-19 20:10:39barcodes.barcode_gen: Creating barcode for 15-697867
+2022-01-19 20:10:39barcodes.print_barcode: Printing15-697867
+2022-01-19 20:10:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:50Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:50Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:51Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:51Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:10:59Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:10:59Dataio.find: Found 1where items.part_number ='217-6515-rev1'.
+2022-01-19 20:11:00Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:00Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:00Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:00Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:00Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:00Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:02barcodes.check_barcodes: Checking...
+2022-01-19 20:11:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:02Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:02barcodes.check_barcodes: Checking15-697867
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingAM-0546
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingAM-3071
+2022-01-19 20:11:02barcodes.check_barcodes: Checking94669A311
+2022-01-19 20:11:02barcodes.check_barcodes: Checking92510A609
+2022-01-19 20:11:02barcodes.check_barcodes: Checking94669A128
+2022-01-19 20:11:02barcodes.check_barcodes: Checking94669A319
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-6515-rev1
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-3875
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-3351
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-4006
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-5046
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-6919
+2022-01-19 20:11:02barcodes.check_barcodes: Checking217-4858
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingREV-21-1651
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingWCP-0176
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingWCP-0185
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingAVT-PP-35
+2022-01-19 20:11:02barcodes.check_barcodes: CheckingES17-12
+2022-01-19 20:11:02barcodes.check_barcodes: Checking6075K15
+2022-01-19 20:11:02barcodes.check_barcodes: Checking5234K94
+2022-01-19 20:11:02barcodes.check_barcodes: Checking0
+2022-01-19 20:11:02barcodes.check_barcodes: Checking12
+2022-01-19 20:11:02barcodes.check_barcodes: Checking6
+2022-01-19 20:11:02barcodes.check_barcodes: Checking93330A473
+2022-01-19 20:11:02barcodes.check_barcodes: Checking98075A143
+2022-01-19 20:11:02barcodes.check_barcodes: Checking90480A195
+2022-01-19 20:11:02barcodes.check_barcodes: Checking91259A103
+2022-01-19 20:11:02barcodes.check_barcodes: Checking474487
+2022-01-19 20:11:02barcodes.check_barcodes: Checking474489
+2022-01-19 20:11:02barcodes.check_barcodes: Checking6C200R25AP
+2022-01-19 20:11:02barcodes.check_barcodes: Checking474491
+2022-01-19 20:11:02barcodes.check_barcodes: Checking490 633
+2022-01-19 20:11:02barcodes.barcode_gen: Creating barcode for 490 633
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingB84CM
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT395993
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT390895
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT395353
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT397941
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT395443
+2022-01-19 20:11:03barcodes.check_barcodes: Checking87
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3496
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90631A007
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6706
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91259A544
+2022-01-19 20:11:03barcodes.check_barcodes: Checking33785T45
+2022-01-19 20:11:03barcodes.check_barcodes: Checking3961T2
+2022-01-19 20:11:03barcodes.check_barcodes: Checking97431A330
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90630A110
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A342
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91290A306
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A148
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A150
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A360
+2022-01-19 20:11:03barcodes.check_barcodes: Checking94105A828
+2022-01-19 20:11:03barcodes.check_barcodes: Checking94
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91253A003
+2022-01-19 20:11:03barcodes.check_barcodes: Checking34
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A353
+2022-01-19 20:11:03barcodes.check_barcodes: Checking6498K636
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91253A269
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91125A037
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92510A647
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91259A581
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90631A005
+2022-01-19 20:11:03barcodes.check_barcodes: Checking6130K33
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91286A123
+2022-01-19 20:11:03barcodes.check_barcodes: Checking9271K182
+2022-01-19 20:11:03barcodes.check_barcodes: Checking9271K181
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92012A546
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91259A628
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91255A192
+2022-01-19 20:11:03barcodes.check_barcodes: Checking97
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A344
+2022-01-19 20:11:03barcodes.check_barcodes: Checking126
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A356
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90044A523
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91286A113
+2022-01-19 20:11:03barcodes.check_barcodes: Checking95505A601
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A345
+2022-01-19 20:11:03barcodes.check_barcodes: Checking38
+2022-01-19 20:11:03barcodes.check_barcodes: Checking14
+2022-01-19 20:11:03barcodes.check_barcodes: Checking97526A130
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingE18-D80NK
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingBRG-0001
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3480
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-006-100
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-006-106
+2022-01-19 20:11:03barcodes.check_barcodes: Checking93330A463
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91125A044
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingR3-ZZ PRX
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for R3-ZZ PRX
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingR4A-ZZ-PRX
+2022-01-19 20:11:03barcodes.check_barcodes: Checking474485
+2022-01-19 20:11:03barcodes.check_barcodes: Checking93330A542
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-001
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCOM-13716
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingSEN-15325
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-073
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-094
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-033
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-069
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-057
+2022-01-19 20:11:03barcodes.check_barcodes: Checking19-676768
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4973
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-072
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-055
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-002
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-018
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2020-1073-005-015- Plate
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for 2020-1073-005-015- Plate
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2702
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2708
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2710
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5475
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2642
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6368
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2648
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5844
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3211
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2706
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3212
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3417
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5866
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5859
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6958
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5994
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2733
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3239
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5861
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3227
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3225
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2820
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2816
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6473
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3436
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2731
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0002
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0003
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0005
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0006
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0007
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0008
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCON-0009
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingJCB-0004
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingJCB-0002
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingPQ-PG08
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-2158
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3155
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingIFB-10010
+2022-01-19 20:11:03barcodes.check_barcodes: Checking17-846567
+2022-01-19 20:11:03barcodes.check_barcodes: Checking855PB-B12ME522
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3082_wire
+2022-01-19 20:11:03barcodes.check_barcodes: Checking14-886867
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3162
+2022-01-19 20:11:03barcodes.check_barcodes: Checking16-737785
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3489
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4002
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5875
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5885
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6626
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6627
+2022-01-19 20:11:03barcodes.check_barcodes: Checking3014T902
+2022-01-19 20:11:03barcodes.check_barcodes: Checking3499T110_SS
+2022-01-19 20:11:03barcodes.check_barcodes: Checking57155K321
+2022-01-19 20:11:03barcodes.check_barcodes: Checking5972K159
+2022-01-19 20:11:03barcodes.check_barcodes: Checking60355K41
+2022-01-19 20:11:03barcodes.check_barcodes: Checking60645K321
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90295A320
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A077
+2022-01-19 20:11:03barcodes.check_barcodes: Checking912841A003
+2022-01-19 20:11:03barcodes.check_barcodes: Checking97345A251
+2022-01-19 20:11:03barcodes.check_barcodes: Checking98381A556
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90631A411
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-1250
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-2469h
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-4124
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91841A003
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingWCP-0047
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingFDPT.625*.75*24
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for FDPT.625*.75*24
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingFDPT.875*1.0*24
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for FDPT.875*1.0*24
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingFDPT1.125*1.25*24
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for FDPT1.125*1.25*24
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingFDPT1.375*1.5*24
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for FDPT1.375*1.5*24
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingB076PG87CK
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCOM-13185
+2022-01-19 20:11:03barcodes.check_barcodes: Checking855PBB12ME522
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-0282
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-2005
+2022-01-19 20:11:03barcodes.check_barcodes: Checking8
+2022-01-19 20:11:03barcodes.check_barcodes: Checking13
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingPRU14
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingPGU14
+2022-01-19 20:11:03barcodes.check_barcodes: Checking97431A340
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90630A115
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91831A002
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90298A630
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2342K163
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2342K164
+2022-01-19 20:11:03barcodes.check_barcodes: Checking6435K12
+2022-01-19 20:11:03barcodes.check_barcodes: Checking21
+2022-01-19 20:11:03barcodes.check_barcodes: Checking100
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92196A179
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90044A119
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92949A837
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91831A009
+2022-01-19 20:11:03barcodes.check_barcodes: Checking91251A079
+2022-01-19 20:11:03barcodes.check_barcodes: Checking9271K677
+2022-01-19 20:11:03barcodes.check_barcodes: Checking9271K612
+2022-01-19 20:11:03barcodes.check_barcodes: Checking276-4858
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2952
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3636
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3635
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5881
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1128930
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2621
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1-THN-8C
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingee0zzm3
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2592
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2584
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4046
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-3155
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-3949
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3951
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3953
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6439
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCHN-0005
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6477
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingWCP-0200
+2022-01-19 20:11:03barcodes.check_barcodes: Checking63-620
+2022-01-19 20:11:03barcodes.check_barcodes: Checking63-614
+2022-01-19 20:11:03barcodes.check_barcodes: Checking63-604
+2022-01-19 20:11:03barcodes.check_barcodes: Checking63-625
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingX003MYLHKP
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingTC64708
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingTC62408
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingTC62400
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingTC64716
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCRP-ARF-2-8ZN
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingCRP-AG-2-8ZN
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingTC62410
+2022-01-19 20:11:03barcodes.check_barcodes: Checking49J744
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3573
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1691T142
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4347
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6789
+2022-01-19 20:11:03barcodes.check_barcodes: Checking214-6959
+2022-01-19 20:11:03barcodes.check_barcodes: Checking52-040
+2022-01-19 20:11:03barcodes.check_barcodes: Checking52-080
+2022-01-19 20:11:03barcodes.check_barcodes: Checking52-120
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1850
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1863
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1862
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1861
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1860
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1852
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-2934
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-2434
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6515-rev2
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1856
+2022-01-19 20:11:03barcodes.check_barcodes: Checking49600-XRYL
+2022-01-19 20:11:03barcodes.check_barcodes: Checking49600-XRD
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1210
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-31-1557
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-21-2151
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-21-2031
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6293
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4100
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92620A537
+2022-01-19 20:11:03barcodes.check_barcodes: Checking90044A123
+2022-01-19 20:11:03barcodes.check_barcodes: Checking3014T45
+2022-01-19 20:11:03barcodes.check_barcodes: Checking3014T905
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92949A546
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2818
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2701
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-0255
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingWCP-0092
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3480_blue
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3480_green
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for am-3480_green
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT40P-175BA-HS4
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT40P-194BO-HS4
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT40P-244BO-HS4
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingT40P-245BA-HS4
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4052
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4054
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingHS-322HD
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1073-Test
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingX002BNILQ5
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingSHF-001T-0.8BS
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for SHF-001T-0.8BS
+2022-01-19 20:11:03barcodes.check_barcodes: Checking14-806880
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-3205
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingX001UI2JAL
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingLPNRR963200098
+2022-01-19 20:11:03barcodes.check_barcodes: Checking17-677082
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingam-3833b
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingELP-SUSB1080P01-LC1100
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingMB-1043
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingfc-AD-7729
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingSEN-36001
+2022-01-19 20:11:03barcodes.check_barcodes: Checkingfc-AD-0661
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingFC-AD-3281
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-8080
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-9191
+2022-01-19 20:11:03barcodes.check_barcodes: Checking14-806777
+2022-01-19 20:11:03barcodes.check_barcodes: Checking14-868277
+2022-01-19 20:11:03barcodes.check_barcodes: Checking15-696679
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1073-NVIDIA-01
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3229
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3634
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingTest1
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-5882
+2022-01-19 20:11:03barcodes.check_barcodes: Checking5005M15
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4017
+2022-01-19 20:11:03barcodes.check_barcodes: Checking92510A649
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-21-1650
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4098
+2022-01-19 20:11:03barcodes.check_barcodes: Checking06-20-018/018
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for 06-20-018/018
+2022-01-19 20:11:03barcodes.check_barcodes: Checking10-5M
+2022-01-19 20:11:03barcodes.check_barcodes: Checking2477K37
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3574
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-2614
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-4018
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-6011
+2022-01-19 20:11:03barcodes.check_barcodes: Checking217-3628
+2022-01-19 20:11:03barcodes.check_barcodes: Checking800-2
+2022-01-19 20:11:03barcodes.check_barcodes: Checking800-3-C
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1073-Elegoo-01
+2022-01-19 20:11:03barcodes.check_barcodes: Checking1073-Andymark-01
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingR1185-4
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingREV-11-1144
+2022-01-19 20:11:03barcodes.check_barcodes: Checking7361A12
+2022-01-19 20:11:03barcodes.check_barcodes: Checking400-1 7/8
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for 400-1 7/8
+2022-01-19 20:11:03barcodes.check_barcodes: Checking800-1 7/8
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for 800-1 7/8
+2022-01-19 20:11:03barcodes.check_barcodes: Checking00090
+2022-01-19 20:11:03barcodes.check_barcodes: CheckingAM-3973_C64
+2022-01-19 20:11:03barcodes.check_barcodes: Checking...
+2022-01-19 20:11:03Dataio.find: Found 1where items.part_number ='217-6515-rev1'.
+2022-01-19 20:11:03Dataio.find: Found 1where items.part_number ='217-6515-rev1'.
+2022-01-19 20:11:03barcodes.barcode_gen: Creating barcode for 217-6515-rev1
+2022-01-19 20:11:03barcodes.print_barcode: Printing217-6515-rev1
+2022-01-19 20:11:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:49Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:49Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:50Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:11:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:11:50Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:14Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:14Dataio.find: Found 1where items.part_number ='217-6515-rev1'.
+2022-01-19 20:13:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:14Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:15Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:15Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:21Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:21Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:22Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:23Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:25Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:26Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:26Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:26Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:26Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:13:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:13:27Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:06Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:07Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:07Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:08Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:13Dataio.part_num_check: Found 333 part numbers in db.
+2022-01-19 20:14:13Dataio.part_num_check: Status of part number entered: 217-6515-rev1 in db
+2022-01-19 20:14:13Dataio.transaction: Part num exsists in the db.
+2022-01-19 20:14:14Dataio.transaction: Adding transactional record.
+2022-01-19 20:14:14Dataio.transaction: Updated items db record for part_number: '217-6515-rev1'.
+2022-01-19 20:14:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:21Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:30Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:30Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:31Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:32Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:40Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:40Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:41Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:42Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:14:42Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:14:53Dataio.part_num_check: Found 333 part numbers in db.
+2022-01-19 20:14:53Dataio.part_num_check: Status of part number entered: 217-6515-rev1 in db
+2022-01-19 20:14:53Dataio.transaction: Part num exsists in the db.
+2022-01-19 20:14:53Dataio.transaction: Adding transactional record.
+2022-01-19 20:14:53Dataio.transaction: Updated items db record for part_number: '217-6515-rev1'.
+2022-01-19 20:16:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:16:07Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:16:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:16:07Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:16:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:16:08Dataio.get_all_items: Returned 333 results.
+2022-01-19 20:16:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-19 20:16:09Dataio.get_all_items: Returned 333 results.
