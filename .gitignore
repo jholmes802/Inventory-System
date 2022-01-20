@@ -1,3 +1,4 @@
 /backup
 /archive
 /src/__pycache__
+/src/creds.json
