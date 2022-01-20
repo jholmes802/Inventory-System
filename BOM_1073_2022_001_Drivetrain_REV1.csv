@@ -1,0 +1,57 @@
+Item,Quantity,Part number,Description,Status,Notes
+1,1,1073_2022_001_Front Rail_001_REV1,,,
+2,1,1073_2022_001_Left Rail_002_REV1,,,
+3,1,1073_2022_001_Rear Rail_003_REV1,,,
+4,1,1073_2022_001_Right Rail_004_REV1,,,
+5,4,1/2 of 217-3436,WCP Side Bearing Block Back,INSTOCK,
+6,4,1/2 of 217-3436,WCP Side Bearing Block Front,INSTOCK,
+7,8,,,,
+8,10,217-2734,".5"" Hex ID 1.125"" OD Flanged Bearing",ALT,"Do not have part number 217-2734 but we have 217-4006(43), and 217-2731(62)"
+9,4,217-3431,WCP Cam,InStock,"Not in system, but they exist"
+10,4,1073_2022_002_GearboxPlate_001_REV1,DT Plates,NONE,
+11,4,,,,
+12,4,,,,
+13,4,217-2732,"VEXpro .375"" Round ID 1.125"" OD Flanged Bearing",ALT,See above listing
+14,2,217-2710,"44t 20dp Aluminum 1/2"" Hex Bore Gear",InStock,5
+15,2,217-3572,"50t 20dp Aluminum 1/2"" Hex Bore Gear",NONE,
+16,2,217-2704,"24t 20dp Aluminum 1/2"" Hex Bore Gear",NONE,
+17,2,217-3634,WCP Gearbox Bearing Block,InStock,2
+18,8,92510A454,,None,"Might have it depending on stock, there is some stuff still not inv"
+19,2,1073_2022_002_GearboxShaftTop_003_REV1,,,
+20,2,1073_2022_002_EncoderPlate_004_REV1,,,
+21,2,217-2731,"VEXpro .5"" Round ID 1.125"" OD Flanged Bearing",Instock,62
+22,8,217-3488,"18t 1/2"" Hex Bore Hub 25 Chain Sprocket",None,We do have 12t alum 217-2642(55)
+23,2,1073_2022_002_Upper Shaft Spacer_004 REV1,,,
+24,2,1073_2022_002_Output Rear Spacer_005 REV1,,,
+25,2,1073_2022_002_Output Front Spacer_006 Rev1,,,
+26,2,1073_2022_002_Gearbox Output Shaft_004_REV1,,,
+27,4,,,,
+28,4,,,,
+29,4,,,,
+30,4,,,,
+31,2,,,,
+32,2,1073_2022_001_Center Spacer_007_REV1,,,
+33,2,1073_2022_001_DT Sprocket Spacer_006_REV1,,,
+34,2,1073_2022_003_Bumper Mount FL/BR_005_REV1,,,
+35,2,,,,
+36,2,,,,
+37,2,1073_2022_003_Bumper Mount FR/BL_006_REV1,,,
+38,6,217-4052,"VEXpro 4"" OD 1.5"" Wide 1/2"" Hex Bore Colson Wheel",InStock,13
+39,6,1073_2022_001_Wheel Spacer_008_REV1,,,
+40,4,1073_2022_003_Bumper Support_007_REV1,,,
+41,8,1073_2022_003_Bumper Support Inserts_008_REV1,,,
+42,2,1073_2022_001_Center DT Shaft_005_REV1,,,
+43,2,1073_2022_001_Front DT Shaft_009_REV1,,,
+44,2,,,,
+45,2,1073_2022_003_Side Backing_002_REV1,,,
+46,2,1073_2022_003_F/B Backing_003_REV1,,,
+47,4,1073_2022_003_Bumper Backing Bracket_004_REV1,,,
+48,4,97590A591,,None,"McmasterCarr is known to have a ton of varietes of parts, if I get desc of part we may have alt"
+49,1,1073_2022_003_Pool Noodles_001_REV1,,,
+50,48,,,,
+51,4,,,,
+52,10,90107A029,1/4-20 Washer,None,May have some not listed
+53,10,,Socket button head cap screw 1/4-20 x 0.375 Steel ,,"Needs part number, but might have, defintly have alternatives, but they are longer"
+54,24,,,,
+55,8,,,,
+56,1,1073_2022_001_Bellypan_018_REV1,,,

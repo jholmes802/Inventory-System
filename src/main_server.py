@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import socket
+import os
 import posts
 import pages
 import importlib
@@ -13,14 +14,22 @@ from urllib.parse import unquote
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
 hostName = "localhost"#socket.gethostbyname(socket.gethostname())
+<<<<<<< HEAD
 serverPort = 8080
+=======
+if os.name == "nt":
+    serverPort = 80
+else:
+    serverPort = 8080
+>>>>>>> 667605880d38738a84640b3c84e658415cea1cc1
 
 post_dict = {
     "/pst/checkout_submit": posts.checkout_post,
     "/pst/checkin_submit":posts.checkin,
     "/pst/newitem":posts.new_item,
     "/pst/verify_submit":posts.verify,
-    "/pst/printBarcode":posts.print_barcode
+    "/pst/printBarcode":posts.print_barcode,
+    "/pst/backup":posts.backup
 }
 
 def read_file(path):
@@ -77,9 +86,6 @@ class MyServer(BaseHTTPRequestHandler):
         elif self.path.endswith(".woff"):
             self._send_headers("font/woff")
             self.wfile.write(read_file('../web/ufonts.com_bank-gothic-light.woff'))
-        elif self.path.endswith(".png"):
-            self._send_headers("image/png")
-            self.wfile.write(open("../data/images/barcodes/" + unquote(self.path.split("/")[-1]), "rb").read())
         else:
             self.send_error(404)
 

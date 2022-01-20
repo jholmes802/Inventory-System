@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import dataio
 import barcodes
+import db_manager
+import g_backup
 
 def checkout_post(data: dict)-> bytes:
     try:
@@ -43,3 +45,10 @@ def print_barcode(data:dict):
     except:
         return str("Uh oh something went wrong")
 
+def backup(data:dict):
+    try:
+        db_manager.backup()
+        g_backup.g_backup()
+        return "Backup was sucessful."
+    except:
+        return "Backup was not sucessful."

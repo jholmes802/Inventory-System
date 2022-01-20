@@ -66,6 +66,7 @@ def item(args:str)->str: #NEEDS implementation
     result = _base()
     fields,item = dataio.parts.find(args['partNumber'])
     fields = [x.replace("_", " ").title() for x in fields]
+    result.div("printBarcodesButton").button("button", "Print Barcode", "onclick=printBarcode()").div("printBarcodesButton")
     result.div("partSpecs")
     partSpecs = bob.table( spacing = result.spacing)
     partSpecs.table().body()
@@ -74,7 +75,7 @@ def item(args:str)->str: #NEEDS implementation
     partSpecs.body()
     partSpecs.table()
     result.returnable += str(partSpecs)
-    result.div("printBarcodesButton").button("button", "Print Barcode", "onclick=printBarcode()").div("printBarcodesButton")
+    result.div("partSpecs")
     result.body()
     return str(result).encode()
 
@@ -135,12 +136,19 @@ def verify()-> str:
 def _admin_base():
     result = _base()
     result.div("adminNav")
-    result.nav([("Import Parts", "/admin/import/"), ("Barcodes", "/admin/barcodes/")])
+    result.nav([("Import Parts", "/admin/import/")])
     result.div("itemNav")
     return result
 
 def admin():
+<<<<<<< HEAD
     result = _admin_base().body()
+=======
+    result = _admin_base()
+    result.div("baseOps")
+    result.button("button", "Full Backup", "id='adminBackup' onclick=adminBackupfunc()")
+    result.div("baseOps").body()
+>>>>>>> 667605880d38738a84640b3c84e658415cea1cc1
     return str(result).encode()
 
 def admin_import():
@@ -154,32 +162,6 @@ def admin_import():
     result.body()
     return str(result).encode()
 
-def admin_locations():
-    result = admin().decode("utf-8")
-    result += """\t\t<dev class='adminLocations'>
-    \t\t\t<table>
-    \t\t\t\t<thead>
-    \t\t\t\t\t<tr>
-    """      
-    fields, sqlres = dataio.locations.getAll()
-    
-    for field in fields:
-        result += "\t\t\t\t\t<th>" + field.replace("_", " ").title() + "</th>\n"
-    result += """\t\t\t\t\t<th>Options</th>
-    \t\t\t\t</thead>
-    \t\t\t\t</tr>
-    """
-    
-    for res in sqlres:
-        result += "\t\t\t\t\t<form class='locData'>\n"
-        for f in range(fields):
-            result += "\t\t\t\t\t\t<td>" + res + "</td>\n"
-        result += "\t\t\t\t\t\t<td><input type='submit' value='Save'>\n"
-        result += "\t\t\t\t\t</form>\n"
-    result += """\t\t\t\t</tr>
-    \t\t\t</table>
-    \t\t</dev>
-    """    
-    return result.encode()
+
 if __name__ == "__main__":
     pass
