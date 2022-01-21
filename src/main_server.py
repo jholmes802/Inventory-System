@@ -14,15 +14,11 @@ from urllib.parse import unquote
 #"localhost"#
 #socket.gethostbyname(socket.gethostname())
 hostName = "localhost"#socket.gethostbyname(socket.gethostname())
-<<<<<<< HEAD
-serverPort = 8080
-=======
 if os.name == "nt":
     serverPort = 80
 else:
     serverPort = 8080
->>>>>>> 667605880d38738a84640b3c84e658415cea1cc1
-
+    
 post_dict = {
     "/pst/checkout_submit": posts.checkout_post,
     "/pst/checkin_submit":posts.checkin,
@@ -73,7 +69,6 @@ class MyServer(BaseHTTPRequestHandler):
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
             "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css"))
             }
-        print("made it here")
         if "?" in self.path:
             main_path = self.path.split("?")[0]
             if main_path in get_dict.keys():
@@ -95,6 +90,7 @@ class MyServer(BaseHTTPRequestHandler):
             "/pst/checkin_submit":posts.checkin,
             "/pst/newitem":posts.new_item,
             "/pst/verify_submit":posts.verify,
+            "/pst/backup":posts.backup,
             "/pst/printBarcode":posts.print_barcode
         }
         if self.headers["Content-type"] != "application/json":
@@ -103,7 +99,7 @@ class MyServer(BaseHTTPRequestHandler):
             str_data = self.rfile.read(int(self.headers["Content-length"])).decode("utf-8")
             data = json.loads(str_data)
             #data = json.load(self.rfile.read())
-            self.send_response(200)
+            self._send_headers("text/text")
             resp = post_dict[self.path](data)
             print("Sending Response")
             self.wfile.write(resp.encode())

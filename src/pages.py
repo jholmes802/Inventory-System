@@ -141,14 +141,10 @@ def _admin_base():
     return result
 
 def admin():
-<<<<<<< HEAD
-    result = _admin_base().body()
-=======
     result = _admin_base()
     result.div("baseOps")
     result.button("button", "Full Backup", "id='adminBackup' onclick=adminBackupfunc()")
     result.div("baseOps").body()
->>>>>>> 667605880d38738a84640b3c84e658415cea1cc1
     return str(result).encode()
 
 def admin_import():
