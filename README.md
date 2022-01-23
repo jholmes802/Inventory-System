@@ -16,4 +16,5 @@ There are other python files used to manage data input and output, database mana
 
 ## How do i start?
 Well its a simple as ensureing the requirements.txt is installed. Using...
-python -m pip install requirements.txt
+> python -m pip install -r requirements.txt
+

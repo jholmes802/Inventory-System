@@ -95,15 +95,7 @@ def run(sql):
 
 def table_check():
     """Checks sqlite db file to ensure it has the appropriate tables and structure.
-    Supports verbose.
-    
-    ---CHANGE LOG---
-    - 12/23/2021 - Added checks if tables exists for [items, transactions, catalog].
-        - Needs field checking for all tables.
-        - May need additional Table for kits out, something to look at where stuff is?
-    -12/23/2021 - Modified to utilize the tables dictionary so adding tables is easier and makes constant variable across the whole file.
-        -Moving field checking to field_checks(). May remerge later.
-        -Should add error checking...?
+    Supports verbose. Needs to be converted to logger
     """
     if verbose: print(now() + ": Table Check: Beginning Check for tables.")
     #tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
@@ -186,6 +178,9 @@ def clean_backups():
             logger(2, "db_manger.clean_backups: Removed backup for " + k)
             i += 1
         logger(2, "db_manager.clean_backups: Removed " + str(i) + " old backups.")
+        
+class cleaner:
+    def 
 
 if __name__ == "__main__":
     sql_setup()

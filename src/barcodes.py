@@ -13,8 +13,8 @@ from logger import logger
 global verbose
 verbose = False
 
-if "verbose.dat" in os.listdir(os.getcwd()):
-    verbose = True
+logl = 2
+
 def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 def fname(pn:str):
@@ -26,19 +26,27 @@ def check_barcodes(part_nums:list=None)-> bool:
         os.mkdir(bpath)
     bdir = [x.rstrip('.png') for x in os.listdir(bpath)]
     logger(2, "barcodes.check_barcodes: Checking...")
+    log_count_i = 0
     if part_nums == None:
         items, fields = dataio.parts.get_all_items()
         for item in items:
-            logger(2, "barcodes.check_barcodes: Checking" + item[0])
+            logger(logl, "barcodes.check_barcodes: Checking" + item[0])
             if item[0] not in bdir:
+                log_count_i += 1
                 barcode_gen(item[0], item[1])    
     else:
+        logger(logl, "barcodes.check_barcodes: No list specified...processing from db.items table.")
         for item in part_nums:
             f, dbr = dataio.parts.find(item)
             if item not in bdir:
-                barcode_gen(item, dbr[1])    
-def barcode_gen(part_num:str, part_name:str):
-    logger(2, "barcodes.barcode_gen: Creating barcode for " + part_num)
+                log_count_i += 1
+                barcode_gen(item, dbr[1])
+    logger(logl, "barcodes.check_barcodes: Created " + str(log_count_i) + " new barcodes.")   
+                 
+def barcode_gen(part_num:str, part_name:str=""):
+    logger(logl, "barcodes.barcode_gen: Creating barcode for " + part_num)
+    if part_name == "":
+        part_name = dataio.parts.find(part_num)[1][1]
     bpath = "../data/images/barcodes/" + fname(part_num) + ".png"
     ideal_length = 38.1
     mod_height = ideal_length * .2
@@ -57,12 +65,12 @@ def barcode_gen(part_num:str, part_name:str):
     ean = ean.render(opts, txt)
     ean.save(bpath)
     #filename = ean.save(bpath + part_num.replace(".", "-").replace("*", "-"), options = {'modul\e_width':mod_width, 'module_height':mod_height, 'text_distance':1})
-    if verbose: print(now() + ": BARCODES: Created new barcode file for:", part_num)
+    logger(logl,"barcodes.barcode_gen: Created new barcode file for: " + part_num)
 
 def print_barcode(path1):
-    logger(2, "barcodes.print_barcode: Printing" + path1)
+    logger(logl, "barcodes.print_barcode: Printing" + path1)
     if "/" in path1:
-        pass
+        path = path1
     else:
         path = "../data/images/barcodes/" + fname(path1) + ".png"
 
@@ -82,7 +90,6 @@ def print_barcode(path1):
     qlr.exception_on_warning = True
 
     instructions = convert(
-
             qlr=qlr, 
             images=[im],    #  Takes a list of file names or PIL objects.
             label='62', 
@@ -94,13 +101,13 @@ def print_barcode(path1):
             dpi_600=False, 
             hq=True,    # False for low quality.
             cut=True
-
     )
 
     send(instructions=instructions,
          printer_identifier=printer,
          backend_identifier=backend,
-         blocking=True)
+         blocking=True
+         )
 
 def _length(part_num:str):
     return ((11 * len(part_num)) + 35)

@@ -277,6 +277,8 @@ class catalog:
     def new_catalog(part_number="", part_name="", source_name="", source_link="", manufacturer="", man_link="", price="", unit="", unit_qty="", notes=""):
         fields = {"part_number":part_number, "part_name":part_name, "source_name":source_name, "source_link":source_link, "manufacturer":manufacturer, "man_link":man_link, "price":price, "unit":unit, "unit_qty":unit_qty, "notes":notes}
         sql = "INSERT INTO ()"
+        
+        
 if __name__ == "__main__":
     mass_import_items("../2022 1073 Stock Current (only) - Current Stock.csv")
     pass
