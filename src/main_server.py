@@ -29,6 +29,7 @@ post_dict = {
     "/pst/editpart":posts.editpart
 }
 
+
 def read_file(path):
     #path = "/app/"  + path.lstrip("../")
     fhand = open(pathlib.Path(path), "rb")
@@ -36,15 +37,7 @@ def read_file(path):
     fhand.close()
     return fread
 
-class MyServer(BaseHTTPRequestHandler):
-    def _send_headers(self,typ):
-        self.send_response(200)
-        self.send_header("Content-type", typ)
-        self.end_headers()
-    def do_GET(self):
-
-        importlib.reload(pages)
-        get_dict = {
+get_dict = {
             "/": ("text/html", pages.home()),
             "/script.js":("application/javascript", read_file('../web/script.js')),
             "/styles.css":("text/css", read_file('../web/styles.css')),
@@ -70,6 +63,14 @@ class MyServer(BaseHTTPRequestHandler):
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
             "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css"))
             }
+
+class MyServer(BaseHTTPRequestHandler):
+    def _send_headers(self,typ):
+        self.send_response(200)
+        self.send_header("Content-type", typ)
+        self.end_headers()
+    def do_GET(self):
+        importlib.reload(pages)
         if "?" in self.path:
             main_path = self.path.split("?")[0]
             if main_path in get_dict.keys():

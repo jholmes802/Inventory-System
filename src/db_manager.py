@@ -180,7 +180,7 @@ def clean_backups():
         logger(2, "db_manager.clean_backups: Removed " + str(i) + " old backups.")
         
 class cleaner:
-    def 
+    pass
 
 if __name__ == "__main__":
     sql_setup()
