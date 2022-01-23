@@ -51,3 +51,6 @@ def backup(data:dict):
         return "Backup was sucessful."
     except:
         return "Backup was not sucessful."
+
+def editpart(data:dict):
+    return "Uh ohhhh...."

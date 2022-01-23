@@ -25,7 +25,8 @@ post_dict = {
     "/pst/newitem":posts.new_item,
     "/pst/verify_submit":posts.verify,
     "/pst/printBarcode":posts.print_barcode,
-    "/pst/backup":posts.backup
+    "/pst/backup":posts.backup,
+    "/pst/editpart":posts.editpart
 }
 
 def read_file(path):

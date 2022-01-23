@@ -66,7 +66,7 @@ def item(args:str)->str: #NEEDS implementation
     result = _base()
     fields,item = dataio.parts.find(args['partNumber'])
     fields = [x.replace("_", " ").title() for x in fields]
-    result.div("printBarcodesButton").button("button", "Print Barcode", "onclick=printBarcode()").div("printBarcodesButton")
+    result.div("itemButtons").button("button", "Print Barcode", "onclick=printBarcode()").button("button", "Edit Item", "onclick=editPart()").div("itemButtons")
     result.div("partSpecs")
     partSpecs = bob.table( spacing = result.spacing)
     partSpecs.table().body()

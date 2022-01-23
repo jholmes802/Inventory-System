@@ -12,3 +12,11 @@ function printBarcode() {
     var data = JSON.stringify({"part_number":part_number});
     xhttp.send(data);
 }
+function editPart() {
+    let parttable = document.getElementsByClassName("partSpecs")[0];
+    parttable = parttable.getElementsByTagName("tr");
+    i = 0
+    for (let i = 0; i < parttable.length; i ++) {
+        parttable[i].getElementsByTagName("td")[0].innerHTML = "test";
+    }
+}
