@@ -49,3 +49,112 @@
 2022-01-26 20:44:05Dataio.part_num_check: Status of part number entered: 1073-test in db
 2022-01-26 20:44:05Dataio.part_num_check: Found 1 part numbers in db.
 2022-01-26 20:44:05Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:02:29DataIO.new_item: Creating new item with part number: '1073-TEST'
+2022-01-26 21:02:29Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:02:29Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:02:29db.Backup: Starting backup at: 2022_01_26_210229
+2022-01-26 21:02:29db.backup: Removed backup for 2022-01-12_19_38_55
+2022-01-26 21:02:29db.backup: Removed 1 old backups.
+2022-01-26 21:02:29db.backup: Created new backup folder at: ../backup/2022_01_26_210229/
+2022-01-26 21:02:29db.backup: Copied primary db file into backup path.
+2022-01-26 21:02:29db.backup: Created csv for items table, with 0 rows.
+2022-01-26 21:02:29db.backup: Created csv for transactions table, with 0 rows.
+2022-01-26 21:02:29db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-01-26 21:02:29db.backup: Created csv for location_info table, with 0 rows.
+2022-01-26 21:02:29db.backup: Created csv for loc_items table, with 0 rows.
+2022-01-26 21:02:29db.backup: Created csv for uuids table, with 0 rows.
+2022-01-26 21:02:30DataIO.new_item: Added new item to db.items.
+2022-01-26 21:02:30Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:02:30Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:02:30Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:02:30Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:02:58DataIO.new_item: Creating new item with part number: '1073-TEST'
+2022-01-26 21:02:58Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:02:58Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:02:58dataio.item.new: Already found part number in db.
+2022-01-26 21:03:17Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:03:17Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:03:17Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:03:17Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:06:02Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:06:02Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:06:02Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:06:02Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:06:02Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:07:07Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:07:07Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:07:07Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:07:07Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:07:07Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:07:23Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:07:23Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:07:23Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:07:23Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:07:23Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:07:58Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:07:58Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:07:58Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:07:58Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:07:58Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:19:46Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:19:46Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:19:46Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:19:46Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:20:04Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:20:04Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:20:04Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:20:04Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:20:04Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:21:53Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:21:53Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:21:53Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:21:53Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:21:53Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:21:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-26 21:21:53Dataio.get_all_items: Returned 1 results.
+2022-01-26 21:22:15Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:22:15Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:22:15Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:22:15Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:22:15Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:22:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-26 21:22:24Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:22:24Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:22:24Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:22:24Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:22:24Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:22:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-26 21:22:25Dataio.get_all_items: Returned 1 results.
+2022-01-26 21:23:47Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:23:47Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:23:47Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:23:47Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:23:47Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:23:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-26 21:23:47Dataio.get_all_items: Returned 1 results.
+2022-01-26 21:23:47Dataio.find: Found 1where items.part_number ='1073-TEST'.
+2022-01-26 21:27:19Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:27:19Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:27:19Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:27:19Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:27:30Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:27:30Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:27:30Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:27:30Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:27:30Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 21:27:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-26 21:27:30Dataio.get_all_items: Returned 1 results.
+2022-01-26 21:27:30Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 21:27:47Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:27:47Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:27:47Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:27:47Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:27:47Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 21:28:20Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-26 21:28:20Dataio.part_num_check: Status of part number entered: 1073-test in db
+2022-01-26 21:28:20Dataio.part_num_check: Found 1 part numbers in db.
+2022-01-26 21:28:20Dataio.part_num_check: Status of part number entered: 1073-TEST in db
+2022-01-26 21:28:20Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 21:28:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-26 21:28:20Dataio.get_all_items: Returned 1 results.
+2022-01-26 21:28:20Dataio.find: Found 8where items.part_number ='1073-TEST'.

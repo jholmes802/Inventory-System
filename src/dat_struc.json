@@ -53,7 +53,14 @@
                     "nullable":"TRUE",
                     "string_rules":"UPPER",
                     "accepted_characters":"ALL"
-                }    
+                },
+                {   "col_name":"status",
+                    "data_type":"string",
+                    "primary_key":"False",
+                    "nullable":"FLASE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                }      
             ]
         },
         {
@@ -83,7 +90,7 @@
                 {   "col_name":"qty",
                     "data_type":"integer",
                     "primary_key":"FALSE",
-                    "nullable":"FALSE",
+                    "nullable":"TRUE",
                     "string_rules":"NONE",
                     "accepted_characters":"NUMERIC"
                 },

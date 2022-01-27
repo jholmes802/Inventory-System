@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import datetime
+from typing import List, Set, Dict, Tuple, Optional
 import db_manager
 from logger import logger
 from sup_errors import *
@@ -72,6 +73,13 @@ def mass_import_items(path:str)->None:
                 except: print("Uhoh")
             
 class transactions:
+    def status(part_number, status):
+        prt_uuid = items.find(part_number)["part_number"]
+        db = db_manager.db()
+        conn = db.engine.connect()
+        conn.execute(db.table["transactions"].insert({"datetime": _now(), "part_number_uuid":prt_uuid, "typ":status}))
+        conn.close()
+
     def transaction(part_num:str, qty:int, typ:str, dest:str = "cabinet", source:str = "", notes:str = "")-> bool:
         """Creates a new transactional record and updates appropriate item.
 
@@ -149,10 +157,12 @@ class locations:
         sql = "INSERT INTO locations (name, type, desc) VALUES (" + ", ".join([loc_name, typ, desc]).rstrip(",").lstrip(",") + ");"
 
 class items:
-    def delete_part(part_num:str, transactions=False):
-        db_manager.backup()
-        db_manager.run("DELETE FROM items WHERE part_number='"+ part_num + "';")
-        if transactions: db_manager.run("DELETE FROM transactions WHERE part_number='"+ part_num + "';")
+    def status(part_num:str, status):
+        if status not in ["INUSE", "ARCHIVED"]:
+            raise dbEntryError("Cannot utilize listed status.")
+        transactions.status(part_num, status)
+        db = db_manager.db()
+        db.engine.connect().execute(db.table["items"].update().where(db.table["items"].c.part_number == part_num).values({"status":status})).close()
     
     def num_check(prt_num)->bool:
         """Checks if a part number already exsists in the items.part_number field.
@@ -186,6 +196,7 @@ class items:
             raise ItemError("Item Already Exsists in the db.")
         new_id = tools.new_uuid()
         item["part_uuid"] = new_id
+        item["status"] = "INUSE"
         db = db_manager.db()
         db.backup()
         conn = db.engine.connect()
@@ -194,50 +205,36 @@ class items:
         conn.close()
         logger(log_level, "DataIO.new_item: Added new item to db.items.")
 
-    def find(part_num:str):
+    def find(part_num:str)-> Dict[str, str]:
         """Find a part_num in db.items and returns it. 
         Returns all fields in db.items 
         Args:
             part_num (str): Part number to be found.
 
         Returns:
-            tuple(fields, results): fields are the fields from db.items, and results for that record. Only returns the FIRST record.
-
-        --Change Log--
-            - 1/1/22 -- Works and needs no current changes.
-                -Could probably benefit from checking if there is more than one record.
-                -Current does not support if part number has types ie 217-6515 has 217-6515 and 217-6515A etc...
-                    -Also no current plan to do such implementation.
+            dict: column name and data
         """
-        sql = "SELECT * from items where part_number = '" + part_num + "';"
-        sql_results = db_manager.run_retrieve(sql)
-        logger(log_level, "Dataio.find: Found " + str(len(sql_results)) + "where items.part_number ='" + part_num + "'.")
-        fields = [x.split(" ")[0] for x in db_manager.tables['items']]
-        results = [x for x in sql_results[0]] 
-        return (fields, results)
-    def get_all_items(ints=-1)->list[list]:
-        """Takes no parameters, returns a set list of fields. 
-        Returns the following fields...
-        -items.part_number
-        -items.part_name
-        -items.qty
-        -items.verified_date
-        -catalog.source_name
-        -catalog._source_link
-        -catalog.price
-        -catalog.unit
-        -catalog.unit_qty
-        -items.search_parms
+        db = db_manager.db()
+        conn = db.engine.connect()
+        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).all()[0]
+        conn.close()
+        fields = [x.name for x in db.table["items"].columns]
+        logger(log_level, "Dataio.find: Found " + str(len(res)) + "where items.part_number ='" + part_num + "'.")
+        return {fields[i]:res[i] for i in range(0,len(fields))}
 
+    def get_all(status:str="INUSE")->list[list]:
+        """Only takes status, which is either "INUSE" or "ARCHIVED"
         Returns:
-            tuple(results, fields): Returns the results as list[tuples] and fields and a list.
+            tuple(fields, results): Returns the fields and a list and results as list[tuples].
         """
         logger(log_level, "Dataio.get_all_items: Retrieving Primary Stock Table.")
-        sql = "SELECT items.part_number, items.part_name, items.qty, items.verified_date, catalog.source_name, catalog.source_link, catalog.price, catalog.unit, catalog.unit_qty, items.search_parms FROM items LEFT JOIN catalog ON items.part_number = catalog.part_number;"
-        sql_results = db_manager.run_retrieve(sql,ints)
-        fields = ('part_number', 'part_name', 'qty', 'verified_date', 'source_namne', 'source_link', "price", 'unit', 'unit_qty', 'search_parms')
-        logger(log_level, "Dataio.get_all_items: Returned " + str(len(sql_results)) + " results.")
-        return (sql_results, fields)
+        db = db_manager.db()
+        conn = db.engine.connect()
+        res = conn.execute(db.table["items"].select()).all()
+        conn.close()
+        fields = [x.name for x in db.table["items"].columns]
+        logger(log_level, "Dataio.get_all_items: Returned " + str(len(res)) + " results.")
+        return (fields, res)
 
 class catalog:
     def get_all(num=-1):
@@ -270,4 +267,6 @@ if __name__ == "__main__":
         "threshold_qty":1,
         "tags":"test, part, 1073"
     }
+    #items.new(dic)
+    
     pass
