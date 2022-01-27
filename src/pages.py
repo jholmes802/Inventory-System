@@ -21,20 +21,15 @@ class home:
         result.div("stockSearch")
         result.div('stockTable')
         stockTable = bob.table(spacing=result.spacing)
-        tab_data, fields = dataio.parts.get_all_items()
+        fields,tab_data  = dataio.items.get_all()
+        u_index = fields.index("part_uuid")
+        num_index = fields.index("part_number")
         fields = [x.replace("_", " ").title() for x in fields]
         stockTable.table(parms="id = 'stockTableT'").head().row(fields, typ="th").head()
         stockTable.body()
         for data in tab_data:
-            dat = []
-            for i,d in enumerate(data):
-                if i == 0:
-                    dat.append("<a href='/item/?partNumber=" + d + "'>" + d)
-                elif d == None:
-                    dat.append("")
-                else:
-                    dat.append(d)
-            stockTable.row(dat, typ='td')
+            data[u_index] = "<a href='/item/?partUUID=" + data[u_index] + "'>" + data[num_index]
+            stockTable.row(data, typ='td')
         stockTable.body().table(parms="id = 'stockTableT'")
         result.returnable += stockTable.__str__()
         result.div("stockTable")

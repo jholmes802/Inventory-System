@@ -74,53 +74,42 @@ def mass_import_items(path:str)->None:
             
 class transactions:
     def status(part_number, status):
-        prt_uuid = items.find(part_number)["part_number"]
+        prt_uuid = items.find(part_number)["part_uuid"]
+        trs_uuid = tools.new_uuid(True, "TRANS")
+        vals = {
+            "datetime": _now(), 
+            "part_number_uuid":prt_uuid,
+            "typ":status,
+            "transaction_uuid":trs_uuid}
         db = db_manager.db()
         conn = db.engine.connect()
-        conn.execute(db.table["transactions"].insert({"datetime": _now(), "part_number_uuid":prt_uuid, "typ":status}))
+        conn.execute(db.table["transactions"].insert(vals))
         conn.close()
 
-    def transaction(part_num:str, qty:int, typ:str, dest:str = "cabinet", source:str = "", notes:str = "")-> bool:
-        """Creates a new transactional record and updates appropriate item.
+    def checkio(part_number, qty, io, dest=None, src=None, comment=None):
+        if io not in ["OUT", "IN"]: raise dbEntryError("io must be either 'IN' or 'OUT'")
+        prt_uuid = items.find(part_number)["part_uuid"]
+        tr_uuid = tools.new_uuid(record=True, typ="TRANS")
+        vals = {
+            "datetime":_now(),
+            "part_number_uuid": prt_uuid,
+            "typ":io,
+            "qty":qty,
+            "dest":dest,
+            "source":src,
+            "comment":comment,
+            "transaction_uuid":tr_uuid
+        }
+        db = db_manager.db()
+        conn = db.engine.connect()
+        if io == "IN":
+            conn.execute(db.table["items"].update().where(db.table["items"].c.part_number == part_number).values({"qty":db.table["items"].c.qty + qty}))
+        elif io == "OUT":
+            conn.execute(db.table["items"].update().where(db.table["items"].c.part_number == part_number).values({"qty":db.table["items"].c.qty - qty}))
+        conn.execute(db.table["transactions"].insert(vals))
+        conn.close()
 
-        Args:
-            part_num (str): Part number to be updated.
-            qty (int): Qty of change, does not support negatives.
-            typ (str): "OUT": removing item from source and into destination, "IN" pulls items from source and into dest. USED ONLY IN BACKEND.
-            dest (str, optional): Destination of where item is going. Should be from a list of destinations. Defaults to "cabinet".
-
-        Raises:
-            ItemError: Raised if part number does not exsist.
-
-        Returns:
-            bool: Used as a it worked.
-
-        -- Change Log --
-            - 1/1/22 -- Currently works, does not need major changes.
-                - Would benefit from additional checks.
-        """
-        if typ == "OUT":
-            equ = "qty = qty - "
-        elif typ == "IN":
-            equ = "qty = qty + "
-        if parts.part_num_check(part_num):
-            logger(log_level, "Dataio.transaction: Part num exsists in the db.")
-            tstamp = _now()
-            sql_transaction = "INSERT INTO transactions ('part_number', 'type', 'qty', 'destination','source', 'notes', 'datetime') VALUES ('" + part_num + "', '" + typ + "', " + qty + ",'" + dest + "','"+ source + "','"+ notes + "','" + tstamp + "');"
-            if typ=="VERIFY":
-                sql_update = "UPDATE items SET qty = " + qty + ", verified_date = '" + tstamp + "' WHERE part_number = '" + part_num + "';"
-            else:    
-                sql_update = "UPDATE items SET " + equ + qty + " WHERE part_number = '" + part_num + "';"
-            db_manager.run(sql_transaction)
-            logger(log_level, "Dataio.transaction: Adding transactional record.")
-            db_manager.run(sql_update)
-            logger(log_level, "Dataio.transaction: Updated items db record for part_number: '" + part_num + "'.")
-        else:
-            print("ERROR! Could not find part number")
-            raise ItemError("Part Number could not be found.")
-        return True
-
-    def get_transactions(starttime:str or datetime=None, endtime: str or datetime=None,types:str or list=None, cnt:int = -1) -> list[list]:
+    def get_transactions(types:str or list=None, cnt:int = -1) -> list[list]:
         """Setup to return a list of transactions.
 
         Args:
@@ -129,32 +118,34 @@ class transactions:
             types (str or list, optional): can be used to filter by types. Defaults to None.
 
         Returns:
-            list[list]: Records from transactions.
+            tuple[fields, results]: Fields and records from transactions.
         """
-        if starttime == None and endtime == None and types == None:
-            return db_manager.run_retrieve("SELECT * FROM transactions;", cnt)
-        elif types != None:
-            sql = "SELECT * FROM transactions WHERE type in (" 
-            if type(types) == list:
-                for t in types:
-                    sql += "'" + t + "',"
-                sql = sql.rstrip(",") + ")"
-            elif type(types) == str:
-                sql = "SELECT * FROM transactions where type = '" + types + "'"
-            else:
-                return 0
-            sql = sql + "ORDER BY datetime desc;"
-            return db_manager.run_retrieve(sql, cnt)
+        db = db_manager.db()
+        conn = db.engine.connect()
+        if types == None and cnt == -1:
+            result = conn.execute(db.table["transactions"].select()).all()
+        elif cnt == -1 and type(types) == list:
+            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ in types)).all()
+        elif cnt == -1 and type(types) == str:
+            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ == types)).all()
+        elif types == None and cnt != -1:
+            result = conn.execute(db.table["transactions"].select()).limit(cnt).all()
+        elif cnt != -1 and type(types) == list:
+            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ in types)).limit(cnt).all()
+        elif cnt != -1 and type(types) == str:
+            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ == types)).limit(cnt).all()
+        conn.close()
+        fields = [x.name for x in db.table["transactions"].columns]
+        return (fields, result)
 
-class locations:
-    def getAll():
-        sql = "SELECT * FROM locations;"
-        results = db_manager.run_retrieve(sql)
-        fields = [x.split(" ")[0] for x in db_manager.tables['locations']]
-        return (fields, results)
-        
-    def new(self, loc_name, typ, desc):
-        sql = "INSERT INTO locations (name, type, desc) VALUES (" + ", ".join([loc_name, typ, desc]).rstrip(",").lstrip(",") + ");"
+    def item_transactions(part_number:str)-> Tuple[list, list]:
+        prt_uuid = items.find(part_number)["part_uuid"]
+        db = db_manager.db()
+        conn = db.engine.connect()
+        res = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.part_number_uuid == prt_uuid)).all()
+        conn.close()
+        fields = [x.name for x in db.table["transactions"].columns]
+        return(fields, res)
 
 class items:
     def status(part_num:str, status):
@@ -174,7 +165,7 @@ class items:
         """
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).all()            
+        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).limit(100).all()            
         conn.close()
         logger(log_level,"Dataio.part_num_check: Found " + str(len(res)) + " part numbers in db.")
         logger(log_level, "Dataio.part_num_check: Status of part number entered: " + prt_num + " in db")
@@ -194,7 +185,7 @@ class items:
         if items.num_check(item["part_number"]):
             logger(log_level, "dataio.item.new: Already found part number in db.")
             raise ItemError("Item Already Exsists in the db.")
-        new_id = tools.new_uuid()
+        new_id = tools.new_uuid(record=True, typ="PART")
         item["part_uuid"] = new_id
         item["status"] = "INUSE"
         db = db_manager.db()
@@ -216,13 +207,13 @@ class items:
         """
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).all()[0]
+        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).limit(100).all()[0]
         conn.close()
         fields = [x.name for x in db.table["items"].columns]
         logger(log_level, "Dataio.find: Found " + str(len(res)) + "where items.part_number ='" + part_num + "'.")
         return {fields[i]:res[i] for i in range(0,len(fields))}
 
-    def get_all(status:str="INUSE")->list[list]:
+    def get_all(status:str="INUSE", limit=None)->list[list]:
         """Only takes status, which is either "INUSE" or "ARCHIVED"
         Returns:
             tuple(fields, results): Returns the fields and a list and results as list[tuples].
@@ -230,29 +221,38 @@ class items:
         logger(log_level, "Dataio.get_all_items: Retrieving Primary Stock Table.")
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select()).all()
+        if limit != None:
+            res = conn.execute(db.table["items"].select()).limit(limit).all()
+        else:
+            res = conn.execute(db.table["items"].select()).all()
         conn.close()
         fields = [x.name for x in db.table["items"].columns]
         logger(log_level, "Dataio.get_all_items: Returned " + str(len(res)) + " results.")
         return (fields, res)
-
-class catalog:
-    def get_all(num=-1):
-        sql = "SELECT * FROM catalog;"
-        fields = db_manager.tables["catalog"]
-        return(fields, db_manager.run_retrieve(sql, num))
-    def new_catalog(part_number="", part_name="", source_name="", source_link="", manufacturer="", man_link="", price="", unit="", unit_qty="", notes=""):
-        fields = {"part_number":part_number, "part_name":part_name, "source_name":source_name, "source_link":source_link, "manufacturer":manufacturer, "man_link":man_link, "price":price, "unit":unit, "unit_qty":unit_qty, "notes":notes}
-        sql = "INSERT INTO ()"
         
+    def edit(item:dict):
+        """Edits parts in db.items. MUST have part_uuid otherwise it will not work.
+
+        Args:
+            item (dict): all keys must comply with the items.columns.
+        """
+        if "part_uuid" not in item.keys():
+            raise dbEntryError("Must include part uuid, otherwise cannot edit part.")
+        db = db_manager.db()
+        db.backup()
+        conn = db.engine.connect()
+        conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == item["part_uuid"]).values(item))
+
 class tools:
-    def new_uuid():
+    def new_uuid(record=False, typ=""):
         while True:
             ret = str(uuid.uuid4())
             db = db_manager.db()
             conn = db.engine.connect()
             sqlr = conn.execute(db.table["uuids"].select().where(db.table["uuids"].c.uuid == ret)).all() 
             if len(sqlr) < 1:
+                conn.execute(db.table["uuids"].insert({"uuid":ret, "typ":typ}))
+                conn.close()
                 return ret
     def verify_part_num(part_num:str):
         return part_num.upper()
@@ -268,5 +268,4 @@ if __name__ == "__main__":
         "tags":"test, part, 1073"
     }
     #items.new(dic)
-    
     pass

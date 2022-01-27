@@ -158,3 +158,6 @@
 2022-01-26 21:28:20Dataio.get_all_items: Retrieving Primary Stock Table.
 2022-01-26 21:28:20Dataio.get_all_items: Returned 1 results.
 2022-01-26 21:28:20Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 22:17:47Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 22:18:57Dataio.find: Found 8where items.part_number ='1073-TEST'.
+2022-01-26 22:21:39Dataio.find: Found 8where items.part_number ='1073-TEST'.
