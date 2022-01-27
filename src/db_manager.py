@@ -1,186 +1,129 @@
 #!/usr/bin/python3
+from typing import List, Set, Dict, Tuple, Optional
 from logger import logger
 import datetime
 import os
 import pathlib
 import sqlalchemy
 import g_backup
+import json
+from sup_errors import *
+import shutil
 
 if sqlalchemy.__version__ != "1.4.29":
     print(sqlalchemy.__version__, "not correct version. Please use 1.4.29")
 
-global verbose, _sql_conn, _sql_cur
-verbose = False
-if "verbose.dat" in os.listdir(os.getcwd()):
-    verbose = True
-
-def _now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-
-# Tables is a dict{table name : list["fieldname dtype primary key etc"]}
-tables:dict = {
-    "items": [
-        "part_number TEXT PRIMARY KEY",
-        "part_name TEXT NOT NULL",
-        "qty INT DEFAULT 0",
-        "threshold_qty INT DEFAULT NULL",
-        "dependencies TEXT DEFAULT NULL",
-        "verified_date TEXT DEFAULT NULL",
-        "alt_part_nums TEXT DEFAULT NULL",
-        "search_parms TEXT DEFUALT NULL",
-        "notes TEXT"
-        ],
-    "transactions": [
-        "part_number TEXT NULL",
-        "type TEXT NULL",
-        "qty REAL NULL",
-        "datetime TEXT NULL",
-        "destination TEXT",
-        "source TEXT",
-        "notes TEXT"
-        ],
-    "catalog": [
-        "part_number TEXT",
-        "part_name TEXT",
-        "source_name TEXT",
-        "source_link TEXT",
-        "manufacturer TEXT",
-        "manufacturer_link TEXT",
-        "price REAL",
-        "unit TEXT",
-        "unit_qty INT",
-        "notes TEXT"
-        ],
-    "locations":[
-        "name TEXT NOT NULL",
-        "type TEXT NOT NULL",
-        "desc TEXT NOT NULL"
-    ],
-    "cabinetLoc":[
-        "location TEXT",
-        "part_number TEXT NOT NULL",
-        "qty REAL",
-        "notes TEXT"
-    ]
-}
-dbpath = pathlib.Path("../data/inv_data.db")
-columns = dict()
-for table in tables:
-    columns[table] = [x.split(" ")[0] for x in tables[table]]
-
-engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data.db", )
-meta = sqlalchemy.MetaData()
-inspector = sqlalchemy.inspect(engine)
-
-def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-
-def sql_setup():
-    """Runs functions to check current status of the SQL db.
-    Ensures all things are setup and with correct schema.
-    """
-    table_check()
-    #fields_check()
-    return 0
-
-def run_retrieve(sql, num=-1):
-    _sql_conn=engine.connect()
-    result = _sql_conn.execute(sql).all()
-    _sql_conn.close()
-    return result
-
-def run(sql):
-    _sql_conn=engine.connect()
-    result = _sql_conn.execute(sql)
-    _sql_conn.close()
-    return True
-
-def table_check():
-    """Checks sqlite db file to ensure it has the appropriate tables and structure.
-    Supports verbose. Needs to be converted to logger
-    """
-    if verbose: print(now() + ": Table Check: Beginning Check for tables.")
-    #tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
-    tables_sql = inspector.get_table_names()
-    if verbose: print(now() + ": Table Check: found", len(tables_sql), "tables.")
-    if verbose: print(now() + ": Table Check: tables present:", tables_sql)
-    ran = False
-    for table in tables.keys():
-        if table not in tables_sql:
-            if verbose: print(now() + ": Table Check: '" + table + "' table not found...")
-            if verbose: print(now() + ": Table Check: building '" + table + "' table...")
-            run("CREATE TABLE " + table + " (" + "".join([x + "," for x in tables[table]]).rstrip(",") + ");")
-            if verbose: print(now() + ": Table Check: succesfully built '" + table + "' table.")
-            ran = True
-    if ran:
-        #tables_sql = [x[0] for x in run_retrieve("SELECT name FROM sqlite_schema WHERE type ='table' AND name NOT LIKE 'sqlite_%';")]
-        if verbose: print(now() + ": Table Check: found", len(tables_sql), "tables.")
-        if verbose: print(now() + ": Table Check: tables present:", tables_sql)
-    if verbose: print(now() + ": Table Check: All Tables found. Ready.")
-    return 0
-
-def fields_check():
-    """Checks fields for the tables in the tables dictionary. 
-    Returns nothing, and support verbose logging. 
-    """
-    if verbose: print(now() + ": Fields Check: Beginng...")
-    for table in meta.sorted_tables:
-        if verbose: print(now() + ": Fields Check: Checking table:", table)
-        #fields:str = [x[0] for x in run_retrieve("SELECT sql FROM sqlite_schema WHERE name = '"+table+"';")]
-        if verbose: print(now() + ": Fields Check: Found", len(fields), "results from sqlite_shcema.")
-        #fields = fields[0]
-        #fields_start = fields.find("(")
-        #fields_end = fields.find(")")
-        #extracted = fields[fields_start + 1:fields_end].split(',')
-        #if verbose: print(now() + ": Fields Check: Found", len(extracted),"fields.")
-        if verbose: print(now() + ": Fields Check: Found", len(tables[table]), "expected fields.")
-        good = True
-        for field in table.c:
-            if field not in [x.split()[0] for x in tables[table]]:
-                good = False
-                if verbose: print(now() + ": Fields Check: Could not find '" + field + "' in sqlite_schema. Altering table...")
-                #run("ALTER TABLE " + table + "ADD COLUMN " + field)
-                if verbose: print(now() + ": Fields Check: Sucessfully altered table.")
-        if verbose: print(now() + ": Fields Check: Completed checking table '" + table + "'.")
-        if verbose and good: print(now() + ": Fields Check: Succesful validation for the above table.")
-        if verbose and not good: print(now() + ": Fields Check: Found atleast one missing field.")
-
-def backup():
-    """Creates a new backup folder in "../backup/" for the current date and time.
-    Creates a csv file from each db table into there.
-
-    """
-    stamp = _now().replace(" ","_").replace(":","_")
-    backup_path = '../backup/'+ stamp + "/"
-    if stamp not in os.listdir('../backup/'):
-        os.mkdir(backup_path)
-    for t in tables.keys():
-        file_path = pathlib.Path(backup_path + t + ".csv")
-        fhand = open(file_path, "w")
-        fhand.write(", ".join([x.split()[0] for x in tables[t]]).lstrip(',').rstrip(",")+"\n")
-        sql = run_retrieve("SELECT * FROM " + t + ";")
-        for r in sql:
-            fhand.write(", ".join([str(x) for x in r]).rstrip(",").lstrip(",") + "\n")
-        fhand.close()
-    return True
-
-def clean_backups():
-    """Cleans up the backups to be the latest 30 backups made.
-    """
-    dirlist = os.listdir("../backup/")
-    if len(dirlist) < 30:
-        pass
+def _now(path_fiendly=False): 
+    if path_fiendly:
+        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")).replace("-", "_").replace(" ", "_").replace(":", "")
     else:
-        _kill_list = dirlist[:-30]
-        i = 0
-        for k in _kill_list:
-            for item in os.listdir("../backup/" + k):
-                os.remove("../backup/" + k + "/" + item)
-            os.removedirs("../backup/" + k)
-            logger(2, "db_manger.clean_backups: Removed backup for " + k)
-            i += 1
-        logger(2, "db_manager.clean_backups: Removed " + str(i) + " old backups.")
+        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+logl = 2
+
+class db:
+    def __init__(self, dbSetupPath="dat_struc.json") -> None:
+        self.dbSetupPath:str = dbSetupPath
+        self.dbSetupConfig:dict = json.loads(open(self.dbSetupPath).read())
+        self.type:str = self.dbSetupConfig["db_type"]
+        self.db_path:str = self.dbSetupConfig["db_path"]
+        self.setupTables:List[Dict[str, str]] = self.dbSetupConfig["tables"]
+        self._engine()
+        self._tables()
+
+    def _engine(self) -> None:
+        self.engine: sqlalchemy.engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data2.db")
+        self.meta: sqlalchemy.MetaData = sqlalchemy.MetaData(self.engine)
+        self.inspector: sqlalchemy.inspection = sqlalchemy.inspect(self.engine)
+    
+    def _tables(self) -> sqlalchemy.Table:
+        self.table:Dict[str, sqlalchemy.Table] = dict()
+        for itable, table in enumerate(self.setupTables):
+            for i, col in enumerate(table["table_cols"]):
+                dtype = col["data_type"].upper()
+                if dtype == "STRING": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.String
+                elif dtype == "INTEGER": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Integer
+                elif dtype == "REAL": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Float
+                else: raise ConfigError(dtype + " : is not a recognized data type. Please refer to SQLAlchemy supported types.")
+            self.table[table["table_name"]] = sqlalchemy.Table(
+                table["table_name"],
+                self.meta,
+                *[sqlalchemy.Column(col["col_name"], col["data_type"], primary_key=bool(col["primary_key"]), nullable=bool(col["nullable"])) for col in table["table_cols"]]
+            )
+        self.meta.create_all()
+    def run(self, sql_str)-> bool:
+        try:
+            cur = self.engine.connect()
+            cur.execute(sqlalchemy.sql.text(sql_str))
+            cur.close()
+            return True
+        except:
+            return False
+    def run_retrieve(self, sql_str):
+        try:
+            cur = self.engine.connect()
+            res = cur.execute(sqlalchemy.sql.text(sql_str)).all()
+            cur.close()
+            return res
+        except:
+            raise dbError("There was an error running the sql code.")
+
+    def backup(self, gsheet:bool=False, backup_path:str or pathlib = "../backup/", clean_up:bool=True):
+        datetimestamp = _now(True)
+        logger(logl, "db.Backup: Starting backup at: " + datetimestamp)
         
-class cleaner:
-    pass
+        if backup_path.endswith("/"):
+            bpath = backup_path + datetimestamp + "/"
+        else:
+            bpath = backup_path + "/" + datetimestamp + "/"
+        
+        if not os.path.exists(backup_path):
+            logger(logl, "db.backup: Could not find the listed base backup directory: " + backup_path)
+            raise BackUpError("Listed backup path does not exsit.")
+       
+        if clean_up:
+            dirlist = os.listdir(backup_path)
+            if len(dirlist) < 30:
+                pass
+            else:
+                _kill_list = dirlist[:-30]
+                i = 0
+                for k in _kill_list:
+                    for item in os.listdir(backup_path + k):
+                        os.remove(backup_path + k + "/" + item)
+                    os.removedirs(backup_path + k)
+                    logger(logl, "db.backup: Removed backup for " + k)
+                    i += 1
+                logger(logl, "db.backup: Removed " + str(i) + " old backups.")
+        
+        if not os.path.exists(bpath):
+            os.mkdir(bpath)
+            logger(logl, "db.backup: Created new backup folder at: " + bpath)
+        
+        try:
+            shutil.copy(self.db_path, bpath)
+            logger(logl, "db.backup: Copied primary db file into backup path.")
+        except:
+            logger(logl, "db.backup: Could NOT copy primary db file to backup path.")
+            raise BackUpError("Could not copy primary db file to specified path")
+        
+        for table in self.table.keys():
+            sql = "SELECT * FROM " + self.table[table].name
+            sql_res = self.run_retrieve(sql)
+            fields = [x.name for x in self.table[table].columns]
+            tablepath = bpath + table + ".csv"
+            tablehand = open(tablepath,"x")
+            tablehand.write(",".join(fields).lstrip(",").rstrip(",") + "\n")
+            rowi = 0
+            for res in sql_res:
+                tablehand.write(",".join(res).lstrip(",").rstrip(",") + "\n")
+                rowi += 1
+            logger(logl, "db.backup: Created csv for " + table + " table, with " + str(rowi) + " rows.")
+        
+        if gsheet:
+            raise NotReadyError("db.backup: gsheet backing up is not implemented yet.")
 
 if __name__ == "__main__":
-    sql_setup()
+    d = db()
+    print(d.inspector.get_table_names())
+    d.backup(clean_up=True)

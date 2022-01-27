@@ -1,0 +1,295 @@
+{
+    "db_type":"sqlite",
+    "db_path":"../data/inv_data.db",
+    "tables":[
+        {
+            "table_name":"items",
+            "table_cols":[
+                {   "col_name":"part_number",
+                    "data_type":"string",
+                    "primary_key":"True",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"part_uuid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"part_name",
+                    "data_type":"string",
+                    "primary_key":"False",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"qty",
+                    "data_type":"integer",
+                    "primary_key":"False",
+                    "nullable":"True",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"NUMERIC"
+                },
+                {   "col_name":"threshold_qty",
+                    "data_type":"integer",
+                    "primary_key":"False",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"NUMERIC"
+                },
+                {   "col_name":"alt_part_nums",
+                    "data_type":"string",
+                    "primary_key":"False",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"tags",
+                    "data_type":"string",
+                    "primary_key":"False",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                }    
+            ]
+        },
+        {
+            "table_name":"transactions",
+            "table_cols":[
+                {  "col_name":"datetime",
+                    "data_type":"string",
+                    "primary_key":"True",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"part_number_uuid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"typ",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"qty",
+                    "data_type":"integer",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"NUMERIC"
+                },
+                {   "col_name":"dest",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"source",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"comment",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"transaction_uuid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                }
+            ]
+        },
+        {
+            "table_name":"vendor_catalog",
+            "table_cols":[
+                {  "col_name":"vendor_part_number",
+                    "data_type":"string",
+                    "primary_key":"True",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"vendor_prt_uuid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"vendor_part_name",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"unit_qty",
+                    "data_type":"integer",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"NUMERIC"
+                },
+                {   "col_name":"unit",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"EA",
+                    "string_rules":"LOWER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"vendor_name",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"vendor_part_link",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"man_part_number",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"man_link",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"man_name",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"man_part_name",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"price",
+                    "data_type":"real",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"NUMERIC"
+                }
+            ]  
+        },
+        {
+            "table_name":"location_info",
+            "table_cols":[
+                {   "col_name":"loc_name",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"loc_uudi",
+                    "data_type":"string",
+                    "primary_key":"TRUE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"loc_location",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"loc_owner",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"loc_desc",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                }
+            ]
+        },
+        {
+            "table_name":"loc_items",
+            "table_cols":[
+                {   "col_name":"part_number_uuid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"loc_uuid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"loc_prt_qty",
+                    "data_type":"integer",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"NUMERIC"
+                }
+            ]
+        },
+        {
+            "table_name":"uuids",
+            "table_cols":[
+                {   "col_name":"uuid",
+                    "data_type":"string",
+                    "primary_key":"TRUE",
+                    "nullable":"FALSE",
+                    "string_rules":"UPPER",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"typ",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                }
+            ]
+        }
+    ]
+}

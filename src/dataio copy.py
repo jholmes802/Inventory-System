@@ -3,7 +3,6 @@ import datetime
 import db_manager
 from logger import logger
 from sup_errors import *
-import uuid
 
 global config_file, items_file, fields, verbose
 verbose = False
@@ -12,6 +11,18 @@ items_file = '../data/items.csv'
 log_level = 2
 
 def _now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
+db_manager.sql_setup()
+
+class ItemError(Exception):
+    def __init__(self, message: str):
+        self.message = message
+        super().__init__(self.message)
+
+class FileError(Exception):
+    def __init__(self, message: str):
+        self.message = message
+        super().__init__(self.message)
 
 def mass_import_items(path:str)->None:
     """Not ready for production. It is used to initalize the primary db with data from a csv.
@@ -148,52 +159,73 @@ class locations:
     def new(self, loc_name, typ, desc):
         sql = "INSERT INTO locations (name, type, desc) VALUES (" + ", ".join([loc_name, typ, desc]).rstrip(",").lstrip(",") + ");"
 
-class items:
+class parts:
     def delete_part(part_num:str, transactions=False):
         db_manager.backup()
         db_manager.run("DELETE FROM items WHERE part_number='"+ part_num + "';")
         if transactions: db_manager.run("DELETE FROM transactions WHERE part_number='"+ part_num + "';")
     
-    def num_check(prt_num)->bool:
+    def part_num_check(prt_num)->bool:
         """Checks if a part number already exsists in the items.part_number field.
 
         Args:
-            prt_num (str): Part number to be checked. IS CASE SENSITIVE!
+            prt_num (str): Part number to be checked.
         Return:
             bool: True means it already is in the db.
         """
-        db = db_manager.db()
-        conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).all()            
-        conn.close()
-        logger(log_level,"Dataio.part_num_check: Found " + str(len(res)) + " part numbers in db.")
+        in_db = [x[0] for x in db_manager.run_retrieve("SELECT part_number FROM items;")]
+        logger(log_level,"Dataio.part_num_check: Found " + str(len(in_db)) + " part numbers in db.")
         logger(log_level, "Dataio.part_num_check: Status of part number entered: " + prt_num + " in db")
-        return len(res) == 1
+        return prt_num in in_db
 
-    def new(item:dict, verify_part_num:bool = True)-> None:
+    def new_item(part_num, part_name, qty=""  ,threshold = 0, depend = None, verified=None, alt_part_num = None ,notes:str="", check:bool = True)-> None:
         """Creates a new item in the items database table.
-        Supports logging
+        Supports logging.
+
         Args:
-            item: dict: should be the dictionary matching the table structure.
-            This dictionary this should match the user defined columns from the data_struc.json
+            part_num (str): part number of the new item.
+            part_name (str): part name of the new item.
+            qty (str, optional): The quantity of the part if known. Defaults to "".
+            threshold (int, optional): Sets a low limit threshold of the part. Defaults to 0.
+            depend (str, optional): Any part_number dependencies, if other parts are required to make it run. Defaults to None.
+            verified (datetime, optional): If applicable, its the date the qty was verified. Defaults to None.
+            alt_part_num (str, optional): Alternate part numbers for this item, ie VexPro and WCP part numbers. Defaults to None.
+            check (bool, optional): bool to check if the part already exsits. Defaults to True.
+
         Raises:
             ItemError: raised if the part already exsits the in the db.
-        """
-        if verify_part_num: item["part_number"] = tools.verify_part_num(item["part_number"])
-        logger(log_level, "DataIO.new_item: Creating new item with part number: '" + item["part_number"] + "'")
-        if items.num_check(item["part_number"]):
-            logger(log_level, "dataio.item.new: Already found part number in db.")
-            raise ItemError("Item Already Exsists in the db.")
-        new_id = tools.new_uuid()
-        item["part_uuid"] = new_id
-        db = db_manager.db()
-        db.backup()
-        conn = db.engine.connect()
-        conn.execute(db.table["items"].insert(values=item))
-        conn.execute(db.table["uuids"].insert(values={"uuid":new_id, "typ":"item"}))
-        conn.close()
-        logger(log_level, "DataIO.new_item: Added new item to db.items.")
 
+        --Change Log--
+        1/1/22 - Works at base level. Supports logging.
+            - Should add support for checking bool.
+            - Should add handeling for if the part number already exsists.
+        """
+        db_manager.backup()
+        if qty == "" or qty==None: qty=0
+        logger(log_level, "DataIO.new_item: Creating new item with part number: '" + part_num + "'")
+        if parts.part_num_check(part_num):
+            raise ItemError("Item Already Exsists in the db.")
+        else:
+            values = [part_num, part_name, qty, threshold, depend, verified, alt_part_num, "search_parms", notes]
+            for i, val in enumerate(values):
+                if val == None:
+                    values[i] = "NULL"
+                else:
+                    values[i] = "'" + str(val) + "'"
+                if val == 'search_parms':
+                    values[i] = "'"
+                    if part_num != None:
+                        values[i] += str(part_num) + " "
+                    if part_name != None:
+                        values[i] += str(part_name) + " "
+                    if alt_part_num != None:
+                        values[i] += str(alt_part_num) + " "
+                    values[i] += "'"
+            
+            values = ",".join(values).lstrip(",").rstrip(',')
+            sql = "INSERT INTO items (" + ",".join(db_manager.columns['items']).lstrip(",").rstrip(',') + ") VALUES (" + values + ")"
+            db_manager.run(sql)
+            logger(log_level, "DataIO.new_item: Added new item to db.items. ")
     def find(part_num:str):
         """Find a part_num in db.items and returns it. 
         Returns all fields in db.items 
@@ -248,26 +280,7 @@ class catalog:
         fields = {"part_number":part_number, "part_name":part_name, "source_name":source_name, "source_link":source_link, "manufacturer":manufacturer, "man_link":man_link, "price":price, "unit":unit, "unit_qty":unit_qty, "notes":notes}
         sql = "INSERT INTO ()"
         
-class tools:
-    def new_uuid():
-        while True:
-            ret = str(uuid.uuid4())
-            db = db_manager.db()
-            conn = db.engine.connect()
-            sqlr = conn.execute(db.table["uuids"].select().where(db.table["uuids"].c.uuid == ret)).all() 
-            if len(sqlr) < 1:
-                return ret
-    def verify_part_num(part_num:str):
-        return part_num.upper()
-
-
+        
 if __name__ == "__main__":
-    #mass_import_items("../2022 1073 Stock Current (only) - Current Stock.csv")
-    dic = {
-        "part_number": "1073-test",
-        "part_name": "testpart",
-        "qty":0,
-        "threshold_qty":1,
-        "tags":"test, part, 1073"
-    }
+    mass_import_items("../2022 1073 Stock Current (only) - Current Stock.csv")
     pass

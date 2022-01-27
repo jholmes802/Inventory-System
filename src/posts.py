@@ -3,6 +3,8 @@ import dataio
 import barcodes
 import db_manager
 import g_backup
+from sup_errors import *
+
 
 def checkout_post(data: dict)-> bytes:
     try:

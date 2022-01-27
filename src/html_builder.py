@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+from sup_errors import *
+
 
 class DataError(Exception):
     def __init__(self, message: str):

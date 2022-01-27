@@ -1,0 +1,31 @@
+2022-01-25 08:06:16db.Backup: Starting backup at: 2022_01_25_080616
+2022-01-25 08:06:16db.backup: Created new backup folder at: ../backup/2022_01_25_080616/
+2022-01-25 08:06:16db.backup: Copied primary db file into backup path.
+2022-01-25 08:06:31db.Backup: Starting backup at: 2022_01_25_080631
+2022-01-25 08:06:31db.backup: Created new backup folder at: ../backup/2022_01_25_080631/
+2022-01-25 08:06:31db.backup: Copied primary db file into backup path.
+2022-01-25 08:07:01db.Backup: Starting backup at: 2022_01_25_080701
+2022-01-25 08:07:01db.backup: Created new backup folder at: ../backup/2022_01_25_080701/
+2022-01-25 08:07:01db.backup: Copied primary db file into backup path.
+2022-01-25 08:07:20db.Backup: Starting backup at: 2022_01_25_080720
+2022-01-25 08:07:20db.backup: Created new backup folder at: ../backup/2022_01_25_080720/
+2022-01-25 08:07:20db.backup: Copied primary db file into backup path.
+2022-01-25 08:08:51db.Backup: Starting backup at: 2022_01_25_080851
+2022-01-25 08:08:51db.backup: Created new backup folder at: ../backup/2022_01_25_080851/
+2022-01-25 08:08:51db.backup: Copied primary db file into backup path.
+2022-01-25 08:19:36db.Backup: Starting backup at: 2022_01_25_081936
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-11_20_22_27
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-11_20_28_01
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-11_20_28_55
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-11_20_41_34
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-12_17_23_59
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-12_18_31_39
+2022-01-25 08:19:36db.backup: Removed backup for 2022-01-12_18_37_30
+2022-01-25 08:19:36db.backup: Removed 7 old backups.
+2022-01-25 08:19:36db.backup: Created new backup folder at: ../backup/2022_01_25_081936/
+2022-01-25 08:19:36db.backup: Copied primary db file into backup path.
+2022-01-25 08:19:36db.backup: Created csv for items table, with 0 rows.
+2022-01-25 08:19:36db.backup: Created csv for transactions table, with 0 rows.
+2022-01-25 08:19:36db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-01-25 08:19:36db.backup: Created csv for location_info table, with 0 rows.
+2022-01-25 08:19:36db.backup: Created csv for loc_items table, with 0 rows.
