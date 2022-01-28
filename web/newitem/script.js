@@ -1,10 +1,13 @@
 function newItem() {
-    let part_number = document.getElementById("NewPartNum").value;
-    let part_name = document.getElementById("NewPartName").value;
-    let part_qty = document.getElementById("NewPartQty").value;
-    let part_source = document.getElementById("NewPartSource").value;
-    let part_link = document.getElementById("NewPartLink").value;
-    let data = JSON.stringify({"part_number":part_number, "part_name":part_name, "part_qty":part_qty, "part_source":part_source, "part_link": part_link});
+    let inputs = document.getElementById("newItemForm").getElementsByTagName("input");
+    let sending = {}
+    for (var i = 0; i < inputs.length; i++) {
+        let id = inputs[i].id;
+        let val = inputs[i].value;
+        sending[id] = val
+    }
+    console.log(sending)
+    let data = JSON.stringify(sending);
     var xhttp = new XMLHttpRequest();
     xhttp.open("POST", "/pst/newitem");
     xhttp.setRequestHeader("Content-type", "application/json");

@@ -4,18 +4,19 @@ import db_manager
 import os
 import html_builder as bob
 
-class home:
-    def __base() -> bob.body:
-        result = bob.header()
-        result.head().file_link("stylesheet", 'styles.css').file_link("ico", 'favicon.ico', "type='image/ico' sizes='32x32'").scripts("script.js").title().head()
-        result = bob.body(str(result))
-        result.body()
-        result.div("pageHeader").text("1073 Inventory System", "h1")
-        result.div("MainNav").nav([("Home", "/"), ("New Item", "/newitem/"), ("Check-Out", "/checkout/"),("Check In","/checkin/"), ("Verify Qty", "/verify/"), ("Admin","/admin/")]).div("MainNav").div("pageHeader")
-        return result
 
+def header()-> bob.body:
+    result = bob.header()
+    result.head().file_link("stylesheet", 'styles.css').file_link("ico", 'favicon.ico', "type='image/ico' sizes='32x32'").scripts("script.js").title().head()
+    result = bob.body(str(result))
+    result.body()
+    result.div("pageHeader").text("1073 Inventory System", "h1")
+    result.div("MainNav").nav([("Home", "/"), ("New Item", "/newitem/"), ("Check-Out", "/checkout/"),("Check In","/checkin/"), ("Verify Qty", "/verify/"), ("Admin","/admin/")]).div("MainNav").div("pageHeader")
+    return result
+
+class home:
     def home() -> bytes:
-        result = home.__base()
+        result = header()
         result.div("stockSearch")
         result.form("stockSearchBar", "onKeyUp='table_search()'").input("text", parms='id="tableSearchBar" placeholder="Search for Parts.."').form("stockSearchBar", "onKeyUp='table_search()'")
         result.div("stockSearch")
@@ -28,7 +29,8 @@ class home:
         stockTable.table(parms="id = 'stockTableT'").head().row(fields, typ="th").head()
         stockTable.body()
         for data in tab_data:
-            data[u_index] = "<a href='/item/?partUUID=" + data[u_index] + "'>" + data[num_index]
+            data = list(data)
+            data[num_index] = "<a href='/item/?partUUID=" + data[u_index] + "'>" + data[num_index]
             stockTable.row(data, typ='td')
         stockTable.body().table(parms="id = 'stockTableT'")
         result.returnable += stockTable.__str__()
@@ -37,21 +39,21 @@ class home:
         return str(result).encode()
 
     def new_item()-> bytes:
-        result = home.__base()
+        result = header()
         result.div("newItem")
         result.text("Create New Item", "h1", "checkStat")
         result.form('newItemForm', parms="id='newItemForm'")
-        result.label('NewPartNum', "Part Number").br().input('text',parms="id='NewPartNum'").br()
-        result.label("NewPartName", "Part Name").br().input('text',parms="id='NewPartName'").br()
-        result.label("NewPartQty", "Quantity").br().input("number",parms= "id='NewPartQty'").br()
-        result.label("NewPartSource", "Source").br().input("tex", parms="id='NewPartSource'").br()
-        result.label("NewPartLink", "Source Link").br().input("text", parms="id='NewPartLink'").br()
+        for x in [x.name for x in db_manager.db().table["items"].columns]:
+            if x == "part_uuid": continue
+            elif x == "status": continue
+            else:
+                result.label(x, x.replace("_", " ").title()).br().input('text',parms="id='"+ x +"'").br()
         result.button("button","Save Part", parms="onclick=newItem()").br()
         result.form('newItemForm', parms="id='newItemForm'").div("newItem").br()
         return str(result).encode()
 
     def checkout()-> bytes:
-        result = home.__base()
+        result = header()
         result.div('checkOut').text("Check OUT", "h1", "checkStat").form("checkOutForm", parms="id='checkOutForm'")
         result.label('CheckOutPartNumber', "Part Number").br().input("text", parms="id='CheckOutPartNumber'").br()
         result.label("CheckOutQty", "Quantity Removed").br().input("text", parms="id='CheckOutQty'").br()
@@ -61,7 +63,7 @@ class home:
         return str(result).encode()
 
     def checkin()-> bytes:
-        result = home.__base()
+        result = header()
         result.div('checkIn').text("Check IN", "h1", "checkStat").form("checkInForm", parms="id='checkInID'")
         result.label('CheckInPartNumber', "Part Number").br().input("text", parms="id='CheckInPartNumber'").br()
         result.label("CheckInQty", "Quantity").br().input("text", parms="id='CheckInQty'").br()
@@ -71,7 +73,7 @@ class home:
         return str(result).encode()
     
     def verify()-> str:
-        result = home.__base()
+        result = header()
         result.div('verify').text("Verify Qty", "h1", "checkStat")
         result.form("verifyForm", parms=" id='verifyFormID'")
         result.br().label("VerificationPartNumber", "Part Number").br().input("text", parms="id='VerificationPartNumber'").br()
@@ -84,8 +86,8 @@ class home:
 class item:
     def item_home(args)->bytes:
         args = {args.split("=")[0]:args.split("=")[1]}
-        result = home.__base()
-        fields,item = dataio.parts.find(args['partNumber'])
+        result = header()
+        fields,item = dataio.items.find(args['partNumber'])
         fields = [x.replace("_", " ").title() for x in fields]
         result.div("itemButtons").button("button", "Print Barcode", "onclick=printBarcode()").button("button", "Edit Item", "onclick=editPart()").div("itemButtons")
         result.div("partSpecs")
@@ -102,7 +104,7 @@ class item:
 
 class admin:    
     def _admin_base()-> bob.body:
-        result = home.__base()
+        result = header()
         result.div("adminNav")
         result.nav([("Import Parts", "/admin/import/")])
         result.div("itemNav")

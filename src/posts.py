@@ -31,7 +31,7 @@ def new_item(data:dict):
         return str("Must have a part number!")
     try:
         print("Creating new item")
-        dataio.parts.new_item(data['part_number'], data['part_name'], data["part_qty"])
+        dataio.items.new(data)
         return str("Created new part: " + data["part_number"])
     except:
         return str("Could not create new part with part number" + data["part_number"])
@@ -48,7 +48,7 @@ def print_barcode(data:dict):
 
 def backup(data:dict):
     try:
-        db_manager.backup()
+        db_manager.db.backup()
         g_backup.g_backup()
         return "Backup was sucessful."
     except:

@@ -129,11 +129,11 @@ class transactions:
         elif cnt == -1 and type(types) == str:
             result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ == types)).all()
         elif types == None and cnt != -1:
-            result = conn.execute(db.table["transactions"].select()).limit(cnt).all()
+            result = conn.execute(db.table["transactions"].select()).all()
         elif cnt != -1 and type(types) == list:
-            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ in types)).limit(cnt).all()
+            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ in types)).all()
         elif cnt != -1 and type(types) == str:
-            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ == types)).limit(cnt).all()
+            result = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.typ == types)).all()
         conn.close()
         fields = [x.name for x in db.table["transactions"].columns]
         return (fields, result)
@@ -165,7 +165,7 @@ class items:
         """
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).limit(100).all()            
+        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).all()            
         conn.close()
         logger(log_level,"Dataio.part_num_check: Found " + str(len(res)) + " part numbers in db.")
         logger(log_level, "Dataio.part_num_check: Status of part number entered: " + prt_num + " in db")
@@ -207,7 +207,7 @@ class items:
         """
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).limit(100).all()[0]
+        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).all()[0]
         conn.close()
         fields = [x.name for x in db.table["items"].columns]
         logger(log_level, "Dataio.find: Found " + str(len(res)) + "where items.part_number ='" + part_num + "'.")
@@ -222,7 +222,7 @@ class items:
         db = db_manager.db()
         conn = db.engine.connect()
         if limit != None:
-            res = conn.execute(db.table["items"].select()).limit(limit).all()
+            res = conn.execute(db.table["items"].select()).all()
         else:
             res = conn.execute(db.table["items"].select()).all()
         conn.close()

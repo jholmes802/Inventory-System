@@ -116,12 +116,14 @@ class db:
             tablehand.write(",".join(fields).lstrip(",").rstrip(",") + "\n")
             rowi = 0
             for res in sql_res:
-                tablehand.write(",".join(res).lstrip(",").rstrip(",") + "\n")
+                tablehand.write(",".join([str(r) for r in res]).lstrip(",").rstrip(",") + "\n")
                 rowi += 1
             logger(logl, "db.backup: Created csv for " + table + " table, with " + str(rowi) + " rows.")
         
         if gsheet:
-            raise NotReadyError("db.backup: gsheet backing up is not implemented yet.")
+            g_backup.g_backup()
+            logger(logl, "db.backup: Updated Google Sheet.")
+
 
 if __name__ == "__main__":
     d = db()
