@@ -196,7 +196,7 @@ class items:
         conn.close()
         logger(log_level, "DataIO.new_item: Added new item to db.items.")
 
-    def find(part_num:str)-> Dict[str, str]:
+    def find(part_num:str=None, part_uuid:str=None)-> Dict[str, str]:
         """Find a part_num in db.items and returns it. 
         Returns all fields in db.items 
         Args:
@@ -205,12 +205,17 @@ class items:
         Returns:
             dict: column name and data
         """
+        
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).all()[0]
+        if part_num != None:
+            res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == part_num)).all()[0]
+            logger(log_level, "Dataio.find: Found " + str(len(res)) + "where items.part_number ='" + part_num + "'.")
+        elif part_uuid != None:
+            res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_uuid == part_uuid)).all()[0]
+            logger(log_level, "Dataio.find: Found " + str(len(res)) + "where items.part_number ='" + part_uuid + "'.")
         conn.close()
         fields = [x.name for x in db.table["items"].columns]
-        logger(log_level, "Dataio.find: Found " + str(len(res)) + "where items.part_number ='" + part_num + "'.")
         return {fields[i]:res[i] for i in range(0,len(fields))}
 
     def get_all(status:str="INUSE", limit=None)->list[list]:
@@ -241,7 +246,27 @@ class items:
         db = db_manager.db()
         db.backup()
         conn = db.engine.connect()
-        conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == item["part_uuid"]).values(item))
+        conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == item["part_uuid"]).values(item)).close()
+
+class users:
+    def new(usr:dict):
+        """Needs username, firstname, lastname, uuid, level.
+
+        Args:
+            usr (dict): [description]
+        """
+        usr["user_uuid"] = tools.new_uuid(True, "USER")
+        db = db_manager.db()
+        conn = db.engine.connect()
+        conn.execute(db.table['users'].insert(usr)).close()
+    def get_all()-> Tuple[list, list]:
+        db = db_manager.db()
+        conn = db.engine.connect()
+        res = conn.execute(db.table['users'].select()).all()
+        conn.close()
+        fields = [x.name for x in db.table["users"].columns]
+        return (fields, res)
+        
 
 class tools:
     def new_uuid(record=False, typ=""):

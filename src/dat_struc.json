@@ -297,6 +297,48 @@
                     "accepted_characters":"ALL"
                 }
             ]
+        },
+        {
+            "table_name":"users",
+            "table_cols":[
+                {   "col_name":"username",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"firstname",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"lastname",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"user_uuid",
+                    "data_type":"string",
+                    "primary_key":"TRUE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                },
+                {   "col_name":"level",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"FALSE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
+                }
+
+                
+            ]
         }
     ]
 }

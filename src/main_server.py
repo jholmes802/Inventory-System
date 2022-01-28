@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from logger import logger
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import socket
 import os
@@ -21,15 +22,7 @@ if os.name == "nt":
 else:
     serverPort = 8080
 
-post_dict = {
-    "/pst/checkout_submit": posts.checkout_post,
-    "/pst/checkin_submit":posts.checkin,
-    "/pst/newitem":posts.new_item,
-    "/pst/verify_submit":posts.verify,
-    "/pst/printBarcode":posts.print_barcode,
-    "/pst/backup":posts.backup,
-    "/pst/editpart":posts.editpart
-}
+
 
 
 def read_file(path):
@@ -39,7 +32,14 @@ def read_file(path):
     fhand.close()
     return fread
 
-get_dict = {
+class MyServer(BaseHTTPRequestHandler):
+    def _send_headers(self,typ):
+        self.send_response(200)
+        self.send_header("Content-type", typ)
+        self.end_headers()
+    def do_GET(self):
+        importlib.reload(pages)
+        get_dict = {
             "/": ("text/html", pages.home.home()),
             "/script.js":("application/javascript", read_file('../web/script.js')),
             "/styles.css":("text/css", read_file('../web/styles.css')),
@@ -63,16 +63,11 @@ get_dict = {
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
             "/admin/import/":("text/html",pages.admin.admin_import()),
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
-            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css"))
+            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css")),
+            "/admin/users/":("text/html",pages.admin.users()),
+            "/admin/users/script.js":("application/javascript", read_file("../web/admin/users/script.js")),
+            "/admin/users/styles.css":("text/css",read_file("../web/admin/users/styles.css"))
             }
-
-class MyServer(BaseHTTPRequestHandler):
-    def _send_headers(self,typ):
-        self.send_response(200)
-        self.send_header("Content-type", typ)
-        self.end_headers()
-    def do_GET(self):
-        importlib.reload(pages)
         if "?" in self.path:
             main_path = self.path.split("?")[0]
             if main_path in get_dict.keys():
@@ -89,12 +84,21 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_error(404)
 
     def do_POST(self):
+        post_dict = {
+            "/pst/checkout_submit": posts.checkout_post,
+            "/pst/checkin_submit":posts.checkin,
+            "/pst/newitem":posts.new_item,
+            "/pst/verify_submit":posts.verify,
+            "/pst/printBarcode":posts.print_barcode,
+            "/pst/backup":posts.backup,
+            "/pst/editpart":posts.editpart
+        }
         if self.headers["Content-type"] != "application/json":
             self.send_response(400)
         else:
             str_data = self.rfile.read(int(self.headers["Content-length"])).decode("utf-8")
             data = json.loads(str_data)
-            print(data)
+            logger(2, "main_server:do_POSTS: Recieved the following data:" + str(data))
             self.send_response(200)
             resp = post_dict[self.path](data)
             print("Sending Response")

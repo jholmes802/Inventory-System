@@ -39,7 +39,7 @@ def new_item(data:dict):
 def print_barcode(data:dict):
     try:
         if not barcodes.check_barcodes([data["part_number"]]):
-            f, dbr = dataio.parts.find(data["part_number"])
+            f, dbr = dataio.items.find(data["part_number"])
             barcodes.barcode_gen(data["part_number"], dbr[1])
         barcodes.print_barcode(data["part_number"])
         return str("Printed!")
@@ -55,4 +55,5 @@ def backup(data:dict):
         return "Backup was not sucessful."
 
 def editpart(data:dict):
-    return "Uh ohhhh...."
+    dataio.items.edit(data)
+    return "Worked!"

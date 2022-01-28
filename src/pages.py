@@ -87,14 +87,16 @@ class item:
     def item_home(args)->bytes:
         args = {args.split("=")[0]:args.split("=")[1]}
         result = header()
-        fields,item = dataio.items.find(args['partNumber'])
-        fields = [x.replace("_", " ").title() for x in fields]
-        result.div("itemButtons").button("button", "Print Barcode", "onclick=printBarcode()").button("button", "Edit Item", "onclick=editPart()").div("itemButtons")
+        item = dataio.items.find(part_uuid = args['partUUID'])
+        result.div("itemButtons").\
+            button("button", "Print Barcode", "onclick=printBarcode()").\
+            button("button", "Edit Item", "onclick=editPartForm() id='editButton'").\
+            div("itemButtons")
         result.div("partSpecs")
         partSpecs = bob.table( spacing = result.spacing)
         partSpecs.table().body()
-        for i, field in enumerate(fields):
-            partSpecs.row([fields[i], item[i]], "td", True)
+        for field in item.keys():
+            partSpecs.row([field.replace("_", " ").title(), item[field]], "td", True)
         partSpecs.body()
         partSpecs.table()
         result.returnable += str(partSpecs)
@@ -106,7 +108,7 @@ class admin:
     def _admin_base()-> bob.body:
         result = header()
         result.div("adminNav")
-        result.nav([("Import Parts", "/admin/import/")])
+        result.nav([("Import Parts", "/admin/import/"), ("Users", "/admin/users/")])
         result.div("itemNav")
         return result
 
@@ -125,6 +127,22 @@ class admin:
         result.input("submit", parms="value='Submit'")
         result.form("importForm")
         result.div("importParts")
+        result.body()
+        return str(result).encode()
+    def users()->bytes:
+        result = admin._admin_base()
+        result.div("users")
+        utable = bob.table(spacing=result.spacing)
+        utable.table()
+        fields, data = dataio.users.get_all()
+        utable.head().row(fields, "th")
+        utable.head().body()
+        for d in data:
+            utable.row(d, "td")
+        utable.body().table()
+        result.returnable += utable.returnable
+        result.spacing = utable.spacing
+        result.div("users")
         result.body()
         return str(result).encode()
 
