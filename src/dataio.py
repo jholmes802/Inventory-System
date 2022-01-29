@@ -86,6 +86,24 @@ class transactions:
         conn.execute(db.table["transactions"].insert(vals))
         conn.close()
 
+    def verify(part_num, qty, comment=None):
+        prt_uuid = items.find(part_number)["part_uuid"]
+        tr_uuid = tools.new_uuid(record=True, typ="TRANS")
+        vals = {
+            "datetime":_now(),
+            "part_number_uuid": prt_uuid,
+            "typ":"VERIFY",
+            "qty":qty,
+            "dest":"",
+            "source":"",
+            "comment":comment,
+            "transaction_uuid":tr_uuid
+        }
+        db = db_manager.db()
+        conn = db.engine.connect()
+        conn.execute(db.table['transactions'].insert(vals)).close()
+        
+
     def checkio(part_number, qty, io, dest=None, src=None, comment=None):
         if io not in ["OUT", "IN"]: raise dbEntryError("io must be either 'IN' or 'OUT'")
         prt_uuid = items.find(part_number)["part_uuid"]

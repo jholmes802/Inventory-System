@@ -101,6 +101,9 @@ class item:
         partSpecs.table()
         result.returnable += str(partSpecs)
         result.div("partSpecs")
+        result.div("checkIO")\
+            .label("qty", "Quantity").br()\
+            .input("number", parms="id='qty'")
         result.body()
         return str(result).encode()
 
@@ -109,7 +112,7 @@ class admin:
         result = header()
         result.div("adminNav")
         result.nav([("Import Parts", "/admin/import/"), ("Users", "/admin/users/")])
-        result.div("itemNav")
+        result.div("adminNav")
         return result
 
     def admin()-> bytes:
@@ -131,6 +134,9 @@ class admin:
         return str(result).encode()
     def users()->bytes:
         result = admin._admin_base()
+        result.div("userOpts")\
+            .button("button", "New User", "onclick=newUser()")\
+                .div("userOpts")
         result.div("users")
         utable = bob.table(spacing=result.spacing)
         utable.table()
@@ -143,6 +149,15 @@ class admin:
         result.returnable += utable.returnable
         result.spacing = utable.spacing
         result.div("users")
+        result.div("overlay").div("overlay")
+        result.div("newUser")
+        result.label("firstname", "First Name:").br().input("text", parms="id='firstname'").br()\
+            .label("lastname", "Last Name:").br().input("text", parms="id='lastname'").br()\
+            .label("username", "Username:").br().input("text", parms="id='username'").br()\
+            .label("level", "Access Level:").br().input("text", parms="id='level'").br()\
+            .label("rfid", "RFID Tag:").br().input("text", parms="id='rfid'").br()\
+            .button("button", "Create New User", "id='newUserBtn' onclick=newUser()")
+        result.div("newUser")
         result.body()
         return str(result).encode()
 

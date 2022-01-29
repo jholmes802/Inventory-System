@@ -335,6 +335,13 @@
                     "nullable":"FALSE",
                     "string_rules":"NONE",
                     "accepted_characters":"ALL"
+                },
+                {   "col_name":"rfid",
+                    "data_type":"string",
+                    "primary_key":"FALSE",
+                    "nullable":"TRUE",
+                    "string_rules":"NONE",
+                    "accepted_characters":"ALL"
                 }
 
                 

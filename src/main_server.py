@@ -91,7 +91,8 @@ class MyServer(BaseHTTPRequestHandler):
             "/pst/verify_submit":posts.verify,
             "/pst/printBarcode":posts.print_barcode,
             "/pst/backup":posts.backup,
-            "/pst/editpart":posts.editpart
+            "/pst/editpart":posts.editpart,
+            "/pst/newuser":posts.newuser
         }
         if self.headers["Content-type"] != "application/json":
             self.send_response(400)

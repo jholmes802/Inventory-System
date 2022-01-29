@@ -8,20 +8,20 @@ from sup_errors import *
 
 def checkout_post(data: dict)-> bytes:
     try:
-        dataio.transactions.transaction(data['part_number'], data["qty"], 'OUT', notes=data['notes'])
+        dataio.transactions.checkio(data['part_number'], data["qty"], 'OUT')
         return "Transaction Logged"
     except:
         return "Uh-Oh Something went wrong!"
 
 def verify(data: dict)-> bytes:
     try:
-        dataio.transactions.transaction(data['part_number'], data["qty"], 'VERIFY')
+        dataio.transactions.verify(data['part_number'], data['qty'])
         return "Verified part!"
     except:
         return "Uh-Oh Something went wrong!"
 def checkin(data:dict)->str:
     try:
-        dataio.transactions.transaction(data['part_number'], data["qty"], 'IN', notes=data['notes'])
+        dataio.transactions.checkio(data['part_number'], data["qty"], 'IN')
         return "Transaction Logged"
     except:
         return "Uh-Oh Something went wrong!"
@@ -38,10 +38,10 @@ def new_item(data:dict):
 
 def print_barcode(data:dict):
     try:
-        if not barcodes.check_barcodes([data["part_number"]]):
-            f, dbr = dataio.items.find(data["part_number"])
-            barcodes.barcode_gen(data["part_number"], dbr[1])
-        barcodes.print_barcode(data["part_number"])
+        if not barcodes.check_barcodes([data["part_uuid"]]):
+            f, dbr = dataio.items.find(data["part_uuid"])
+            barcodes.barcode_gen(data["part_uuid"], dbr[1])
+        barcodes.print_barcode(data["part_uuid"])
         return str("Printed!")
     except:
         return str("Uh oh something went wrong")
@@ -56,4 +56,7 @@ def backup(data:dict):
 
 def editpart(data:dict):
     dataio.items.edit(data)
-    return "Worked!"
+    return "Edited part!"
+
+def newuser(data:dict):
+    return "Oops not implemented!"

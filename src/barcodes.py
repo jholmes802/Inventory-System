@@ -28,7 +28,7 @@ def check_barcodes(part_nums:list=None)-> bool:
     logger(2, "barcodes.check_barcodes: Checking...")
     log_count_i = 0
     if part_nums == None:
-        items, fields = dataio.parts.get_all_items()
+        fields, items = dataio.items.get_all()
         for item in items:
             logger(logl, "barcodes.check_barcodes: Checking" + item[0])
             if item[0] not in bdir:
@@ -37,7 +37,7 @@ def check_barcodes(part_nums:list=None)-> bool:
     else:
         logger(logl, "barcodes.check_barcodes: No list specified...processing from db.items table.")
         for item in part_nums:
-            f, dbr = dataio.parts.find(item)
+            f, dbr = dataio.items.find(item)
             if item not in bdir:
                 log_count_i += 1
                 barcode_gen(item, dbr[1])
@@ -46,7 +46,7 @@ def check_barcodes(part_nums:list=None)-> bool:
 def barcode_gen(part_num:str, part_name:str=""):
     logger(logl, "barcodes.barcode_gen: Creating barcode for " + part_num)
     if part_name == "":
-        part_name = dataio.parts.find(part_num)[1][1]
+        part_name = dataio.items.find(part_num)["part_name"]
     bpath = "../data/images/barcodes/" + fname(part_num) + ".png"
     ideal_length = 38.1
     mod_height = ideal_length * .2
@@ -72,6 +72,7 @@ def print_barcode(path1):
     if "/" in path1:
         path = path1
     else:
+        path1 = dataio.items.find(part_uuid=path1)["part_number"]
         path = "../data/images/barcodes/" + fname(path1) + ".png"
 
     if os.path.exists(path):

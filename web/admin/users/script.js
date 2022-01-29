@@ -1,13 +1,30 @@
-function checkout() {
-    let part_name = document.getElementById("part_number").value;
-    let qty = document.getElementById("qty").value;
-    var xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        document.getElementById("checkoutHistory").innerHTML = this.responseText
+function newUser() {
+    if (document.getElementsByClassName("newUser")[0].style.display == "") {
+        document.getElementsByClassName("newUser")[0].style.display = "block";
+        document.getElementsByClassName("overlay")[0].style.display = "block";
+    } else {
+        let inputs = document.getElementsByClassName("newUser")[0].getElementsByTagName("input");
+        let sending = {}
+        for (var i = 0; i < inputs.length; i++) {
+            let id = inputs[i].id;
+            let val = inputs[i].value;
+            sending[id] = val
+        }
+        console.log(sending)
+        let data = JSON.stringify(sending);
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("POST", "/pst/newuser");
+        xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.onload = function() {
+            alert(this.responseText);
+            document.getElementById("newUser").reset();
+            document.getElementsByClassName("newUser")[0].style.display = "none";
+            document.getElementsByClassName("overlay")[0].style.display = "none";
+        }
+        xhttp.send(data);
     }
-    xhttp.open("POST", "checkout?prt_num=" + part_name + "&qty=" + qty);
-    xhttp.send();
-}
+} 
+
 
 function table_search() {
     var input, filter, table, tr, td, i, txtValue;
@@ -29,19 +46,3 @@ function table_search() {
         }
     }
 }   
-
-function printDiv(divID) {
-    //Get the HTML of div
-    var divElements = document.getElementsByClassName(divID)[0].outerHTML;
-    //Get the HTML of whole page
-    var oldPage = document.body.innerHTML;
-    //Reset the page's HTML with div's HTML only
-    document.body.innerHTML = 
-      "<html><head><title></title></head><body>" + 
-      divElements + "</body>";
-    //Print Page
-    window.print();
-    //Restore orignal HTML
-    //document.body.innerHTML = oldPage;
-
-}

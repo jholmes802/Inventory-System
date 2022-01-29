@@ -1,7 +1,7 @@
 function printBarcode() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    let part_number = urlParams.get("partNumber");
+    let part_number = urlParams.get("partUUID");
     var xhttp = new XMLHttpRequest();
     xhttp.open("POST", "/pst/printBarcode");
     xhttp.setRequestHeader("Content-Type", "application/json");
@@ -9,7 +9,7 @@ function printBarcode() {
         //document.getElementById("checkoutHistory").innerHTML = this.responseText
         alert(this.responseText);
     };
-    var data = JSON.stringify({"part_number":part_number});
+    var data = JSON.stringify({"part_uuid":part_number});
     xhttp.send(data);
 }
 function editPartForm() {
@@ -44,3 +44,29 @@ function savePartForm() {
     }
     xh.send(sending)
 }
+function newUser() {
+    if (document.getElementsByClassName("newUser")[0].style.display == "") {
+        document.getElementsByClassName("newUser")[0].style.display = "block";
+        document.getElementsByClassName("overlay")[0].style.display = "block";
+    } else {
+        let inputs = document.getElementsByClassName("newUser")[0].getElementsByTagName("input");
+        let sending = {}
+        for (var i = 0; i < inputs.length; i++) {
+            let id = inputs[i].id;
+            let val = inputs[i].value;
+            sending[id] = val
+        }
+        console.log(sending)
+        let data = JSON.stringify(sending);
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("POST", "/pst/newuser");
+        xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.onload = function() {
+            alert(this.responseText);
+            document.getElementById("newUser").reset();
+            document.getElementsByClassName("newUser")[0].style.display = "none";
+            document.getElementsByClassName("overlay")[0].style.display = "none";
+        }
+        xhttp.send(data);
+    }
+} 
