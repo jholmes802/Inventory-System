@@ -1,325 +1,334 @@
-Responsible Party,part_number,part_name,qty,Something,unit,QTY Per Unit,QTY per ASSY,Price Per Unit,Price Per Piece,Total PO Price,Website Link,Ordered?,PO#,Arrived?,QTY Multiplier,Comments,Multiplier,2,2,1,2,2,2,2,2,2
-,15-697867,SRX Magnetic Encoder,5,,ea,1,,$39.99 ,$39.99 ,,http://www.ctr-electronics.com/srx-magnetic-encoder.html,,,,,,,,,,,,,,,
-,AM-0546,SB50 APP Connector with Contacts,3,,ea,1,,$3.50 ,$3.50 ,,https://www.andymark.com/products/sb-50a-app-connector-with-contacts?via=Z2lkOi8vYW5keW1hcmsvV29ya2FyZWE6Ok5hdmlnYXRpb246OlNlYXJjaFJlc3VsdHMvJTdCJTIyYnV0dG9uJTIyJTNBJTIyc2VhcmNoJTIyJTJDJTIycSUyMiUzQSUyMlNCNTAlMjIlMkMlMjJ1dGY4JTIyJTNBJTIyJUUyJTlDJTkzJTIyJTdE,,,,,,,,,,,,,,,
-,AM-3071,,3,,,,,,,,,,,,,,,,,,,,,,,
-,94669A311,Aluminum Unthreaded Spacer  4.500 mm OD  18 mm Long  for M3 Screw Size,15,,pc,1,,$1.60 ,$1.60 ,,https://www.mcmaster.com/94669a311,,,,,,,,,,,,,,,
-,92510A609,,0,,,,,,,,,,,,,,,,,,,,,,,
-,94669A128,Aluminum Unthreaded Spacer  8 mm OD  30 mm Long  for M3 Screw Size,0,,,,,$1.88 ,$1.88 ,,https://www.mcmaster.com/94669a128,,,,,,,,,,,,,,,
-,94669A319,,0,,,,,,,,,,,,,,,,,,,,,,,
-,217-6515,Falcon 500,11,,,,,$139.99 ,$139.99 ,,https://www.vexrobotics.com/217-6515.html,,,,,,,,,,,,,,,
-,217-3875,"0.500"" Hex ID x 1.125"" OD x 0.313"" WD (Flanged Bearing v2)",47,,,,,$4.99 ,$4.99 ,,https://www.vexrobotics.com/bearings.html,,,,,,,,,,,,,,,
-,217-3351,Bag Motor,4,,,,,$29.99 ,$29.99 ,,https://www.vexrobotics.com/217-3351.html,,,,,,,,,,,,,,,
-,217-4006,"Bearing  Flanged  13.75mm (1/2"" ThunderHex ID) x 1.125"" OD x 0.313"" WD",42,,,,,$4.99 ,,,,,,,,,,,,,,,,,,
-,217-5046,Versa Planetary Integrated Encoder,12,,,,,$49.99 ,$49.99 ,,https://www.vexrobotics.com/versaplanetary.html,,,,,,,,,,,,,,,
-,217-6919,12T Steel Spur Gear (20 DP  Falcon Motor),13,,,,,$9.99 ,$9.99 ,,https://www.vexrobotics.com/20dp-motorpinions.html,,,,,,,,,,,,,,,
-,217-4858,,0,,,,,,,,,,,,,,,,,,,,,,,
-,REV-21-1651,Neo 550 Brushless motor,3,,,,,$25.00 ,$25.00 ,,http://www.revrobotics.com/rev-21-1651/,,,,,,,,,,,,,,,
-,WCP-0176,"38t Steel Spur Gear (20 DP  1/2"" Hex Bore)",43,,,,,$14.99 ,,,,,,,,,,,,,,,,,,
-,WCP-0185,"56t Pocketed Steel Spur Gear (20 DP  1/2"" Hex Bore) (WCP-0185)",8,,,,,$21.99 ,,,,,,,,,,,,,,,,,,
-,AVT-PP-35,Polypropylene Air Volume Tank,0,,,,,$16.34 ,$16.34 ,,https://clippard.com/part/AVT-PP-35,,,,,,,,,,,,,,,
-,ES17-12,,0,,,,,,,,,,,,,,,,,,,,,,,
-,6075K15,"Flat Belting 1"" Wide",0,,ft,,,$4.08 ,$4.08 ,,https://www.mcmaster.com/6075k15,,,,,,,,,,,,,,,
-,5234K94,,0,,ft,10,,,,,,,,,,,,,,,,,,,,
-,91864A028,"Black-Oxide Alloy Steel Socket Head Screw
-4-40 Thread Size  9/16"" Long",0,,,,,$6.93 ,$0.69 ,,https://www.mcmaster.com/91864a028,,,,,,,,,,,,,,,
-,92510A434,"Aluminum Unthreaded Spacer
-3/8"" OD  2-1/4"" Long  for Number 10 Screw Size",0,,,,,$5.86 ,,,,,,,,,,,,,,,,,,
-,90044A263,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  7"" Long",12,,,,,$11.35 ,,,,,,,,,,,,,,,,,,
-,91251A078,"Black-Oxide Alloy Steel Socket Head Screw
-4-40 Thread Size  1-1/4"" Long",0,,,,,$5.70 ,$0.11 ,,https://www.mcmaster.com/91251a078,,,,,,,,,,,,,,,
-fix packs and units,97447A130,"Aluminum Blind Rivets with Aluminum Mandrel Domed Head  
-1/8"" Diameter  for 0.313""- 0.375"" Material Thicknes. Pack of 250",6,,,,,$12.54 ,$0.05 ,,https://www.mcmaster.com/97447a130,,,,,,,,,,,,,,,
-,1691T73,"Impact-Resistant Compact Tie Rod Air Cylinder
-Round Face  Double Acting  1/2"" Bore  1/2"" Stroke Length",0,,,,,$52.85 ,,,,,,,,,,,,,,,,,,
-,91251A907,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  6"" Long",6,,,,,$8.66 ,,,,,,,,,,,,,,,,,,
-,92510A650,"Aluminum Unthreaded Spacer
-3/8"" OD  1-1/4"" Long  for Number 10 Screw Size",0,,,,,$1.54 ,,,,,,,,,,,,,,,,,,
-,93330A473,"Female Threaded Round Standoff  Aluminum  1/4"" OD  2"" Long  6-32 Thread Size",0,,,,,$1.36 ,$1.36 ,,https://www.mcmaster.com/93330a473,,,,,,,,,,,,,,,
-,98075A143,"Rivet Studs 1/4""-20 Thread  for 0.027""-0.165"" Material Thickness",14,,,,,$10.49 ,$1.05 ,,https://www.mcmaster.com/98075a143,,,,,,,,,,,,,,,
-,90480A195,10-32 Nut,0,,,,,$1.89 ,$0.02 ,,https://www.mcmaster.com/90480a195,,,,,,,,,,,,,,,
-,91259A103,,0,,,,,,,,,,,,,,,,,,,,,,,
-,474487,,0,,,,,,,,,,,,,,,,,,,,,,,
-,474489,,0,,,,,,,,,,,,,,,,,,,,,,,
-,6C200R25AP,,0,,,,,,,,,,,,,,,,,,,,,,,
-,474491,,0,,,,,,,,,,,,,,,,,,,,,,,
-,490 633,,0,,,,,,,,,,,,,,,,,,,,,,,
-,B84CM,,0,,,,,,,,,,,,,,,,,,,,,,,
-,91251A199,"Black-Oxide Alloy Steel Socket Head Screw
-8-32 Thread Size  1"" Long",91,,,,,$8.59 ,,,,,,,,,,,,,,,,,,
-,91251A155,"Black-Oxide Alloy Steel Socket Head Screw
-6-32 Thread Size  1-1/4"" Long  Partially Threaded",0,,,,,$10.44 ,,,,,,,,,,,,,,,,,,
-,T395993,,0,,,,,,,,,,,,,,,,,,,,,,,
-,T390895,,0,,,,,,,,,,,,,,,,,,,,,,,
-,T395353,,0,,,,,,,,,,,,,,,,,,,,,,,
-,T397941,,0,,,,,,,,,,,,,,,,,,,,,,,
-,T395443,,0,,,,,,,,,,,,,,,,,,,,,,,
-,91251A287,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  1-5/8"" Long",12,,,,,$11.19 ,,,,,,,,,,,,,,,,,,
-,91251A337,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  5/16"" Long",87,,,,,$14.66 ,,,,,,,,,,,,,,,,,,
-,217-3496,,0,,,,,,,,,,,,,,,,,,,,,,,
-,90631A007,Low-Strength Steel Nylon-Insert Locknut Zinc-Plated  6-32 Thread Size,0,,,,,$2.72 ,$0.03 ,,https://www.mcmaster.com/90631a007,,,,,,,,,,,,,,,
-,217-6706,,0,,,,,,,,,,,,,,,,,,,,,,,
-,91259A544,"Alloy Steel Shoulder Screw  1/4"" Shoulder Diameter  1-1/4"" Shoulder Length  10-24 Thread",23,,,,,$1.40 ,$1.40 ,,https://www.mcmaster.com/91259a544,,,,,,,,,,,,,,,
-,33785T45,Square shape threaded connecting link,0,,,,,$6.32 ,$6.32 ,,https://www.mcmaster.com/33785t45,,,,,,,,,,,,,,,
-,3961T2,"Long-Lasting Polyurethane Cord 1/4"" Diameter",0,,,,,$0.77 ,$0.77 ,,https://www.mcmaster.com/3961t2-3961T21,,,,,,,,,,,,,,,
-,97431A330,,0,,,,,,,,,,,,,,,,,,,,,,,
-,90630A110,"High-Strength Steel Nylon-Insert Locknut  Grade 8  1/4""-20 Thread Size",0,,,,,$3.22 ,$0.13 ,,https://www.mcmaster.com/90630a110,,,,,,,,,,,,,,,
-,91251A342,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  1/2"" Long",88,,,,,$10.07 ,,,,,,,,,,,,,,,,,,
-,91290A306,Black-Oxide Alloy Steel Socket Head Screw  M4 x 0.7 mm Thread  15 mm Long,0,,,,,$10.74 ,$2.15 ,,https://www.mcmaster.com/91290a306,,,,,,,,,,,,,,,
-,90298A632,"18-8 Stainless Steel Shoulder Screw
-3/8"" Shoulder Diameter  2"" Shoulder Length  5/16""-18 Thread",0,,,,,$5.88 ,$5.88 ,,https://www.mcmaster.com/90298a632,,,,,,,,,,,,,,,
-,91251A148,"Black-Oxide Alloy Steel Socket Head Screw 6-32 Thread Size  1/2"" Long",0,,,,,$8.96 ,$0.09 ,,https://www.mcmaster.com/91251a148,,,,,,,,,,,,,,,
-,91251A150,"Black-Oxide Alloy Steel Socket Head Screw  6-32 Thread Size  5/8"" Long",0,,,,,$9.20 ,$0.09 ,,https://www.mcmaster.com/91251a150,,,,,,,,,,,,,,,
-,91251A360,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  3"" Long  Partially Threaded",21,,,,,$12.25 ,$0.49 ,,https://www.mcmaster.com/91251a360,,,,,,,,,,,,,,,
-,94105A828,"Alloy Steel Flat-Tip Set Screws Black Oxide  10-32 Thread  1/2"" Long",45,,,,,$10.20 ,$0.20 ,,https://www.mcmaster.com/94105a828,,,,,,,,,,,,,,,
-,91253A006,"Black-Oxide Alloy Steel Hex Drive Flat Head Screw
-10-32 Thread Size  5/8"" Long",94,,,,,$11.77 ,$0.12 ,,https://www.mcmaster.com/91253a006,,,,,,,,,,,,,,,
-,91253A003,"Alloy Steel Flathead socket cap screw. 1/2"" long",95,,,,,$11.57 ,$0.12 ,,https://www.mcmaster.com/91253A003,,,,,,,,,,,,,,,
-,91251A338,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  1/4"" Long",34,,,,,$8.40 ,$0.34 ,,https://www.mcmaster.com/91251a338,,,,,,,,,,,,,,,
-,91251A353,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  2"" Long  Partially Threaded",19,,,,,$6.95 ,$0.28 ,,https://www.mcmaster.com/91251a353,,,,,,,,,,,,,,,
-,6498K636,"Round Body Air Cylinder  Double-Acting  Universal Mount  3/4"" Bore Size  4"" Stroke",0,,,,,$38.56 ,$38.56 ,,https://www.mcmaster.com/6498k636,,,,,,,,,,,,,,,
-,2297T15,"0.78"" Diameter Abrasion-Resistant Conveyor Roller
-for 8"" Between Frame Width",0,,,,,$8.44 ,$8.44 ,,https://www.mcmaster.com/2297t15,,,,,,,,,,,,,,,
-fix packs and units,91253A269,Alloy steel socket cap screw 10-32. 5 pack,3,,,,,$9.02 ,,,,,,,,,,,,,,,,,,
-,92511A012,"Aluminum Unthreaded Spacer
-3/8"" OD  1-3/16"" Long  for Number 10 Screw Size",0,,,,,$1.29 ,$1.54 ,,https://www.mcmaster.com/92511a012,,,,,,,,,,,,,,,
-,91125A037,"Female Threaded Round Standoff  18-8 Stainless Steel  1/4"" OD  3"" Long  10-32 Thread Size",0,,,,,$5.02 ,$5.02 ,,https://www.mcmaster.com/91125a037,,,,,,,,,,,,,,,
-,92511A032,"Aluminum Unthreaded Spacer
-3/8"" OD  2"" Long  for Number 10 Screw Size",0,,,,,$2.65 ,,,,,,,,,,,,,,,,,,
-,92510A649,"Aluminum Unthreaded Spacer
-3/8"" OD  1"" Long  for Number 10 Screw Size",0,,,,,$1.27 ,,,,,,,,,,,,,,,,,,
-,92510A647,"brake plate standoff 3/4"" 3/8"" OD close fit 10-32",0,,,,,$1.27 ,,,,,,,,,,,,,,,,,,
-,91259A581,"Alloy Steel Shoulder Screw  5/16"" Shoulder Diameter  3/4"" Shoulder Length  1/4""-20 Thread",0,,,,,$1.46 ,$1.46 ,,https://www.mcmaster.com/91259a581,,,,,,,,,,,,,,,
-,90631A005,Low-Strength Steel Nylon-Insert Locknut Zinc-Plated  4-40 Thread Size,0,,,,,$2.79 ,$0.03 ,,https://www.mcmaster.com/90631a005,,,,,,,,,,,,,,,
-,6130K33,"Ultra-Precision Ball Joint Rod End  1/4""-28 Internal Thread",0,,,,,$19.24 ,$19.24 ,,https://www.mcmaster.com/6130k33,,,,,,,,,,,,,,,
-,91286A123,,0,,,,,,,,,,,,,,,,,,,,,,,
-,9271K182,"Torsion Spring 180 Degree Left-Hand Wound  0.404"" OD",0,,,,,$6.19 ,$1.03 ,,https://www.mcmaster.com/9271k182,,,,,,,,,,,,,,,
-,9271K181,"Torsion Spring 180 Degree Right-Hand Wound  0.404"" OD",0,,,,,$6.19 ,$1.03 ,,https://www.mcmaster.com/9271k181,,,,,,,,,,,,,,,
-,92012A546,"Alloy Steel Precision Shoulder Screw  1/4"" Shoulder Diameter  1-1/2"" Shoulder Length  10-32 Thread",4,,,,,$9.80 ,$9.80 ,,https://www.mcmaster.com/92012a546,,,,,,,,,,,,,,,
-,91259A628,"Alloy Steel Shoulder Screw  3/8"" Shoulder Diameter  1-1/2"" Shoulder Length  5/16""-18 Thread",0,,,,,$1.85 ,$1.85 ,,https://www.mcmaster.com/91259a628,,,,,,,,,,,,,,,
-,91255A192,"Button Head Hex Drive Screw Black-Oxide Alloy Steel  8-32 Thread  3/8"" Long",121,,,,,$14.05 ,$0.14 ,,https://www.mcmaster.com/91255A192,,,,,,,,,,,,,,,
-,91255A269,"Button Head Hex Drive Screw
-Black-Oxide Alloy Steel  10-32 Thread  3/4"" Long",97,,,,,$12.20 ,$0.24 ,,https://www.mcmaster.com/91255a269,,,,,,,,,,,,,,,
-,91251A344,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  5/8"" Long",91,,,,,$10.79 ,,,,,,,,,,,,,,,,,,
-,91251A349,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  1-1/4"" Long",126,,,,,$12.37 ,$0.25 ,,https://www.mcmaster.com/91251a349,,,,,,,,,,,,,,,
-,91251A356,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  9/16"" Long",38,,,,,$11.19 ,,,,,,,,,,,,,,,,,,
-,90044A523,10-32 2 1/4 in screw,0,,,,,$6.48 ,$0.65 ,,https://www.mcmaster.com/90044a523,,,,,,,,,,,,,,,
-incorrect description,91286A113,"High-Strength Grade 8 Steel Hex Head Screw  Zinc-Aluminum Coated  1/4""-20 Thread Size  1-1/4"" Long",0,,,,,$16.64 ,$0.33 ,,https://www.mcmaster.com/91286a113,,,,,,,,,,,,,,,
-,91251A108,"Black-Oxide Alloy Steel Socket Head Screw
-4-40 Thread Size  3/8"" Long",0,,,,,$8.77 ,$0.09 ,,https://www.mcmaster.com/91251a108,,,,,,,,,,,,,,,
-,95505A601,"Medium-Strength Steel Hex Nut  Grade 5  1/4""-20 Thread Size",0,,,,,$3.90 ,$0.04 ,,https://www.mcmaster.com/95505a601,,,,,,,,,,,,,,,
-,91251A345,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  3/4"" Long",96,,,,,$11.24 ,,,,,,,,,,,,,,,,,,
-,91251A354,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  2-1/4"" Long  Partially Threaded",38,,,,,$10.81 ,,,,,,,,,,,,,,,,,,
-,91251A359,"Black-Oxide Alloy Steel Socket Head Screw
-10-32 Thread Size  2-3/4"" Long  Partially Threaded",14,,,,,$10.57 ,,,,,,,,,,,,,,,,,,
-fix packs and units,97526A130,"Domed Head Blind Rivets 1/8"" Diameter  for 0.188""-0.25"" Material Thickness. 250 pack",19,,,,,$13.12 ,$0.05 ,,https://www.mcmaster.com/97526a130-97526A010,,,,,,,,,,,,,,,
-,E18-D80NK,,0,,,,,,,,,,,,,,,,,,,,,,,
-,BRG-0001,Swyft Bearing,0,,,,,$4.99 ,$4.99 ,,,,,,,,,,,,,,,,,
-,am-3480,"4in Compliant Wheels 60A Durometer (Black) 1/2"" Hex",0,,,,,$9.00 ,,,,,,,,,,,,,,,,,,
-,2020-1073-006-100,FLYWHEEL TUBE,0,,,,,$0.00 ,,,,,,,,,,,,,,,,,,
-,2020-1073-006-106,WHEEL RETAINING RING,0,,,,,$0.00 ,,,,,,,,,,,,,,,,,,
-,93330A463,,0,,,,,,,,,,,,,,,,,,,,,,,
-,91125A044,,0,,,,,,,,,,,,,,,,,,,,,,,
-,R3-ZZ PRX,R3-ZZ PRX bearing  miniture ball,2,,,,,,,,,,,,,,,,,,,,,,,
-,R4A-ZZ-PRX,,0,,,,,,,,,,,,,,,,,,,,,,,
-,474489,R4-ZZ bearing,5,,,,,,,,,,,,,,,,,,,,,,,
-,474485,R2-ZZ bearing,8,,,,,,,,,,,,,,,,,,,,,,,
-,93330A542,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-001,,0,,,,,,,,,,,,,,,,,,,,,,,
-,COM-13716,Sparkfun FemtoBuck LED Driver,0,,,,,$7.95 ,,,,,,,,,,,,,,,,,,
-,SEN-15325,Open MV Camera,0,,,,,$65.00 ,,,,,,,,,,,,,,,,,,
-,2020-1073-005-073,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-094,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-033,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-069,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-057,,0,,,,,,,,,,,,,,,,,,,,,,,
-,19-676768,CTR Cancoder,10,,,,,,,,,,,,,,,,,,,,,,,
-,217-4973,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-072,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-055,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-002,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-018,,0,,,,,,,,,,,,,,,,,,,,,,,
-,2020-1073-005-015- Plate,Plate Weld Mount,0,,,,,$0.00 ,,,,,,,,,,,,,,,,,,
-,217-2702,"20T Aluminum Spur Gear (20 DP  1/2"" Hex Bore)",2,,,,,$9.99 ,$9.99 ,,https://www.vexrobotics.com/1-2-hex-bore.html,,,,,,,,,,,,,,,
-,217-2708,"40T Aluminum Spur Gear (20 DP  1/2"" Hex Bore)",10,,,,,$12.99 ,$12.99 ,,https://www.vexrobotics.com/1-2-hex-bore.html,,,,,,,,,,,,,,,
-,217-2710,"44T Aluminum Spur Gear (20DP  1/2"" Hex Bore)",4,,,,,$14.99 ,,,,,,,,,,,,,,,,,,
-,217-5475,"58T Aluminum Spur Gear (20 DP  1/2"" Hex Bore)",23,,,,,$19.99 ,,,,,,,,,,,,,,,,,,
-,217-2642,"16T Aluminum Hub Sprocket (#25 Chain  1/2"" Hex Bore)",55,,,,,$7.99 ,$7.99 ,,https://www.vexrobotics.com/25-sprockets.html,,,,,,,,,,,,,,,
-,217-6368,8T Steel Spur Gear (20 DP  10T Center Distance  BAG Motor),0,,,,,$6.99 ,$6.99 ,,https://www.vexrobotics.com/20dp-motorpinions.html,,,,,,,,,,,,,,,
-,217-2648,"42T Sprocket plate (#35 Chain  1/2"" Hex Bore)",4,,,,,,,,,,,,,,,,,,,,,,,
-,217-5844,"15T Sprocket hub (#35 Chain  1/2"" Hex Bore)",1,,,,,,,,,,,,,,,,,,,,,,,
-,217-3211,"34T Gear (3/8"" Hex Bore)",1,,,,,,,,,,,,,,,,,,,,,,,
-,217-2706,"34T Gear (1/2"" Hex Bore)",2,,,,,,,,,,,,,,,,,,,,,,,
-,217-3212,34T Gear  Ball shifter w/ bushing,2,,,,,,,,,,,,,,,,,,,,,,,
-,217-3417,"40T dog gear  1/2"" bearing",4,,,,,,,,,,,,,,,,,,,,,,,
-,217-5866,"40T Steel Spur Gear (32 DP  3/8"" Hex Bore)",0,,,,,$11.99 ,,,,,,,,,,,,,,,,,,
-,217-5859,12T Steel Spur Gear (32 DP  RS775 Motor),0,,,,,$6.99 ,,,,,,,,,,,,,,,,,,
-,217-6958,Falcon Motor Short Shaft,6,,,,,$12.99 ,,,,,,,,,,,,,,,,,,
-,217-5994,,0,,,,,,,,,,,,,,,,,,,,,,,
-,217-2733,"0.375"" ID x 0.875"" OD x 0.280"" WD (Flanged Bearing)",2,,,,,$2.99 ,$2.99 ,,https://www.vexrobotics.com/bearings.html,,,,,,,,,,,,,,,
-,217-3239,"0.375"" ID x 0.875"" OD x 0.281"" WD (Radial Bearing)",0,,,,,$2.99 ,$2.99 ,,https://www.vexrobotics.com/bearings.html,,,,,,,,,,,,,,,
-,217-5861,"20T Steel Spur Gear (32 DP  3/8"" Hex Bore)",0,,,,,$10.99 ,,,,,,,,,,,,,,,,,,
-,217-3229,"30T x 9mm Wide Double Flange Aluminum Pulley (HTD 5mm  1/2” Hex Bore)
-",2,,,,,$15.99 ,$15.99 ,,https://www.vexrobotics.com/htdpulleys.html,,,,,,,,,,,,,,,
-,217-3227,24t 9mm 1/2 in hex pulley,0,,,,,$12.99 ,$12.99 ,,https://www.vexrobotics.com/htdpulleys.html,,,,,,,,,,,,,,,
-,217-3225,18T x 9mm Wide Double Flange Aluminum Pulley (HTD 5mm  1/2” Hex Bore),0,,,,,$12.99 ,$12.99 ,,https://www.vexrobotics.com/htdpulleys.html,,,,,,,,,,,,,,,
-,217-2820,10:01,0,,,,,$14.99 ,$14.99 ,,https://www.vexrobotics.com/versaplanetary.html,,,,,,,,,,,,,,,
-,217-2816,Versa Gearbox Ring Gear Stage,0,,,,,$9.99 ,$9.99 ,,,,,,,,,,,,,,,,,
-,217-6473,Versaplanetary v2 Base Kit 1:1 Universal Female Output Shaft,0,,,,,$44.99 ,$44.99 ,,https://www.vexrobotics.com/versaplanetary.html,,,,,,,,,,,,,,,
-,217-3436,WCP Side Bearing Block Kit,0,Needing Reinv,,,,$24.99 ,,,,,,,,,,,,,,,,,,
-,217-2731,"0.500"" ID x 1.125"" OD x 0.313"" WD (Flanged Bearing) FR8ZZ",59,,,,,$2.99 ,$2.99 ,,https://www.vexrobotics.com/bearings.html,,,,,,,,,,,,,,,
-,CON-0002,,0,,,,,,,,,,,,,,,,,,,,,,,
-,CON-0003,,0,,,,,,,,,,,,,,,,,,,,,,,
-,CON-0005,,0,,,,,,,,,,,,,,,,,,,,,,,
-,CON-0006,,0,,,,,,,,,,,,,,,,,,,,,,,
-,CON-0007,,0,,,,,,,,,,,,,,,,,,,,,,,
-,CON-0008,,0,,,,,,,,,,,,,,,,,,,,,,,
-,CON-0009,,0,,,,,,,,,,,,,,,,,,,,,,,
-,JCB-0004,,0,,,,,,,,,,,,,,,,,,,,,,,
-,JCB-0002,PCM JST Board,0,,,,,$24.99 ,,,,,,,,,,,,,,,,,,
-,PQ-PG08,,0,,,,,,,,,,,,,,,,,,,,,,,
-,REV-11-2158,Spark Max,0,,,,,$75.00 ,,,,,,,,,,,,,,,,,,
-,am-3155,2 in stealth wheels,0,,,,,$6.00 ,,,,,,,,,,,,,,,,,,
-,IFB-10010,,0,,,,,,,,,,,,,,,,,,,,,,,
-,17-846567,,0,,,,,,,,,,,,,,,,,,,,,,,
-,855PB-B12ME522,,0,,,,,,,,,,,,,,,,,,,,,,,
-,am-3082_wire,,0,,,,,,,,,,,,,,,,,,,,,,,
-,14-886867,,0,,,,,,,,,,,,,,,,,,,,,,,
-,am-3162,,0,,,,,,,,,,,,,,,,,,,,,,,
-,16-737785,Pigeon IMU,2,,,,,$59.99 ,,,,,,,,,,,,,,,,,,
-,217-3489,"0.250"" ID x 0.500"" OD x 0.188"" WD (Radial Bearing)",4,,,,,$2.99 ,,,,,,,,,,,,,,,,,,
-,217-4002,"Hex  1/2"" Thunderhex stock 18 inches",13,,,,,,,,,,,,,,,,,,,,,,,
-,217-5875,"24T x 9mm Wide Double Flange Aluminum Pulley (GT2 3mm  1/2"" Hex Bore)",2,,,,,$14.99 ,$14.99 ,,https://www.vexrobotics.com/gt2pulleys.html,,,,,,,,,,,,,,,
-,217-5885,70T X 9nn Wide Timing Belt GT2 3mm,6,,,,,$7.99 ,$7.99 ,,https://www.vexrobotics.com/gt2-timingbelts.html,,,,,,,,,,,,,,,
-,217-6626,"1/32"" Gray Tinted Polycarbonate Sheet (36"" x 72"")",0,,,,,$49.99 ,,,,,,,,,,,,,,,,,,
-,217-6627,"1/16"" Gray Tinted Polycarbonate Sheet (36"" x 72"")",0,,,,,$84.99 ,$4.72 ,,https://www.vexrobotics.com/polycarbonate.html,,,,,,,,,,,,,,,
-,1691T143,"Impact-Resistant Compact Tie Rod Air Cylinder
-Round Face  Double Acting  1-1/16"" Bore  3/8"" Stroke",0,,,,,$70.15 ,,,,,,,,,,,,,,,,,,
-,3014T450,"Steel Eyebolt with Shoulder - for Lifting
-1/4""-20 Thread Size  1"" Thread Length",0,,,,,$3.21 ,$3.21 ,,https://www.mcmaster.com/3014t45,,,,,,,,,,,,,,,
-,3014T902,"Steel Eyebolt with Shoulder - for Lifting 1/4""-20 Thread Size  3"" Thread Length",0,,,,,$12.42 ,,,,,,,,,,,,,,,,,,
-,3499T110_SS,"Hanging Pulley for Rope-for Horizontal Pulling Single-Groove  Swivel Eye  for 1/4"" Diameter Rope",6,,,,,$32.25 ,$32.25 ,,https://www.mcmaster.com/3499t11,,,,,,,,,,,,,,,
-,5234K61,"Super-Soft Latex Rubber Tubing for Air and Water
-1"" ID  1-1/4"" OD",0,,,,,$3.86 ,,,,,,,,,,,,,,,,,,
-,57155K321,Stainless Steel Ball Bearing  Flanged  Shielded  Trade Number R3-2Z,0,,,,,$6.72 ,,,,,,,,,,,,,,,,,,
-,5972K159,Ball Bearing  Shielded  Trade No. 6806-2Z  for 30 mm Shaft Diameter,5,,,,,$20.63 ,,,,,,,,,,,,,,,,,,
-,60355K41,"Ball Bearing  Shielded  Trade Number R2-2Z  for 1/8"" Shaft Diameter",0,,,,,$6.56 ,,,,,,,,,,,,,,,,,,
-,60645K321,"Ball Joint Rod End  1/4""-28 Thread  Right Hand",0,,,,,$3.36 ,,,,,,,,,,,,,,,,,,
-,8585K205,"1-1/4"""" OD  1-1/8"""" ID  Clear  8' Long Impact-Resistant Polycarbonate Round Tube",0,,,,,$23.31 ,,,,,,,,,,,,,,,,,,
-,90295A320,Nylon Washers,0,,,,,$7.32 ,,,,,,,,,,,,,,,,,,
-,91251A077,"Black-Oxide Alloy Steel Socket Head Screw  2-56 Thread Size  1/4"" Long",0,,,,,$6.98 ,$0.07 ,,,,,,,,,,,,,,,,,
-,912841A003,,0,,,,,,,,,,,,,,,,,,,,,,,
-,93330A613,"Female Threaded Round Standoff
-Aluminum  3/8"" OD  3/4"" Long  10-32 Thread Size",0,,,,,$0.72 ,,,,,,,,,,,,,,,,,,
-,97345A251,"316 Stainless Steel Shoulder Screw 3/8"" Shoulder Diameter  2"" Shoulder Length  1/4""-20 Thread",0,,,,,$11.34 ,$11.34 ,,,,,,,,,,,,,,,,,
-,98381A556,"Dowel Pin 4037 Alloy Steel  1/4"" Diameter  1-1/8"" Long",0,,,,,$10.53 ,,,,,,,,,,,,,,,,,,
-,90631A411,Low-Strength Steel Nylon-Insert Locknut  Zinc-Plated  10-32 Thread Size,100,,,,,$3.35 ,,,,,,,,,,,,,,,,,,
-,am-1250,"screws for hex hub for 6"" wheel",24,,,,,,,,,,,,,,,,,,,,,,,
-,am-2469h,"half hub for 6"" wheel",8,,,,,,,,,,,,,,,,,,,,,,,
-,am-4124,hex hub insert,4,,,,,,,,,,,,,,,,,,,,,,,
-,91841A003,,0,,,,,,,,,,,,,,,,,,,,,,,
-,PBN18200-1,"Brad nails to hold mecanum rollers on wheel
-2 in. x 18-Gauge Brad Nail (1000 per Box)",0,,,,,$7.48 ,,,,,,,,,,,,,,,,,,
-,WCP-0047,wheel tires,0,,,,,$14.99 ,,,,,,,,,,,,,,,,,,
-,FDPT.625*.75*24,"Carbon Fiber Roll Wrapped Twill Tube ~ 0.625"" ID x 24""  Gloss Finish",0,,,,,$29.44 ,,,,,,,,,,,,,,,,,,
-,FDPT.875*1.0*24,"Carbon Fiber Roll Wrapped Twill Tube ~ 0.875"" ID x 24""  Gloss Finish",0,,,,,$46.73 ,,,,,,,,,,,,,,,,,,
-,FDPT1.125*1.25*24,"Carbon Fiber Roll Wrapped Twill Tube ~ 1.125"" ID x 24""  Gloss Finish",0,,,,,$56.57 ,,,,,,,,,,,,,,,,,,
-,FDPT1.375*1.5*24,"Carbon Fiber Roll Wrapped Twill Tube ~ 1.375"" ID x 24""  Gloss Finish",0,,,,,$64.13 ,,,,,,,,,,,,,,,,,,
-,B076PG87CK,Piscifun Onyx Braided Fishing Line 6lb-150lb Superline Abrasion Resistant Braided Lines Super Strong High Performance PE Fishing Lines,0,,,,,$12.99 ,,,,,,,,,,,,,,,,,,
-,COM-13185,Green LED,0,,,,,$7.95 ,,,,,,,,,,,,,,,,,,
-,855PBB12ME522,Robot Signal Light,0,,,,,$143.08 ,,,,,,,,,,,,,,,,,,
-,AM-0282,120a Circuit Breaker,0,,,,,$32.00 ,,,,,,,,,,,,,,,,,,
-,AM-2005,Pneumatic Compressor,0,,,,,$75.00 ,,,,,,,,,,,,,,,,,,
-,91223A322,"316 Stainless Steel Ultra-Low-Profile Socket Head Screw  8-32 Thread Size  5/8"" Long
-",8,,,,,$3.69 ,$3.69 ,,,,,,,,,,,,,,,,,
-,31-LHS-8C-50,"Ultra-Low-Profile Socket Head Screw  8-32 Thread Size  1/2"" Long
-",13,,,,,$3.69 ,$3.69 ,,,,,,,,,,,,,,,,,
-,PRU14,NITRA pneumatic push-to-connect inline pressure regulator  technopolymer body  1/4in tube inlet(s)  1/4in tube outlet(s)  15-120 psi adjustable range.,0,,,,,$22.00 ,,,,,,,,,,,,,,,,,,
-,PGU14,NITRA pneumatic push-to-connect inline pressure gauge  technopolymer body  1/4in tube inlet(s)  1/4in tube outlet(s)  0-170 psi range.,0,,,,,$19.00 ,,,,,,,,,,,,,,,,,,
-,7361A12,"Electrical-Insulating Mounting Tape
-Kapton® Polyimide Plastic  1/4"" x 15'  0.0056"" Thick",0,,,,,$12.03 ,,,,,,,,,,,,,,,,,,
-,7483K39,"No-Snag Cable Ties
-Wide  14-1/2"" Long  Black",0,,,,,$6.67 ,,,,,,,,,,,,,,,,,,
-,97431A340,"Side-Mount External Retaining Rings for 1/2"" OD  Black-Phosphate 1060-1090 Spring Steel",0,,,,,$9.60 ,$0.10 ,,,,,,,,,,,,,,,,,
-,92620A537,"Zinc Yellow-Chromate Plated Hex Head Screw  Grade 8 Steel  1/4""-20 Thread Size  1/2"" Long
-",0,,,,,$12.14 ,$0.12 ,,,,,,,,,,,,,,,,,
-,90630A115,"High-Strength Steel Nylon-Insert Locknut  Grade 8  5/16""-18 Thread Size",0,,,,,$2.94 ,$0.14 ,,,,,,,,,,,,,,,,,
-,1679K484,"Dust-Free Timing Belt
-T5 Series  Trade No. T5-400-10",0,,,,,,,,,,,,,,,,,,,,,,,
-,91831A002,18-8 Stainless Steel Nylon-Insert Locknut  2-56 Thread Size,0,,,,,,,,,,,,,,,,,,,,,,,
-,90298A630,"18-8 Stainless Steel Shoulder Screw  3/8"" Shoulder Diameter  1-3/4"" Shoulder Length  5/16""-18 Thread",0,,,,,,,,,,,,,,,,,,,,,,,
-,2342K163,"Permanently Lubricated Ball Bearing  Open  Trade Number R4  for 1/4"" Shaft Diameter",0,,,,,,,,,,,,,,,,,,,,,,,
-,2342K164,"Permanently Lubricated Ball Bearing  Open  Trade Number R4A  for 1/4"" Shaft Diameter",0,,,,,,,,,,,,,,,,,,,,,,,
-,6435K12,"Clamping Shaft Collar for 1/4"" Diameter  Black-Oxide 1215 Carbon Steel",0,,,,,,,,,,,,,,,,,,,,,,,
-,90044A118,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  1-1/2"" Long  Fully Threaded
-",21,,,,,,,,,,,,,,,,,,,,,,,
-,91831A411,"18-8 Stainless Steel Nylon-Insert Locknut  10-32 Thread Size
-",100,,,,,,,,,,,,,,,,,,,,,,,
-,92196A179,"18-8 Stainless Steel Socket Head Screw  8-32 Thread Size  1-3/4"" Long  Fully Threaded",21,,,,,,,,,,,,,,,,,,,,,,,
-,90044A119,"Black-Oxide Alloy Steel Socket Head Screw  10-32 Thread Size  1-3/4"" Long  Fully Threaded",21,,,,,,,,,,,,,,,,,,,,,,,
-,92949A837,"18-8 Stainless Steel Button Head Hex Drive Screw  1/4""-20 Thread Size  1-5/8"" Long",0,,,,,,,,,,,,,,,,,,,,,,,
-,91831A009,18-8 Stainless Steel Nylon-Insert Locknut  8-32 Thread Size,94,,,,,,,,,,,,,,,,,,,,,,,
-,91251A079,"Black-Oxide Alloy Steel Socket Head Screw  2-56 Thread Size  3/8"" Long",0,,,,,,,,,,,,,,,,,,,,,,,
-,9271K677,"Torsion Spring  180 Degree Right-Hand Wound  0.556"" OD",0,,,,,,,,,,,,,,,,,,,,,,,
-,9271K612,"Torsion Spring  180 Degree Left-Hand Wound  0.556"" OD",0,,,,,,,,,,,,,,,,,,,,,,,
-,276-4858,VEX Bumper Switch,0,,,,,,,,,,,,,,,,,,,,,,,
-,217-2952,SMC SS5Y3-41-04-N7T 4 Station Base Mount,0,,,,,,,,,,,,,,,,,,,,,,,
-,217-3636,PTO add-on kit. Power take off. WCP,6,,,,,,,,,,,,,,,,,,,,,,,
-,217-3635,Output shaft  standard WCP,3,,,,,,,,,,,,,,,,,,,,,,,
-,217-2737,"Clamping Shaft Collar - 1/2"" Hex ID
-",0,,,,,,,,,,,,,,,,,,,,,,,
-,217-5881,45T x 9mm Wide Timing Belt (GT2 3mm),1,,,,,,,,,,,,,,,,,,,,,,,
-,1128930,Screw  machine pan philip 8-32 x 3  ,29,,,,,,,,,,,,,,,,,,,,,,,
-,2621,Hex Lock nut w/ nylon insert. Size 8-32. Nylock,56,,,,,,,,,,,,,,,,,,,,,,,
-,1-THN-8C,Thin nylon insert nuts 8-32,90,,,,,,,,,,,,,,,,,,,,,,,
-,ee0zzm3,bearing. koyo. jtekt,8,,,,,,,,,,,,,,,,,,,,,,,
-,217-2592,"Versa hub. 1/2"" hex",18,,,,,,,,,,,,,,,,,,,,,,,
-,217-2584,"Wheel  omni. 4""",1,,,,,,,,,,,,,,,,,,,,,,,
-,217-4046,"Wheel  colson. 2.5"" x 1.25"" x .5"" hex bore",4,,,,,,,,,,,,,,,,,,,,,,,
-,am-3480,"wheel  4"" compliant  1/2"" hex  blue  50 dur",1,,,,,,,,,,,,,,,,,,,,,,,
-,AM-3155,"wheel  2""  1/2"" hex black stealth  50 dur",4,,,,,,,,,,,,,,,,,,,,,,,
-,AM-3949,"wheel  2.25"" compliant  1/2"" hex   orange 40 dur",4,,,,,,,,,,,,,,,,,,,,,,,
-,am-3951,"wheel  2""  1/2"" hex green omni",7,,,,,,,,,,,,,,,,,,,,,,,
-,am-3953,"wheel  2""  1/2"" hex gray omni",3,,,,,,,,,,,,,,,,,,,,,,,
-,217-6439,chain  #25h roller 10ft,11,,,,,,,,,,,,,,,,,,,,,,,
-fix packs and units,CHN-0005,chain  #25h  half-link   5 pack,10,,,,,,,,,,,,,,,,,,,,,,,
-fix packs and units,CHN-0005,chain  #25h  master-link   5 pack,1,,,,,,,,,,,,,,,,,,,,,,,
-fix packs and units,217-6477,chain  #25h  master-link   5 pack,3,,,,,,,,,,,,,,,,,,,,,,,
-,WCP-0200,"Friction Brake (3/8"" & 1/2"" Hex)",12,,,,,,,,,,,,,,,,,,,,,,,
-,63-620,End Mill - 0250x0.375x0.250x2.000 - 1,3,,,,,,,,LMT-ONSRUD,,,,,,,,,,,,,,,
-,63-614,End Mill - 0.187x0.375x0.250x2.000-1,3,,,,,,,,LMT-ONSRUD,,,,,,,,,,,,,,,
-,63-604,End Mill - 0.125x0.250x0.125x1.500-1,3,,,,,,,,LMT-ONSRUD,,,,,,,,,,,,,,,
-,63-625,End Mill - 0.375x0.750x0.375x3.000-1,3,,,,,,,,LMT-ONSRUD,,,,,,,,,,,,,,,
-,X003MYLHKP,1/2inch Shank 2inch Cutting Diameter  slab flattening Router Bit Planing Bit Wood Milling Cutter Planer Woodworking Tool,1,,,,,,,,Similky,,,,,,,,,,,,,,,
-,TC64708,1/8 SE 2FL RAD-0.010 ZRN,3,,,,,,,,Titan USA,,,,,,,,,,,,,,,
-,TC62408,3/8 SE 2FL STUB - ALUM RAD-0.0020 ZRN,2,,,,,,,,Titan USA,,,,,,,,,,,,,,,
-,TC62400,1/8 SE 2FL STUB -ALUM RD-0.010 ZRN,5,,,,,,,,Titan USA,,,,,,,,,,,,,,,
-,TC64716,1/4 SE 2FL RAD-0.020 ZRN,1,,,,,,,,Titan USA,,,,,,,,,,,,,,,
-,CRP-ARF-2-8ZN,"1/4in Ball End Mill 2 Flute DIA=1/4in FL=3/4 OAL=2-1/2"" SHK=1/4""",1,,,,,,,,cncrouterparts.com,,,,,,,,,,,,,,,
-,CRP-AG-2-8ZN,"1/4in Square End Mill 2 Flue DIA=1/4"" FL=3/4"" OAL=2-1/2"" SHK = 1/4""",1,,,,,,,,cncrouterparts.com,,,,,,,,,,,,,,,
-,TC62410,1/2 SE 2FL STUB - ALUM RAD-0.040ZRN,2,,,,,,,,Titan USA,,,,,,,,,,,,,,,
-,49J744,Cylin 1-1/16in Bore 1in Stroke,4,,,,,,,,Grainger,,,,,,,,,,,,,,,
-,217-3573,"54T Aluminum Spur Gear (20 DP  1/2"" Hex Bore)",0,,,,,,,,VexPro,,,,,,,,,,,,,,,
-,1691T142,"Impact-Resistant Compact Tie Rod Air Cylinder  Round Face  Double Acting  1-1/16"" Bore  1/4"" Stroke",2,,,,,,,,,,,,,,,,,,,,,,,
-,217-4347,775pro,2,,,,,,,,,,,,,,,,,,,,,,,
-,217-6789,VersaPlanetary Coupler(Flacon Motor),8,,,,,,,,,,,,,,,,,,,,,,,
-,214-6959, ,9,,,,,,,,,,,,,,,,,,,,,,,
-,52-040,1/8 x 1/2 x 1/4 x 2 2Fl - LMT-ONSRUD,3,,,,,,,,,,,,,,,,,,,,,,,
-,52-080,RT-52-000 0.250 x 0.750 x 0.250 x 2.500 -2,3,,,,,,,,LMT-ONSRUD,,,,,,,,,,,,,,,
-,52-120,RT-52-000 0.375 x 0.875 x 0.375 x 2.500 -2,3,,,,,,,,LMT-ONSRUD,,,,,,,,,,,,,,,
-,REV-11-1850,REV Power Distrobution Hub,2,,,,,,,,REV Robotics,,,,,,,,,,,,,,,
-,REV-11-1863,REV 40A ATO Breaker,24,,,,,,,,REV Robotics,,,,,,,,,,,,,,,
-,REV-11-1862,REV 30A ATO Breaker,16,,,,,,,,REV Robotics,,,,,,,,,,,,,,,
-,REV-11-1861,REV 20A ATO Breaker,8,,,,,,,,REV Robotics,,,,,,,,,,,,,,,
-,REV-11-1860,REV 10A ATO Breaker,4,,,,,,,,REV Robotics,,,,,,,,,,,,,,,
-,REV-11-1852,REV Pneumatic Hub,2,,,,,,,,REV Robotics,,,,,,,,,,,,,,,
-,am-2934,Reflective Tape Material 3M  2 in. wide x 20 ft.  adhesive backed,4,,,,,,,,AndyMark,,,,,,,,,,,,,,,
-,am-2434,Ultrasonic proximity sensor  EZ  MB1013  MaxBotix,4,,,,,,,,AndyMark,,,,,,,,,,,,,,,
-,33322S,"HiTech HS-322HD Standard Heavy Duty Servo
-",8,,,,,,,AndyMark does not sell anymore,HiTecRCD,,,,,,,,,,,,,,,
+﻿part_number,part_name,qty,threshold_qty,dependencies,verified_date,alt_part_nums,search_parms
+15-697867,SRX Magnetic Encoder,5,0,,,,15-697867 SRX Magnetic Encoder
+AM-0546,SB50 APP Connector with Contacts,3,0,,1/10/2022 19:49,,AM-0546 SB50 APP Connector with Contacts
+AM-3071,,3,0,,,,AM-3071
+94669A311,Aluminum Unthreaded Spacer 4.500 mm OD 18 mm Long for M3 Screw Size,15,0,,,,94669A311 Aluminum Unthreaded Spacer 4.500 mm OD 18 mm Long for M3 Screw Size
+92510A609,,0,0,,,,92510A609
+94669A128,Aluminum Unthreaded Spacer 8 mm OD 30 mm Long for M3 Screw Size,0,0,,,,94669A128 Aluminum Unthreaded Spacer 8 mm OD 30 mm Long for M3 Screw Size
+94669A319,,0,0,,,,94669A319
+217-6515-rev1,Falcon 500,13,0,,1/8/2022 22:52,,217-6515 Falcon 500
+217-3875,"""0.500"""" Hex ID x 1.125"""" OD x 0.313"""" WD (Flanged Bearing v2)""",48,0,,,,"217-3875 ""0.500"""" Hex ID x 1.125"""" OD x 0.313"""" WD (Flanged Bearing v2)"""
+217-3351,Bag Motor,4,0,,1/8/2022 23:07,,217-3351 Bag Motor
+217-4006,"""Bearing Flanged 13.75mm (1/2"""" ThunderHex ID) x 1.125"""" OD x 0.313"""" WD""",43,0,,,,"217-4006 ""Bearing Flanged 13.75mm (1/2"""" ThunderHex ID) x 1.125"""" OD x 0.313"""" WD"""
+217-5046,Versa Planetary Integrated Encoder,12,0,,,,217-5046 Versa Planetary Integrated Encoder
+217-6919,12T Steel Spur Gear (20 DP Falcon Motor),16,0,,,,217-6919 12T Steel Spur Gear (20 DP Falcon Motor)
+217-4858,,0,0,,,,217-4858
+REV-21-1651,Neo 550 Brushless motor,3,0,,1/11/2022 19:48,,REV-21-1651 Neo 550 Brushless motor
+WCP-0176,"""38t Steel Spur Gear (20 DP 1/2"""" Hex Bore)""",7,0,,1/10/2022 19:56,,"WCP-0176 ""38t Steel Spur Gear (20 DP 1/2"""" Hex Bore)"""
+WCP-0185,"""56t Pocketed Steel Spur Gear (20 DP 1/2"""" Hex Bore) (WCP-0185)""",8,0,,1/10/2022 19:48,,"WCP-0185 ""56t Pocketed Steel Spur Gear (20 DP 1/2"""" Hex Bore) (WCP-0185)"""
+AVT-PP-35,Polypropylene Air Volume Tank,0,0,,,,AVT-PP-35 Polypropylene Air Volume Tank
+ES17-12,,0,0,,,,ES17-12
+6075K15,"""Flat Belting 1"""" Wide""",0,0,,,,"6075K15 ""Flat Belting 1"""" Wide"""
+5234K94,,0,0,,,,5234K94
+0,,0,0,,,,0
+12,,0,0,,,,12
+6,,0,0,,,,6
+93330A473,"""Female Threaded Round Standoff Aluminum 1/4"""" OD 2"""" Long 6-32 Thread Size""",0,0,,,,"93330A473 ""Female Threaded Round Standoff Aluminum 1/4"""" OD 2"""" Long 6-32 Thread Size"""
+98075A143,"""Rivet Studs 1/4""""-20 Thread for 0.027""""-0.165"""" Material Thickness""",14,0,,,,"98075A143 ""Rivet Studs 1/4""""-20 Thread for 0.027""""-0.165"""" Material Thickness"""
+90480A195,10-32 Nut,396,0,,1/10/2022 20:22,,90480A195 10-32 Nut
+91259A103,,22,0,,1/10/2022 20:22,,91259A103
+474487,,0,0,,,,474487
+474489,,0,0,,,,474489
+6C200R25AP,,0,0,,,,6C200R25AP
+474491,,0,0,,,,474491
+490 633,,0,0,,,,490 633
+B84CM,,0,0,,,,B84CM
+91,,0,0,,,,91
+T395993,,0,0,,,,T395993
+T390895,,0,0,,,,T390895
+T395353,,0,0,,,,T395353
+T397941,,0,0,,,,T397941
+T395443,,0,0,,,,T395443
+87,,0,0,,,,87
+217-3496,,1,0,,,,217-3496
+90631A007,Low-Strength Steel Nylon-Insert Locknut Zinc-Plated 6-32 Thread Size,0,0,,,,90631A007 Low-Strength Steel Nylon-Insert Locknut Zinc-Plated 6-32 Thread Size
+217-6706,,0,0,,,,217-6706
+91259A544,"""Alloy Steel Shoulder Screw 1/4"""" Shoulder Diameter 1-1/4"""" Shoulder Length 10-24 Thread""",23,0,,,,"91259A544 ""Alloy Steel Shoulder Screw 1/4"""" Shoulder Diameter 1-1/4"""" Shoulder Length 10-24 Thread"""
+33785T45,Square shape threaded connecting link,0,0,,,,33785T45 Square shape threaded connecting link
+3961T2,"""Long-Lasting Polyurethane Cord 1/4"""" Diameter""",0,0,,,,"3961T2 ""Long-Lasting Polyurethane Cord 1/4"""" Diameter"""
+97431A330,,0,0,,1/10/2022 20:39,,97431A330
+90630A110,"""High-Strength Steel Nylon-Insert Locknut Grade 8 1/4""""-20 Thread Size""",275,0,,1/10/2022 20:39,,"90630A110 ""High-Strength Steel Nylon-Insert Locknut Grade 8 1/4""""-20 Thread Size"""
+91251A342,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 1/2"""" Long""",88,0,,,,"91251A342 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 1/2"""" Long"""
+91290A306,Black-Oxide Alloy Steel Socket Head Screw M4 x 0.7 mm Thread 15 mm Long,0,0,,,,91290A306 Black-Oxide Alloy Steel Socket Head Screw M4 x 0.7 mm Thread 15 mm Long
+91251A148,"""Black-Oxide Alloy Steel Socket Head Screw 6-32 Thread Size 1/2"""" Long""",0,0,,,,"91251A148 ""Black-Oxide Alloy Steel Socket Head Screw 6-32 Thread Size 1/2"""" Long"""
+91251A150,"""Black-Oxide Alloy Steel Socket Head Screw 6-32 Thread Size 5/8"""" Long""",0,0,,,,"91251A150 ""Black-Oxide Alloy Steel Socket Head Screw 6-32 Thread Size 5/8"""" Long"""
+91251A360,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 3"""" Long Partially Threaded""",21,0,,,,"91251A360 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 3"""" Long Partially Threaded"""
+94105A828,"""Alloy Steel Flat-Tip Set Screws Black Oxide 10-32 Thread 1/2"""" Long""",45,0,,,,"94105A828 ""Alloy Steel Flat-Tip Set Screws Black Oxide 10-32 Thread 1/2"""" Long"""
+94,,0,0,,,,94
+91253A003,"""Alloy Steel Flathead socket cap screw. 1/2"""" long""",95,0,,,,"91253A003 ""Alloy Steel Flathead socket cap screw. 1/2"""" long"""
+34,,0,0,,,,34
+91251A353,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 2"""" Long Partially Threaded""",19,0,,,,"91251A353 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 2"""" Long Partially Threaded"""
+6498K636,"""Round Body Air Cylinder Double-Acting Universal Mount 3/4"""" Bore Size 4"""" Stroke""",0,0,,,,"6498K636 ""Round Body Air Cylinder Double-Acting Universal Mount 3/4"""" Bore Size 4"""" Stroke"""
+91253A269,Alloy steel socket cap screw 10-32. 5 pack,3,0,,,,91253A269 Alloy steel socket cap screw 10-32. 5 pack
+91125A037,"""Female Threaded Round Standoff 18-8 Stainless Steel 1/4"""" OD 3"""" Long 10-32 Thread Size""",0,0,,,,"91125A037 ""Female Threaded Round Standoff 18-8 Stainless Steel 1/4"""" OD 3"""" Long 10-32 Thread Size"""
+92510A647,"""brake plate standoff 3/4"""" 3/8"""" OD close fit 10-32""",0,0,,,,"92510A647 ""brake plate standoff 3/4"""" 3/8"""" OD close fit 10-32"""
+91259A581,"""Alloy Steel Shoulder Screw 5/16"""" Shoulder Diameter 3/4"""" Shoulder Length 1/4""""-20 Thread""",2,0,,,,"91259A581 ""Alloy Steel Shoulder Screw 5/16"""" Shoulder Diameter 3/4"""" Shoulder Length 1/4""""-20 Thread"""
+90631A005,Low-Strength Steel Nylon-Insert Locknut Zinc-Plated 4-40 Thread Size,0,0,,,,90631A005 Low-Strength Steel Nylon-Insert Locknut Zinc-Plated 4-40 Thread Size
+6130K33,"""Ultra-Precision Ball Joint Rod End 1/4""""-28 Internal Thread""",0,0,,1/10/2022 20:21,,"6130K33 ""Ultra-Precision Ball Joint Rod End 1/4""""-28 Internal Thread"""
+91286A123,,82,0,,1/10/2022 20:21,,91286A123
+9271K182,"""Torsion Spring 180 Degree Left-Hand Wound 0.404"""" OD""",0,0,,,,"9271K182 ""Torsion Spring 180 Degree Left-Hand Wound 0.404"""" OD"""
+9271K181,"""Torsion Spring 180 Degree Right-Hand Wound 0.404"""" OD""",0,0,,,,"9271K181 ""Torsion Spring 180 Degree Right-Hand Wound 0.404"""" OD"""
+92012A546,"""Alloy Steel Precision Shoulder Screw 1/4"""" Shoulder Diameter 1-1/2"""" Shoulder Length 10-32 Thread""",4,0,,,,"92012A546 ""Alloy Steel Precision Shoulder Screw 1/4"""" Shoulder Diameter 1-1/2"""" Shoulder Length 10-32 Thread"""
+91259A628,"""Alloy Steel Shoulder Screw 3/8"""" Shoulder Diameter 1-1/2"""" Shoulder Length 5/16""""-18 Thread""",0,0,,,,"91259A628 ""Alloy Steel Shoulder Screw 3/8"""" Shoulder Diameter 1-1/2"""" Shoulder Length 5/16""""-18 Thread"""
+91255A192,"""Button Head Hex Drive Screw Black-Oxide Alloy Steel 8-32 Thread 3/8"""" Long""",121,0,,,,"91255A192 ""Button Head Hex Drive Screw Black-Oxide Alloy Steel 8-32 Thread 3/8"""" Long"""
+97,,0,0,,,,97
+91251A344,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 5/8"""" Long""",91,0,,,,"91251A344 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 5/8"""" Long"""
+126,,0,0,,,,126
+91251A356,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 9/16"""" Long""",38,0,,,,"91251A356 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 9/16"""" Long"""
+90044A523,10-32 2 1/4 in screw,0,0,,1/10/2022 20:22,,90044A523 10-32 2 1/4 in screw
+91286A113,"""High-Strength Grade 8 Steel Hex Head Screw Zinc-Aluminum Coated 1/4""""-20 Thread Size 1-1/4"""" Long""",90,0,,1/10/2022 20:22,,"91286A113 ""High-Strength Grade 8 Steel Hex Head Screw Zinc-Aluminum Coated 1/4""""-20 Thread Size 1-1/4"""" Long"""
+95505A601,"""Medium-Strength Steel Hex Nut Grade 5 1/4""""-20 Thread Size""",92,0,,1/10/2022 20:44,,"95505A601 ""Medium-Strength Steel Hex Nut Grade 5 1/4""""-20 Thread Size"""
+91251A345,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 3/4"""" Long""",96,0,,,,"91251A345 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 3/4"""" Long"""
+38,,0,0,,,,38
+14,,0,0,,,,14
+97526A130,"""Domed Head Blind Rivets 1/8"""" Diameter for 0.188""""-0.25"""" Material Thickness. 250 pack""",19,0,,1/12/2022 20:20,,"97526A130 ""Domed Head Blind Rivets 1/8"""" Diameter for 0.188""""-0.25"""" Material Thickness. 250 pack"""
+E18-D80NK,,8,0,,1/12/2022 20:20,,E18-D80NK
+BRG-0001,Swyft Bearing,0,0,,,,BRG-0001 Swyft Bearing
+am-3480,"""4in Compliant Wheels 60A Durometer (Black) 1/2"""" Hex""",0,0,,,,"am-3480 ""4in Compliant Wheels 60A Durometer (Black) 1/2"""" Hex"""
+2020-1073-006-100,FLYWHEEL TUBE,0,0,,,,2020-1073-006-100 FLYWHEEL TUBE
+2020-1073-006-106,WHEEL RETAINING RING,0,0,,,,2020-1073-006-106 WHEEL RETAINING RING
+93330A463,,0,0,,,,93330A463
+91125A044,,0,0,,,,91125A044
+R3-ZZ PRX,R3-ZZ PRX bearing miniture ball,2,0,,,,R3-ZZ PRX R3-ZZ PRX bearing miniture ball
+R4A-ZZ-PRX,,0,0,,,,R4A-ZZ-PRX
+474485,R2-ZZ bearing,8,0,,,,474485 R2-ZZ bearing
+93330A542,,0,0,,,,93330A542
+2020-1073-005-001,,0,0,,,,2020-1073-005-001
+COM-13716,Sparkfun FemtoBuck LED Driver,0,0,,1/12/2022 20:40,,COM-13716 Sparkfun FemtoBuck LED Driver
+SEN-15325,Open MV Camera,2,0,,1/12/2022 20:40,,SEN-15325 Open MV Camera
+2020-1073-005-073,,0,0,,,,2020-1073-005-073
+2020-1073-005-094,,0,0,,,,2020-1073-005-094
+2020-1073-005-033,,0,0,,,,2020-1073-005-033
+2020-1073-005-069,,0,0,,,,2020-1073-005-069
+2020-1073-005-057,,0,0,,,,2020-1073-005-057
+19-676768,CTR Cancoder,10,0,,,,19-676768 CTR Cancoder
+217-4973,,13,0,,,,217-4973
+2020-1073-005-072,,0,0,,,,2020-1073-005-072
+2020-1073-005-055,,0,0,,,,2020-1073-005-055
+2020-1073-005-002,,0,0,,,,2020-1073-005-002
+2020-1073-005-018,,0,0,,,,2020-1073-005-018
+2020-1073-005-015- Plate,Plate Weld Mount,0,0,,1/10/2022 19:44,,2020-1073-005-015- Plate Plate Weld Mount
+217-2702,"""20T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)""",8,0,,1/10/2022 19:44,,"217-2702 ""20T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)"""
+217-2708,"""40T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)""",15,0,,1/10/2022 19:50,,"217-2708 ""40T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)"""
+217-2710,"""44T Aluminum Spur Gear (20DP 1/2"""" Hex Bore)""",5,0,,1/10/2022 19:51,,"217-2710 ""44T Aluminum Spur Gear (20DP 1/2"""" Hex Bore)"""
+217-5475,"""58T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)""",24,0,,1/10/2022 19:47,,"217-5475 ""58T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)"""
+217-2642,"""16T Aluminum Hub Sprocket (#25 Chain 1/2"""" Hex Bore)""",55,0,,,,"217-2642 ""16T Aluminum Hub Sprocket (#25 Chain 1/2"""" Hex Bore)"""
+217-6368,8T Steel Spur Gear (20 DP 10T Center Distance BAG Motor),1,0,,,,217-6368 8T Steel Spur Gear (20 DP 10T Center Distance BAG Motor)
+217-2648,"""42T Sprocket plate (#35 Chain 1/2"""" Hex Bore)""",4,0,,,,"217-2648 ""42T Sprocket plate (#35 Chain 1/2"""" Hex Bore)"""
+217-5844,"""15T Sprocket hub (#35 Chain 1/2"""" Hex Bore)""",1,0,,1/10/2022 19:55,,"217-5844 ""15T Sprocket hub (#35 Chain 1/2"""" Hex Bore)"""
+217-3211,"""34T Gear (3/8"""" Hex Bore)""",1,0,,1/10/2022 19:55,,"217-3211 ""34T Gear (3/8"""" Hex Bore)"""
+217-2706,"""34T Gear (1/2"""" Hex Bore)""",6,0,,1/10/2022 19:51,,"217-2706 ""34T Gear (1/2"""" Hex Bore)"""
+217-3212,34T Gear Ball shifter w/ bushing,3,0,,1/10/2022 19:56,,217-3212 34T Gear Ball shifter w/ bushing
+217-3417,"""40T dog gear 1/2"""" bearing""",4,0,,1/10/2022 19:44,,"217-3417 ""40T dog gear 1/2"""" bearing"""
+217-5866,"""40T Steel Spur Gear (32 DP 3/8"""" Hex Bore)""",0,0,,,,"217-5866 ""40T Steel Spur Gear (32 DP 3/8"""" Hex Bore)"""
+217-5859,12T Steel Spur Gear (32 DP RS775 Motor),0,0,,,,217-5859 12T Steel Spur Gear (32 DP RS775 Motor)
+217-6958,Falcon Motor Short Shaft,15,0,,1/10/2022 20:05,,217-6958 Falcon Motor Short Shaft
+217-5994,,6,0,,1/10/2022 20:05,,217-5994
+217-2733,"""0.375"""" ID x 0.875"""" OD x 0.280"""" WD (Flanged Bearing)""",2,0,,,,"217-2733 ""0.375"""" ID x 0.875"""" OD x 0.280"""" WD (Flanged Bearing)"""
+217-3239,"""0.375"""" ID x 0.875"""" OD x 0.281"""" WD (Radial Bearing)""",0,0,,,,"217-3239 ""0.375"""" ID x 0.875"""" OD x 0.281"""" WD (Radial Bearing)"""
+217-5861,"""20T Steel Spur Gear (32 DP 3/8"""" Hex Bore)""",0,0,,,,"217-5861 ""20T Steel Spur Gear (32 DP 3/8"""" Hex Bore)"""
+2,,0,0,,1/13/2022 20:50,,2
+217-3227,24t 9mm 1/2 in hex pulley,4,0,,1/13/2022 20:50,,217-3227 24t 9mm 1/2 in hex pulley
+217-3225,18T x 9mm Wide Double Flange Aluminum Pulley (HTD 5mm 1/2” Hex Bore),4,0,,1/13/2022 20:48,,217-3225 18T x 9mm Wide Double Flange Aluminum Pulley (HTD 5mm 1/2” Hex Bore)
+217-2820,10:01,13,0,,1/10/2022 20:02,,217-2820 10:01
+217-2816,Versa Gearbox Ring Gear Stage,22,0,,1/10/2022 20:05,,217-2816 Versa Gearbox Ring Gear Stage
+217-6473,Versaplanetary v2 Base Kit 1:1 Universal Female Output Shaft,1,0,,1/10/2022 20:03,,217-6473 Versaplanetary v2 Base Kit 1:1 Universal Female Output Shaft
+217-3436,WCP Side Bearing Block Kit,6,0,,1/13/2022 21:04,,217-3436 WCP Side Bearing Block Kit
+217-2731,"""0.500"""" ID x 1.125"""" OD x 0.313"""" WD (Flanged Bearing) FR8ZZ""",62,0,,1/12/2022 18:33,,"217-2731 ""0.500"""" ID x 1.125"""" OD x 0.313"""" WD (Flanged Bearing) FR8ZZ"""
+CON-0002,,1,0,,1/12/2022 18:33,,CON-0002
+CON-0003,,1,0,,1/12/2022 18:33,,CON-0003
+CON-0005,,1,0,,1/12/2022 18:33,,CON-0005
+CON-0006,,1,0,,1/12/2022 18:33,,CON-0006
+CON-0007,,1,0,,1/12/2022 18:33,,CON-0007
+CON-0008,,1,0,,1/12/2022 18:33,,CON-0008
+CON-0009,,1,0,,1/12/2022 18:34,,CON-0009
+JCB-0004,,6,0,,1/12/2022 21:03,,JCB-0004
+JCB-0002,PCM JST Board,1,0,,1/12/2022 21:04,,JCB-0002 PCM JST Board
+PQ-PG08,,10,0,,1/12/2022 21:20,,PQ-PG08
+REV-11-2158,Spark Max,4,0,,1/12/2022 20:57,,REV-11-2158 Spark Max
+am-3155,2 in stealth wheels,0,0,,1/12/2022 21:07,,am-3155 2 in stealth wheels
+IFB-10010,,20,0,,1/12/2022 21:07,,IFB-10010
+17-846567,,4,0,,1/12/2022 21:13,,17-846567
+855PB-B12ME522,,6,0,,1/12/2022 19:12,,855PB-B12ME522
+am-3082_wire,,0,0,,1/12/2022 21:12,,am-3082_wire
+14-886867,,12,0,,1/12/2022 21:12,,14-886867
+am-3162,,0,0,,1/12/2022 20:45,,am-3162
+16-737785,Pigeon IMU,2,0,,1/12/2022 20:45,,16-737785 Pigeon IMU
+217-3489,"""0.250"""" ID x 0.500"""" OD x 0.188"""" WD (Radial Bearing)""",4,0,,,,"217-3489 ""0.250"""" ID x 0.500"""" OD x 0.188"""" WD (Radial Bearing)"""
+217-4002,"""Hex 1/2"""" Thunderhex stock 18 inches""",13,0,,1/13/2022 20:50,,"217-4002 ""Hex 1/2"""" Thunderhex stock 18 inches"""
+217-5875,"""24T x 9mm Wide Double Flange Aluminum Pulley (GT2 3mm 1/2"""" Hex Bore)""",2,0,,1/13/2022 20:50,,"217-5875 ""24T x 9mm Wide Double Flange Aluminum Pulley (GT2 3mm 1/2"""" Hex Bore)"""
+217-5885,70T X 9nn Wide Timing Belt GT2 3mm,6,0,,1/13/2022 20:47,,217-5885 70T X 9nn Wide Timing Belt GT2 3mm
+217-6626,"""1/32"""" Gray Tinted Polycarbonate Sheet (36"""" x 72"""")""",0,0,,,,"217-6626 ""1/32"""" Gray Tinted Polycarbonate Sheet (36"""" x 72"""")"""
+217-6627,"""1/16"""" Gray Tinted Polycarbonate Sheet (36"""" x 72"""")""",0,0,,,,"217-6627 ""1/16"""" Gray Tinted Polycarbonate Sheet (36"""" x 72"""")"""
+3014T902,"""Steel Eyebolt with Shoulder - for Lifting 1/4""""-20 Thread Size 3"""" Thread Length""",3,0,,,,"3014T902 ""Steel Eyebolt with Shoulder - for Lifting 1/4""""-20 Thread Size 3"""" Thread Length"""
+3499T110_SS,"""Hanging Pulley for Rope-for Horizontal Pulling Single-Groove Swivel Eye for 1/4"""" Diameter Rope""",6,0,,,,"3499T110_SS ""Hanging Pulley for Rope-for Horizontal Pulling Single-Groove Swivel Eye for 1/4"""" Diameter Rope"""
+57155K321,Stainless Steel Ball Bearing Flanged Shielded Trade Number R3-2Z,0,0,,,,57155K321 Stainless Steel Ball Bearing Flanged Shielded Trade Number R3-2Z
+5972K159,Ball Bearing Shielded Trade No. 6806-2Z for 30 mm Shaft Diameter,5,0,,,,5972K159 Ball Bearing Shielded Trade No. 6806-2Z for 30 mm Shaft Diameter
+60355K41,"""Ball Bearing Shielded Trade Number R2-2Z for 1/8"""" Shaft Diameter""",0,0,,,,"60355K41 ""Ball Bearing Shielded Trade Number R2-2Z for 1/8"""" Shaft Diameter"""
+60645K321,"""Ball Joint Rod End 1/4""""-28 Thread Right Hand""",0,0,,,,"60645K321 ""Ball Joint Rod End 1/4""""-28 Thread Right Hand"""
+90295A320,Nylon Washers,0,0,,,,90295A320 Nylon Washers
+91251A077,"""Black-Oxide Alloy Steel Socket Head Screw 2-56 Thread Size 1/4"""" Long""",0,0,,,,"91251A077 ""Black-Oxide Alloy Steel Socket Head Screw 2-56 Thread Size 1/4"""" Long"""
+912841A003,,0,0,,,,912841A003
+97345A251,"""316 Stainless Steel Shoulder Screw 3/8"""" Shoulder Diameter 2"""" Shoulder Length 1/4""""-20 Thread""",3,0,,,,"97345A251 ""316 Stainless Steel Shoulder Screw 3/8"""" Shoulder Diameter 2"""" Shoulder Length 1/4""""-20 Thread"""
+98381A556,"""Dowel Pin 4037 Alloy Steel 1/4"""" Diameter 1-1/8"""" Long""",0,0,,,,"98381A556 ""Dowel Pin 4037 Alloy Steel 1/4"""" Diameter 1-1/8"""" Long"""
+90631A411,Low-Strength Steel Nylon-Insert Locknut Zinc-Plated 10-32 Thread Size,100,0,,,,90631A411 Low-Strength Steel Nylon-Insert Locknut Zinc-Plated 10-32 Thread Size
+am-1250,"""screws for hex hub for 6"""" wheel""",24,0,,,,"am-1250 ""screws for hex hub for 6"""" wheel"""
+am-2469h,"""half hub for 6"""" wheel""",8,0,,,,"am-2469h ""half hub for 6"""" wheel"""
+am-4124,hex hub insert,4,0,,,,am-4124 hex hub insert
+91841A003,,0,0,,,,91841A003
+WCP-0047,wheel tires,0,0,,,,WCP-0047 wheel tires
+FDPT.625*.75*24,"""Carbon Fiber Roll Wrapped Twill Tube ~ 0.625"""" ID x 24"""" Gloss Finish""",0,0,,,,"FDPT.625*.75*24 ""Carbon Fiber Roll Wrapped Twill Tube ~ 0.625"""" ID x 24"""" Gloss Finish"""
+FDPT.875*1.0*24,"""Carbon Fiber Roll Wrapped Twill Tube ~ 0.875"""" ID x 24"""" Gloss Finish""",0,0,,,,"FDPT.875*1.0*24 ""Carbon Fiber Roll Wrapped Twill Tube ~ 0.875"""" ID x 24"""" Gloss Finish"""
+FDPT1.125*1.25*24,"""Carbon Fiber Roll Wrapped Twill Tube ~ 1.125"""" ID x 24"""" Gloss Finish""",0,0,,,,"FDPT1.125*1.25*24 ""Carbon Fiber Roll Wrapped Twill Tube ~ 1.125"""" ID x 24"""" Gloss Finish"""
+FDPT1.375*1.5*24,"""Carbon Fiber Roll Wrapped Twill Tube ~ 1.375"""" ID x 24"""" Gloss Finish""",0,0,,,,"FDPT1.375*1.5*24 ""Carbon Fiber Roll Wrapped Twill Tube ~ 1.375"""" ID x 24"""" Gloss Finish"""
+B076PG87CK,Piscifun Onyx Braided Fishing Line 6lb-150lb Superline Abrasion Resistant Braided Lines Super Strong High Performance PE Fishing Lines,0,0,,,,B076PG87CK Piscifun Onyx Braided Fishing Line 6lb-150lb Superline Abrasion Resistant Braided Lines Super Strong High Performance PE Fishing Lines
+COM-13185,Green LED,0,0,,,,COM-13185 Green LED
+855PBB12ME522,Robot Signal Light,0,0,,,,855PBB12ME522 Robot Signal Light
+AM-0282,120a Circuit Breaker,0,0,,,,AM-0282 120a Circuit Breaker
+AM-2005,Pneumatic Compressor,0,0,,,,AM-2005 Pneumatic Compressor
+8,,0,0,,,,8
+13,,0,0,,,,13
+PRU14,NITRA pneumatic push-to-connect inline pressure regulator technopolymer body 1/4in tube inlet(s) 1/4in tube outlet(s) 15-120 psi adjustable range.,0,0,,,,PRU14 NITRA pneumatic push-to-connect inline pressure regulator technopolymer body 1/4in tube inlet(s) 1/4in tube outlet(s) 15-120 psi adjustable range.
+PGU14,NITRA pneumatic push-to-connect inline pressure gauge technopolymer body 1/4in tube inlet(s) 1/4in tube outlet(s) 0-170 psi range.,0,0,,,,PGU14 NITRA pneumatic push-to-connect inline pressure gauge technopolymer body 1/4in tube inlet(s) 1/4in tube outlet(s) 0-170 psi range.
+97431A340,"""Side-Mount External Retaining Rings for 1/2"""" OD Black-Phosphate 1060-1090 Spring Steel""",0,0,,,,"97431A340 ""Side-Mount External Retaining Rings for 1/2"""" OD Black-Phosphate 1060-1090 Spring Steel"""
+90630A115,"""High-Strength Steel Nylon-Insert Locknut Grade 8 5/16""""-18 Thread Size""",0,0,,,,"90630A115 ""High-Strength Steel Nylon-Insert Locknut Grade 8 5/16""""-18 Thread Size"""
+91831A002,18-8 Stainless Steel Nylon-Insert Locknut 2-56 Thread Size,0,0,,,,91831A002 18-8 Stainless Steel Nylon-Insert Locknut 2-56 Thread Size
+90298A630,"""18-8 Stainless Steel Shoulder Screw 3/8"""" Shoulder Diameter 1-3/4"""" Shoulder Length 5/16""""-18 Thread""",0,0,,,,"90298A630 ""18-8 Stainless Steel Shoulder Screw 3/8"""" Shoulder Diameter 1-3/4"""" Shoulder Length 5/16""""-18 Thread"""
+2342K163,"""Permanently Lubricated Ball Bearing Open Trade Number R4 for 1/4"""" Shaft Diameter""",0,0,,,,"2342K163 ""Permanently Lubricated Ball Bearing Open Trade Number R4 for 1/4"""" Shaft Diameter"""
+2342K164,"""Permanently Lubricated Ball Bearing Open Trade Number R4A for 1/4"""" Shaft Diameter""",10,0,,,,"2342K164 ""Permanently Lubricated Ball Bearing Open Trade Number R4A for 1/4"""" Shaft Diameter"""
+6435K12,"""Clamping Shaft Collar for 1/4"""" Diameter Black-Oxide 1215 Carbon Steel""",0,0,,,,"6435K12 ""Clamping Shaft Collar for 1/4"""" Diameter Black-Oxide 1215 Carbon Steel"""
+21,,0,0,,,,21
+100,,0,0,,,,100
+92196A179,"""18-8 Stainless Steel Socket Head Screw 8-32 Thread Size 1-3/4"""" Long Fully Threaded""",21,0,,,,"92196A179 ""18-8 Stainless Steel Socket Head Screw 8-32 Thread Size 1-3/4"""" Long Fully Threaded"""
+90044A119,"""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 1-3/4"""" Long Fully Threaded""",21,0,,,,"90044A119 ""Black-Oxide Alloy Steel Socket Head Screw 10-32 Thread Size 1-3/4"""" Long Fully Threaded"""
+92949A837,"""18-8 Stainless Steel Button Head Hex Drive Screw 1/4""""-20 Thread Size 1-5/8"""" Long""",16,0,,,,"92949A837 ""18-8 Stainless Steel Button Head Hex Drive Screw 1/4""""-20 Thread Size 1-5/8"""" Long"""
+91831A009,18-8 Stainless Steel Nylon-Insert Locknut 8-32 Thread Size,94,0,,,,91831A009 18-8 Stainless Steel Nylon-Insert Locknut 8-32 Thread Size
+91251A079,"""Black-Oxide Alloy Steel Socket Head Screw 2-56 Thread Size 3/8"""" Long""",0,0,,,,"91251A079 ""Black-Oxide Alloy Steel Socket Head Screw 2-56 Thread Size 3/8"""" Long"""
+9271K677,"""Torsion Spring 180 Degree Right-Hand Wound 0.556"""" OD""",0,0,,,,"9271K677 ""Torsion Spring 180 Degree Right-Hand Wound 0.556"""" OD"""
+9271K612,"""Torsion Spring 180 Degree Left-Hand Wound 0.556"""" OD""",0,0,,,,"9271K612 ""Torsion Spring 180 Degree Left-Hand Wound 0.556"""" OD"""
+276-4858,VEX Bumper Switch,12,0,,,,276-4858 VEX Bumper Switch
+217-2952,SMC SS5Y3-41-04-N7T 4 Station Base Mount,2,0,,,,217-2952 SMC SS5Y3-41-04-N7T 4 Station Base Mount
+217-3636,PTO add-on kit. Power take off. WCP,6,0,,,,217-3636 PTO add-on kit. Power take off. WCP
+217-3635,Output shaft standard WCP,3,0,,1/13/2022 20:50,,217-3635 Output shaft standard WCP
+217-5881,45T x 9mm Wide Timing Belt (GT2 3mm),2,0,,1/13/2022 20:50,,217-5881 45T x 9mm Wide Timing Belt (GT2 3mm)
+1128930,Screw machine pan philip 8-32 x 3,29,0,,,,1128930 Screw machine pan philip 8-32 x 3
+2621,Hex Lock nut w/ nylon insert. Size 8-32. Nylock,56,0,,,,2621 Hex Lock nut w/ nylon insert. Size 8-32. Nylock
+1-THN-8C,Thin nylon insert nuts 8-32,90,0,,,,1-THN-8C Thin nylon insert nuts 8-32
+ee0zzm3,bearing. koyo. jtekt,8,0,,,,ee0zzm3 bearing. koyo. jtekt
+217-2592,"""Versa hub. 1/2"""" hex""",18,0,,,,"217-2592 ""Versa hub. 1/2"""" hex"""
+217-2584,"""Wheel omni. 4""""""",1,0,,1/11/2022 20:18,,"217-2584 ""Wheel omni. 4"""""""
+217-4046,"""Wheel colson. 2.5"""" x 1.25"""" x .5"""" hex bore""",17,0,,1/11/2022 20:18,,"217-4046 ""Wheel colson. 2.5"""" x 1.25"""" x .5"""" hex bore"""
+AM-3155,"""wheel 2"""" 1/2"""" hex black stealth 50 dur""",4,0,,,,"AM-3155 ""wheel 2"""" 1/2"""" hex black stealth 50 dur"""
+AM-3949,"""wheel 2.25"""" compliant 1/2"""" hex orange 40 dur""",4,0,,,,"AM-3949 ""wheel 2.25"""" compliant 1/2"""" hex orange 40 dur"""
+am-3951,"""wheel 2"""" 1/2"""" hex green omni""",7,0,,,,"am-3951 ""wheel 2"""" 1/2"""" hex green omni"""
+am-3953,"""wheel 2"""" 1/2"""" hex gray omni""",4,0,,,,"am-3953 ""wheel 2"""" 1/2"""" hex gray omni"""
+217-6439,chain #25h roller 10ft,11,0,,,,217-6439 chain #25h roller 10ft
+CHN-0005,chain #25h half-link 5 pack,10,0,,,,CHN-0005 chain #25h half-link 5 pack
+217-6477,chain #25h master-link 5 pack,28,0,,1/13/2022 21:04,,217-6477 chain #25h master-link 5 pack
+WCP-0200,"""Friction Brake (3/8"""" & 1/2"""" Hex)""",12,0,,1/13/2022 21:04,,"WCP-0200 ""Friction Brake (3/8"""" & 1/2"""" Hex)"""
+63-620,End Mill - 0250x0.375x0.250x2.000 - 1,3,0,,,,63-620 End Mill - 0250x0.375x0.250x2.000 - 1
+63-614,End Mill - 0.187x0.375x0.250x2.000-1,3,0,,,,63-614 End Mill - 0.187x0.375x0.250x2.000-1
+63-604,End Mill - 0.125x0.250x0.125x1.500-1,3,0,,,,63-604 End Mill - 0.125x0.250x0.125x1.500-1
+63-625,End Mill - 0.375x0.750x0.375x3.000-1,3,0,,,,63-625 End Mill - 0.375x0.750x0.375x3.000-1
+X003MYLHKP,1/2inch Shank 2inch Cutting Diameter slab flattening Router Bit Planing Bit Wood Milling Cutter Planer Woodworking Tool,1,0,,,,X003MYLHKP 1/2inch Shank 2inch Cutting Diameter slab flattening Router Bit Planing Bit Wood Milling Cutter Planer Woodworking Tool
+TC64708,1/8 SE 2FL RAD-0.010 ZRN,3,0,,,,TC64708 1/8 SE 2FL RAD-0.010 ZRN
+TC62408,3/8 SE 2FL STUB - ALUM RAD-0.0020 ZRN,2,0,,,,TC62408 3/8 SE 2FL STUB - ALUM RAD-0.0020 ZRN
+TC62400,1/8 SE 2FL STUB -ALUM RD-0.010 ZRN,5,0,,,,TC62400 1/8 SE 2FL STUB -ALUM RD-0.010 ZRN
+TC64716,1/4 SE 2FL RAD-0.020 ZRN,1,0,,,,TC64716 1/4 SE 2FL RAD-0.020 ZRN
+CRP-ARF-2-8ZN,"""1/4in Ball End Mill 2 Flute DIA=1/4in FL=3/4 OAL=2-1/2"""" SHK=1/4""""""",1,0,,,,"CRP-ARF-2-8ZN ""1/4in Ball End Mill 2 Flute DIA=1/4in FL=3/4 OAL=2-1/2"""" SHK=1/4"""""""
+CRP-AG-2-8ZN,"""1/4in Square End Mill 2 Flue DIA=1/4"""" FL=3/4"""" OAL=2-1/2"""" SHK = 1/4""""""",1,0,,,,"CRP-AG-2-8ZN ""1/4in Square End Mill 2 Flue DIA=1/4"""" FL=3/4"""" OAL=2-1/2"""" SHK = 1/4"""""""
+TC62410,1/2 SE 2FL STUB - ALUM RAD-0.040ZRN,2,0,,,,TC62410 1/2 SE 2FL STUB - ALUM RAD-0.040ZRN
+49J744,Cylin 1-1/16in Bore 1in Stroke,8,0,,,,49J744 Cylin 1-1/16in Bore 1in Stroke
+217-3573,"""54T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)""",5,0,,1/13/2022 21:04,,"217-3573 ""54T Aluminum Spur Gear (20 DP 1/2"""" Hex Bore)"""
+1691T142,"""Impact-Resistant Compact Tie Rod Air Cylinder Round Face Double Acting 1-1/16"""" Bore 1/4"""" Stroke""",2,0,,1/13/2022 21:04,,"1691T142 ""Impact-Resistant Compact Tie Rod Air Cylinder Round Face Double Acting 1-1/16"""" Bore 1/4"""" Stroke"""
+217-4347,775pro,2,0,,,,217-4347 775pro
+217-6789,VersaPlanetary Coupler(Flacon Motor),16,0,,,,217-6789 VersaPlanetary Coupler(Flacon Motor)
+214-6959,,9,0,,,,214-6959
+52-040,1/8 x 1/2 x 1/4 x 2 2Fl - LMT-ONSRUD,3,0,,,,52-040 1/8 x 1/2 x 1/4 x 2 2Fl - LMT-ONSRUD
+52-080,RT-52-000 0.250 x 0.750 x 0.250 x 2.500 -2,3,0,,,,52-080 RT-52-000 0.250 x 0.750 x 0.250 x 2.500 -2
+52-120,RT-52-000 0.375 x 0.875 x 0.375 x 2.500 -2,3,0,,1/12/2022 18:42,,52-120 RT-52-000 0.375 x 0.875 x 0.375 x 2.500 -2
+REV-11-1850,REV Power Distrobution Hub,2,0,,1/12/2022 18:42,,REV-11-1850 REV Power Distrobution Hub
+REV-11-1863,REV 40A ATO Breaker,24,0,,1/12/2022 19:18,,REV-11-1863 REV 40A ATO Breaker
+REV-11-1862,REV 30A ATO Breaker,16,0,,1/12/2022 19:18,,REV-11-1862 REV 30A ATO Breaker
+REV-11-1861,REV 20A ATO Breaker,8,0,,1/12/2022 19:18,,REV-11-1861 REV 20A ATO Breaker
+REV-11-1860,REV 10A ATO Breaker,4,0,,1/12/2022 19:18,,REV-11-1860 REV 10A ATO Breaker
+REV-11-1852,REV Pneumatic Hub,2,0,,1/12/2022 20:58,,REV-11-1852 REV Pneumatic Hub
+am-2934,Reflective Tape Material 3M 2 in. wide x 20 ft. adhesive backed,4,0,,,,am-2934 Reflective Tape Material 3M 2 in. wide x 20 ft. adhesive backed
+am-2434,Ultrasonic proximity sensor EZ MB1013 MaxBotix,4,0,,1/10/2022 18:54,,am-2434 Ultrasonic proximity sensor EZ MB1013 MaxBotix
+217-6515-rev2,Falcon 500 Rev 2,11,0,,1/10/2022 18:54,,217-6515-rev2 Falcon 500 Rev 2
+REV-11-1856,REV Radio Power Module,2,0,,1/12/2022 19:06,,REV-11-1856 REV Radio Power Module
+49600-XRYL,2022 Blue HP Apron,1,0,,1/10/2022 19:24,,49600-XRYL 2022 Blue HP Apron
+49600-XRD,2022 Red HP Apron,1,0,,1/10/2022 19:24,,49600-XRD 2022 Red HP Apron
+REV-11-1210,REV PEO Injector Cable,2,0,,1/12/2022 19:19,,REV-11-1210 REV PEO Injector Cable
+REV-31-1557,REC Color Sensor V3,2,0,,1/12/2022 20:39,,REV-31-1557 REC Color Sensor V3
+REV-21-2151,REV SPARK MAX Mounting Bracket,2,0,,1/12/2022 21:18,,REV-21-2151 REV SPARK MAX Mounting Bracket
+REV-21-2031,"REV 2"" Compliant Wheel",2,0,,1/10/2022 19:59,,"REV-21-2031 REV 2"" Compliant Wheel"
+217-6293,VexPro Versa Planetary 90 deg Drive,4,0,,1/10/2022 19:59,,217-6293 VexPro Versa Planetary 90 deg Drive
+217-4100,"18T x 15mm Wide Aluminum Pulley (HTD 5mm, 1/2"" Hex)",1,0,,,,"217-4100 18T x 15mm Wide Aluminum Pulley (HTD 5mm, 1/2"" Hex)"
+92620A537,McMaster Car,89,0,,,,92620A537 McMaster Car
+90044A123,"Black-Oxide Alloy Steel Socket Head Screw, 1/4""-20 Thread Size, 1-1/2"" Long, Fully Threaded",26,0,,,,"90044A123 Black-Oxide Alloy Steel Socket Head Screw, 1/4""-20 Thread Size, 1-1/2"" Long, Fully Threaded"
+3014T45,"Steel Eyebolt with Shoulder - for Lifting, 1/4""-20 Thread Size, 1"" Thread Length",4,0,,,,"3014T45 Steel Eyebolt with Shoulder - for Lifting, 1/4""-20 Thread Size, 1"" Thread Length"
+3014T905,"Steel Eyebolt with Shoulder - for Lifting, 5/16""-18 Thread Size, 4"" Thread Length",8,0,,,,"3014T905 Steel Eyebolt with Shoulder - for Lifting, 5/16""-18 Thread Size, 4"" Thread Length"
+92949A546,"18-8 Stainless Steel Button Head Hex Drive Screw, 1/4""-20 Thread Size, 1-1/2"" Long",4,0,,,,"92949A546 18-8 Stainless Steel Button Head Hex Drive Screw, 1/4""-20 Thread Size, 1-1/2"" Long"
+217-2818,Versa Planetary 4:1 Gear Kit,2,0,,,,217-2818 Versa Planetary 4:1 Gear Kit
+217-2701,"20T Aluminum Spur Gear (20 DP, 3/8"" Hex Bore)",1,0,,,,"217-2701 20T Aluminum Spur Gear (20 DP, 3/8"" Hex Bore)"
+AM-0255,2.5 in. CIM Motor,2,0,,,,AM-0255 2.5 in. CIM Motor
+WCP-0092,"34t Aluminum Spur Gear (20 DP, Dog, ThunderHex Bearing)",4,0,,,,"WCP-0092 34t Aluminum Spur Gear (20 DP, Dog, ThunderHex Bearing)"
+am-3480_blue,4 in. Compliant Wheels BLUE,6,0,,,,am-3480_blue 4 in. Compliant Wheels BLUE
+am-3480_green,4in. Compliant Wheel GREEN,9,0,,,,am-3480_green 4in. Compliant Wheel GREEN
+T40P-175BA-HS4,"BaneBots Wheel, 1-5/8"" x 0.4"", 1/2"" Hex Mount, 50A, Black/Blue",2,0,,,,"T40P-175BA-HS4 BaneBots Wheel, 1-5/8"" x 0.4"", 1/2"" Hex Mount, 50A, Black/Blue"
+T40P-194BO-HS4,"BaneBots Wheel, 1-7/8"" x 0.4"", 1/2"" Hex Mount, 40A, Black/Orange",1,0,,,,"T40P-194BO-HS4 BaneBots Wheel, 1-7/8"" x 0.4"", 1/2"" Hex Mount, 40A, Black/Orange"
+T40P-244BO-HS4,"BaneBots Wheel, 2-3/8"" x 0.4"", 1/2"" Hex Mount, 40A, Black/Orange",1,0,,,,"T40P-244BO-HS4 BaneBots Wheel, 2-3/8"" x 0.4"", 1/2"" Hex Mount, 40A, Black/Orange"
+T40P-245BA-HS4,"BaneBots Wheel, 2-3/8"" x 0.4"", 1/2"" Hex Mount, 50A, Black/Blue",1,0,,,,"T40P-245BA-HS4 BaneBots Wheel, 2-3/8"" x 0.4"", 1/2"" Hex Mount, 50A, Black/Blue"
+217-4052,"Colson Performa (4"" x 1.5"", 1/2"" Hex Bore)",13,0,,,,"217-4052 Colson Performa (4"" x 1.5"", 1/2"" Hex Bore)"
+217-4054,"Colson Performa (4"" x 2"", 1/2"" Hex Bore)",14,0,,,,"217-4054 Colson Performa (4"" x 2"", 1/2"" Hex Bore)"
+HS-322HD,HiTech Deluxe Servo,20,0,,,,HS-322HD HiTech Deluxe Servo
+1073-Test,Test Part,3,0,,,,1073-Test Test Part
+X002BNILQ5,"ERAYCO Anderson Powerpole Connectors - 20 red 20 black housings, 40x silver plated contacts",3,0,,,,"X002BNILQ5 ERAYCO Anderson Powerpole Connectors - 20 red 20 black housings, 40x silver plated contacts"
+SHF-001T-0.8BS,CONN SOCKET 22-28AWG CRIMP TIN PACK 250,1,0,,,,SHF-001T-0.8BS CONN SOCKET 22-28AWG CRIMP TIN PACK 250
+14-806880,CTRE Power Distribution Panel,1,0,,,,14-806880 CTRE Power Distribution Panel
+AM-3205,Open-Mesh OM5P-AC FIRST Robotics Competition Robot Radio,3,0,,,,AM-3205 Open-Mesh OM5P-AC FIRST Robotics Competition Robot Radio
+X001UI2JAL,MakerFocus Mini Digit 2 Colours (Blue and White),4,0,,,,X001UI2JAL MakerFocus Mini Digit 2 Colours (Blue and White)
+LPNRR963200098,WS2812B LED Strips (AMAZON) - 5M/Roll,1,0,,,,LPNRR963200098 WS2812B LED Strips (AMAZON) - 5M/Roll
+17-677082,CTRE CANifier,1,0,,,,17-677082 CTRE CANifier
+am-3833b,LimeLight 2 AndyMark,1,0,,,,am-3833b LimeLight 2 AndyMark
+ELP-SUSB1080P01-LC1100,2.0 MP USB Camera Powered DC 5V,2,0,,,,ELP-SUSB1080P01-LC1100 2.0 MP USB Camera Powered DC 5V
+MB-1043,High Performance Ultrasonic Rangefinder - EZ4 (MB1043),5,0,,,,MB-1043 High Performance Ultrasonic Rangefinder - EZ4 (MB1043)
+fc-AD-7729,Analog Devices Gyro (ADXRS450),3,0,,,,fc-AD-7729 Analog Devices Gyro (ADXRS450)
+SEN-36001,VL6180X Time of Flight,10,0,,,,SEN-36001 VL6180X Time of Flight
+fc-AD-0661,"Andy Mark IMU, SPI (ADIS16470)",1,0,,,,"fc-AD-0661 Andy Mark IMU, SPI (ADIS16470)"
+FC-AD-3281,,1,0,,1/12/2022 20:56,,FC-AD-3281
+217-8080,CTRE Talon SRX,6,0,,1/12/2022 20:56,,217-8080 CTRE Talon SRX
+217-9191,VexPro Victor SPX,4,0,,1/12/2022 20:56,,217-9191 VexPro Victor SPX
+14-806777,CTRE Pneumatic Control Mod,4,0,,,,14-806777 CTRE Pneumatic Control Mod
+14-868277,CTRE Voltage Regulator Module,1,0,,,,14-868277 CTRE Voltage Regulator Module
+15-696679,Talon SRX Encoder Breakout Board,6,0,,,,15-696679 Talon SRX Encoder Breakout Board
+1073-NVIDIA-01,NVIDIA Jetson Nano Developer Kit,2,0,,,,1073-NVIDIA-01 NVIDIA Jetson Nano Developer Kit
+217-3229,"VexPro Pulley (HDT 5mm) - 30T, 9mm 1/"" Hex",2,0,,1/13/2022 21:04,,"217-3229 VexPro Pulley (HDT 5mm) - 30T, 9mm 1/"" Hex"
+217-3634,VexPro - WCP - Gearbox Bearing Block,2,0,,1/13/2022 21:04,,217-3634 VexPro - WCP - Gearbox Bearing Block
+Test1,Justin Test,10,0,,1/18/2022 18:23,,Test1 Justin Test
+217-5882,"Belt, Timing, 50T x 9mm wide",4,0,,,,"217-5882 Belt, Timing, 50T x 9mm wide"
+5005M15,"belt, 500T x 15mm wide",1,0,,,,"5005M15 belt, 500T x 15mm wide"
+217-4017,"1/2"" Hex x .201"" ID Thunderhex stock 36""",10,0,,,,"217-4017 1/2"" Hex x .201"" ID Thunderhex stock 36"""
+92510A649,"spacer, aluminum unthreaded 3/8"" OD .1"" long for #10 screw",4,0,,,,"92510A649 spacer, aluminum unthreaded 3/8"" OD .1"" long for #10 screw"
+REV-21-1650,NEO,2,0,,,,REV-21-1650 NEO
+217-4098,"ball shifter, long output shaft, V2",0,0,,,,"217-4098 ball shifter, long output shaft, V2"
+06-20-018/018,"IGUS power chain, reverse bend radius (RBR) 1""",145,0,,,,"06-20-018/018 IGUS power chain, reverse bend radius (RBR) 1"""
+10-5M,"100 tooth belt 5/8""",1,0,,,,"10-5M 100 tooth belt 5/8"""
+2477K37,"35A (Soft) Yellow, Abrasion-Resistant Roller, 4"" Roller Diameter, 1-15/16"" Roller Width",2,0,,,,"2477K37 35A (Soft) Yellow, Abrasion-Resistant Roller, 4"" Roller Diameter, 1-15/16"" Roller Width"
+217-3574,"gear, 60T with 1/2"" Hex Bore",1,0,,,,"217-3574 gear, 60T with 1/2"" Hex Bore"
+217-2614,"gear, 12T CIM motor gear with mounting hardware",6,0,,,,"217-2614 gear, 12T CIM motor gear with mounting hardware"
+217-4018,versaplanetary CIM adaptor,5,0,,,,217-4018 versaplanetary CIM adaptor
+217-6011,versaplanetary 180 degree drive kit,4,0,,,,217-6011 versaplanetary 180 degree drive kit
+217-3628,"shifter, dog kit wcpds",1,0,,,,"217-3628 shifter, dog kit wcpds"
+800-2,"Banebots wheels, green or blue",2,0,,,,"800-2 Banebots wheels, green or blue"
+800-3-C,"Compliant wheels, orange",1,0,,,,"800-3-C Compliant wheels, orange"
+1073-Elegoo-01,4pk Polyimide High Temperature Masking Tape,1,0,,,,1073-Elegoo-01 4pk Polyimide High Temperature Masking Tape
+1073-Andymark-01,"8830 Scotchlite reflective material, vision target tape, 8ft of 2""",1,0,,,,"1073-Andymark-01 8830 Scotchlite reflective material, vision target tape, 8ft of 2"""
+R1185-4,Inch thread repair inserts 1/4-20,8,0,,,,R1185-4 Inch thread repair inserts 1/4-20
+REV-11-1144,Servo Power Module,2,0,,,,REV-11-1144 Servo Power Module
+7361A12,electrical insulating mounting kapton tape,1,0,,,,7361A12 electrical insulating mounting kapton tape
+400-1 7/8,"Banebots wheel, blue",1,0,,,,"400-1 7/8 Banebots wheel, blue"
+800-1 7/8,"Banebots wheel, green",1,0,,,,"800-1 7/8 Banebots wheel, green"
+90,"90C compressor, viair",1,0,,,,"00090 90C compressor, viair"
+AM-3973_C64,"64:1 grabox, heavy duty, hex shaft",1,0,,,,"AM-3973_C64 64:1 grabox, heavy duty, hex shaft"

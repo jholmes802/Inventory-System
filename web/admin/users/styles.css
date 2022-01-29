@@ -80,8 +80,8 @@ div.newUser input {
     border: 1px solid black;
     width: 75%;
     font-size: 16px; /* Increase font-size */
-
 }
+
 div.overlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */

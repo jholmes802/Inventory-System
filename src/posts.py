@@ -8,7 +8,7 @@ from sup_errors import *
 
 def checkout_post(data: dict)-> bytes:
     try:
-        dataio.transactions.checkio(data['part_number'], data["qty"], 'OUT')
+        dataio.transactions.checkio(data['part_uuid'], data["qty"], 'OUT')
         return "Transaction Logged"
     except:
         return "Uh-Oh Something went wrong!"
@@ -21,7 +21,7 @@ def verify(data: dict)-> bytes:
         return "Uh-Oh Something went wrong!"
 def checkin(data:dict)->str:
     try:
-        dataio.transactions.checkio(data['part_number'], data["qty"], 'IN')
+        dataio.transactions.checkio(data['part_uuid'], data["qty"], 'IN')
         return "Transaction Logged"
     except:
         return "Uh-Oh Something went wrong!"
@@ -60,3 +60,7 @@ def editpart(data:dict):
 
 def newuser(data:dict):
     return "Oops not implemented!"
+
+def itemstatus(data:dict):
+    dataio.items.status(data["part_uuid"], data["status"])
+    return "Sucess!"

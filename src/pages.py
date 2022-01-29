@@ -82,7 +82,6 @@ class home:
         result.div("verify").body()
         return str(result).encode()
 
-
 class item:
     def item_home(args)->bytes:
         args = {args.split("=")[0]:args.split("=")[1]}
@@ -91,6 +90,8 @@ class item:
         result.div("itemButtons").\
             button("button", "Print Barcode", "onclick=printBarcode()").\
             button("button", "Edit Item", "onclick=editPartForm() id='editButton'").\
+            button("button", "CheckOut/In", "onclick=checkio()").\
+            button("button", "Archive Part", "onclick=itemstatus('ARCHIVED')").\
             div("itemButtons")
         result.div("partSpecs")
         partSpecs = bob.table( spacing = result.spacing)
@@ -103,7 +104,14 @@ class item:
         result.div("partSpecs")
         result.div("checkIO")\
             .label("qty", "Quantity").br()\
-            .input("number", parms="id='qty'")
+            .input("number", parms="id='qty'")\
+            .button("button", "CheckOUT", "onclick=checkout()")\
+            .button("button", "CheckIN", "onclick=checkin()")\
+            .div("checkIO")
+
+        result.div("trsHst")\
+            .img("'data:image/jpeg;base64, " + dataio.items.transactions_hist(item["part_uuid"]) + "'")\
+            .div("trsHST")
         result.body()
         return str(result).encode()
 

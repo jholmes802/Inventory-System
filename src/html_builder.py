@@ -103,6 +103,9 @@ class body:
         else:
             self.returnable += (self.spacing * "\t") + "<" + typ + " id='" + id + "'>" + msg + "</" + typ + ">\n" 
         return self
+    def img(self, src):
+        self.returnable += str((self.spacing * "\t") + "<img src=" + src + ">\n")
+        return self
     def __str__(self) -> str:
         return str(self.returnable)
 

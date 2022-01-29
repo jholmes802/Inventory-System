@@ -1,18 +1,26 @@
 #!/usr/bin/python3
+import base64
 import datetime
+from re import X
+from turtle import back
 from typing import List, Set, Dict, Tuple, Optional
 import db_manager
 from logger import logger
 from sup_errors import *
 import uuid
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import os
+from io import BytesIO
 
-global config_file, items_file, fields, verbose
-verbose = False
-config_file = "../data/config.csv"
-items_file = '../data/items.csv'
 log_level = 2
 
-def _now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+def _now(path_fiendly=False): 
+    if path_fiendly:
+        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")).replace("-", "_").replace(" ", "_").replace(":", "")
+    else:
+        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+
 
 def mass_import_items(path:str)->None:
     """Not ready for production. It is used to initalize the primary db with data from a csv.
@@ -28,8 +36,6 @@ def mass_import_items(path:str)->None:
     Raises:
         FileError: [description]
     """
-    raise NotReadyError("Not implemented yet, sorry!")
-    db = db_manager.db()
     if not path.endswith(".csv"):
         raise FileError("Improper File type, needs to be a csv format.")
     fhand = open(path, 'r', encoding='utf-8-sig')
@@ -63,18 +69,17 @@ def mass_import_items(path:str)->None:
             if len(line)< 2:
                 logger(log_level, "Dataio.mass_import_items Could not import this line.")
             else:
-                try:
-                    p_num = line[p_num_index].strip()
-                    p_name = line[p_name_index]
-                    qty = line[qty_index]
-                    parts.new_item(p_num, p_name, qty)
-                    print("PartNum:", p_num)
-                    logger(log_level, "Dataio.mass_import_items: Created new item! With part number: " + line[p_num_index])
-                except: print("Uhoh")
-            
+                val = {
+                    "part_number": line[p_num_index],
+                    "part_name": line[p_name_index],
+                    "qty": line[qty_index]
+                }
+                items.new(val, backup=False)
+                print("PartNum:", val["part_number"])
+                logger(log_level, "Dataio.mass_import_items: Created new item! With part number: " + line[p_num_index])
+                
 class transactions:
-    def status(part_number, status):
-        prt_uuid = items.find(part_number)["part_uuid"]
+    def status(prt_uuid, status):
         trs_uuid = tools.new_uuid(True, "TRANS")
         vals = {
             "datetime": _now(), 
@@ -87,7 +92,7 @@ class transactions:
         conn.close()
 
     def verify(part_num, qty, comment=None):
-        prt_uuid = items.find(part_number)["part_uuid"]
+        prt_uuid = items.find(part_num)["part_uuid"]
         tr_uuid = tools.new_uuid(record=True, typ="TRANS")
         vals = {
             "datetime":_now(),
@@ -102,15 +107,14 @@ class transactions:
         db = db_manager.db()
         conn = db.engine.connect()
         conn.execute(db.table['transactions'].insert(vals)).close()
-        
 
-    def checkio(part_number, qty, io, dest=None, src=None, comment=None):
+
+    def checkio(part_uuid, qty, io, dest=None, src=None, comment=None):
         if io not in ["OUT", "IN"]: raise dbEntryError("io must be either 'IN' or 'OUT'")
-        prt_uuid = items.find(part_number)["part_uuid"]
         tr_uuid = tools.new_uuid(record=True, typ="TRANS")
         vals = {
             "datetime":_now(),
-            "part_number_uuid": prt_uuid,
+            "part_number_uuid": part_uuid,
             "typ":io,
             "qty":qty,
             "dest":dest,
@@ -121,9 +125,9 @@ class transactions:
         db = db_manager.db()
         conn = db.engine.connect()
         if io == "IN":
-            conn.execute(db.table["items"].update().where(db.table["items"].c.part_number == part_number).values({"qty":db.table["items"].c.qty + qty}))
+            conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == part_uuid).values({"qty":db.table["items"].c.qty + qty}))
         elif io == "OUT":
-            conn.execute(db.table["items"].update().where(db.table["items"].c.part_number == part_number).values({"qty":db.table["items"].c.qty - qty}))
+            conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == part_uuid).values({"qty":db.table["items"].c.qty - qty}))
         conn.execute(db.table["transactions"].insert(vals))
         conn.close()
 
@@ -156,22 +160,23 @@ class transactions:
         fields = [x.name for x in db.table["transactions"].columns]
         return (fields, result)
 
-    def item_transactions(part_number:str)-> Tuple[list, list]:
-        prt_uuid = items.find(part_number)["part_uuid"]
+    def item_transactions(part_number:str=None, part_uuid:str = None)-> Tuple[list, list]:
+        if part_uuid == None:
+            part_uuid = items.find(part_number)["part_uuid"]
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.part_number_uuid == prt_uuid)).all()
+        res = conn.execute(db.table["transactions"].select().where(db.table["transactions"].c.part_number_uuid == part_uuid)).all()
         conn.close()
         fields = [x.name for x in db.table["transactions"].columns]
         return(fields, res)
 
 class items:
-    def status(part_num:str, status):
+    def status(part_uuid:str, status):
         if status not in ["INUSE", "ARCHIVED"]:
             raise dbEntryError("Cannot utilize listed status.")
-        transactions.status(part_num, status)
+        transactions.status(part_uuid, status)
         db = db_manager.db()
-        db.engine.connect().execute(db.table["items"].update().where(db.table["items"].c.part_number == part_num).values({"status":status})).close()
+        db.engine.connect().execute(db.table["items"].update().where(db.table["items"].c.part_uuid == part_uuid).values({"status":status})).close()
     
     def num_check(prt_num)->bool:
         """Checks if a part number already exsists in the items.part_number field.
@@ -189,7 +194,7 @@ class items:
         logger(log_level, "Dataio.part_num_check: Status of part number entered: " + prt_num + " in db")
         return len(res) == 1
 
-    def new(item:dict, verify_part_num:bool = True)-> None:
+    def new(item:dict, verify_part_num:bool = True, backup=True)-> None:
         """Creates a new item in the items database table.
         Supports logging
         Args:
@@ -202,12 +207,12 @@ class items:
         logger(log_level, "DataIO.new_item: Creating new item with part number: '" + item["part_number"] + "'")
         if items.num_check(item["part_number"]):
             logger(log_level, "dataio.item.new: Already found part number in db.")
-            raise ItemError("Item Already Exsists in the db.")
+            #raise ItemError("Item Already Exsists in the db.")
         new_id = tools.new_uuid(record=True, typ="PART")
         item["part_uuid"] = new_id
         item["status"] = "INUSE"
         db = db_manager.db()
-        db.backup()
+        if backup: db.backup()
         conn = db.engine.connect()
         conn.execute(db.table["items"].insert(values=item))
         conn.execute(db.table["uuids"].insert(values={"uuid":new_id, "typ":"item"}))
@@ -245,15 +250,16 @@ class items:
         db = db_manager.db()
         conn = db.engine.connect()
         if limit != None:
-            res = conn.execute(db.table["items"].select()).all()
+            res = conn.execute(db.table["items"].select().where(db.table['items'].c.status == status)).all()
         else:
-            res = conn.execute(db.table["items"].select()).all()
+            res = conn.execute(db.table["items"].select().where(db.table['items'].c.status == status)).all()
         conn.close()
         fields = [x.name for x in db.table["items"].columns]
         logger(log_level, "Dataio.get_all_items: Returned " + str(len(res)) + " results.")
         return (fields, res)
         
     def edit(item:dict):
+
         """Edits parts in db.items. MUST have part_uuid otherwise it will not work.
 
         Args:
@@ -265,6 +271,37 @@ class items:
         db.backup()
         conn = db.engine.connect()
         conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == item["part_uuid"]).values(item)).close()
+
+    def gen_tags():
+        db = db_manager.db()
+        conn = db.engine.connect()
+        conn.execute(db.table['items'].update().values({db.table["items"].c.tags:db.table['items'].c.part_number + db.table["items"].c.part_name}))
+
+    def transactions_hist(part_uuid)-> BytesIO:
+        fields, res = transactions.item_transactions(part_uuid=part_uuid)
+        nqty = []
+        ndts = []
+        for r in res:
+            x = r[fields.index("qty")]
+            if x == None:
+                continue
+
+            if r[fields.index("typ")] == "OUT":
+                ndts.append(r[fields.index("datetime")])
+                nqty.append(-x)
+            elif r[fields.index("typ")] == "IN":
+                ndts.append(r[fields.index("datetime")])
+                nqty.append(x)
+            elif x[fields.index("typ")] == "VERIFY":
+                continue
+        tmpfile = BytesIO()
+        fig, ax = plt.subplots()
+        ax.plot(ndts, nqty, "ro")
+        plt.xlabel("QTY Change")
+        plt.ylabel("Datetime Stamp")
+        plt.savefig(tmpfile, format="png")
+        encoded = base64.b64encode(tmpfile.getvalue()).decode("utf8")
+        return encoded
 
 class users:
     def new(usr:dict):
@@ -285,7 +322,6 @@ class users:
         fields = [x.name for x in db.table["users"].columns]
         return (fields, res)
         
-
 class tools:
     def new_uuid(record=False, typ=""):
         while True:
@@ -311,4 +347,6 @@ if __name__ == "__main__":
         "tags":"test, part, 1073"
     }
     #items.new(dic)
+    #mass_import_items("../stock.csv")
+    items.transactions_hist("03359aef-9cac-430c-908f-89e06357c361")
     pass

@@ -10,6 +10,6 @@ function CheckInForm() {
         alert(this.responseText)
         document.getElementById("checkInID").reset();
     };
-    var data = JSON.stringify({"part_number":part_number, "qty":qty, "notes":notes});
+    var data = JSON.stringify({"part_uuid":part_number, "qty":qty, "notes":notes});
     xhttp.send(data);
 }
