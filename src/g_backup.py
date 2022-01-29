@@ -8,7 +8,7 @@ def g_backup():
     scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
     creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope)
     client = gspread.authorize(creds)
-    sheet = client.open("Dev Backup")
+    sheet = client.open("1073 Inventory System Backup")
     sheet_inst = sheet.get_worksheet(0)
     fields, results = dataio.items.get_all()
     update = []
