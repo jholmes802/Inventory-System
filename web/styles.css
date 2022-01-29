@@ -54,9 +54,16 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+/* Hides uuid colunn*/
+.stockTable th:nth-child(2) {display: none;}
+.stockTable td:nth-child(2) {display: none;}
+/* Hides tags colunn*/
+.stockTable th:nth-child(7) {display: none;}
+.stockTable td:nth-child(7) {display: none;}
+/* Hides status colunn*/
+.stockTable th:nth-child(8) {display: none;}
+.stockTable td:nth-child(8) {display: none;}
 
-.stockTable th:nth-child(10) {display: none;}
-.stockTable td:nth-child(10) {display: none;}
 #tableSearchBar {
     width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */

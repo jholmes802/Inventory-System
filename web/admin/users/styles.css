@@ -13,7 +13,7 @@
     font-size: 30px;
     font-family: Bank Gothic;
 }
-.MainNav {
+.MainNav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,32 +28,40 @@
 .MainNav a{
     display: block;
     padding: 8px;
-    
 }
 
-.partSpecs table {
-    border: 1px black;
-}
-.partSpecs tr, th, td{
-    padding: 15px;
-    border: 1px solid black;
-}
-.partSpecs table{
+.users table{
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
     width: 100%;
 }
-.partSpecs table th{background-color: grey;}
+.users th{
+    background-color: grey;
+}
+.users tr:nth-child(odd){
+    background-color: lightgray;
+}
+.users tr:hover{background-color: lightblue;}
 
-div.checkIO{
+.users tr, th, td{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.users p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.newUser{
     display: none;
     position: absolute;
     width: 30%;
-    height: 30%;
+    height: 50%;
     background-color: lightgrey;
     border-radius: 5%;
-    border: 1px solid black;
     top: 50%;
     left: 50%;
     color: black;
@@ -62,14 +70,37 @@ div.checkIO{
     z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
 
 }
-div.checkIO label{
+div.newUser label{
     margin-left: 5%;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
-div.checkIO input {
+div.newUser input {
     margin-left:  5%;
     border: 1px solid black;
     width: 75%;
     font-size: 16px; /* Increase font-size */
+}
+
+div.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+
+#tableSearchBar {
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
 }

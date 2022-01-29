@@ -1,14 +1,3 @@
-function checkout() {
-    let part_name = document.getElementById("part_number").value;
-    let qty = document.getElementById("qty").value;
-    var xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
-        document.getElementById("checkoutHistory").innerHTML = this.responseText
-    }
-    xhttp.open("POST", "checkout?prt_num=" + part_name + "&qty=" + qty);
-    xhttp.send();
-}
-
 function table_search() {
     var input, filter, table, tr, td, i, txtValue;
     input = document.getElementById('tableSearchBar');
@@ -18,7 +7,7 @@ function table_search() {
 
     //Loop
     for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[9];
+        td = tr[i].getElementsByTagName("td")[6];
         if (td) {
             txtValue = td.textContent || td.innerText;
             if (txtValue.toUpperCase().indexOf(filter) > -1) {

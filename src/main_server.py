@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from logger import logger
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import socket
 import os
@@ -9,6 +10,8 @@ import db_manager
 import json
 import pathlib
 from urllib.parse import unquote
+from sup_errors import *
+
 
 
 #"localhost"#
@@ -19,14 +22,8 @@ if os.name == "nt":
 else:
     serverPort = 8080
 
-post_dict = {
-    "/pst/checkout_submit": posts.checkout_post,
-    "/pst/checkin_submit":posts.checkin,
-    "/pst/newitem":posts.new_item,
-    "/pst/verify_submit":posts.verify,
-    "/pst/printBarcode":posts.print_barcode,
-    "/pst/backup":posts.backup
-}
+
+
 
 def read_file(path):
     #path = "/app/"  + path.lstrip("../")
@@ -41,33 +38,35 @@ class MyServer(BaseHTTPRequestHandler):
         self.send_header("Content-type", typ)
         self.end_headers()
     def do_GET(self):
-
         importlib.reload(pages)
         get_dict = {
-            "/": ("text/html", pages.home()),
+            "/": ("text/html", pages.home.home()),
             "/script.js":("application/javascript", read_file('../web/script.js')),
             "/styles.css":("text/css", read_file('../web/styles.css')),
-            "/newitem/": ("text/html", pages.new_item()),
+            "/newitem/": ("text/html", pages.home.new_item()),
             "/newitem/script.js":("application/javascript", read_file('../web/newitem/script.js')),
             "/newitem/styles.css":("text/css", read_file('../web/newitem/styles.css')),
-            "/checkout/": ("text/html",pages.checkout()),
+            "/checkout/": ("text/html",pages.home.checkout()),
             "/checkout/script.js":("application/javascript", read_file('../web/checkout/script.js')),
             "/checkout/styles.css":("text/css", read_file('../web/checkout/styles.css')),
-            "/checkin/": ("text/html",pages.checkin()),
+            "/checkin/": ("text/html",pages.home.checkin()),
             "/checkin/script.js":("application/javascript", read_file('../web/checkin/script.js')),
             "/checkin/styles.css":("text/css", read_file('../web/checkin/styles.css')),
-            "/verify/":("text/html", pages.verify()),
+            "/verify/":("text/html", pages.home.verify()),
             "/verify/script.js":("application/javascript", read_file('../web/verify/script.js')),
             "/verify/styles.css":("text/css", read_file('../web/verify/styles.css')),
-            "/admin/":("text/html", pages.admin()),
+            "/admin/":("text/html", pages.admin.admin()),
             "/admin/script.js":("application/javascript", read_file('../web/admin/script.js')),
             "/admin/styles.css":("text/css", read_file('../web/admin/styles.css')),
-            "/item/":("text/html", pages.item),
+            "/item/":("text/html", pages.item.item_home),
             "/item/script.js":("application/javascript", read_file("../web/item/script.js")),
             "/item/styles.css":("text/css", read_file("../web/item/styles.css")),
-            "/admin/import/":("text/html",pages.admin_import()),
+            "/admin/import/":("text/html",pages.admin.admin_import()),
             "/admin/import/script.js":("application/javascript", read_file("../web/admin/import/script.js")),
-            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css"))
+            "/admin/import/styles.css":("text/css",read_file("../web/admin/import/styles.css")),
+            "/admin/users/":("text/html",pages.admin.users()),
+            "/admin/users/script.js":("application/javascript", read_file("../web/admin/users/script.js")),
+            "/admin/users/styles.css":("text/css",read_file("../web/admin/users/styles.css"))
             }
         if "?" in self.path:
             main_path = self.path.split("?")[0]
@@ -85,19 +84,29 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_error(404)
 
     def do_POST(self):
+        post_dict = {
+            "/pst/checkout_submit": posts.checkout_post,
+            "/pst/checkin_submit":posts.checkin,
+            "/pst/newitem":posts.new_item,
+            "/pst/verify_submit":posts.verify,
+            "/pst/printBarcode":posts.print_barcode,
+            "/pst/backup":posts.backup,
+            "/pst/editpart":posts.editpart,
+            "/pst/newuser":posts.newuser,
+            "/pst/itemstatus":posts.itemstatus
+        }
         if self.headers["Content-type"] != "application/json":
             self.send_response(400)
         else:
             str_data = self.rfile.read(int(self.headers["Content-length"])).decode("utf-8")
             data = json.loads(str_data)
-            #data = json.load(self.rfile.read())
+            logger(2, "main_server:do_POSTS: Recieved the following data:" + str(data))
             self.send_response(200)
             resp = post_dict[self.path](data)
             print("Sending Response")
             self.wfile.write(resp.encode())
 
 if __name__ == '__main__':
-    db_manager.sql_setup()
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Starting server on:", hostName +":"+ str(serverPort))
     try:

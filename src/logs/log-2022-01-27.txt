@@ -1,0 +1,86 @@
+2022-01-27 00:00:55Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 00:00:55Dataio.get_all_items: Returned 1 results.
+2022-01-27 00:01:09DataIO.new_item: Creating new item with part number: '1073-A'
+2022-01-27 00:02:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 00:02:49Dataio.get_all_items: Returned 1 results.
+2022-01-27 00:02:58DataIO.new_item: Creating new item with part number: '1073-B'
+2022-01-27 00:05:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 00:05:28Dataio.get_all_items: Returned 1 results.
+2022-01-27 00:05:40DataIO.new_item: Creating new item with part number: '1073-G'
+2022-01-27 00:07:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 00:07:36Dataio.get_all_items: Returned 1 results.
+2022-01-27 00:07:40DataIO.new_item: Creating new item with part number: '1073-G'
+2022-01-27 00:07:40Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-27 00:07:40Dataio.part_num_check: Status of part number entered: 1073-G in db
+2022-01-27 00:07:40db.Backup: Starting backup at: 2022_01_27_000740
+2022-01-27 00:07:40db.backup: Removed backup for 2022-01-12_19_47_08
+2022-01-27 00:07:40db.backup: Removed 1 old backups.
+2022-01-27 00:07:40db.backup: Created new backup folder at: ../backup/2022_01_27_000740/
+2022-01-27 00:07:40db.backup: Copied primary db file into backup path.
+2022-01-27 00:08:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 00:08:19Dataio.get_all_items: Returned 1 results.
+2022-01-27 00:08:35DataIO.new_item: Creating new item with part number: '217-6515'
+2022-01-27 00:08:35Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-27 00:08:35Dataio.part_num_check: Status of part number entered: 217-6515 in db
+2022-01-27 00:08:35db.Backup: Starting backup at: 2022_01_27_000835
+2022-01-27 00:08:35db.backup: Removed backup for 2022-01-12_20_13_56
+2022-01-27 00:08:35db.backup: Removed 1 old backups.
+2022-01-27 00:08:35db.backup: Created new backup folder at: ../backup/2022_01_27_000835/
+2022-01-27 00:08:35db.backup: Copied primary db file into backup path.
+2022-01-27 00:09:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 00:09:32Dataio.get_all_items: Returned 1 results.
+2022-01-27 00:09:36DataIO.new_item: Creating new item with part number: '217-6515'
+2022-01-27 00:09:36Dataio.part_num_check: Found 0 part numbers in db.
+2022-01-27 00:09:36Dataio.part_num_check: Status of part number entered: 217-6515 in db
+2022-01-27 00:09:36db.Backup: Starting backup at: 2022_01_27_000936
+2022-01-27 00:09:36db.backup: Removed backup for 2022-01-12_20_22_11
+2022-01-27 00:09:36db.backup: Removed 1 old backups.
+2022-01-27 00:09:36db.backup: Created new backup folder at: ../backup/2022_01_27_000936/
+2022-01-27 00:09:36db.backup: Copied primary db file into backup path.
+2022-01-27 00:09:36db.backup: Created csv for items table, with 1 rows.
+2022-01-27 00:09:36db.backup: Created csv for transactions table, with 12 rows.
+2022-01-27 00:09:36db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-01-27 00:09:36db.backup: Created csv for location_info table, with 0 rows.
+2022-01-27 00:09:36db.backup: Created csv for loc_items table, with 0 rows.
+2022-01-27 00:09:36db.backup: Created csv for uuids table, with 7 rows.
+2022-01-27 00:09:36DataIO.new_item: Added new item to db.items.
+2022-01-27 17:31:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:31:25Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:38:48Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:38:48Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:41:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:41:22Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:41:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:41:51Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:42:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:42:49Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:42:50Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:44:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:44:29Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:44:35Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:44:35Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:45:10Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:45:11Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:45:12Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:46:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:46:17Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:46:18Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:46:36Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:48:19Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:48:39Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:48:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:48:56Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:49:00Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:53:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:53:30Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:53:38Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:54:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:54:52Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:54:54Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:55:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:55:44Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:55:49Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:57:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-27 17:57:50Dataio.get_all_items: Returned 2 results.
+2022-01-27 17:57:52Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.
+2022-01-27 17:58:04Dataio.find: Found 8where items.part_number ='03359aef-9cac-430c-908f-89e06357c361'.

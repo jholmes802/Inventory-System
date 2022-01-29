@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+from sup_errors import *
+
 
 class DataError(Exception):
     def __init__(self, message: str):
@@ -100,6 +102,9 @@ class body:
             self.returnable += (self.spacing * "\t") + "<" + typ + ">" + msg + "</" + typ + ">\n"
         else:
             self.returnable += (self.spacing * "\t") + "<" + typ + " id='" + id + "'>" + msg + "</" + typ + ">\n" 
+        return self
+    def img(self, src):
+        self.returnable += str((self.spacing * "\t") + "<img src=" + src + ">\n")
         return self
     def __str__(self) -> str:
         return str(self.returnable)

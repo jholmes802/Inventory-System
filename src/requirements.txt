@@ -1,0 +1,9 @@
+####Pip requirements install file. ####
+brother_ql
+python-barcode
+SQLAlchemy
+numpy
+gspread
+oauth2client
+requests
+matplotlib
