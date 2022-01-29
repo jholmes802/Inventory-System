@@ -400,3 +400,33 @@
 2022-01-29 12:16:03Dataio.get_all_items: Returned 349 results.
 2022-01-29 12:16:03Dataio.get_all_items: Retrieving Primary Stock Table.
 2022-01-29 12:16:03Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:28Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:28Dataio.find: Found 8where items.part_number ='46a4dc8b-9bc2-4a15-9191-f71b7c373139'.
+2022-01-29 12:16:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:28Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:28Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:28Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:36main_server:do_POSTS: Recieved the following data:{'part_number': '217-6515-TEST', 'part_uuid': '46a4dc8b-9bc2-4a15-9191-f71b7c373139', 'part_name': 'Falcon 500', 'qty': '1', 'threshold_qty': '1', 'alt_part_nums': '', 'tags': '217-6515Falcon 500', 'status': 'INUSE'}
+2022-01-29 12:16:36db.Backup: Starting backup at: 2022_01_29_121636
+2022-01-29 12:16:36db.backup: Removed backup for 2022_01_28_205012
+2022-01-29 12:16:36db.backup: Removed 1 old backups.
+2022-01-29 12:16:36db.backup: Created new backup folder at: ../backup/2022_01_29_121636/
+2022-01-29 12:16:36db.backup: Copied primary db file into backup path.
+2022-01-29 12:16:36db.backup: Created csv for items table, with 367 rows.
+2022-01-29 12:16:36db.backup: Created csv for transactions table, with 37 rows.
+2022-01-29 12:16:36db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-01-29 12:16:36db.backup: Created csv for location_info table, with 0 rows.
+2022-01-29 12:16:36db.backup: Created csv for loc_items table, with 0 rows.
+2022-01-29 12:16:36db.backup: Created csv for uuids table, with 868 rows.
+2022-01-29 12:16:36db.backup: Created csv for users table, with 0 rows.
+2022-01-29 12:16:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:39Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:39Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:39Dataio.get_all_items: Returned 349 results.
+2022-01-29 12:16:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-29 12:16:40Dataio.get_all_items: Returned 349 results.
