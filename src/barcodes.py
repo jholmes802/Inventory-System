@@ -8,14 +8,9 @@ from PIL import Image
 from brother_ql.conversion import convert
 from brother_ql.backends.helpers import send
 from brother_ql.raster import BrotherQLRaster
-from logger import logger
-
-global verbose
-verbose = False
+from tools import *
 
 logl = 2
-
-def now(): return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 def fname(pn:str):
     return pn.replace(" ", "_").replace("/","_").replace(".", "_")
