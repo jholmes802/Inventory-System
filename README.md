@@ -18,3 +18,10 @@ There are other python files used to manage data input and output, database mana
 Well its a simple as ensureing the requirements.txt is installed. Using...
 > python -m pip install -r requirements.txt
 
+The primary web server is run from /src/main_server.py
+Running this in a terminal will show the address it is being served at.
+This can be set by the user by changing the host var in the file.
+If it is only to run on that computer without a network, then "localhost" is fine.
+It should be set to "localhost" currently.
+
+

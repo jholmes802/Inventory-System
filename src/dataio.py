@@ -1,26 +1,13 @@
 #!/usr/bin/python3
 import base64
-import datetime
-from re import X
-from turtle import back
-from typing import List, Set, Dict, Tuple, Optional
+from typing import Dict, Tuple
 import db_manager
-from logger import logger
-from sup_errors import *
+from tools import *
 import uuid
-import matplotlib as mpl
 import matplotlib.pyplot as plt
-import os
 from io import BytesIO
 
 log_level = 2
-
-def _now(path_fiendly=False): 
-    if path_fiendly:
-        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")).replace("-", "_").replace(" ", "_").replace(":", "")
-    else:
-        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-
 
 def mass_import_items(path:str)->None:
     """Not ready for production. It is used to initalize the primary db with data from a csv.
@@ -82,7 +69,7 @@ class transactions:
     def status(prt_uuid, status):
         trs_uuid = tools.new_uuid(True, "TRANS")
         vals = {
-            "datetime": _now(), 
+            "datetime": now(), 
             "part_number_uuid":prt_uuid,
             "typ":status,
             "transaction_uuid":trs_uuid}
@@ -95,7 +82,7 @@ class transactions:
         prt_uuid = items.find(part_num)["part_uuid"]
         tr_uuid = tools.new_uuid(record=True, typ="TRANS")
         vals = {
-            "datetime":_now(),
+            "datetime":now(),
             "part_number_uuid": prt_uuid,
             "typ":"VERIFY",
             "qty":qty,
@@ -108,12 +95,11 @@ class transactions:
         conn = db.engine.connect()
         conn.execute(db.table['transactions'].insert(vals)).close()
 
-
     def checkio(part_uuid, qty, io, dest=None, src=None, comment=None):
         if io not in ["OUT", "IN"]: raise dbEntryError("io must be either 'IN' or 'OUT'")
         tr_uuid = tools.new_uuid(record=True, typ="TRANS")
         vals = {
-            "datetime":_now(),
+            "datetime":now(),
             "part_number_uuid": part_uuid,
             "typ":io,
             "qty":qty,
@@ -338,15 +324,4 @@ class tools:
 
 
 if __name__ == "__main__":
-    #mass_import_items("../2022 1073 Stock Current (only) - Current Stock.csv")
-    dic = {
-        "part_number": "1073-test",
-        "part_name": "testpart",
-        "qty":0,
-        "threshold_qty":1,
-        "tags":"test, part, 1073"
-    }
-    #items.new(dic)
-    #mass_import_items("../stock.csv")
-    items.transactions_hist("03359aef-9cac-430c-908f-89e06357c361")
     pass

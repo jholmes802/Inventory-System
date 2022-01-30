@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from logger import logger
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import socket
 import os
@@ -10,7 +9,7 @@ import db_manager
 import json
 import pathlib
 from urllib.parse import unquote
-from sup_errors import *
+from tools import *
 
 
 
@@ -24,13 +23,6 @@ else:
 
 
 
-
-def read_file(path):
-    #path = "/app/"  + path.lstrip("../")
-    fhand = open(pathlib.Path(path), "rb")
-    fread = fhand.read()
-    fhand.close()
-    return fread
 
 class MyServer(BaseHTTPRequestHandler):
     def _send_headers(self,typ):

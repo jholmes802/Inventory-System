@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from sup_errors import *
+from tools import *
 
 
 class DataError(Exception):

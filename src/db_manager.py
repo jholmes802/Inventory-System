@@ -1,44 +1,36 @@
 #!/usr/bin/python3
-from typing import List, Set, Dict, Tuple, Optional
-from logger import logger
-import datetime
+from typing import List, Dict
 import os
 import pathlib
 import sqlalchemy
 import g_backup
 import json
-from sup_errors import *
+from tools import *
 import shutil
-
-if sqlalchemy.__version__ != "1.4.29":
-    print(sqlalchemy.__version__, "not correct version. Please use 1.4.29")
-
-def _now(path_fiendly=False): 
-    if path_fiendly:
-        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")).replace("-", "_").replace(" ", "_").replace(":", "")
-    else:
-        return str(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 logl = 2
 
 class db:
-    def __init__(self, dbSetupPath="dat_struc.json") -> None:
+    def __init__(self, dbSetupPath="dat_struc.json"):
+        """This creates a db access obj. This contains the engine, and meta data.
+        It creates the tables, and is able to manipulate the db.
+        Primarily used for its db.engine which .connect() and .execute run sqlalchemy code.
+
+        Args:
+            dbSetupPath (str, optional): It is an optional path to the db config file. More info later... Defaults to "dat_struc.json".
+        """
         self.dbSetupPath:str = dbSetupPath
         self.dbSetupConfig:dict = json.loads(open(self.dbSetupPath).read())
         self.type:str = self.dbSetupConfig["db_type"]
         self.db_path:str = self.dbSetupConfig["db_path"]
         self.setupTables:List[Dict[str, str]] = self.dbSetupConfig["tables"]
-        self._engine()
-        self._tables()
-
-    def _engine(self) -> None:
+        ### Creates self.engine, meta, and inspector which are objects that provide information about what is in the db.
         self.engine: sqlalchemy.engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data2.db")
         self.meta: sqlalchemy.MetaData = sqlalchemy.MetaData(self.engine)
         self.inspector: sqlalchemy.inspection = sqlalchemy.inspect(self.engine)
-    
-    def _tables(self) -> sqlalchemy.Table:
+        ### Beginning creating the tables from the config doc. ###
         self.table:Dict[str, sqlalchemy.Table] = dict()
-        for itable, table in enumerate(self.setupTables):
+        for itable, table in enumerate(self.setupTables): #This iterates through the config file and creates SQLAlchemy.Table objects under a dictionary.
             for i, col in enumerate(table["table_cols"]):
                 dtype = col["data_type"].upper()
                 if dtype == "STRING": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.String
@@ -48,7 +40,12 @@ class db:
             self.table[table["table_name"]] = sqlalchemy.Table(
                 table["table_name"],
                 self.meta,
-                *[sqlalchemy.Column(col["col_name"], col["data_type"], primary_key=bool(col["primary_key"]), nullable=bool(col["nullable"])) for col in table["table_cols"]]
+                *[sqlalchemy.Column(
+                    col["col_name"],
+                    col["data_type"],
+                    primary_key=bool(col["primary_key"]),
+                    nullable=bool(col["nullable"])
+                    ) for col in table["table_cols"]]
             )
         self.meta.create_all()
     def run(self, sql_str)-> bool:
@@ -67,9 +64,8 @@ class db:
             return res
         except:
             raise dbError("There was an error running the sql code.")
-
     def backup(self, gsheet:bool=False, backup_path:str or pathlib = "../backup/", clean_up:bool=True):
-        datetimestamp = _now(True)
+        datetimestamp = now(True)
         logger(logl, "db.Backup: Starting backup at: " + datetimestamp)
         
         if backup_path.endswith("/"):
