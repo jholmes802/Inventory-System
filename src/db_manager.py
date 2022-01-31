@@ -102,19 +102,21 @@ class db:
         except:
             logger(logl, "db.backup: Could NOT copy primary db file to backup path.")
             raise BackUpError("Could not copy primary db file to specified path")
-        
-        for table in self.table.keys():
-            sql = "SELECT * FROM " + self.table[table].name
-            sql_res = self.run_retrieve(sql)
-            fields = [x.name for x in self.table[table].columns]
-            tablepath = bpath + table + ".csv"
-            tablehand = open(tablepath,"x")
-            tablehand.write(",".join(fields).lstrip(",").rstrip(",") + "\n")
-            rowi = 0
-            for res in sql_res:
-                tablehand.write(",".join([str(r) for r in res]).lstrip(",").rstrip(",") + "\n")
-                rowi += 1
-            logger(logl, "db.backup: Created csv for " + table + " table, with " + str(rowi) + " rows.")
+        try:
+            for table in self.table.keys():
+                sql = "SELECT * FROM " + self.table[table].name
+                sql_res = self.run_retrieve(sql)
+                fields = [x.name for x in self.table[table].columns]
+                tablepath = bpath + table + ".csv"
+                tablehand = open(tablepath,"x")
+                tablehand.write(",".join(fields).lstrip(",").rstrip(",") + "\n")
+                rowi = 0
+                for res in sql_res:
+                    tablehand.write(",".join([str(r) for r in res]).lstrip(",").rstrip(",") + "\n")
+                    rowi += 1
+                logger(logl, "db.backup: Created csv for " + table + " table, with " + str(rowi) + " rows.")
+        except:
+            pass
         
         if gsheet:
             g_backup.g_backup()

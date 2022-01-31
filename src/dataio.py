@@ -9,6 +9,7 @@ from io import BytesIO
 
 log_level = 2
 
+
 def mass_import_items(path:str)->None:
     """Not ready for production. It is used to initalize the primary db with data from a csv.
 
@@ -322,6 +323,6 @@ class tools:
     def verify_part_num(part_num:str):
         return part_num.upper()
 
-
 if __name__ == "__main__":
+    mass_import_items("../devdocs/stock.csv")
     pass
