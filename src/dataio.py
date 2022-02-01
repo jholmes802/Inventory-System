@@ -9,6 +9,11 @@ from io import BytesIO
 
 log_level = 2
 
+def tags():
+	db = db_manager.db()
+	conn = db.engine.connect()
+	conn.execute(db.table['items'].update().values({db.table['items'].c.tags:db.table['items'].c.part_number + "," + db.table['items'].c.part_name}))
+	conn.close()	
 
 def mass_import_items(path:str)->None:
     """Not ready for production. It is used to initalize the primary db with data from a csv.
@@ -65,12 +70,12 @@ def mass_import_items(path:str)->None:
                 items.new(val, backup=False)
                 print("PartNum:", val["part_number"])
                 logger(log_level, "Dataio.mass_import_items: Created new item! With part number: " + line[p_num_index])
-                
+
 class transactions:
     def status(prt_uuid, status):
         trs_uuid = tools.new_uuid(True, "TRANS")
         vals = {
-            "datetime": now(), 
+            "datetime": now(),
             "part_number_uuid":prt_uuid,
             "typ":status,
             "transaction_uuid":trs_uuid}
@@ -164,7 +169,7 @@ class items:
         transactions.status(part_uuid, status)
         db = db_manager.db()
         db.engine.connect().execute(db.table["items"].update().where(db.table["items"].c.part_uuid == part_uuid).values({"status":status})).close()
-    
+
     def num_check(prt_num)->bool:
         """Checks if a part number already exsists in the items.part_number field.
 
@@ -175,7 +180,7 @@ class items:
         """
         db = db_manager.db()
         conn = db.engine.connect()
-        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).all()            
+        res = conn.execute(db.table["items"].select().where(db.table["items"].c.part_number == prt_num)).all()
         conn.close()
         logger(log_level,"Dataio.part_num_check: Found " + str(len(res)) + " part numbers in db.")
         logger(log_level, "Dataio.part_num_check: Status of part number entered: " + prt_num + " in db")
@@ -199,7 +204,7 @@ class items:
         item["part_uuid"] = new_id
         item["status"] = "INUSE"
         db = db_manager.db()
-        if backup: db.backup()
+        #if backup: db.backup()
         conn = db.engine.connect()
         conn.execute(db.table["items"].insert(values=item))
         conn.execute(db.table["uuids"].insert(values={"uuid":new_id, "typ":"item"}))
@@ -207,15 +212,15 @@ class items:
         logger(log_level, "DataIO.new_item: Added new item to db.items.")
 
     def find(part_num:str=None, part_uuid:str=None)-> Dict[str, str]:
-        """Find a part_num in db.items and returns it. 
-        Returns all fields in db.items 
+        """Find a part_num in db.items and returns it.
+        Returns all fields in db.items
         Args:
             part_num (str): Part number to be found.
 
         Returns:
             dict: column name and data
         """
-        
+
         db = db_manager.db()
         conn = db.engine.connect()
         if part_num != None:
@@ -244,7 +249,7 @@ class items:
         fields = [x.name for x in db.table["items"].columns]
         logger(log_level, "Dataio.get_all_items: Returned " + str(len(res)) + " results.")
         return (fields, res)
-        
+
     def edit(item:dict):
 
         """Edits parts in db.items. MUST have part_uuid otherwise it will not work.
@@ -255,7 +260,6 @@ class items:
         if "part_uuid" not in item.keys():
             raise dbEntryError("Must include part uuid, otherwise cannot edit part.")
         db = db_manager.db()
-        db.backup()
         conn = db.engine.connect()
         conn.execute(db.table["items"].update().where(db.table["items"].c.part_uuid == item["part_uuid"]).values(item)).close()
 
@@ -308,14 +312,14 @@ class users:
         conn.close()
         fields = [x.name for x in db.table["users"].columns]
         return (fields, res)
-        
+
 class tools:
     def new_uuid(record=False, typ=""):
         while True:
             ret = str(uuid.uuid4())
             db = db_manager.db()
             conn = db.engine.connect()
-            sqlr = conn.execute(db.table["uuids"].select().where(db.table["uuids"].c.uuid == ret)).all() 
+            sqlr = conn.execute(db.table["uuids"].select().where(db.table["uuids"].c.uuid == ret)).all()
             if len(sqlr) < 1:
                 conn.execute(db.table["uuids"].insert({"uuid":ret, "typ":typ}))
                 conn.close()
@@ -324,5 +328,6 @@ class tools:
         return part_num.upper()
 
 if __name__ == "__main__":
-    mass_import_items("../devdocs/stock.csv")
-    pass
+	#mass_import_items("../devdocs/stock.csv")
+	#tags()    
+	pass

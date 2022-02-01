@@ -28,7 +28,7 @@ def check_barcodes(part_nums:list=None)-> bool:
             logger(logl, "barcodes.check_barcodes: Checking" + item[0])
             if item[0] not in bdir:
                 log_count_i += 1
-                barcode_gen(item[0], item[1])    
+                barcode_gen(item[0], item[1])
     else:
         logger(logl, "barcodes.check_barcodes: No list specified...processing from db.items table.")
         for item in part_nums:
@@ -36,39 +36,37 @@ def check_barcodes(part_nums:list=None)-> bool:
             if item not in bdir:
                 log_count_i += 1
                 barcode_gen(item, dbr[1])
-    logger(logl, "barcodes.check_barcodes: Created " + str(log_count_i) + " new barcodes.")   
-                 
-def barcode_gen(part_num:str, part_name:str=""):
-    logger(logl, "barcodes.barcode_gen: Creating barcode for " + part_num)
-    if part_name == "":
-        part_name = dataio.items.find(part_num)["part_name"]
-    bpath = "../data/images/barcodes/" + fname(part_num) + ".png"
+    logger(logl, "barcodes.check_barcodes: Created " + str(log_count_i) + " new barcodes.")
+
+def barcode_gen(part_uuid:str, part_name:str=""):
+    logger(logl, "barcodes.barcode_gen: Creating barcode for " + part_uuid)
+    item = dataio.items.find(part_uuid=part_uuid)
+    part_number = item["part_number"]
+    part_name = item["part_name"]
+    bpath = "../data/images/barcodes/" + fname(part_number) + ".png"
     ideal_length = 38.1
     mod_height = ideal_length * .2
-    mod_width = ideal_length / _length(part_num)
+    mod_width = ideal_length / _length(part_number)
     if mod_width < 0.08382:
         mod_width = 0.08382
     img_writer = writer.ImageWriter(format='png', mode = "RGB")
-    ean = barcode.codex.Code128(code=part_num,writer=img_writer)
+    ean = barcode.codex.Code128(code=part_number,writer=img_writer)
     opts ={
         'module_width':mod_width,
         'module_height':mod_height,
         "font_size":15,
         'text_distance':1
     }
-    txt = part_num + "\n" + part_name
+    txt = part_number + "\n" + part_name
     ean = ean.render(opts, txt)
     ean.save(bpath)
     #filename = ean.save(bpath + part_num.replace(".", "-").replace("*", "-"), options = {'modul\e_width':mod_width, 'module_height':mod_height, 'text_distance':1})
-    logger(logl,"barcodes.barcode_gen: Created new barcode file for: " + part_num)
+    logger(logl,"barcodes.barcode_gen: Created new barcode file for: " + part_number)
 
 def print_barcode(path1):
     logger(logl, "barcodes.print_barcode: Printing" + path1)
-    if "/" in path1:
-        path = path1
-    else:
-        path1 = dataio.items.find(part_uuid=path1)["part_number"]
-        path = "../data/images/barcodes/" + fname(path1) + ".png"
+    part_number = dataio.items.find(part_uuid=path1)["part_number"]
+    path = "../data/images/barcodes/" + fname(part_number) + ".png"
 
     if os.path.exists(path):
         pass
@@ -76,7 +74,7 @@ def print_barcode(path1):
         barcode_gen(path1)
     os.system("sudo chown pi /dev/usb/lp0")
     im = Image.open(path)
-    im = im.resize((696, 225)) 
+    im = im.resize((696, 225))
 
     backend = 'linux_kernel'    # 'pyusb', 'linux_kernal', 'network'
     model = 'QL-800' # your printer model.
@@ -86,15 +84,15 @@ def print_barcode(path1):
     qlr.exception_on_warning = True
 
     instructions = convert(
-            qlr=qlr, 
+            qlr=qlr,
             images=[im],    #  Takes a list of file names or PIL objects.
-            label='62', 
+            label='62',
             rotate='0',    # 'Auto', '0', '90', '270'
             threshold=70.0,    # Black and white threshold in percent.
-            dither=False, 
-            compress=False, 
+            dither=False,
+            compress=False,
             red=True,    # Only True if using Red/Black 62 mm label tape.
-            dpi_600=False, 
+            dpi_600=False,
             hq=True,    # False for low quality.
             cut=True
     )
