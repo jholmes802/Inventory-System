@@ -67,6 +67,10 @@ div.checkIO label{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+div.checkIO #close{
+    display: inline-block;
+    content: "\00d7";
+}
 div.checkIO input {
     margin-left:  5%;
     border: 1px solid black;

@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import dataio
 import db_manager
-import os
 import html_builder as bob
 from tools import *
 
@@ -104,8 +103,9 @@ class item:
         result.returnable += str(partSpecs)
         result.div("partSpecs")
         result.div("checkIO")\
+            .a("#", "id='close'")\
             .label("qty", "Quantity").br()\
-            .input("number", parms="id='qty'")\
+            .input("number", parms="id='qty'").br()\
             .button("button", "CheckOUT", "onclick=checkout()")\
             .button("button", "CheckIN", "onclick=checkin()")\
             .div("checkIO")
@@ -169,20 +169,6 @@ class admin:
         result.div("newUser")
         result.body()
         return str(result).encode()
-
-def transactions_table(cur:bob.body):
-    histTable = bob.table(spacing = cur.spacing)
-    histTable.table()
-    histTable.head()
-    histTable.row([x.split(" ")[0] for x in db_manager.tables["transactions"]], "th")
-    histTable.head()
-    histTable.body()
-    records = dataio.transactions.get_transactions(cnt = 20)
-    for record in records:
-        histTable.row(record, 'td')
-    histTable.body()
-    histTable.table()
-    return histTable.returnable
 
 if __name__ == "__main__":
     pass

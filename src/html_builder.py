@@ -106,6 +106,9 @@ class body:
     def img(self, src):
         self.returnable += str((self.spacing * "\t") + "<img src=" + src + ">\n")
         return self
+    def a(self, href, parms=""):
+        self.returnable += str((self.spacing * "\t") + "<a href='" + href + "' " + parms + "></a>\n")
+        return self
     def __str__(self) -> str:
         return str(self.returnable)
 

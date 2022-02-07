@@ -9,7 +9,6 @@ from io import BytesIO
 
 log_level = 2
 
-
 def mass_import_items(path:str)->None:
     """Not ready for production. It is used to initalize the primary db with data from a csv.
 
