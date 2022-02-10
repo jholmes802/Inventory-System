@@ -30,8 +30,7 @@ def print_barcode(data:dict):
     return str("Printed!")
 
 def backup(data:dict):
-    db_manager.db.backup()
-    g_backup.g_backup()
+    db_manager.db().backup(clean_up=True, gsheet=True)
     return "Backup was sucessful."
 
 def editpart(data:dict):

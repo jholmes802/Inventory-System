@@ -204,7 +204,7 @@ class items:
         item["part_uuid"] = new_id
         item["status"] = "INUSE"
         db = db_manager.db()
-        #if backup: db.backup()
+        #sif backup: db.backup()
         conn = db.engine.connect()
         conn.execute(db.table["items"].insert(values=item))
         conn.execute(db.table["uuids"].insert(values={"uuid":new_id, "typ":"item"}))

@@ -463,3 +463,53 @@
 2022-01-31 21:03:14Dataio.get_all_items: Returned 334 results.
 2022-01-31 21:03:14Dataio.get_all_items: Retrieving Primary Stock Table.
 2022-01-31 21:03:14Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:48:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:48:06Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:48:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:48:07Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:48:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:48:07Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:48:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:48:08Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:48:12main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:48:12main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:49:12main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:49:12db.Backup: Starting backup at: 2022_01_31_214912
+2022-01-31 21:49:12db.backup: Could not find the listed base backup directory: ../backup/
+2022-01-31 21:49:12main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:49:12db.Backup: Starting backup at: 2022_01_31_214912
+2022-01-31 21:49:12db.backup: Could not find the listed base backup directory: ../backup/
+2022-01-31 21:49:42main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:49:42db.Backup: Starting backup at: 2022_01_31_214942
+2022-01-31 21:49:42db.backup: Created new backup folder at: ../backup/2022_01_31_214942/
+2022-01-31 21:49:42db.backup: Copied primary db file into backup path.
+2022-01-31 21:49:42db.backup: Created csv for items table, with 334 rows.
+2022-01-31 21:49:42db.backup: Created csv for transactions table, with 15 rows.
+2022-01-31 21:49:42db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-01-31 21:49:42db.backup: Created csv for location_info table, with 0 rows.
+2022-01-31 21:49:42db.backup: Created csv for loc_items table, with 0 rows.
+2022-01-31 21:49:42db.backup: Created csv for uuids table, with 1554 rows.
+2022-01-31 21:49:42db.backup: Created csv for users table, with 0 rows.
+2022-01-31 21:49:42main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:49:42db.Backup: Starting backup at: 2022_01_31_214942
+2022-01-31 21:49:42db.backup: Copied primary db file into backup path.
+2022-01-31 21:50:41main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-01-31 21:50:41db.Backup: Starting backup at: 2022_01_31_215041
+2022-01-31 21:50:41db.backup: Created new backup folder at: ../backup/2022_01_31_215041/
+2022-01-31 21:50:41db.backup: Copied primary db file into backup path.
+2022-01-31 21:50:41db.backup: Created csv for items table, with 334 rows.
+2022-01-31 21:50:41db.backup: Created csv for transactions table, with 15 rows.
+2022-01-31 21:50:41db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-01-31 21:50:41db.backup: Created csv for location_info table, with 0 rows.
+2022-01-31 21:50:41db.backup: Created csv for loc_items table, with 0 rows.
+2022-01-31 21:50:41db.backup: Created csv for uuids table, with 1554 rows.
+2022-01-31 21:50:41db.backup: Created csv for users table, with 0 rows.
+2022-01-31 21:50:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:50:44Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:50:46db.backup: Updated Google Sheet.
+2022-01-31 21:51:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:51:02Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:51:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:51:02Dataio.get_all_items: Returned 334 results.
+2022-01-31 21:51:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-01-31 21:51:03Dataio.get_all_items: Returned 334 results.
