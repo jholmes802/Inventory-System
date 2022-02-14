@@ -1,0 +1,426 @@
+2022-02-09 18:27:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:27:27Dataio.get_all_items: Returned 367 results.
+2022-02-09 18:27:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:27:27Dataio.get_all_items: Returned 367 results.
+2022-02-09 18:27:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:27:28Dataio.get_all_items: Returned 367 results.
+2022-02-09 18:27:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:27:29Dataio.get_all_items: Returned 367 results.
+2022-02-09 18:29:26main_server:do_POSTS: Recieved the following data:{'part_number': '1073_2022_006_.25" Spacer_012_REV1', 'part_name': '.25" Hex PLA Spacer', 'qty': '15', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '.25" Hex PLA Spacer, 1073_2022_006_.25" Spacer_012_REV1'}
+2022-02-09 18:29:26DataIO.new_item: Creating new item with part number: '1073_2022_006_.25" SPACER_012_REV1'
+2022-02-09 18:29:26Dataio.part_num_check: Found 0 part numbers in db.
+2022-02-09 18:29:26Dataio.part_num_check: Status of part number entered: 1073_2022_006_.25" SPACER_012_REV1 in db
+2022-02-09 18:29:26DataIO.new_item: Added new item to db.items.
+2022-02-09 18:30:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:30:27Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:30:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:30:28Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:30:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:30:28Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:31:03Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:31:03Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:31:03Dataio.find: Found 8where items.part_number ='8d813e7a-25c3-43cb-80e4-2b7d62c31825'.
+2022-02-09 18:31:05Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:31:05Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:31:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:31:06Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:31:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:31:07Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:31:10main_server:do_POSTS: Recieved the following data:{'part_uuid': '8d813e7a-25c3-43cb-80e4-2b7d62c31825'}
+2022-02-09 18:31:10barcodes.print_barcode: Printing8d813e7a-25c3-43cb-80e4-2b7d62c31825
+2022-02-09 18:31:10Dataio.find: Found 8where items.part_number ='8d813e7a-25c3-43cb-80e4-2b7d62c31825'.
+2022-02-09 18:31:10barcodes.barcode_gen: Creating barcode for 8d813e7a-25c3-43cb-80e4-2b7d62c31825
+2022-02-09 18:31:10Dataio.find: Found 8where items.part_number ='8d813e7a-25c3-43cb-80e4-2b7d62c31825'.
+2022-02-09 18:31:10barcodes.barcode_gen: Created new barcode file for: 1073_2022_006_.25" SPACER_012_REV1
+2022-02-09 18:31:11main_server:do_POSTS: Recieved the following data:{'part_uuid': '8d813e7a-25c3-43cb-80e4-2b7d62c31825'}
+2022-02-09 18:31:11barcodes.print_barcode: Printing8d813e7a-25c3-43cb-80e4-2b7d62c31825
+2022-02-09 18:31:11Dataio.find: Found 8where items.part_number ='8d813e7a-25c3-43cb-80e4-2b7d62c31825'.
+2022-02-09 18:31:21main_server:do_POSTS: Recieved the following data:{'part_uuid': '8d813e7a-25c3-43cb-80e4-2b7d62c31825'}
+2022-02-09 18:31:21barcodes.print_barcode: Printing8d813e7a-25c3-43cb-80e4-2b7d62c31825
+2022-02-09 18:31:21Dataio.find: Found 8where items.part_number ='8d813e7a-25c3-43cb-80e4-2b7d62c31825'.
+2022-02-09 18:32:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:32:07Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:32:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:32:07Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:32:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:32:08Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:32:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:32:51Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:32:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:32:52Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:32:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:32:53Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:33:04main_server:do_POSTS: Recieved the following data:{'part_number': '1073_2022_006_.25" SPACER_012_REV1', 'part_uuid': '8d813e7a-25c3-43cb-80e4-2b7d62c31825', 'part_name': '.25" Hex PLA Spacer - Justin - PLA', 'qty': '15', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '.25" Hex PLA Spacer, 1073_2022_006_.25" Spacer_012_REV1', 'status': 'INUSE'}
+2022-02-09 18:33:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:33:06Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:33:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:33:07Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:33:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:33:08Dataio.get_all_items: Returned 368 results.
+2022-02-09 18:33:50main_server:do_POSTS: Recieved the following data:{'part_number': '1073_2022_007_Generic Spacer_008_REV1', 'part_name': 'Generic Spacer 007 - PLA Lucas', 'qty': '7', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '1073_2022_007_Generic Spacer_008_REV1, Generic Spacer 007 - PLA Lucas'}
+2022-02-09 18:33:50DataIO.new_item: Creating new item with part number: '1073_2022_007_GENERIC SPACER_008_REV1'
+2022-02-09 18:33:50Dataio.part_num_check: Found 0 part numbers in db.
+2022-02-09 18:33:50Dataio.part_num_check: Status of part number entered: 1073_2022_007_GENERIC SPACER_008_REV1 in db
+2022-02-09 18:33:50DataIO.new_item: Added new item to db.items.
+2022-02-09 18:33:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:33:58Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:33:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:33:58Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:33:59Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:33:59Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:34:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:34:28Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:34:29Dataio.find: Found 8where items.part_number ='8d813e7a-25c3-43cb-80e4-2b7d62c31825'.
+2022-02-09 18:34:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:34:31Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:34:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:34:31Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:34:41main_server:do_POSTS: Recieved the following data:{'part_number': '1073_2022_006_.25" SPACER_012_REV1', 'part_uuid': '8d813e7a-25c3-43cb-80e4-2b7d62c31825', 'part_name': '.25" Hex PLA Spacer - Justin - PLA', 'qty': '15', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '.25" Hex PLA Spacer, 1073_2022_006_.25" Spacer_012_REV1 Justin', 'status': 'INUSE'}
+2022-02-09 18:34:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:34:44Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:34:45Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:34:45Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:34:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:34:46Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:35:00Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:35:00Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:35:00Dataio.find: Found 8where items.part_number ='8b60467d-d6da-4b4a-8a33-f8e7be3530f3'.
+2022-02-09 18:35:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:35:02Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:35:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:35:02Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:35:10main_server:do_POSTS: Recieved the following data:{'part_uuid': '8b60467d-d6da-4b4a-8a33-f8e7be3530f3'}
+2022-02-09 18:35:10barcodes.print_barcode: Printing8b60467d-d6da-4b4a-8a33-f8e7be3530f3
+2022-02-09 18:35:10Dataio.find: Found 8where items.part_number ='8b60467d-d6da-4b4a-8a33-f8e7be3530f3'.
+2022-02-09 18:35:10barcodes.barcode_gen: Creating barcode for 8b60467d-d6da-4b4a-8a33-f8e7be3530f3
+2022-02-09 18:35:10Dataio.find: Found 8where items.part_number ='8b60467d-d6da-4b4a-8a33-f8e7be3530f3'.
+2022-02-09 18:35:10barcodes.barcode_gen: Created new barcode file for: 1073_2022_007_GENERIC SPACER_008_REV1
+2022-02-09 18:36:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:36:19Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:36:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:36:20Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:36:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:36:20Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:36:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:36:21Dataio.get_all_items: Returned 369 results.
+2022-02-09 18:37:19main_server:do_POSTS: Recieved the following data:{'part_number': '1073_2022_007_LauncherWheelPulleySpacer_016_REV1', 'part_name': 'Launcher Wheel Pulley Spacer 007 016 - PLA - Lucas', 'qty': '1', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '1073_2022_007_LauncherWheelPulleySpacer_016_REV1, Launcher Wheel Pulley Spacer 007 016 - PLA - Lucas'}
+2022-02-09 18:37:19DataIO.new_item: Creating new item with part number: '1073_2022_007_LAUNCHERWHEELPULLEYSPACER_016_REV1'
+2022-02-09 18:37:20Dataio.part_num_check: Found 0 part numbers in db.
+2022-02-09 18:37:20Dataio.part_num_check: Status of part number entered: 1073_2022_007_LAUNCHERWHEELPULLEYSPACER_016_REV1 in db
+2022-02-09 18:37:20DataIO.new_item: Added new item to db.items.
+2022-02-09 18:37:23Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:37:23Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:37:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:37:24Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:37:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:37:25Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:37:30Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:37:30Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:37:31Dataio.find: Found 8where items.part_number ='4c805834-9a16-451c-b9ab-d6371b68a411'.
+2022-02-09 18:37:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:37:32Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:37:32Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:37:32Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:37:34main_server:do_POSTS: Recieved the following data:{'part_uuid': '4c805834-9a16-451c-b9ab-d6371b68a411'}
+2022-02-09 18:37:34barcodes.print_barcode: Printing4c805834-9a16-451c-b9ab-d6371b68a411
+2022-02-09 18:37:34Dataio.find: Found 8where items.part_number ='4c805834-9a16-451c-b9ab-d6371b68a411'.
+2022-02-09 18:37:34barcodes.barcode_gen: Creating barcode for 4c805834-9a16-451c-b9ab-d6371b68a411
+2022-02-09 18:37:34Dataio.find: Found 8where items.part_number ='4c805834-9a16-451c-b9ab-d6371b68a411'.
+2022-02-09 18:37:34barcodes.barcode_gen: Created new barcode file for: 1073_2022_007_LAUNCHERWHEELPULLEYSPACER_016_REV1
+2022-02-09 18:38:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:38:07Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:38:07Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:38:08Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:38:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:38:08Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:38:16Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:38:16Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:38:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:38:17Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:38:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:38:17Dataio.get_all_items: Returned 370 results.
+2022-02-09 18:39:18main_server:do_POSTS: Recieved the following data:{'part_number': '1073_2022_007_LauncherWheelSpacer_017_REV1', 'part_name': 'Launcher Wheel Spacer PLA - Lucas', 'qty': '1', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '1073_2022_007_LauncherWheelSpacer_017_REV1, Launcher Wheel Spacer PLA - Lucas'}
+2022-02-09 18:39:18DataIO.new_item: Creating new item with part number: '1073_2022_007_LAUNCHERWHEELSPACER_017_REV1'
+2022-02-09 18:39:18Dataio.part_num_check: Found 0 part numbers in db.
+2022-02-09 18:39:18Dataio.part_num_check: Status of part number entered: 1073_2022_007_LAUNCHERWHEELSPACER_017_REV1 in db
+2022-02-09 18:39:18DataIO.new_item: Added new item to db.items.
+2022-02-09 18:39:23Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:39:23Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:39:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:39:24Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:39:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:39:25Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:39:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:39:29Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:39:30Dataio.find: Found 8where items.part_number ='49184f70-0196-4101-9213-4c0a56728bb2'.
+2022-02-09 18:39:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:39:31Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:39:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:39:31Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:39:34main_server:do_POSTS: Recieved the following data:{'part_uuid': '49184f70-0196-4101-9213-4c0a56728bb2'}
+2022-02-09 18:39:34barcodes.print_barcode: Printing49184f70-0196-4101-9213-4c0a56728bb2
+2022-02-09 18:39:35Dataio.find: Found 8where items.part_number ='49184f70-0196-4101-9213-4c0a56728bb2'.
+2022-02-09 18:39:35barcodes.barcode_gen: Creating barcode for 49184f70-0196-4101-9213-4c0a56728bb2
+2022-02-09 18:39:35Dataio.find: Found 8where items.part_number ='49184f70-0196-4101-9213-4c0a56728bb2'.
+2022-02-09 18:39:35barcodes.barcode_gen: Created new barcode file for: 1073_2022_007_LAUNCHERWHEELSPACER_017_REV1
+2022-02-09 18:40:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:40:18Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:40:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:40:19Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:40:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:40:20Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:41:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:41:09Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:41:10Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:41:10Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:41:11Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:41:11Dataio.get_all_items: Returned 371 results.
+2022-02-09 18:42:05main_server:do_POSTS: Recieved the following data:{'part_number': '91990A541', 'part_name': '18-8 Stainless Steel Helical Inserts Without Prong, 10-32 Thread Size, 0.475" Installed Length Packs of 10', 'qty': '12', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '18-8 Stainless Steel Helical Inserts Without Prong, 10-32 Thread Size, 0.475" Installed Length Packs of 10, 91990A541'}
+2022-02-09 18:42:05DataIO.new_item: Creating new item with part number: '91990A541'
+2022-02-09 18:42:05Dataio.part_num_check: Found 0 part numbers in db.
+2022-02-09 18:42:05Dataio.part_num_check: Status of part number entered: 91990A541 in db
+2022-02-09 18:42:05DataIO.new_item: Added new item to db.items.
+2022-02-09 18:42:08Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:08Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:09Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:10Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:10Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:17Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:17Dataio.find: Found 8where items.part_number ='7a73f2c0-7a2c-4686-9852-62fc96ebe8fb'.
+2022-02-09 18:42:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:19Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:20Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:31main_server:do_POSTS: Recieved the following data:{'part_uuid': '7a73f2c0-7a2c-4686-9852-62fc96ebe8fb'}
+2022-02-09 18:42:31barcodes.print_barcode: Printing7a73f2c0-7a2c-4686-9852-62fc96ebe8fb
+2022-02-09 18:42:31Dataio.find: Found 8where items.part_number ='7a73f2c0-7a2c-4686-9852-62fc96ebe8fb'.
+2022-02-09 18:42:31barcodes.barcode_gen: Creating barcode for 7a73f2c0-7a2c-4686-9852-62fc96ebe8fb
+2022-02-09 18:42:31Dataio.find: Found 8where items.part_number ='7a73f2c0-7a2c-4686-9852-62fc96ebe8fb'.
+2022-02-09 18:42:31barcodes.barcode_gen: Created new barcode file for: 91990A541
+2022-02-09 18:42:49Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:49Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:50Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:42:50Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:42:51Dataio.get_all_items: Returned 372 results.
+2022-02-09 18:43:43main_server:do_POSTS: Recieved the following data:{'part_number': '6338K414', 'part_name': 'Oil-Embedded Flanged Sleeve Bearing for 3/8" Shaft Diameter and 1/2" Housing ID, 1/4" Long', 'qty': '10', 'threshold_qty': '', 'alt_part_nums': '', 'tags': 'Oil-Embedded Flanged Sleeve Bearing for 3/8" Shaft Diameter and 1/2" Housing ID, 1/4" Long, 6338K414'}
+2022-02-09 18:43:43DataIO.new_item: Creating new item with part number: '6338K414'
+2022-02-09 18:43:43Dataio.part_num_check: Found 0 part numbers in db.
+2022-02-09 18:43:43Dataio.part_num_check: Status of part number entered: 6338K414 in db
+2022-02-09 18:43:43DataIO.new_item: Added new item to db.items.
+2022-02-09 18:43:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:43:47Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:43:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:43:47Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:43:48Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:43:48Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:43:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:43:51Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:43:52Dataio.find: Found 8where items.part_number ='ee11ebf5-ed4f-4a23-b1f8-84222204a0af'.
+2022-02-09 18:43:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:43:53Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:43:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:43:53Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:43:58main_server:do_POSTS: Recieved the following data:{'part_uuid': 'ee11ebf5-ed4f-4a23-b1f8-84222204a0af'}
+2022-02-09 18:43:58barcodes.print_barcode: Printingee11ebf5-ed4f-4a23-b1f8-84222204a0af
+2022-02-09 18:43:58Dataio.find: Found 8where items.part_number ='ee11ebf5-ed4f-4a23-b1f8-84222204a0af'.
+2022-02-09 18:43:58barcodes.barcode_gen: Creating barcode for ee11ebf5-ed4f-4a23-b1f8-84222204a0af
+2022-02-09 18:43:58Dataio.find: Found 8where items.part_number ='ee11ebf5-ed4f-4a23-b1f8-84222204a0af'.
+2022-02-09 18:43:58barcodes.barcode_gen: Created new barcode file for: 6338K414
+2022-02-09 18:45:11Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:45:11Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:45:12Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:45:12Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:45:12Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:45:12Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:45:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:45:15Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:45:16Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:45:16Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:45:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:45:17Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:19main_server:do_POSTS: Recieved the following data:{'part_number': '97345A251', 'part_name': '316 Stainless Steel Shoulder Screw 3/8" Shoulder Diameter 2" Shoulder Length 1/4"-20 Thread', 'qty': '5', 'threshold_qty': '', 'alt_part_nums': '', 'tags': '316 Stainless Steel Shoulder Screw 3/8" Shoulder Diameter 2" Shoulder Length 1/4"-20 Thread, 97345A251'}
+2022-02-09 18:46:19DataIO.new_item: Creating new item with part number: '97345A251'
+2022-02-09 18:46:19Dataio.part_num_check: Found 1 part numbers in db.
+2022-02-09 18:46:19Dataio.part_num_check: Status of part number entered: 97345A251 in db
+2022-02-09 18:46:19dataio.item.new: Already found part number in db.
+2022-02-09 18:46:19DataIO.new_item: Added new item to db.items.
+2022-02-09 18:46:23Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:24Dataio.get_all_items: Returned 374 results.
+2022-02-09 18:46:24Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:24Dataio.get_all_items: Returned 374 results.
+2022-02-09 18:46:25Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:25Dataio.get_all_items: Returned 374 results.
+2022-02-09 18:46:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:34Dataio.get_all_items: Returned 374 results.
+2022-02-09 18:46:34Dataio.find: Found 8where items.part_number ='9f957816-cd73-4f5e-9bd0-31be00a458f2'.
+2022-02-09 18:46:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:36Dataio.get_all_items: Returned 374 results.
+2022-02-09 18:46:36Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:36Dataio.get_all_items: Returned 374 results.
+2022-02-09 18:46:42main_server:do_POSTS: Recieved the following data:{'part_uuid': '9f957816-cd73-4f5e-9bd0-31be00a458f2', 'status': 'ARCHIVED'}
+2022-02-09 18:46:45Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:45Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:46Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:46Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:47Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:47Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:47Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:51Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:51Dataio.find: Found 8where items.part_number ='18016a1d-5cca-4ee2-b20f-cd8d9b291f35'.
+2022-02-09 18:46:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:53Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:46:53Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:46:59main_server:do_POSTS: Recieved the following data:{'part_uuid': '18016a1d-5cca-4ee2-b20f-cd8d9b291f35', 'qty': '3'}
+2022-02-09 18:47:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:47:02Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:47:03Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:47:03Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:47:03Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:47:03Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:47:31Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:47:32Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:47:32Dataio.find: Found 8where items.part_number ='18016a1d-5cca-4ee2-b20f-cd8d9b291f35'.
+2022-02-09 18:47:33Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:47:33Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:47:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:47:34Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:47:39main_server:do_POSTS: Recieved the following data:{'part_uuid': '18016a1d-5cca-4ee2-b20f-cd8d9b291f35'}
+2022-02-09 18:47:39barcodes.print_barcode: Printing18016a1d-5cca-4ee2-b20f-cd8d9b291f35
+2022-02-09 18:47:39Dataio.find: Found 8where items.part_number ='18016a1d-5cca-4ee2-b20f-cd8d9b291f35'.
+2022-02-09 18:47:39barcodes.barcode_gen: Creating barcode for 18016a1d-5cca-4ee2-b20f-cd8d9b291f35
+2022-02-09 18:47:39Dataio.find: Found 8where items.part_number ='18016a1d-5cca-4ee2-b20f-cd8d9b291f35'.
+2022-02-09 18:47:39barcodes.barcode_gen: Created new barcode file for: 97345A251
+2022-02-09 18:48:19Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:19Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:20Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:20Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:26Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:26Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:26Dataio.find: Found 8where items.part_number ='f1dceebf-4a5c-4f67-aadc-6f6967078577'.
+2022-02-09 18:48:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:28Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:28Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:33main_server:do_POSTS: Recieved the following data:{'part_uuid': 'f1dceebf-4a5c-4f67-aadc-6f6967078577', 'qty': '2'}
+2022-02-09 18:48:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:38Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:39Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:48:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:48:39Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:49:33Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:49:33Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:49:34Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:49:35Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:49:35Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:49:35Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:49:35Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:49:57main_server:do_POSTS: Recieved the following data:{'part_uuid': '2f1ce9f3-cf49-4111-aab6-1ce73d7517bf', 'qty': '48'}
+2022-02-09 18:50:00Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:50:00Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:50:01Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:50:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:50:02Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:50:02Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:50:02Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:50:11main_server:do_POSTS: Recieved the following data:{'part_uuid': '2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'}
+2022-02-09 18:50:11barcodes.print_barcode: Printing2f1ce9f3-cf49-4111-aab6-1ce73d7517bf
+2022-02-09 18:50:11Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:50:11barcodes.barcode_gen: Creating barcode for 2f1ce9f3-cf49-4111-aab6-1ce73d7517bf
+2022-02-09 18:50:11Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:50:11barcodes.barcode_gen: Created new barcode file for: 217-3875
+2022-02-09 18:50:14main_server:do_POSTS: Recieved the following data:{'part_uuid': '2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'}
+2022-02-09 18:50:14barcodes.print_barcode: Printing2f1ce9f3-cf49-4111-aab6-1ce73d7517bf
+2022-02-09 18:50:14Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:50:27main_server:do_POSTS: Recieved the following data:{'part_uuid': '2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'}
+2022-02-09 18:50:27barcodes.print_barcode: Printing2f1ce9f3-cf49-4111-aab6-1ce73d7517bf
+2022-02-09 18:50:27Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:50:30main_server:do_POSTS: Recieved the following data:{'part_number': '217-3875', 'part_uuid': '2f1ce9f3-cf49-4111-aab6-1ce73d7517bf', 'part_name': '"""0.500"""" Hex ID x 1.125"""" OD x 0.313"""" WD (Flanged Bearing v2)"""', 'qty': '94', 'threshold_qty': 'None', 'alt_part_nums': 'None', 'tags': '217-3875,"""0.500"""" Hex ID x 1.125"""" OD x 0.313"""" WD (Flanged Bearing v2)"""', 'status': 'INUSE'}
+2022-02-09 18:50:49main_server:do_POSTS: Recieved the following data:{'part_uuid': '2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'}
+2022-02-09 18:50:49barcodes.print_barcode: Printing2f1ce9f3-cf49-4111-aab6-1ce73d7517bf
+2022-02-09 18:50:49Dataio.find: Found 8where items.part_number ='2f1ce9f3-cf49-4111-aab6-1ce73d7517bf'.
+2022-02-09 18:54:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:54:37Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:54:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:54:38Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:54:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:54:39Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:55:55Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:55:55Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:55:56Dataio.find: Found 8where items.part_number ='ea79d483-b324-4c76-b737-7dc2683fe09e'.
+2022-02-09 18:55:57Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:55:57Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:55:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 18:55:58Dataio.get_all_items: Returned 373 results.
+2022-02-09 18:57:00main_server:do_POSTS: Recieved the following data:{'part_number': 'R1185-4', 'part_uuid': 'ea79d483-b324-4c76-b737-7dc2683fe09e', 'part_name': 'Inch thread repair inserts 1/4-20 12-Packs', 'qty': '8', 'threshold_qty': 'None', 'alt_part_nums': 'None', 'tags': 'R1185-4,Inch thread repair inserts 1/4-20', 'status': 'INUSE'}
+2022-02-09 18:57:04main_server:do_POSTS: Recieved the following data:{'part_uuid': 'ea79d483-b324-4c76-b737-7dc2683fe09e'}
+2022-02-09 18:57:04barcodes.print_barcode: Printingea79d483-b324-4c76-b737-7dc2683fe09e
+2022-02-09 18:57:04Dataio.find: Found 8where items.part_number ='ea79d483-b324-4c76-b737-7dc2683fe09e'.
+2022-02-09 18:57:04barcodes.barcode_gen: Creating barcode for ea79d483-b324-4c76-b737-7dc2683fe09e
+2022-02-09 18:57:04Dataio.find: Found 8where items.part_number ='ea79d483-b324-4c76-b737-7dc2683fe09e'.
+2022-02-09 18:57:04barcodes.barcode_gen: Created new barcode file for: R1185-4
+2022-02-09 19:02:17Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:02:17Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:02:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:02:18Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:02:18Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:02:18Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:14Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:27Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:27Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:28Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:29Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:51Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:51Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:51Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:52Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:52Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:53Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:53Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:55main_server:do_POSTS: Recieved the following data:{'backup': 'yes'}
+2022-02-09 19:09:56db.Backup: Starting backup at: 2022_02_09_190956
+2022-02-09 19:09:56db.backup: Created new backup folder at: ../backup/2022_02_09_190956/
+2022-02-09 19:09:56db.backup: Copied primary db file into backup path.
+2022-02-09 19:09:56db.backup: Created csv for items table, with 376 rows.
+2022-02-09 19:09:56db.backup: Created csv for transactions table, with 88 rows.
+2022-02-09 19:09:56db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-09 19:09:56db.backup: Created csv for location_info table, with 0 rows.
+2022-02-09 19:09:56db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-09 19:09:56db.backup: Created csv for uuids table, with 1711 rows.
+2022-02-09 19:09:56db.backup: Created csv for users table, with 0 rows.
+2022-02-09 19:09:58Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:09:58Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:09:59db.backup: Updated Google Sheet.
+2022-02-09 19:10:28Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:10:28Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:10:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:10:29Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:10:29Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:10:29Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:20Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:20Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:21Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:21Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:22Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:22Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:35main_server:do_POSTS: Recieved the following data:{'part_uuid': '217-4017', 'qty': '1', 'notes': ''}
+2022-02-09 19:17:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:38Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:39Dataio.get_all_items: Returned 373 results.
+2022-02-09 19:17:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-09 19:17:40Dataio.get_all_items: Returned 373 results.

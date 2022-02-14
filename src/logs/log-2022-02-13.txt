@@ -1,0 +1,13 @@
+2022-02-13 18:33:34Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-13 18:33:34Dataio.get_all_items: Returned 379 results.
+2022-02-13 18:33:35Dataio.find: Found 8where items.part_number ='8b60467d-d6da-4b4a-8a33-f8e7be3530f3'.
+2022-02-13 18:33:37Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-13 18:33:37Dataio.get_all_items: Returned 379 results.
+2022-02-13 18:33:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-13 18:33:38Dataio.get_all_items: Returned 379 results.
+2022-02-13 18:33:39Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-13 18:33:39Dataio.get_all_items: Returned 379 results.
+2022-02-13 18:33:40Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-13 18:33:40Dataio.get_all_items: Returned 379 results.
+2022-02-13 18:33:41Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-13 18:33:41Dataio.get_all_items: Returned 379 results.
