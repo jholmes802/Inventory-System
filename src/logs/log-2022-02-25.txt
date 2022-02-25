@@ -10,3 +10,34 @@
 2022-02-25 15:57:28db.backup: Created csv for loc_items table, with 0 rows.
 2022-02-25 15:57:28db.backup: Created csv for uuids table, with 1540 rows.
 2022-02-25 15:57:28db.backup: Created csv for users table, with 0 rows.
+2022-02-25 16:59:38Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 16:59:38Dataio.get_all_items: Returned 335 results.
+2022-02-25 16:59:47Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 16:59:54Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 16:59:54Dataio.get_all_items: Returned 335 results.
+2022-02-25 17:00:15Dataio.find: Found 9where items.part_number ='995b329c-e8c0-4004-a645-754e44fcce02'.
+2022-02-25 17:00:25main_server:do_POSTS: Recieved the following data:{'part_number': '1073-TEST', 'part_uuid': '995b329c-e8c0-4004-a645-754e44fcce02', 'part_name': 'Test Part By JustinH', 'qty': '10', 'threshold_qty': 'None', 'alt_part_nums': 'None', 'tags': 'Test Part By Justin, 1073-TEST', 'status': 'INUSE', 'category': 'None'}
+2022-02-25 17:00:25db.Backup: Starting backup at: 2022_02_25_170025
+2022-02-25 17:00:25db.backup: Removed backup for 2022_01_30_231220
+2022-02-25 17:00:25db.backup: Removed 1 old backups.
+2022-02-25 17:00:25db.backup: Created new backup folder at: ../backup/2022_02_25_170025/
+2022-02-25 17:00:25db.backup: Copied primary db file into backup path.
+2022-02-25 17:00:25db.backup: Created csv for items table, with 335 rows.
+2022-02-25 17:00:25db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for uuids table, with 1541 rows.
+2022-02-25 17:00:25db.backup: Created csv for users table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 17:00:25db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 17:24:06Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 17:24:06Dataio.get_all_items: Returned 335 results.

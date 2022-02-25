@@ -14,7 +14,7 @@ if os.name == "nt":
     serverPort = 80
 else:
     serverPort = 8080
-serverPort = 80
+
 get_funcs = {
     "/": ("text/html", pages.home.home),
     "/newitem/": ("text/html", pages.home.new_item),

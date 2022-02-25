@@ -9,20 +9,17 @@ from io import BytesIO
 
 log_level = 2
 
-def mass_import_items(path:str)->None:
-    """Not ready for production. It is used to initalize the primary db with data from a csv.
-
+def mass_import_items(path:str):
+    """  Not ready for production. It is used to initalize the primary db with data from a csv.
     Args:
         path (str): Path to a csv file. Must contain
-
     CSV File Requirements:
         Fields, must contain: A "part number" field, that is unique to each part.
             "part Name" field that is the name/desc for the part, does not need to be unique
             "quantity" field that is an integer, and is the quantity of the part.
-
     Raises:
-        FileError: [description]
-    """
+        FileError: [description] """
+
     if not path.endswith(".csv"):
         raise FileError("Improper File type, needs to be a csv format.")
     fhand = open(path, 'r', encoding='utf-8-sig')
@@ -78,7 +75,7 @@ class transactions:
         conn.execute(db.table["transactions"].insert(vals))
         conn.close()
 
-    def verify(part_num, qty, comment=None):
+    def verify(part_num, qty, comment=""):
         prt_uuid = items.find(part_num)["part_uuid"]
         tr_uuid = tools.new_uuid(record=True, typ="TRANS")
         vals = {
@@ -95,7 +92,7 @@ class transactions:
         conn = db.engine.connect()
         conn.execute(db.table['transactions'].insert(vals)).close()
 
-    def checkio(part_uuid, qty, io, dest=None, src=None, comment=None):
+    def checkio(part_uuid, qty, io, dest="", src="", comment=""):
         if io not in ["OUT", "IN"]: raise dbEntryError("io must be either 'IN' or 'OUT'")
         tr_uuid = tools.new_uuid(record=True, typ="TRANS")
         vals = {
@@ -117,7 +114,7 @@ class transactions:
         conn.execute(db.table["transactions"].insert(vals))
         conn.close()
 
-    def get_transactions(types:str or list=None, cnt:int = -1) -> List[list]:
+    def get_transactions(types:str or list="", cnt:int = -1) -> List[list]:
         """Setup to return a list of transactions.
 
         Args:
