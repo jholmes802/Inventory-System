@@ -1,0 +1,12 @@
+2022-02-25 15:57:28db.Backup: Starting backup at: 2022_02_25_155728
+2022-02-25 15:57:28db.backup: Removed backup for 2022_01_30_231219
+2022-02-25 15:57:28db.backup: Removed 1 old backups.
+2022-02-25 15:57:28db.backup: Created new backup folder at: ../backup/2022_02_25_155728/
+2022-02-25 15:57:28db.backup: Copied primary db file into backup path.
+2022-02-25 15:57:28db.backup: Created csv for items table, with 335 rows.
+2022-02-25 15:57:28db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 15:57:28db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 15:57:28db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 15:57:28db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 15:57:28db.backup: Created csv for uuids table, with 1540 rows.
+2022-02-25 15:57:28db.backup: Created csv for users table, with 0 rows.

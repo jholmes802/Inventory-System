@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import base64
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 import db_manager
 from tools import *
 import uuid
@@ -117,7 +117,7 @@ class transactions:
         conn.execute(db.table["transactions"].insert(vals))
         conn.close()
 
-    def get_transactions(types:str or list=None, cnt:int = -1) -> list[list]:
+    def get_transactions(types:str or list=None, cnt:int = -1) -> List[list]:
         """Setup to return a list of transactions.
 
         Args:
@@ -227,7 +227,7 @@ class items:
         fields = [x.name for x in db.table["items"].columns]
         return {fields[i]:res[i] for i in range(0,len(fields))}
 
-    def get_all(status:str="INUSE", limit=None)->list[list]:
+    def get_all(status:str="INUSE", limit=None)->List[list]:
         """Only takes status, which is either "INUSE" or "ARCHIVED"
         Returns:
             tuple(fields, results): Returns the fields and a list and results as list[tuples].

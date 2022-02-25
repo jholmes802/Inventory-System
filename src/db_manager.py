@@ -15,7 +15,6 @@ class db:
         """This creates a db access obj. This contains the engine, and meta data.
         It creates the tables, and is able to manipulate the db.
         Primarily used for its db.engine which .connect() and .execute run sqlalchemy code.
-
         Args:
             dbSetupPath (str, optional): It is an optional path to the db config file. More info later... Defaults to "dat_struc.json".
         """
@@ -24,30 +23,54 @@ class db:
         self.type:str = self.dbSetupConfig["db_type"]
         self.db_path:str = self.dbSetupConfig["db_path"]
         self.setupTables:List[Dict[str, str]] = self.dbSetupConfig["tables"]
+
         ### Creates self.engine, meta, and inspector which are objects that provide information about what is in the db.
-        self.engine: sqlalchemy.engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data2.db")
+        
+        #Use the line below for a sqlite db
+        #self.engine: sqlalchemy.engine = sqlalchemy.create_engine("sqlite+pysqlite:///../data/inv_data2.db")
+        
+        #Use the line below for mysql db.
+        self.engine: sqlalchemy.engine = sqlalchemy.create_engine("mysql+mysqlconnector://invsys:InvSysDB85@localhost/invdb")
         self.meta: sqlalchemy.MetaData = sqlalchemy.MetaData(self.engine)
         self.inspector: sqlalchemy.inspection = sqlalchemy.inspect(self.engine)
+        
         ### Beginning creating the tables from the config doc. ###
         self.table:Dict[str, sqlalchemy.Table] = dict()
+        
         for itable, table in enumerate(self.setupTables): #This iterates through the config file and creates SQLAlchemy.Table objects under a dictionary.
             for i, col in enumerate(table["table_cols"]):
                 dtype = col["data_type"].upper()
-                if dtype == "STRING": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.String
-                elif dtype == "INTEGER": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Integer
-                elif dtype == "REAL": self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Float
-                else: raise ConfigError(dtype + " : is not a recognized data type. Please refer to SQLAlchemy supported types.")
+                if col["primary_key"] == "True":
+                    col["primary_key"] = True
+                else:
+                    col["primary_key"] = False
+
+                if col["primary_key"] and dtype == "STRING":
+                    self.setupTables[itable]["table_cols"][i]["primary_key"] = True
+                    self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Text(30)
+                elif dtype == "STRING":
+                    self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Text
+                elif dtype == "INTEGER":
+                    self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Integer
+                elif dtype == "REAL":
+                    self.setupTables[itable]["table_cols"][i]["data_type"] = sqlalchemy.Float
+                else:
+                    raise ConfigError(dtype + " : is not a recognized data type. Please refer to SQLAlchemy supported types.")
+            
             self.table[table["table_name"]] = sqlalchemy.Table(
                 table["table_name"],
                 self.meta,
                 *[sqlalchemy.Column(
                     col["col_name"],
                     col["data_type"],
-                    primary_key=bool(col["primary_key"]),
+                    primary_key=col["primary_key"],
                     nullable=bool(col["nullable"])
-                    ) for col in table["table_cols"]]
+                    )
+                    for col in self.setupTables[itable]["table_cols"]
+                ]
             )
         self.meta.create_all()
+
     def run(self, sql_str)-> bool:
         try:
             cur = self.engine.connect()
@@ -126,4 +149,4 @@ class db:
 if __name__ == "__main__":
     d = db()
     print(d.inspector.get_table_names())
-    d.backup(clean_up=True)
+    #d.backup(clean_up=True)

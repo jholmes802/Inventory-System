@@ -1,0 +1,20 @@
+These are the steps being used to migrate the sqlite db into mysql
+
+First make a strong backup.
+
+Now we will run 
+sqlite3 /data/inv_data2.db .dump > dump.sql
+
+This will create a large file with a ton of lines....
+
+Lets setup the mysql db, follow those setup steps in mysql_setup.readme
+
+If you are using the dump.sql file by running the sql, well then we should do the following....
+    Start by removeing the first couple of lines before the CREATE TABLE stuff.
+    Then remove all CREATE TABLE calls, we want them all gone, these are kinda spread through out the file.
+    Now we need to do a find and replace.
+        Find: INSERT INTO items
+        Replace with: INSERT INTO items (part_number, part_uuid, part_name,qty,threshold_qty,alt_part_nums,tags,status)
+    Lastly before you run the SQL we should update a couple of the last lines, where they are '' instead of NULL. You need to make them NULL for now.
+
+    Now you can run the SQL.

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from tools import *
-
+from typing import Tuple, List
 
 class DataError(Exception):
     def __init__(self, message: str):
@@ -63,7 +63,7 @@ class body:
             self.returnable += "<body>\n"
             self.spacing += 1
         return self
-    def nav(self, items:list[tuple]):
+    def nav(self, items:List[tuple]):
         """Creates the navigation section. Only needs to be called once.
 
         Args:

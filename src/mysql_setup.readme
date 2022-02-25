@@ -1,0 +1,10 @@
+Ok for this ensure you have mysql setup on the normal port, and has the following setup
+User with uname: invsys and pass: InvSysDB85
+
+Now make a schema called invdb
+
+Now ensure the db_manager is able to connect, and connect and run the db_manager this will setup all the needed tables.
+
+This should setup all the tables in the dat_struc.json file.
+
+
