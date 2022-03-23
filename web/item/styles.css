@@ -28,7 +28,6 @@
 .MainNav a{
     display: block;
     padding: 8px;
-    
 }
 
 .partSpecs table {
@@ -39,13 +38,24 @@
     border: 1px solid black;
 }
 .partSpecs table{
-    margin-left: auto;
-    margin-right: auto;
     border-collapse: collapse;
     width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
-.partSpecs table th{background-color: grey;}
+.partSpecs table th{
+    background-color: grey;
+    width: 25%;
+}
 
+.partSpecs table input{
+    width: 100%; /* Full-width */
+    height: 100%;
+    font-size: 16px;
+    padding: 9px;
+    margin: -10px;
+    border: 1px solid #ddd; /* Add a grey border */
+}
 div.checkIO{
     display: none;
     position: absolute;

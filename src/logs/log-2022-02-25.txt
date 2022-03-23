@@ -41,3 +41,671 @@
 2022-02-25 17:00:25db.backup: Created csv for kits table, with 0 rows.
 2022-02-25 17:24:06Dataio.get_all_items: Retrieving Primary Stock Table.
 2022-02-25 17:24:06Dataio.get_all_items: Returned 335 results.
+2022-02-25 23:01:56Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:01:56Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:05:46Dataio.find: Found 9where items.part_number ='995b329c-e8c0-4004-a645-754e44fcce02'.
+2022-02-25 23:05:54main_server:do_POSTS: Recieved the following data:{'part_number': '1073-TEST', 'part_uuid': '995b329c-e8c0-4004-a645-754e44fcce02', 'part_name': 'Test Part By JustinH', 'qty': '10', 'threshold_qty': 'None', 'alt_part_nums': 'None', 'tags': 'Test Part By Justin, 1073-TEST', 'status': 'INUSE', 'category': 'None'}
+2022-02-25 23:05:55db.Backup: Starting backup at: 2022_02_25_230555
+2022-02-25 23:05:55db.backup: Removed backup for 2022_01_30_231221
+2022-02-25 23:05:55db.backup: Removed 1 old backups.
+2022-02-25 23:05:55db.backup: Created new backup folder at: ../backup/2022_02_25_230555/
+2022-02-25 23:05:55db.backup: Copied primary db file into backup path.
+2022-02-25 23:05:55db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:05:55db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:05:55db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:05:55db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:21:53server.get:processing /item/?partUUID=995b329c-e8c0-4004-a645-754e44fcce02
+2022-02-25 23:21:53Dataio.find: Found 9where items.part_number ='995b329c-e8c0-4004-a645-754e44fcce02'.
+2022-02-25 23:21:54server.get:sending response!
+2022-02-25 23:21:54server.get:processing /item/styles.css
+2022-02-25 23:21:54server.get:sending response!
+2022-02-25 23:21:54server.get:processing /item/script.js
+2022-02-25 23:21:54server.get:sending response!
+2022-02-25 23:21:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:21:54server.get:sending response!
+2022-02-25 23:22:01main_server:do_POSTS: Recieved the following data:{'part_number': '1073-TEST', 'part_uuid': '995b329c-e8c0-4004-a645-754e44fcce02', 'part_name': 'Test Part By JustinH', 'qty': '10', 'threshold_qty': 'None', 'alt_part_nums': 'None', 'tags': 'Test Part By Justin, 1073-TEST', 'status': 'INUSE', 'category': 'None'}
+2022-02-25 23:22:01db.Backup: Starting backup at: 2022_02_25_232201
+2022-02-25 23:22:01db.backup: Removed backup for 2022_01_30_231222
+2022-02-25 23:22:01db.backup: Removed 1 old backups.
+2022-02-25 23:22:01db.backup: Created new backup folder at: ../backup/2022_02_25_232201/
+2022-02-25 23:22:01db.backup: Copied primary db file into backup path.
+2022-02-25 23:22:01db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:22:01db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:22:01db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:22:01db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:23:19server.get:processing /item/?partUUID=995b329c-e8c0-4004-a645-754e44fcce02
+2022-02-25 23:23:19Dataio.find: Found 9where items.part_number ='995b329c-e8c0-4004-a645-754e44fcce02'.
+2022-02-25 23:23:20server.get:sending response!
+2022-02-25 23:23:20server.get:processing /item/styles.css
+2022-02-25 23:23:20server.get:sending response!
+2022-02-25 23:23:20server.get:processing /item/script.js
+2022-02-25 23:23:20server.get:sending response!
+2022-02-25 23:23:20server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:23:20server.get:sending response!
+2022-02-25 23:23:22main_server:do_POSTS: Recieved the following data:{'part_number': '1073-TEST', 'part_uuid': '995b329c-e8c0-4004-a645-754e44fcce02', 'part_name': 'Test Part By Justin', 'qty': '10', 'threshold_qty': 'None', 'alt_part_nums': 'None', 'tags': 'Test Part By Justin, 1073-TEST', 'status': 'INUSE', 'category': 'None'}
+2022-02-25 23:23:22db.Backup: Starting backup at: 2022_02_25_232322
+2022-02-25 23:23:22db.backup: Removed backup for 2022_01_30_231223
+2022-02-25 23:23:22db.backup: Removed 1 old backups.
+2022-02-25 23:23:22db.backup: Created new backup folder at: ../backup/2022_02_25_232322/
+2022-02-25 23:23:22db.backup: Copied primary db file into backup path.
+2022-02-25 23:23:22db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:23:22db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:23:22db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:23:22db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:24:02server.get:processing /item/?partUUID=995b329c-e8c0-4004-a645-754e44fcce02
+2022-02-25 23:24:02Dataio.find: Found 9where items.part_number ='995b329c-e8c0-4004-a645-754e44fcce02'.
+2022-02-25 23:24:02server.get:sending response!
+2022-02-25 23:24:02server.get:processing /item/styles.css
+2022-02-25 23:24:02server.get:sending response!
+2022-02-25 23:24:02server.get:processing /item/script.js
+2022-02-25 23:24:02server.get:sending response!
+2022-02-25 23:24:02server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:24:02server.get:sending response!
+2022-02-25 23:24:05main_server:do_POSTS: Recieved the following data:{'part_number': '1073-TEST', 'part_uuid': '995b329c-e8c0-4004-a645-754e44fcce02', 'part_name': 'Test Part By Justin', 'qty': '10', 'threshold_qty': None, 'alt_part_nums': None, 'tags': 'Test Part By Justin, 1073-TEST', 'status': 'INUSE', 'category': None}
+2022-02-25 23:24:05db.Backup: Starting backup at: 2022_02_25_232405
+2022-02-25 23:24:05db.backup: Removed backup for 2022_01_30_231224
+2022-02-25 23:24:05db.backup: Removed 1 old backups.
+2022-02-25 23:24:05db.backup: Created new backup folder at: ../backup/2022_02_25_232405/
+2022-02-25 23:24:05db.backup: Copied primary db file into backup path.
+2022-02-25 23:24:05db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:24:05db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:24:05db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:24:05db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:24:09server.get:processing /
+2022-02-25 23:24:09Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:24:10Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:24:10server.get:sending response!
+2022-02-25 23:24:10server.get:processing /styles.css
+2022-02-25 23:24:10server.get:sending response!
+2022-02-25 23:24:10server.get:processing /script.js
+2022-02-25 23:24:10server.get:sending response!
+2022-02-25 23:24:10server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:24:10server.get:sending response!
+2022-02-25 23:25:41server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:25:41Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:25:41server.get:sending response!
+2022-02-25 23:25:41server.get:processing /item/styles.css
+2022-02-25 23:25:41server.get:sending response!
+2022-02-25 23:25:41server.get:processing /item/script.js
+2022-02-25 23:25:41server.get:sending response!
+2022-02-25 23:25:41server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:25:41server.get:sending response!
+2022-02-25 23:25:47server.get:processing /item/styles.css
+2022-02-25 23:25:47server.get:sending response!
+2022-02-25 23:27:03server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:27:03Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:27:03server.get:sending response!
+2022-02-25 23:27:03server.get:processing /item/styles.css
+2022-02-25 23:27:03server.get:sending response!
+2022-02-25 23:27:03server.get:processing /item/script.js
+2022-02-25 23:27:03server.get:sending response!
+2022-02-25 23:27:03server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:27:03server.get:sending response!
+2022-02-25 23:27:07main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:27:07db.Backup: Starting backup at: 2022_02_25_232707
+2022-02-25 23:27:07db.backup: Removed backup for 2022_01_30_231225
+2022-02-25 23:27:07db.backup: Removed 1 old backups.
+2022-02-25 23:27:07db.backup: Created new backup folder at: ../backup/2022_02_25_232707/
+2022-02-25 23:27:07db.backup: Copied primary db file into backup path.
+2022-02-25 23:27:07db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:27:07db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:27:07db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:27:07db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:27:15server.get:processing /
+2022-02-25 23:27:15Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:27:15Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:27:15server.get:sending response!
+2022-02-25 23:27:15server.get:processing /styles.css
+2022-02-25 23:27:15server.get:sending response!
+2022-02-25 23:27:15server.get:processing /script.js
+2022-02-25 23:27:15server.get:sending response!
+2022-02-25 23:27:15server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:27:15server.get:sending response!
+2022-02-25 23:27:20server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:27:20Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:27:21server.get:sending response!
+2022-02-25 23:27:21server.get:processing /item/styles.css
+2022-02-25 23:27:21server.get:sending response!
+2022-02-25 23:27:21server.get:processing /item/script.js
+2022-02-25 23:27:21server.get:sending response!
+2022-02-25 23:27:21server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:27:21server.get:sending response!
+2022-02-25 23:28:56server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:28:56Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:28:56server.get:sending response!
+2022-02-25 23:28:56server.get:processing /item/styles.css
+2022-02-25 23:28:56server.get:sending response!
+2022-02-25 23:28:56server.get:processing /item/script.js
+2022-02-25 23:28:56server.get:sending response!
+2022-02-25 23:28:56server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:28:56server.get:sending response!
+2022-02-25 23:29:42main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:29:42db.Backup: Starting backup at: 2022_02_25_232942
+2022-02-25 23:29:42db.backup: Removed backup for 2022_01_30_231226
+2022-02-25 23:29:42db.backup: Removed 1 old backups.
+2022-02-25 23:29:42db.backup: Created new backup folder at: ../backup/2022_02_25_232942/
+2022-02-25 23:29:42db.backup: Copied primary db file into backup path.
+2022-02-25 23:29:42db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:29:42db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:29:42db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:29:42db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:29:44server.get:processing /
+2022-02-25 23:29:44Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:29:44Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:29:44server.get:sending response!
+2022-02-25 23:29:44server.get:processing /styles.css
+2022-02-25 23:29:44server.get:sending response!
+2022-02-25 23:29:44server.get:processing /script.js
+2022-02-25 23:29:44server.get:sending response!
+2022-02-25 23:29:44server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:29:44server.get:sending response!
+2022-02-25 23:29:47server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:29:47Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:29:47server.get:sending response!
+2022-02-25 23:29:47server.get:processing /item/styles.css
+2022-02-25 23:29:47server.get:sending response!
+2022-02-25 23:29:47server.get:processing /item/script.js
+2022-02-25 23:29:47server.get:sending response!
+2022-02-25 23:29:47server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:29:47server.get:sending response!
+2022-02-25 23:30:04server.get:processing /item/styles.css
+2022-02-25 23:30:04server.get:sending response!
+2022-02-25 23:30:18server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:18server.get:sending response!
+2022-02-25 23:30:19server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:19server.get:sending response!
+2022-02-25 23:30:21server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:21server.get:sending response!
+2022-02-25 23:30:21server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:21server.get:sending response!
+2022-02-25 23:30:22server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:22server.get:sending response!
+2022-02-25 23:30:22server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:22server.get:sending response!
+2022-02-25 23:30:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:23server.get:sending response!
+2022-02-25 23:30:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:23server.get:sending response!
+2022-02-25 23:30:35server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:35server.get:sending response!
+2022-02-25 23:30:42server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:42server.get:sending response!
+2022-02-25 23:30:45server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:45server.get:sending response!
+2022-02-25 23:30:46server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:46server.get:sending response!
+2022-02-25 23:30:49server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:49server.get:sending response!
+2022-02-25 23:30:49server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:49server.get:sending response!
+2022-02-25 23:30:51server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:51server.get:sending response!
+2022-02-25 23:30:53server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:53server.get:sending response!
+2022-02-25 23:30:53server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:53server.get:sending response!
+2022-02-25 23:30:53server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:53server.get:sending response!
+2022-02-25 23:30:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:54server.get:sending response!
+2022-02-25 23:30:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:54server.get:sending response!
+2022-02-25 23:30:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:54server.get:sending response!
+2022-02-25 23:30:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:54server.get:sending response!
+2022-02-25 23:30:58server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:30:58server.get:sending response!
+2022-02-25 23:31:03server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:03server.get:sending response!
+2022-02-25 23:31:03server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:03server.get:sending response!
+2022-02-25 23:31:03server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:03server.get:sending response!
+2022-02-25 23:31:04server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:04server.get:sending response!
+2022-02-25 23:31:05server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:05server.get:sending response!
+2022-02-25 23:31:07server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:07server.get:sending response!
+2022-02-25 23:31:09server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:09server.get:sending response!
+2022-02-25 23:31:09server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:09server.get:sending response!
+2022-02-25 23:31:10server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:10server.get:sending response!
+2022-02-25 23:31:10server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:10server.get:sending response!
+2022-02-25 23:31:10server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:10server.get:sending response!
+2022-02-25 23:31:11server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:11server.get:sending response!
+2022-02-25 23:31:11server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:11server.get:sending response!
+2022-02-25 23:31:11server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:11server.get:sending response!
+2022-02-25 23:31:12server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:12server.get:sending response!
+2022-02-25 23:31:13server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:13server.get:sending response!
+2022-02-25 23:31:13server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:13server.get:sending response!
+2022-02-25 23:31:13server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:13server.get:sending response!
+2022-02-25 23:31:14server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:14server.get:sending response!
+2022-02-25 23:31:14server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:14server.get:sending response!
+2022-02-25 23:31:16server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:16server.get:sending response!
+2022-02-25 23:31:17server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:17server.get:sending response!
+2022-02-25 23:31:20server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:20server.get:sending response!
+2022-02-25 23:31:21server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:21server.get:sending response!
+2022-02-25 23:31:21server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:21server.get:sending response!
+2022-02-25 23:31:22server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:22server.get:sending response!
+2022-02-25 23:31:22server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:22server.get:sending response!
+2022-02-25 23:31:22server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:22server.get:sending response!
+2022-02-25 23:31:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:23server.get:sending response!
+2022-02-25 23:31:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:23server.get:sending response!
+2022-02-25 23:31:24server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:24server.get:sending response!
+2022-02-25 23:31:48server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:48server.get:sending response!
+2022-02-25 23:31:53server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:53server.get:sending response!
+2022-02-25 23:31:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:54server.get:sending response!
+2022-02-25 23:31:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:54server.get:sending response!
+2022-02-25 23:31:55server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:55server.get:sending response!
+2022-02-25 23:31:55server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:55server.get:sending response!
+2022-02-25 23:31:55server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:55server.get:sending response!
+2022-02-25 23:31:57server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:31:57server.get:sending response!
+2022-02-25 23:32:00server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:32:00server.get:sending response!
+2022-02-25 23:32:00server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:32:00server.get:sending response!
+2022-02-25 23:32:03server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:32:03server.get:sending response!
+2022-02-25 23:32:07server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:32:07server.get:sending response!
+2022-02-25 23:32:08server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:32:08server.get:sending response!
+2022-02-25 23:33:50server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:33:50Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:33:50server.get:sending response!
+2022-02-25 23:33:50server.get:processing /item/styles.css
+2022-02-25 23:33:50server.get:sending response!
+2022-02-25 23:33:50server.get:processing /item/script.js
+2022-02-25 23:33:50server.get:sending response!
+2022-02-25 23:33:50server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:33:50server.get:sending response!
+2022-02-25 23:34:00main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:34:00db.Backup: Starting backup at: 2022_02_25_233400
+2022-02-25 23:34:00db.backup: Removed backup for 2022_01_30_231227
+2022-02-25 23:34:00db.backup: Removed 1 old backups.
+2022-02-25 23:34:00db.backup: Created new backup folder at: ../backup/2022_02_25_233400/
+2022-02-25 23:34:00db.backup: Copied primary db file into backup path.
+2022-02-25 23:34:00db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:34:00db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:34:00db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:34:00db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:34:01server.get:processing /
+2022-02-25 23:34:01Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:34:01Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:34:01server.get:sending response!
+2022-02-25 23:34:01server.get:processing /styles.css
+2022-02-25 23:34:02server.get:sending response!
+2022-02-25 23:34:02server.get:processing /script.js
+2022-02-25 23:34:02server.get:sending response!
+2022-02-25 23:34:02server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:34:02server.get:sending response!
+2022-02-25 23:34:33server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:34:33Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:34:33server.get:sending response!
+2022-02-25 23:34:33server.get:processing /item/styles.css
+2022-02-25 23:34:33server.get:sending response!
+2022-02-25 23:34:33server.get:processing /item/script.js
+2022-02-25 23:34:33server.get:sending response!
+2022-02-25 23:34:33server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:34:33server.get:sending response!
+2022-02-25 23:34:40main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:34:40db.Backup: Starting backup at: 2022_02_25_233440
+2022-02-25 23:34:40db.backup: Removed backup for 2022_01_30_231228
+2022-02-25 23:34:40db.backup: Removed 1 old backups.
+2022-02-25 23:34:40db.backup: Created new backup folder at: ../backup/2022_02_25_233440/
+2022-02-25 23:34:40db.backup: Copied primary db file into backup path.
+2022-02-25 23:34:40db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:34:40db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:34:40db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:34:40db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:36:14server.get:processing /
+2022-02-25 23:36:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:36:14Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:36:14server.get:sending response!
+2022-02-25 23:36:14server.get:processing /styles.css
+2022-02-25 23:36:14server.get:sending response!
+2022-02-25 23:36:14server.get:processing /script.js
+2022-02-25 23:36:14server.get:sending response!
+2022-02-25 23:36:14server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:36:14server.get:sending response!
+2022-02-25 23:36:16server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:36:16Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:36:16server.get:sending response!
+2022-02-25 23:36:16server.get:processing /item/styles.css
+2022-02-25 23:36:16server.get:sending response!
+2022-02-25 23:36:16server.get:processing /item/script.js
+2022-02-25 23:36:16server.get:sending response!
+2022-02-25 23:36:16server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:36:16server.get:sending response!
+2022-02-25 23:36:43main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:36:43db.Backup: Starting backup at: 2022_02_25_233643
+2022-02-25 23:36:43db.backup: Removed backup for 2022_01_30_231229
+2022-02-25 23:36:43db.backup: Removed 1 old backups.
+2022-02-25 23:36:43db.backup: Created new backup folder at: ../backup/2022_02_25_233643/
+2022-02-25 23:36:43db.backup: Copied primary db file into backup path.
+2022-02-25 23:36:43db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:36:43db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:36:43db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:36:43db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:36:45server.get:processing /
+2022-02-25 23:36:45Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:36:45Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:36:45server.get:sending response!
+2022-02-25 23:36:45server.get:processing /styles.css
+2022-02-25 23:36:45server.get:sending response!
+2022-02-25 23:36:45server.get:processing /script.js
+2022-02-25 23:36:45server.get:sending response!
+2022-02-25 23:36:45server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:36:45server.get:sending response!
+2022-02-25 23:36:47server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:36:47Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:36:47server.get:sending response!
+2022-02-25 23:36:47server.get:processing /item/styles.css
+2022-02-25 23:36:47server.get:sending response!
+2022-02-25 23:36:47server.get:processing /item/script.js
+2022-02-25 23:36:47server.get:sending response!
+2022-02-25 23:36:47server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:36:47server.get:sending response!
+2022-02-25 23:37:28server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:37:29Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:37:29server.get:sending response!
+2022-02-25 23:37:29server.get:processing /item/styles.css
+2022-02-25 23:37:29server.get:sending response!
+2022-02-25 23:37:29server.get:processing /item/script.js
+2022-02-25 23:37:29server.get:sending response!
+2022-02-25 23:37:29server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:29server.get:sending response!
+2022-02-25 23:37:34server.get:processing /item/styles.css
+2022-02-25 23:37:34server.get:sending response!
+2022-02-25 23:37:46server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:46server.get:sending response!
+2022-02-25 23:37:48server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:48server.get:sending response!
+2022-02-25 23:37:50server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:50server.get:sending response!
+2022-02-25 23:37:54server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:54server.get:sending response!
+2022-02-25 23:37:55server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:55server.get:sending response!
+2022-02-25 23:37:58server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:58server.get:sending response!
+2022-02-25 23:37:58server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:37:58server.get:sending response!
+2022-02-25 23:39:12server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:39:12Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:39:12server.get:sending response!
+2022-02-25 23:39:12server.get:processing /item/styles.css
+2022-02-25 23:39:12server.get:sending response!
+2022-02-25 23:39:12server.get:processing /item/script.js
+2022-02-25 23:39:12server.get:sending response!
+2022-02-25 23:39:12server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:12server.get:sending response!
+2022-02-25 23:39:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:23server.get:sending response!
+2022-02-25 23:39:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:23server.get:sending response!
+2022-02-25 23:39:23server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:23server.get:sending response!
+2022-02-25 23:39:24server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:24server.get:sending response!
+2022-02-25 23:39:27server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:27server.get:sending response!
+2022-02-25 23:39:28server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:28server.get:sending response!
+2022-02-25 23:39:28server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:28server.get:sending response!
+2022-02-25 23:39:28server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:28server.get:sending response!
+2022-02-25 23:39:29server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:29server.get:sending response!
+2022-02-25 23:39:29server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:29server.get:sending response!
+2022-02-25 23:39:29server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:29server.get:sending response!
+2022-02-25 23:39:30server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:39:30server.get:sending response!
+2022-02-25 23:40:16server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:40:16Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:40:16server.get:sending response!
+2022-02-25 23:40:16server.get:processing /item/styles.css
+2022-02-25 23:40:16server.get:sending response!
+2022-02-25 23:40:16server.get:processing /item/script.js
+2022-02-25 23:40:16server.get:sending response!
+2022-02-25 23:40:16server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:40:16server.get:sending response!
+2022-02-25 23:40:19main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:40:19db.Backup: Starting backup at: 2022_02_25_234019
+2022-02-25 23:40:19db.backup: Removed backup for 2022_01_30_231230
+2022-02-25 23:40:19db.backup: Removed 1 old backups.
+2022-02-25 23:40:20db.backup: Created new backup folder at: ../backup/2022_02_25_234019/
+2022-02-25 23:40:20db.backup: Copied primary db file into backup path.
+2022-02-25 23:40:20db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:40:20db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:40:20db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:40:20db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:40:21server.get:processing /
+2022-02-25 23:40:21Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:40:21Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:40:21server.get:sending response!
+2022-02-25 23:40:21server.get:processing /styles.css
+2022-02-25 23:40:21server.get:sending response!
+2022-02-25 23:40:21server.get:processing /script.js
+2022-02-25 23:40:21server.get:sending response!
+2022-02-25 23:40:21server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:40:21server.get:sending response!
+2022-02-25 23:40:28server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:40:28Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:40:28server.get:sending response!
+2022-02-25 23:40:28server.get:processing /item/styles.css
+2022-02-25 23:40:28server.get:sending response!
+2022-02-25 23:40:28server.get:processing /item/script.js
+2022-02-25 23:40:28server.get:sending response!
+2022-02-25 23:40:28server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:40:28server.get:sending response!
+2022-02-25 23:40:32main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '5', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': None}
+2022-02-25 23:40:32db.Backup: Starting backup at: 2022_02_25_234032
+2022-02-25 23:40:32db.backup: Removed backup for 2022_01_30_231231
+2022-02-25 23:40:32db.backup: Removed 1 old backups.
+2022-02-25 23:40:32db.backup: Created new backup folder at: ../backup/2022_02_25_234032/
+2022-02-25 23:40:32db.backup: Copied primary db file into backup path.
+2022-02-25 23:40:32db.backup: Created csv for items table, with 395 rows.
+2022-02-25 23:40:32db.backup: Created csv for transactions table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for location_info table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for uuids table, with 1661 rows.
+2022-02-25 23:40:32db.backup: Created csv for users table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for comments table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for bolts table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for nuts table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for gears table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for motors table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-25 23:40:32db.backup: Created csv for kits table, with 0 rows.
+2022-02-25 23:40:33server.get:processing /
+2022-02-25 23:40:33Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-25 23:40:33Dataio.get_all_items: Returned 395 results.
+2022-02-25 23:40:34server.get:sending response!
+2022-02-25 23:40:34server.get:processing /styles.css
+2022-02-25 23:40:34server.get:sending response!
+2022-02-25 23:40:34server.get:processing /script.js
+2022-02-25 23:40:34server.get:sending response!
+2022-02-25 23:40:34server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-25 23:40:34server.get:sending response!
+2022-02-25 23:55:50server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-25 23:55:50Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-25 23:55:50server.get:sending response!
+2022-02-25 23:55:50server.get:processing /item/styles.css
+2022-02-25 23:55:50server.get:sending response!
+2022-02-25 23:55:50server.get:processing /item/script.js
+2022-02-25 23:55:50server.get:sending response!
+2022-02-25 23:55:50server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-25 23:55:50server.get:sending response!
+2022-02-25 23:55:55main_server:do_POSTS: Recieved the following data:{'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'qty': '1'}

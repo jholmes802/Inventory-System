@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-from tools import *
+import tools
 from typing import Tuple, List
+import invvars
 
 class DataError(Exception):
     def __init__(self, message: str):
@@ -27,8 +28,6 @@ class header:
         return self
     def file_link(self, rel, href_link, parms=""):
         """Creates the links in the header. Called once per item.
-
-
         Args:
             file_list (list[tuple]): A list of tuples formated as such (href, rel)
         """
@@ -89,7 +88,10 @@ class body:
         self.returnable += (self.spacing * "\t") + "<label for='"+ for1 +"'>" + msg + "</label>\n"
         return self
     def input(self, typ, text="", parms=""):
-        self.returnable += ((self.spacing * "\t") + text +"<input type='" + typ + "' " + parms + ">\n")
+        if typ == None:
+            self.returnable += ((self.spacing * "\t") + text +"<input "+ parms + ">\n")
+        else:
+            self.returnable += ((self.spacing * "\t") + text +"<input type='" + typ + "' " + parms + ">\n")
         return self
     def br(self):
         self.returnable += ((self.spacing * "\t") + "<br>\n")
@@ -109,6 +111,14 @@ class body:
     def a(self, href, parms=""):
         self.returnable += str((self.spacing * "\t") + "<a href='" + href + "' " + parms + "></a>\n")
         return self
+    def datalist(self, name, dat:list):
+        self.returnable += str((self.spacing * "\t") + "<datalist id='" + name + "'>\n")
+        self.spacing += 1
+        for x in dat:
+            self.returnable += str(self.spacing * "\t") + "<option value='" + x + "'>" + x + "</option>\n"
+        self.spacing -= 1
+        return self
+
     def __str__(self) -> str:
         return str(self.returnable)
 

@@ -1,0 +1,99 @@
+2022-02-26 00:00:21server.get:processing /item/styles.css
+2022-02-26 00:00:21server.get:sending response!
+2022-02-26 00:00:53server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-26 00:00:53Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-26 00:00:53server.get:sending response!
+2022-02-26 00:00:53server.get:processing /item/styles.css
+2022-02-26 00:00:53server.get:sending response!
+2022-02-26 00:00:53server.get:processing /item/script.js
+2022-02-26 00:00:53server.get:sending response!
+2022-02-26 00:00:53server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-26 00:00:53server.get:sending response!
+2022-02-26 00:05:55server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-26 00:05:55Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-26 00:05:55server.get:sending response!
+2022-02-26 00:05:55server.get:processing /item/styles.css
+2022-02-26 00:05:55server.get:sending response!
+2022-02-26 00:05:55server.get:processing /item/script.js
+2022-02-26 00:05:55server.get:sending response!
+2022-02-26 00:05:55server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-26 00:05:55server.get:sending response!
+2022-02-26 00:07:01server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-26 00:07:01Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-26 00:07:01server.get:sending response!
+2022-02-26 00:07:01server.get:processing /item/styles.css
+2022-02-26 00:07:01server.get:sending response!
+2022-02-26 00:07:01server.get:processing /item/script.js
+2022-02-26 00:07:01server.get:sending response!
+2022-02-26 00:07:01server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-26 00:07:01server.get:sending response!
+2022-02-26 00:08:00server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-26 00:08:00Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-26 00:08:00server.get:sending response!
+2022-02-26 00:08:00server.get:processing /item/styles.css
+2022-02-26 00:08:00server.get:sending response!
+2022-02-26 00:08:00server.get:processing /item/script.js
+2022-02-26 00:08:00server.get:sending response!
+2022-02-26 00:08:00server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-26 00:08:01server.get:sending response!
+2022-02-26 00:08:49server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-26 00:08:49Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-26 00:08:49server.get:sending response!
+2022-02-26 00:08:49server.get:processing /item/styles.css
+2022-02-26 00:08:49server.get:sending response!
+2022-02-26 00:08:49server.get:processing /item/script.js
+2022-02-26 00:08:49server.get:sending response!
+2022-02-26 00:08:49server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-26 00:08:49server.get:sending response!
+2022-02-26 00:09:12main_server:do_POSTS: Recieved the following data:{'part_number': '15-697867', 'part_uuid': 'cb61b149-d5e8-4279-838c-9825ee55a4c7', 'part_name': 'SRX Magnetic Encoder', 'qty': '4', 'threshold_qty': None, 'alt_part_nums': None, 'tags': None, 'status': 'INUSE', 'category': 'General Electronic'}
+2022-02-26 00:09:12db.Backup: Starting backup at: 2022_02_26_000912
+2022-02-26 00:09:12db.backup: Removed backup for 2022_01_30_231232
+2022-02-26 00:09:12db.backup: Removed 1 old backups.
+2022-02-26 00:09:12db.backup: Created new backup folder at: ../backup/2022_02_26_000912/
+2022-02-26 00:09:12db.backup: Copied primary db file into backup path.
+2022-02-26 00:09:12db.backup: Created csv for items table, with 395 rows.
+2022-02-26 00:09:12db.backup: Created csv for transactions table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for vendor_catalog table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for location_info table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for loc_items table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for uuids table, with 1662 rows.
+2022-02-26 00:09:12db.backup: Created csv for users table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for comments table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for bolts table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for nuts table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for 1073_manufactured table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for raw_material table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for gears table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for motors table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for general_electronics table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for general_hardware table, with 0 rows.
+2022-02-26 00:09:12db.backup: Created csv for kits table, with 0 rows.
+2022-02-26 00:09:14server.get:processing /
+2022-02-26 00:09:14Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-26 00:09:14Dataio.get_all_items: Returned 395 results.
+2022-02-26 00:09:14server.get:sending response!
+2022-02-26 00:09:14server.get:processing /styles.css
+2022-02-26 00:09:14server.get:sending response!
+2022-02-26 00:09:14server.get:processing /script.js
+2022-02-26 00:09:14server.get:sending response!
+2022-02-26 00:09:14server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-26 00:09:14server.get:sending response!
+2022-02-26 00:16:36.371734: server.get:processing /
+2022-02-26 00:16:36.599086: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-02-26 00:16:36.742670: Dataio.get_all_items: Returned 395 results.
+2022-02-26 00:16:36.767602: server.get:sending response!
+2022-02-26 00:16:36.796526: server.get:processing /styles.css
+2022-02-26 00:16:36.800515: server.get:sending response!
+2022-02-26 00:16:36.801517: server.get:processing /script.js
+2022-02-26 00:16:36.807496: server.get:sending response!
+2022-02-26 00:16:36.839413: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-02-26 00:16:36.864350: server.get:sending response!
+2022-02-26 00:17:20.226590: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-02-26 00:17:20.296381: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-02-26 00:17:21.029797: server.get:sending response!
+2022-02-26 00:17:21.079667: server.get:processing /item/styles.css
+2022-02-26 00:17:21.085649: server.get:sending response!
+2022-02-26 00:17:21.086646: server.get:processing /item/script.js
+2022-02-26 00:17:21.094625: server.get:sending response!
+2022-02-26 00:17:21.131526: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-02-26 00:17:21.138510: server.get:sending response!

@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-import dataio
-import db_manager
+import dataio, db_manager, tools, invvars
 import html_builder as bob
-from tools import *
-
 
 def header()-> bob.body:
     result = bob.header()
@@ -18,7 +15,7 @@ class home:
     def home() -> bytes:
         result = header()
         result.div("stockSearch")
-        result.form("stockSearchBar", "onKeyUp='table_search()'").input("text", parms='id="tableSearchBar" placeholder="Search for Parts.."').form("stockSearchBar", "onKeyUp='table_search()'")
+        result.input("text", parms='id="tableSearchBar" onKeyUp="table_search()" placeholder="Search for Parts.."')
         result.div("stockSearch")
         result.div('stockTable')
         stockTable = bob.table(spacing=result.spacing)
@@ -94,7 +91,7 @@ class item:
             button("button", "Archive Part", "onclick=itemstatus('ARCHIVED')").\
             div("itemButtons")
         result.div("partSpecs")
-        partSpecs = bob.table( spacing = result.spacing)
+        partSpecs = bob.table(spacing = result.spacing)
         partSpecs.table().body()
         for field in item.keys():
             partSpecs.row([field.replace("_", " ").title(), item[field]], "td", True)
@@ -109,7 +106,7 @@ class item:
             .button("button", "CheckOUT", "onclick=checkout()")\
             .button("button", "CheckIN", "onclick=checkin()")\
             .div("checkIO")
-
+        result.div("dat").datalist('cats', ["Bolts", "Nuts", "Raw Materials", "Manufactured", "General Electronic", ""]).div("dat")
         result.div("trsHst")\
             .img("'data:image/jpeg;base64, " + dataio.items.transactions_hist(item["part_uuid"]) + "'")\
             .div("trsHST")
@@ -171,4 +168,5 @@ class admin:
         return str(result).encode()
 
 if __name__ == "__main__":
-    pass
+    invvars.init()
+    tools.load_config()

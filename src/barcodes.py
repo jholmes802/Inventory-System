@@ -9,8 +9,7 @@ from brother_ql.conversion import convert
 from brother_ql.backends.helpers import send
 from brother_ql.raster import BrotherQLRaster
 from tools import *
-
-logl = 2
+import invvars
 
 def fname(pn:str):
     return pn.replace(" ", "_").replace("/","_").replace(".", "_")
@@ -20,26 +19,26 @@ def check_barcodes(part_nums:list=None)-> bool:
     if not os.path.exists(bpath):
         os.mkdir(bpath)
     bdir = [x.rstrip('.png') for x in os.listdir(bpath)]
-    logger(2, "barcodes.check_barcodes: Checking...")
+    logger(1, "barcodes.check_barcodes: Checking...")
     log_count_i = 0
     if part_nums == None:
         fields, items = dataio.items.get_all()
         for item in items:
-            logger(logl, "barcodes.check_barcodes: Checking" + item[0])
+            logger(1, "barcodes.check_barcodes: Checking" + item[0])
             if item[0] not in bdir:
                 log_count_i += 1
                 barcode_gen(item[0], item[1])    
     else:
-        logger(logl, "barcodes.check_barcodes: No list specified...processing from db.items table.")
+        logger(1, "barcodes.check_barcodes: No list specified...processing from db.items table.")
         for item in part_nums:
             f, dbr = dataio.items.find(item)
             if item not in bdir:
                 log_count_i += 1
                 barcode_gen(item, dbr[1])
-    logger(logl, "barcodes.check_barcodes: Created " + str(log_count_i) + " new barcodes.")   
+    logger(1, "barcodes.check_barcodes: Created " + str(log_count_i) + " new barcodes.")   
                  
 def barcode_gen(part_num:str, part_name:str=""):
-    logger(logl, "barcodes.barcode_gen: Creating barcode for " + part_num)
+    logger(1, "barcodes.barcode_gen: Creating barcode for " + part_num)
     if part_name == "":
         part_name = dataio.items.find(part_num)["part_name"]
     bpath = "../data/images/barcodes/" + fname(part_num) + ".png"
@@ -60,10 +59,10 @@ def barcode_gen(part_num:str, part_name:str=""):
     ean = ean.render(opts, txt)
     ean.save(bpath)
     #filename = ean.save(bpath + part_num.replace(".", "-").replace("*", "-"), options = {'modul\e_width':mod_width, 'module_height':mod_height, 'text_distance':1})
-    logger(logl,"barcodes.barcode_gen: Created new barcode file for: " + part_num)
+    logger(1,"barcodes.barcode_gen: Created new barcode file for: " + part_num)
 
 def print_barcode(path1):
-    logger(logl, "barcodes.print_barcode: Printing" + path1)
+    logger(1, "barcodes.print_barcode: Printing" + path1)
     if "/" in path1:
         path = path1
     else:
@@ -110,6 +109,8 @@ def _length(part_num:str):
 
 
 if __name__ == "__main__":
+    invvars.init()
+    tools.load_config()
     #barcode_gen("test")
     #print_barcode("../data/images/barcodes/test.png")
     #check_barcodes()

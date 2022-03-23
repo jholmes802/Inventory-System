@@ -1,0 +1,15 @@
+{
+    "dbsettings": {
+        "_comments": "This is the template for your inventory system config file. Please Make appropriate changes. All configuration keys must be updated to suit your system, all are template base. Only change the values, not the keys.",
+        "dbName": "EXAMPLE_database_schema_name",
+        "dbUserName": "EXAMPLE_username",
+        "dbPass": "EXAMPLE_password Can be left blank for no password",
+        "comment": "dbHostName is default to localhost, you may need to change it based on your system. Same wtih the port.",
+        "dbHostName": "localhost",
+        "dbPort": "3306",
+        "_comment": "This is set to mysql using the mysqlconnecotr, if you need to change it please do to suit your needs. But it must be sqlalchemy compatiable.",
+        "dbType": "mysql",
+        "dbConnector": "mysqlconnector",
+        "sqlalchemyPath": "EXAMPLE You can use this instead of all the things above it"
+    }
+}

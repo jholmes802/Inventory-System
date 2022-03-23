@@ -1,0 +1,172 @@
+2022-03-03 06:15:07.397108: db.__init__: Warning inializing without a config file.
+2022-03-03 06:20:51.098126: tools.load_config: Loaded 'config.json' in.
+2022-03-03 06:21:21.871031: tools.load_config: Loaded 'config.json' in.
+2022-03-03 06:22:08.894181: tools.load_config: Loaded 'config.json' in.
+2022-03-03 06:23:25.628815: tools.load_config: Loaded 'config.json' in.
+2022-03-03 06:23:44.749869: tools.load_config: Loaded 'config.json' in.
+2022-03-03 06:24:01.572970: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:27:04.009822: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:27:52.002642: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:39:56.287902: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:42:56.006362: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:43:41.449825: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:45:01.404527: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:46:01.304513: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:46:31.236990: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:46:31.240992: main_server.addr: Settings host address to: 127.0.0.1
+2022-03-03 10:46:31.246001: server.get:starting server on: 127.0.0.1:80
+2022-03-03 10:46:56.392162: server.get:processing /
+2022-03-03 10:46:56.746029: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:46:57.171089: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:46:57.304735: server.get:sending response!
+2022-03-03 10:46:57.470367: server.get:processing /styles.css
+2022-03-03 10:46:57.481335: server.get:sending response!
+2022-03-03 10:46:57.483386: server.get:processing /script.js
+2022-03-03 10:46:57.493305: server.get:sending response!
+2022-03-03 10:46:58.029771: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:46:58.057695: server.get:sending response!
+2022-03-03 10:46:58.280699: server.get:processing /favicon.ico
+2022-03-03 10:46:58.291843: server.get:sending response!
+2022-03-03 10:48:25.315772: server.get:processing /
+2022-03-03 10:48:25.344687: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:48:25.406521: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:48:25.467324: server.get:sending response!
+2022-03-03 10:48:25.499239: server.get:processing /styles.css
+2022-03-03 10:48:25.502230: server.get:sending response!
+2022-03-03 10:48:25.566108: server.get:processing /script.js
+2022-03-03 10:48:25.574962: server.get:sending response!
+2022-03-03 10:48:25.902568: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:48:25.908555: server.get:sending response!
+2022-03-03 10:48:37.067969: server.get:processing /
+2022-03-03 10:48:37.086917: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:48:37.201668: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:48:37.318635: server.get:sending response!
+2022-03-03 10:48:37.416340: server.get:processing /styles.css
+2022-03-03 10:48:37.429305: server.get:sending response!
+2022-03-03 10:48:37.717576: server.get:processing /script.js
+2022-03-03 10:48:37.729503: server.get:sending response!
+2022-03-03 10:48:38.064173: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:48:38.075602: server.get:sending response!
+2022-03-03 10:48:54.914037: server.get:processing /
+2022-03-03 10:48:54.930526: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:48:55.026339: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:48:55.105127: server.get:sending response!
+2022-03-03 10:48:55.212843: server.get:processing /styles.css
+2022-03-03 10:48:55.223811: server.get:sending response!
+2022-03-03 10:48:55.434215: server.get:processing /script.js
+2022-03-03 10:48:55.444307: server.get:sending response!
+2022-03-03 10:48:55.767606: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:48:55.777569: server.get:sending response!
+2022-03-03 10:49:13.536095: server.get:processing /
+2022-03-03 10:49:13.563594: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:49:13.638989: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:49:13.688278: server.get:sending response!
+2022-03-03 10:49:13.836281: server.get:processing /styles.css
+2022-03-03 10:49:13.847314: server.get:sending response!
+2022-03-03 10:49:14.017676: server.get:processing /script.js
+2022-03-03 10:49:14.027881: server.get:sending response!
+2022-03-03 10:49:14.390717: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:49:14.397652: server.get:sending response!
+2022-03-03 10:49:20.210180: server.get:processing /
+2022-03-03 10:49:20.244231: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:49:20.333484: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:49:20.401851: server.get:sending response!
+2022-03-03 10:49:20.510384: server.get:processing /styles.css
+2022-03-03 10:49:20.517460: server.get:sending response!
+2022-03-03 10:49:20.726900: server.get:processing /script.js
+2022-03-03 10:49:20.733880: server.get:sending response!
+2022-03-03 10:49:21.053244: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:49:21.064215: server.get:sending response!
+2022-03-03 10:49:33.400545: server.get:processing /styles.css
+2022-03-03 10:49:33.412514: server.get:sending response!
+2022-03-03 10:50:19.296532: server.get:processing /
+2022-03-03 10:50:19.319464: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:50:19.413212: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:50:19.472496: server.get:sending response!
+2022-03-03 10:50:19.496148: server.get:processing /styles.css
+2022-03-03 10:50:19.499141: server.get:sending response!
+2022-03-03 10:50:19.545016: server.get:processing /script.js
+2022-03-03 10:50:19.549006: server.get:sending response!
+2022-03-03 10:50:19.861213: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:50:19.866199: server.get:sending response!
+2022-03-03 10:50:46.462055: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-03-03 10:50:46.567491: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-03-03 10:50:46.649006: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: cb61b149-d5e8-4279-838c-9825ee55a4c7 .
+2022-03-03 10:50:48.740048: server.get:sending response!
+2022-03-03 10:50:48.772835: server.get:processing /item/styles.css
+2022-03-03 10:50:48.775827: server.get:sending response!
+2022-03-03 10:50:49.074748: server.get:processing /item/script.js
+2022-03-03 10:50:49.084761: server.get:sending response!
+2022-03-03 10:50:49.454508: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-03-03 10:50:49.461489: server.get:sending response!
+2022-03-03 10:50:52.996126: server.get:processing /item/styles.css
+2022-03-03 10:50:53.001114: server.get:sending response!
+2022-03-03 10:50:57.987474: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-03-03 10:50:58.076273: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-03-03 10:50:58.159047: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: cb61b149-d5e8-4279-838c-9825ee55a4c7 .
+2022-03-03 10:50:58.332827: server.get:sending response!
+2022-03-03 10:50:58.356763: server.get:processing /item/styles.css
+2022-03-03 10:50:58.359785: server.get:sending response!
+2022-03-03 10:50:58.360752: server.get:processing /item/script.js
+2022-03-03 10:50:58.363980: server.get:sending response!
+2022-03-03 10:50:58.688959: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-03-03 10:50:58.694900: server.get:sending response!
+2022-03-03 10:51:05.298119: server.get:processing /
+2022-03-03 10:51:05.308079: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-03 10:51:05.369990: Dataio.get_all_items: Returned 395 results.
+2022-03-03 10:51:05.451718: server.get:sending response!
+2022-03-03 10:51:05.597936: server.get:processing /styles.css
+2022-03-03 10:51:05.608900: server.get:sending response!
+2022-03-03 10:51:05.779818: server.get:processing /script.js
+2022-03-03 10:51:05.790329: server.get:sending response!
+2022-03-03 10:51:06.122377: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-03 10:51:06.133343: server.get:sending response!
+2022-03-03 10:51:07.717771: server.get:processing /item/?partUUID=38e9690c-e629-4666-9e6c-796a3f1d4be3
+2022-03-03 10:51:07.776765: Dataio.find: Found 9where items.part_number ='38e9690c-e629-4666-9e6c-796a3f1d4be3'.
+2022-03-03 10:51:07.829435: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: 38e9690c-e629-4666-9e6c-796a3f1d4be3 .
+2022-03-03 10:51:07.996640: server.get:sending response!
+2022-03-03 10:51:08.022495: server.get:processing /item/styles.css
+2022-03-03 10:51:08.026484: server.get:sending response!
+2022-03-03 10:51:08.326206: server.get:processing /item/script.js
+2022-03-03 10:51:08.337156: server.get:sending response!
+2022-03-03 10:51:08.666734: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-03-03 10:51:08.672814: server.get:sending response!
+2022-03-03 10:52:11.220350: server.get:processing /item/?partUUID=38e9690c-e629-4666-9e6c-796a3f1d4be3
+2022-03-03 10:52:11.265861: Dataio.find: Found 9where items.part_number ='38e9690c-e629-4666-9e6c-796a3f1d4be3'.
+2022-03-03 10:52:11.294781: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: 38e9690c-e629-4666-9e6c-796a3f1d4be3 .
+2022-03-03 10:52:11.406482: server.get:sending response!
+2022-03-03 10:52:11.433411: server.get:processing /item/styles.css
+2022-03-03 10:52:11.436407: server.get:sending response!
+2022-03-03 10:52:11.471675: server.get:processing /item/script.js
+2022-03-03 10:52:11.475300: server.get:sending response!
+2022-03-03 10:52:11.785740: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-03-03 10:52:11.788437: server.get:sending response!
+2022-03-03 10:52:35.229660: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:52:51.175159: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:52:51.187444: main_server.addr: Settings host address to: 127.0.0.1
+2022-03-03 10:52:51.201052: server.get:starting server on: 127.0.0.1:80
+2022-03-03 10:52:53.976618: server.get:processing /item/?partUUID=38e9690c-e629-4666-9e6c-796a3f1d4be3
+2022-03-03 10:52:54.328267: Dataio.find: Found 9where items.part_number ='38e9690c-e629-4666-9e6c-796a3f1d4be3'.
+2022-03-03 10:52:54.410675: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: 38e9690c-e629-4666-9e6c-796a3f1d4be3 .
+2022-03-03 10:52:54.764161: server.get:sending response!
+2022-03-03 10:52:54.804054: server.get:processing /item/styles.css
+2022-03-03 10:52:54.808043: server.get:sending response!
+2022-03-03 10:52:54.809041: server.get:processing /item/script.js
+2022-03-03 10:52:54.813092: server.get:sending response!
+2022-03-03 10:52:55.268412: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-03-03 10:52:55.279380: server.get:sending response!
+2022-03-03 10:58:10.456295: tools.load_config: Loaded 'config.json' in.
+2022-03-03 10:58:10.461224: main_server.addr: Settings host address to: 127.0.0.1
+2022-03-03 10:58:10.465213: server.get:starting server on: 127.0.0.1:80
+2022-03-03 10:58:13.017056: server.get:processing /item/?partUUID=38e9690c-e629-4666-9e6c-796a3f1d4be3
+2022-03-03 10:58:13.337543: Dataio.find: Found 9where items.part_number ='38e9690c-e629-4666-9e6c-796a3f1d4be3'.
+2022-03-03 10:58:13.415303: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: 38e9690c-e629-4666-9e6c-796a3f1d4be3 .
+2022-03-03 10:58:26.008458: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-03-03 10:58:26.073162: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-03-03 10:58:26.149449: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: cb61b149-d5e8-4279-838c-9825ee55a4c7 .
+2022-03-03 10:58:26.166722: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-03-03 10:58:26.264516: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-03-03 10:58:26.344894: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: cb61b149-d5e8-4279-838c-9825ee55a4c7 .
+2022-03-03 10:58:26.664430: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-03-03 10:58:26.753222: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-03-03 10:58:26.834935: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: cb61b149-d5e8-4279-838c-9825ee55a4c7 .

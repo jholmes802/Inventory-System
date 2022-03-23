@@ -1,1045 +1,1302 @@
 {
-    "db_type":"mysql",
-    "db_path":"../data/inv_data.db",
-    "tables":[
-        {"table_name":"items",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+    "db_type": "mysql",
+    "db_path": "../data/inv_data.db",
+    "tables": [
+        {
+            "table_name": "items",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"qty",
-                    "data_type":"integer",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"NUMERIC"
+                {
+                    "col_name": "qty",
+                    "data_type": "integer",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "NUMERIC"
                 },
-                {   "col_name":"threshold_qty",
-                    "data_type":"integer",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"NUMERIC"
+                {
+                    "col_name": "threshold_qty",
+                    "data_type": "integer",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "NUMERIC"
                 },
-                {   "col_name":"alt_part_nums",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "alt_part_nums",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"tags",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "tags",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"status",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FLASE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "status",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FLASE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"category",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FLASE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                }        
-            ]
-        },
-        {"table_name":"transactions",
-            "table_cols":[
-                {  "col_name":"datetime",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"part_number_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"typ",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"qty",
-                    "data_type":"integer",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"NUMERIC"
-                },
-                {   "col_name":"dest",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"source",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"comment",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"transaction_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "category",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FLASE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"vendor_catalog",
-            "table_cols":[
-                {  "col_name":"vendor_part_number",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "transactions",
+            "table_cols": [
+                {
+                    "col_name": "datetime",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"vendor_prt_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_number_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"vendor_part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "typ",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"unit_qty",
-                    "data_type":"integer",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"NUMERIC"
+                {
+                    "col_name": "qty",
+                    "data_type": "integer",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "NUMERIC"
                 },
-                {   "col_name":"unit",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"EA",
-                    "string_rules":"LOWER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "dest",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"vendor_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "source",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"vendor_part_link",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "user_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"man_part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "comment",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"man_link",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"man_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"man_part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"price",
-                    "data_type":"real",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"NUMERIC"
-                },
-                {   "col_name":"category",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FLASE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                }  
-            ]  
-        },
-        {"table_name":"location_info",
-            "table_cols":[
-                {   "col_name":"loc_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"loc_uudi",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"loc_location",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"loc_owner",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"loc_desc",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "transaction_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"loc_items",
-            "table_cols":[
-                {   "col_name":"part_number_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "vendor_catalog",
+            "table_cols": [
+                {
+                    "col_name": "vendor_part_number",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"loc_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "vendor_prt_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"loc_prt_qty",
-                    "data_type":"integer",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"NUMERIC"
+                {
+                    "col_name": "vendor_part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "unit_qty",
+                    "data_type": "integer",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "NUMERIC"
+                },
+                {
+                    "col_name": "unit",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "EA",
+                    "string_rules": "LOWER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "vendor_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "vendor_part_link",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "man_part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "man_link",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "man_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "man_part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "price",
+                    "data_type": "real",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "NUMERIC"
+                },
+                {
+                    "col_name": "category",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FLASE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"uuids",
-            "table_cols":[
-                {   "col_name":"uuid",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"UPPER",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "location_info",
+            "table_cols": [
+                {
+                    "col_name": "loc_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"typ",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "loc_uudi",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "loc_location",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "loc_owner",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "loc_desc",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"users",
-            "table_cols":[
-                {   "col_name":"username",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "loc_items",
+            "table_cols": [
+                {
+                    "col_name": "part_number_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"firstname",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "loc_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"lastname",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"user_uuid",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"level",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"rfid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                } 
-            ]
-        },
-        {"table_name":"comments",
-            "table_cols":[
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"trasaction_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"vendor_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"status",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"message",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"author",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"timestamp",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "loc_prt_qty",
+                    "data_type": "integer",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "NUMERIC"
                 }
             ]
         },
-        {"table_name":"bolts",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "uuids",
+            "table_cols": [
+                {
+                    "col_name": "uuid",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "UPPER",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"vendor_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"info_from",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"thread_size",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"overall_length",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"thread_length",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"head_type",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"bolt_type",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"head_size",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"material",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"coating",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"color",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "typ",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"nuts",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "users",
+            "table_cols": [
+                {
+                    "col_name": "username",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "firstname",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "lastname",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"vendor_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "user_uuid",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"info_from",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "level",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"thread_size",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "rfid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"profile",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "status",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"nut_type",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "state",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"head_size",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "seconds_checked_in",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"material",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "subgroup",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"coating",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "user_type",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"color",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "team_grad_yr",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "standing",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "prof_pic_addr",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"1073_manufactured",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "users_transactions",
+            "table_cols": [
+                {
+                    "col_name": "user_uuid",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "new_state",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"file_format",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"width",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"height",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"depth",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"material",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"designed_for",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"designer_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"machining_type",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
-                },
-                {   "col_name":"machining_time",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"TRUE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "timestamp",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"raw_material",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "comments",
+            "table_cols": [
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "trasaction_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "vendor_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"material",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "status",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"length",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "message",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"depth",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "author",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"height",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "timestamp",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"gears",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "bolts",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"material",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "vendor_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"teeth",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "info_from",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"tooth_pitch",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "thread_size",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"gear_type",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "overall_length",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"bore_type",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "thread_length",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"bore_size",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "head_type",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "bolt_type",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "head_size",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "material",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "coating",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "color",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"motors",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "nuts",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"features",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "vendor_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"brushed",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "info_from",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"output_type",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "thread_size",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"volts",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "profile",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"max_draw",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "nut_type",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"connections",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "head_size",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"comes_with",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "material",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "coating",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "color",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"general_electronics",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "1073_manufactured",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"features",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "file_format",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"purpose",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "width",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"io",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "height",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"input_volts",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "depth",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"input_amps",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "material",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"output_volts",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "designed_for",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"ouput_amps",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "designer_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"misc_specs",
-                    "data_type":"string",
-                    "primary_key":"TRUE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "machining_type",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "machining_time",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "TRUE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"general_hardware",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "raw_material",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"features",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "material",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"misc_specs",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "length",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "depth",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "height",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         },
-        {"table_name":"kits",
-            "table_cols":[
-                {   "col_name":"part_number",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+        {
+            "table_name": "gears",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_uuid",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"part_name",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"features",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "material",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"misc_specs",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "teeth",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 },
-                {   "col_name":"contains",
-                    "data_type":"string",
-                    "primary_key":"FALSE",
-                    "nullable":"FALSE",
-                    "string_rules":"NONE",
-                    "accepted_characters":"ALL"
+                {
+                    "col_name": "tooth_pitch",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "gear_type",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "bore_type",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "bore_size",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                }
+            ]
+        },
+        {
+            "table_name": "motors",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "features",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "brushed",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "output_type",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "volts",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "max_draw",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "connections",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "comes_with",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                }
+            ]
+        },
+        {
+            "table_name": "general_electronics",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "features",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "purpose",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "io",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "input_volts",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "input_amps",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "output_volts",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "ouput_amps",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "misc_specs",
+                    "data_type": "string",
+                    "primary_key": "TRUE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                }
+            ]
+        },
+        {
+            "table_name": "general_hardware",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "features",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "misc_specs",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                }
+            ]
+        },
+        {
+            "table_name": "kits",
+            "table_cols": [
+                {
+                    "col_name": "part_number",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_uuid",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "part_name",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "features",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "misc_specs",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
+                },
+                {
+                    "col_name": "contains",
+                    "data_type": "string",
+                    "primary_key": "FALSE",
+                    "nullable": "FALSE",
+                    "string_rules": "NONE",
+                    "accepted_characters": "ALL"
                 }
             ]
         }

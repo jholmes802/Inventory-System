@@ -1,0 +1,45 @@
+2022-03-16 22:15:57.478889: tools.load_config: Loaded 'config.json' in.
+2022-03-16 22:15:57.482845: main_server.addr: Settings host address to: 10.0.0.168
+2022-03-16 22:15:57.488829: server.get:starting server on: 10.0.0.168:80
+2022-03-16 22:16:13.678053: server.get:processing /
+2022-03-16 22:16:14.142186: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-16 22:16:14.623873: Dataio.get_all_items: Returned 395 results.
+2022-03-16 22:16:14.647811: server.get:sending response!
+2022-03-16 22:16:14.681719: server.get:processing /styles.css
+2022-03-16 22:16:14.685709: server.get:sending response!
+2022-03-16 22:16:14.686706: server.get:processing /script.js
+2022-03-16 22:16:14.689699: server.get:sending response!
+2022-03-16 22:16:14.847276: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-16 22:16:14.863233: server.get:sending response!
+2022-03-16 22:16:14.889163: server.get:processing /favicon.ico
+2022-03-16 22:16:14.893155: server.get:sending response!
+2022-03-16 22:16:19.030367: server.get:processing /newitem/
+2022-03-16 22:16:19.066398: server.get:sending response!
+2022-03-16 22:16:19.083329: server.get:processing /newitem/styles.css
+2022-03-16 22:16:19.087317: server.get:sending response!
+2022-03-16 22:16:19.087317: server.get:processing /newitem/script.js
+2022-03-16 22:16:19.090310: server.get:sending response!
+2022-03-16 22:16:19.106268: server.get:processing /newitem/ufonts.com_bank-gothic-light.woff
+2022-03-16 22:16:19.109258: server.get:sending response!
+2022-03-16 22:16:23.622402: server.get:processing /
+2022-03-16 22:16:23.624398: Dataio.get_all_items: Retrieving Primary Stock Table.
+2022-03-16 22:16:23.661302: Dataio.get_all_items: Returned 395 results.
+2022-03-16 22:16:23.709172: server.get:sending response!
+2022-03-16 22:16:23.724130: server.get:processing /styles.css
+2022-03-16 22:16:23.727123: server.get:sending response!
+2022-03-16 22:16:23.728120: server.get:processing /script.js
+2022-03-16 22:16:23.731112: server.get:sending response!
+2022-03-16 22:16:23.802920: server.get:processing /ufonts.com_bank-gothic-light.woff
+2022-03-16 22:16:23.805911: server.get:sending response!
+2022-03-16 22:16:25.761497: server.get:processing /item/?partUUID=cb61b149-d5e8-4279-838c-9825ee55a4c7
+2022-03-16 22:16:25.822402: Dataio.find: Found 9where items.part_number ='cb61b149-d5e8-4279-838c-9825ee55a4c7'.
+2022-03-16 22:16:25.854316: dataio.transactions.get_transactions: Retrieved 0 transactional records for part_uuid: cb61b149-d5e8-4279-838c-9825ee55a4c7 .
+2022-03-16 22:16:25.854316: server.get:sending response!
+2022-03-16 22:16:25.873267: server.get:processing /item/styles.css
+2022-03-16 22:16:25.876258: server.get:sending response!
+2022-03-16 22:16:25.876258: server.get:processing /item/script.js
+2022-03-16 22:16:25.879250: server.get:sending response!
+2022-03-16 22:16:25.884238: server.get:processing /item/ufonts.com_bank-gothic-light.woff
+2022-03-16 22:16:25.887229: server.get:sending response!
+2022-03-16 22:16:46.687544: server.get:processing /item/styles.css
+2022-03-16 22:16:46.691533: server.get:sending response!

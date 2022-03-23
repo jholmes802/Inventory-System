@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-import dataio
-import barcodes
-import db_manager
-import g_backup
-from tools import *
+
+import g_backup,tools, invvars, db_manager, barcodes, dataio
 
 
 def checkout_post(data: dict)-> bytes:
@@ -48,8 +45,7 @@ def print_barcode(data:dict):
 
 def backup(data:dict):
     try:
-        db_manager.db.backup()
-        g_backup.g_backup()
+        db_manager.db.backup(ghseet=True)
         return "Backup was sucessful."
     except:
         return "Backup was not sucessful."
